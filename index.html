@@ -1,0 +1,120 @@
+<html>
+<head>
+
+	<link href="https://fonts.googleapis.com/css?family=Biryani:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">	
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+<div class="header">
+	<div class="button" onclick="random_songs(1);">RANDOM SONG</div>
+	<div class="button" onclick="random_songs(5);">5 RANDOM SONGS</div>
+	<div class="button" onclick="random_artist();">RANDOM ARTIST</div>
+</div>
+<div id="content"></div>
+</body>
+
+<script src="./assets/lib/jquery.min.js"></script>
+
+<script>
+var SONG = {};
+
+$.ajax({
+	url: './assets/data/songs.json',
+	dataType: 'json',
+	success: function(data){
+		SONG.data = data;
+		data.sort(function(a, b){
+			return a.songs.length < b.songs.length;
+		});
+	
+		$(".header").append(
+			'<div class="button button-2" onclick="all_songs();">'+
+				data.map(function(a){
+					return a.songs.length;
+				}).reduce(function(a,b){return a+b;	}) + " songs" +
+			'</div>'+
+			'<div class="button button-2" onclick="all_artists();">'+
+				data.length + ' artists' +
+			'</div>'
+		);
+		all_artists();
+	}
+});
+
+function html_song(song){
+	var query = encodeURIComponent(song.artist + " " + song.song);
+	var youtube_link = 'https://www.youtube.com/results?search_query='+query;
+	var repeat_link  = 'http://youtubeonrepeat.com/results/?search_query='+query;
+	return '<div class="song">'+
+		song.artist.toUpperCase() + ' - ' + song.song +
+		'<br>'+
+		'<a class="link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'+
+		'<a class="link" target="_blank" href="'+repeat_link+'"><i class="fa fa-refresh"></i></a>'+
+	'</div>';
+};
+
+function all_songs(){
+	$("#content").html('');
+	var songs = SONG.data.map(function(a){ return a.songs.map(function(b){ return {song: b, artist: a.artist}; }); });
+	songs = [].concat.apply([], songs).sort(function(a, b){
+		return a.song > b.song;
+	});
+	$("#content").html(songs.map(function(a){ return html_song(a); }).join(''));
+};
+
+function all_artists(){
+	$("#content").html('');
+	$("#content").html(
+		SONG.data.map(function(a){
+			return '<div class="artist" onclick="load_artist(\''+a.artist+'\');">'+
+				'<div class="name">'+
+					'<table>'+
+						'<tr>'+
+							'<td rowspan="6">'+a.artist.toUpperCase()+'<hr></div>'+
+						'</tr>'+
+					'</table>'+
+				'</div>'+
+				'<div class="num-songs">'+
+					'<table>'+
+						'<tr><td class="number">'+a.songs.length+'</td></tr>'+
+						(a.songs.length > 1 ? "SONGS" : "SONG").split('').map(function(b){ return '<tr><td>'+b+'</td></tr>'; }).join('')+
+					'</table>'+
+				'</div>'+
+			'</div>';
+		}).join('')
+	);
+};
+
+function load_artist(artist){
+	$("#content").html('');
+	var matches = SONG.data.filter(function(a){ return a.artist.toLowerCase() == artist.toLowerCase(); });
+	if(matches.length){
+		var songs = matches[0].songs.map(function(a){ return {song: a, artist: matches[0].artist}; });
+		$("#content").html(songs.map(function(a){ return html_song(a); }).join(''));
+	}
+};
+
+function random_artist(){
+	load_artist(SONG.data[Math.floor(Math.random()*SONG.data.length)].artist);
+};
+
+function random_songs(num){
+	var songs = SONG.data.map(function(a){ return a.songs.map(function(b){ return {song: b, artist: a.artist}; }); });
+	songs = [].concat.apply([], songs);
+	
+	var results = [];
+	for(var i=0; i<num; i++){
+		results.push(songs.splice(Math.floor(Math.random()*songs.length), 1)[0]);
+	}
+	
+	$("#content").html(results.map(function(a){ return html_song(a); }).join(''));
+};
+</script>
+</html>
