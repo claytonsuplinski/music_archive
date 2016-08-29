@@ -41,6 +41,12 @@
 		]
 	},
 	{
+		"artist": "Alanis Morissette",
+		"songs": [
+			"You Oughta Know"
+		]
+	},
+	{
 		"artist": "Alicia Keys",
 		"songs": [
 			"No One",
@@ -70,6 +76,12 @@
 		]
 	},
 	{
+		"artist": "Andrew W.K.",
+		"songs": [
+			"Party Hard"
+		]
+	},
+	{
 		"artist": "Aqua",
 		"songs": [
 			"Barbie Girl"
@@ -86,6 +98,12 @@
 		"artist": "Ashlee Simpson",
 		"songs": [
 			"Pieces of Me"
+		]
+	},
+	{
+		"artist": "ATC",
+		"songs": [
+			"All Around The World"
 		]
 	},
 	{
@@ -145,6 +163,14 @@
 		]
 	},
 	{
+		"artist": "Beastie Boys",
+		"songs": [
+			"Ch-Check It Out",
+			"Fight For Your Right",
+			"No Sleep Till Brooklyn"
+		]
+	},
+	{
 		"artist": "Benny Benassi",
 		"songs": [
 			"Cinema",
@@ -161,6 +187,12 @@
 			"Irreplaceable",
 			"Single Ladies",
 			"Sweet Dreams"
+		]
+	},
+	{
+		"artist": "Big Sean",
+		"songs": [
+			"Dance (A$$)"
 		]
 	},
 	{
@@ -276,6 +308,7 @@
 		"artist": "Bruno Mars",
 		"songs": [
 			"Billionaire",
+			"It Will Rain",
 			"Just the Way You Are",
 			"Locked Out Of Heaven",
 			"Treasure",
@@ -375,6 +408,7 @@
 	{
 		"artist": "Chris Brown",
 		"songs": [
+			"Beautiful People",
 			"Forever",
 			"Kiss Kiss",
 			"Look At Me Now",
@@ -454,6 +488,12 @@
 		]
 	},
 	{
+		"artist": "Daft Punk",
+		"songs": [
+			"One More Time"
+		]
+	},
+	{
 		"artist": "Daniel Kim",
 		"songs": [
 			"Pop Danthology 2013",
@@ -490,7 +530,8 @@
 		"artist": "Deadmau5",
 		"songs": [
 			"Aural Psynapse",
-			"Ghost n Stuff (Moar)"
+			"Ghost n Stuff (Moar)",
+			"Hiatus Fantasy"
 		]
 	},
 	{
@@ -520,6 +561,12 @@
 			"Bass Down Low",
 			"In The Dark",
 			"Naked"
+		]
+	},
+	{
+		"artist": "DHT",
+		"songs": [
+			"Listen to Your Heart"
 		]
 	},
 	{
@@ -615,11 +662,23 @@
 		]
 	},
 	{
+		"artist": "Electric Guest",
+		"songs": [
+			"Waves"
+		]
+	},
+	{
 		"artist": "Ellie Goulding",
 		"songs": [
 			"Lights",
 			"On My Mind",
 			"Outside"
+		]
+	},
+	{
+		"artist": "Elvis Presley",
+		"songs": [
+			"A Little Less Conversation"
 		]
 	},
 	{
@@ -732,6 +791,12 @@
 		]
 	},
 	{
+		"artist": "Flume",
+		"songs": [
+			"Never Be Like You"
+		]
+	},
+	{
 		"artist": "Foo Fighters",
 		"songs": [
 			"Monkey Wrench",
@@ -800,6 +865,7 @@
 		"artist": "Good Charlotte",
 		"songs": [
 			"I Don't Wanna Be In Love",
+			"Lifestyles of the Rich & Famous",
 			"The Anthem"
 		]
 	},
@@ -827,7 +893,8 @@
 			"Cool",
 			"Hollaback Girl",
 			"The Sweet Escape",
-			"Wind It Up"
+			"Wind It Up",
+			"4 In The Morning"
 		]
 	},
 	{
@@ -988,6 +1055,12 @@
 		]
 	},
 	{
+		"artist": "Jessie J",
+		"songs": [
+			"Domino"
+		]
+	},
+	{
 		"artist": "Jet",
 		"songs": [
 			"Are You Gonna Be My Girl"
@@ -1124,6 +1197,12 @@
 		]
 	},
 	{
+		"artist": "Kendrick Lamar",
+		"songs": [
+			"Alright"
+		]
+	},
+	{
 		"artist": "Keri Hilson",
 		"songs": [
 			"Knock You Down"
@@ -1163,7 +1242,8 @@
 	{
 		"artist": "Kid Rock",
 		"songs": [	
-			"All Summer Long"
+			"All Summer Long",
+			"Cowboy"
 		]
 	},
 	{
@@ -1196,7 +1276,8 @@
 	{
 		"artist": "Kylie Minogue",
 		"songs": [
-			"Can't Get You Out of My Head"
+			"Can't Get You Out of My Head",
+			"Red Blooded Woman"
 		]
 	},
 	{
@@ -1279,7 +1360,8 @@
 	{
 		"artist": "LMFAO",
 		"songs": [
-			"I'm in Miami Trick"
+			"I'm in Miami Trick",
+			"Party Rock Anthem"
 		]
 	},
 	{
@@ -1296,10 +1378,18 @@
 		]
 	},
 	{
+		"artist": "Macklemore and Ryan Lewis",
+		"songs": [
+			"Can't Hold Us",
+			"Thrift Shop"
+		]
+	},
+	{
 		"artist": "Madonna",
 		"songs": [
 			"4 Minutes",
 			"American Pie",
+			"Give Me All Your Luvin'",
 			"Music"
 		]
 	},
@@ -1356,6 +1446,12 @@
 		]
 	},
 	{
+		"artist": "Martin Solveig",
+		"songs": [
+			"Hello"
+		]
+	},
+	{
 		"artist": "Mary J. Blige",
 		"songs": [
 			"Family Affair"
@@ -1396,6 +1492,13 @@
 		]
 	},
 	{
+		"artist": "MGMT",
+		"songs": [
+			"Electric Feel",
+			"Kids"
+		]
+	},
+	{
 		"artist": "M.I.A",
 		"songs": [
 			"Paper Planes"
@@ -1405,6 +1508,13 @@
 		"artist": "Michael Franti and Spearhead",
 		"songs": [
 			"Say Hey (I Love You)"
+		]
+	},
+	{
+		"artist": "Michael Jackson",
+		"songs": [
+			"Smooth Criminal",
+			"Thriller"
 		]
 	},
 	{
@@ -1481,6 +1591,12 @@
 		"artist": "Mos Def",
 		"songs": [
 			"Twilight Speedball"
+		]
+	},
+	{
+		"artist": "Mr. Probz",
+		"songs": [
+			"Waves"
 		]
 	},
 	{
@@ -1585,6 +1701,12 @@
 		]
 	},
 	{
+		"artist": "Nicole Scherzinger",
+		"songs": [
+			"Right There"
+		]
+	},
+	{
 		"artist": "Nirvana",
 		"songs": [
 			"Smells Like Teen Spirit"
@@ -1616,6 +1738,12 @@
 		]
 	},
 	{
+		"artist": "Of Monsters and Men",
+		"songs": [
+			"Little Talks"
+		]
+	},
+	{
 		"artist": "O.K. Go",
 		"songs": [
 			"Here It Goes Again"
@@ -1639,6 +1767,12 @@
 			"All the Right Moves",
 			"If I Lose Myself",
 			"Marching On"
+		]
+	},
+	{
+		"artist": "Otto Knows",
+		"songs": [
+			"Million Voices"
 		]
 	},
 	{
@@ -1747,6 +1881,7 @@
 	{
 		"artist": "R Kelly",
 		"songs": [
+			"Bump and Grind",
 			"Ignition (Remix)",
 			"World's Greatest"
 		]
@@ -1774,7 +1909,9 @@
 	{
 		"artist": "Red Hot Chili Peppers",
 		"songs": [
-			"Dani California"
+			"Californication",
+			"Dani California",
+			"Snow (Hey Oh)"
 		]
 	},
 	{
@@ -1795,17 +1932,22 @@
 		"artist": "Rihanna",
 		"songs": [
 			"Break It Off",
+			"Diamonds",
 			"Disturbia",
 			"Don't Stop the Music",
+			"FourFiveSeconds",
 			"Only Girl (In the World)",
 			"Pon de Replay",
+			"Right Now",
 			"Rude Boy",
 			"Run This Town",
 			"Shut Up and Drive",
 			"S&M",
 			"SOS",
 			"Take a Bow",
+			"This Is What You Came For",
 			"Umbrella",
+			"Unfaithful",
 			"What's My Name",
 			"Who's That Chick?",
 			"Work",
@@ -1831,6 +1973,12 @@
 		"songs": [
 			"Lonely No More",
 			"Smooth"
+		]
+	},
+	{
+		"artist": "Run DMC",
+		"songs": [
+			"It's Tricky"
 		]
 	},
 	{
@@ -1922,7 +2070,8 @@
 	{
 		"artist": "Shontelle",
 		"songs": [
-			"Impossible"
+			"Impossible",
+			"Perfect Nightmare"
 		]
 	},
 	{
@@ -1982,6 +2131,12 @@
 		]
 	},
 	{
+		"artist": "Sugababes",
+		"songs": [
+			"Round Round"
+		]
+	},
+	{
 		"artist": "Sugar Hill Gang",
 		"songs": [
 			"Apache (Jump On It)"
@@ -2033,14 +2188,23 @@
 		]
 	},
 	{
+		"artist": "t.A.T.u.",
+		"songs": [
+			"All The Things She Said"
+		]
+	},
+	{
 		"artist": "Taylor Swift",
 		"songs": [
 			"Back to December",
 			"Blank Space",
 			"Eyes Open",
 			"Fifteen",
+			"I Knew You Were Trouble",
 			"Jump Then Fall",
 			"Love Story",
+			"Mean",
+			"Mine",
 			"Our Song",
 			"Out of the Woods",
 			"Red",
@@ -2080,7 +2244,20 @@
 	{
 		"artist": "The Chainsmokers",
 		"songs": [
+			"Kanye",
 			"Roses"
+		]
+	},
+	{
+		"artist": "The Corrs",
+		"songs": [
+			"Breathless"
+		]
+	},
+	{
+		"artist": "The Cure",
+		"songs": [
+			"Friday I'm In Love"
 		]
 	},
 	{
@@ -2135,6 +2312,12 @@
 		"artist": "The Script",
 		"songs": [
 			"For the First Time"
+		]
+	},
+	{
+		"artist": "The Ting Tings",
+		"songs": [
+			"That's Not My Name"
 		]
 	},
 	{
@@ -2218,6 +2401,7 @@
 	{
 		"artist": "Tove Lo",
 		"songs": [
+			"Habits",
 			"Heroes",
 			"Talking Body"
 		]
