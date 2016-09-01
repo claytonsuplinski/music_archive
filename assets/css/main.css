@@ -182,8 +182,8 @@ tr.even td{
 @media (max-width: 700px){
 	.artist{
 		margin:12px 6px;
-		width :180px;
-		height:180px;
+		width :45%;
+		height:150px;
 		border:1px solid #8F8F8F;
 	}
 	
@@ -192,7 +192,7 @@ tr.even td{
 	}
 	
 	.artist .name{
-		width:154px;
+		width:calc(100% - 24px);
 	}
 	
 	.artist .name table{
