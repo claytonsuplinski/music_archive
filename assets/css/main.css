@@ -50,6 +50,7 @@ body{
 	width :85%;
 	height:100%;
 	display:inline-block;
+	overflow:hidden;
 }
 
 .artist .num-songs{
@@ -181,13 +182,17 @@ tr.even td{
 @media (max-width: 700px){
 	.artist{
 		margin:12px 6px;
-		width :150px;
-		height:150px;
+		width :180px;
+		height:180px;
 		border:1px solid #8F8F8F;
 	}
 	
 	.artist *{
 		font-size:16px;
+	}
+	
+	.artist .name{
+		width:154px;
 	}
 	
 	.artist .name table{
@@ -197,6 +202,10 @@ tr.even td{
 	.artist .number{
 		padding:0px !important;
 		padding-top:5px !important;
+	}
+	
+	.artist .num-songs{
+		width:24px;
 	}
 	
 	.artist .num-songs *{
