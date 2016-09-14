@@ -76,6 +76,13 @@
 		]
 	},
 	{
+		"artist": "Allstar Weekend",
+		"songs": [
+			"Come Down with Love",
+			"Not Your Birthday"
+		]
+	},
+	{
 		"artist": "Andrew W.K.",
 		"songs": [
 			"Party Hard"
@@ -118,6 +125,12 @@
 		"artist": "Audien",
 		"songs": [
 			"Hex"
+		]
+	},
+	{
+		"artist": "Avenged Sevenfold",
+		"songs": [
+			"Bat Country"
 		]
 	},
 	{
@@ -281,6 +294,7 @@
 			"I Wanna Go",
 			"If U Seek Amy",
 			"Lucky",
+			"Make Me",
 			"Oops I Did It Again",
 			"Piece of Me",
 			"Stronger",
@@ -333,6 +347,7 @@
 		"songs": [
 			"Call Me Maybe",
 			"I Really Like You",
+			"Talk To Me",
 			"This Kiss"
 		]
 	},
@@ -438,6 +453,7 @@
 	{
 		"artist": "Ciara",
 		"songs": [
+			"Love, Sex, Magic",
 			"Step Up",
 			"1,2 Step"
 		]
@@ -650,6 +666,18 @@
 		]
 	},
 	{
+		"artist": "Duck Sauce",
+		"songs": [
+			"Barbra Streisand"
+		]
+	},
+	{
+		"artist": "Ed Sheeran",
+		"songs": [
+			"Thinking Out Loud"
+		]
+	},
+	{
 		"artist": "Edward Maya",
 		"songs": [
 			"Stereo Love"
@@ -748,20 +776,6 @@
 		]
 	},
 	{
-		"artist": "Fifth Harmony",
-		"songs": [
-			"Sledgehammer",
-			"Work from Home"
-		]
-	},
-	{
-		"artist": "Florida Georgia Line",
-		"songs": [
-			"Cruise",
-			"This Is How We Roll"
-		]
-	},
-	{
 		"artist": "Fastball",
 		"songs": [
 			"The Way"
@@ -777,6 +791,14 @@
 		]
 	},
 	{
+		"artist": "Fifth Harmony",
+		"songs": [
+			"All In My Head",
+			"Sledgehammer",
+			"Work from Home"
+		]
+	},	
+	{
 		"artist": "Flo Rida",
 		"songs": [
 			"Club Can't Handle Me",
@@ -788,6 +810,13 @@
 			"Whistle",
 			"Who Dat Girl",
 			"Wild Ones"
+		]
+	},
+	{
+		"artist": "Florida Georgia Line",
+		"songs": [
+			"Cruise",
+			"This Is How We Roll"
 		]
 	},
 	{
@@ -1116,6 +1145,7 @@
 		"artist": "Justin Bieber",
 		"songs": [
 			"Beauty and a Beat",
+			"Cold Water",
 			"Where Are U Now"
 		]
 	},
@@ -1244,6 +1274,12 @@
 		"songs": [	
 			"All Summer Long",
 			"Cowboy"
+		]
+	},
+	{
+		"artist": "Kiiara",
+		"songs": [
+			"Gold"
 		]
 	},
 	{
@@ -1431,6 +1467,7 @@
 			"Hero",
 			"I'll Be Lovin' You Long Time",
 			"Obsessed",
+			"Touch My Body",
 			"We Belong Together"
 		]
 	},
@@ -1696,6 +1733,12 @@
 		]
 	},
 	{
+		"artist": "Nick Jonas",
+		"songs": [
+			"Close"
+		]
+	},
+	{
 		"artist": "Nicki Minaj",
 		"songs": [
 			"Check It Out",
@@ -1941,6 +1984,12 @@
 		]
 	},
 	{
+		"artist": "Relient K",
+		"songs": [
+			"Be My Escape"
+		]
+	},
+	{
 		"artist": "Rihanna",
 		"songs": [
 			"Break It Off",
@@ -2176,6 +2225,12 @@
 		]
 	},
 	{
+		"artist": "Switchfoot",
+		"songs": [
+			"Dare You To Move"
+		]
+	},
+	{
 		"artist": "T-Pain",
 		"songs": [
 			"Bartender",
@@ -2256,8 +2311,15 @@
 	{
 		"artist": "The Chainsmokers",
 		"songs": [
+			"Closer",
 			"Kanye",
 			"Roses"
+		]
+	},
+	{
+		"artist": "The Click Five",
+		"songs": [
+			"Just The Girl"
 		]
 	},
 	{
@@ -2498,6 +2560,12 @@
 		]
 	},
 	{
+		"artist": "Velvet Revolver",
+		"songs": [
+			"Fall to Pieces"
+		]
+	},
+	{
 		"artist": "VV Brown",
 		"songs": [
 			"Shark in the Water"
@@ -2583,7 +2651,8 @@
 	{
 		"artist": "Yellowcard",
 		"songs": [
-			"Light Up the Sky"
+			"Light Up the Sky",
+			"Ocean Avenue"
 		]
 	},
 	{
