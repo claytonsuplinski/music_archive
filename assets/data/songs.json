@@ -543,6 +543,14 @@
 		]
 	},
 	{
+		"artist": "David Cook",
+		"songs": [
+			"Always Be My Baby",
+			"Come Back To Me",
+			"Time of My Life"
+		]
+	},
+	{
 		"artist": "Deadmau5",
 		"songs": [
 			"Aural Psynapse",
@@ -624,6 +632,12 @@
 		"artist": "DJ Sammy",
 		"songs": [
 			"Heaven"
+		]
+	},
+	{
+		"artist": "DJ Snake",
+		"songs": [
+			"You Know You Like It"
 		]
 	},
 	{
@@ -2511,6 +2525,12 @@
 		"artist": "Twenty One Pilots",
 		"songs": [
 			"Stressed Out"
+		]
+	},
+	{
+		"artist": "Two Door Cinema Club",
+		"songs": [
+			"What You Know"
 		]
 	},
 	{
