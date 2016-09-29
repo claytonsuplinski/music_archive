@@ -28,6 +28,12 @@
 		]
 	},
 	{
+		"artist": "Agnes",
+		"songs": [
+			"Release Me"
+		]
+	},
+	{
 		"artist": "Akon",
 		"songs": [
 			"Angel",
@@ -1128,6 +1134,13 @@
 		]
 	},
 	{
+		"artist": "JLS",
+		"songs": [
+			"Beat Again",
+			"Everybody In Love"
+		]
+	},
+	{
 		"artist": "John Mayer",
 		"songs": [
 			"No Such Thing",
@@ -1249,6 +1262,7 @@
 	{
 		"artist": "Keri Hilson",
 		"songs": [
+			"Energy",
 			"Knock You Down"
 		]
 	},
@@ -1429,6 +1443,7 @@
 	{
 		"artist": "Lupe Fiasco",
 		"songs": [
+			"Out Of My Head",
 			"Superstar",
 			"The Show Goes On"
 		]
@@ -1890,6 +1905,12 @@
 		]
 	},
 	{
+		"artist": "Paula DeAnda",
+		"songs": [
+			"Walk Away"
+		]
+	},
+	{
 		"artist": "Phantogram",
 		"songs": [
 			"Don't Move",
@@ -1952,6 +1973,7 @@
 		"songs": [
 			"Bump and Grind",
 			"Ignition (Remix)",
+			"I'm A Flirt",
 			"World's Greatest"
 		]
 	},
@@ -2252,7 +2274,9 @@
 			"Buy You A Drank",
 			"Can't Believe It",
 			"Cyclone",
-			"Reverse Cowgirl"
+			"Freeze",
+			"Reverse Cowgirl",
+			"5 O'Clock"
 		]
 	},
 	{
@@ -2640,6 +2664,12 @@
 		]
 	},
 	{
+		"artist": "Whitney Houston",
+		"songs": [
+			"I Wanna Dance With Somebody"
+		]
+	},
+	{
 		"artist": "will.i.am",
 		"songs": [
 			"Scream and Shout"
@@ -2716,6 +2746,16 @@
 		"songs": [
 			"Ayo Technology",
 			"In Da Club"
+		]
+	},
+	{
+		"playlist": "Friday",
+		"songs": [
+			"Ignition - R Kelly",
+			"Crazy In Love - Beyonce",
+			"Work From Home - Fifth Harmony",
+			"Thinking Out Loud - Ed Sheeran",
+			"I Wanna Dance With Somebody - Whitney Houston"
 		]
 	}
 ]
