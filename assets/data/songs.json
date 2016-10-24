@@ -165,6 +165,7 @@
 	{
 		"artist": "Backstreet Boys",
 		"songs": [
+			"As Long As You Love Me",
 			"Everybody (Backstreet's Back)",
 			"I Want It That Way"
 		]
@@ -433,6 +434,7 @@
 			"Forever",
 			"Kiss Kiss",
 			"Look At Me Now",
+			"Loyal",
 			"Run It!",
 			"She Ain't You",
 			"With You",
@@ -591,6 +593,12 @@
 			"Bass Down Low",
 			"In The Dark",
 			"Naked"
+		]
+	},
+	{
+		"artist": "Dexy's Midnight Runners",
+		"songs": [
+			"Come On Eileen"
 		]
 	},
 	{
@@ -903,6 +911,12 @@
 		]
 	},
 	{
+		"artist": "Goblins from Mars",
+		"songs": [
+			"Glow'd Up"
+		]
+	},
+	{
 		"artist": "Goo Goo Dolls",
 		"songs": [
 			"Better Days",
@@ -913,6 +927,7 @@
 	{
 		"artist": "Good Charlotte",
 		"songs": [
+			"Girls & Boys",
 			"I Don't Wanna Be In Love",
 			"Lifestyles of the Rich & Famous",
 			"The Anthem"
@@ -1344,6 +1359,12 @@
 		]
 	},
 	{
+		"artist": "Kygo",
+		"songs": [
+			"Firestone"
+		]
+	},
+	{
 		"artist": "Kylie Minogue",
 		"songs": [
 			"Can't Get You Out of My Head",
@@ -1504,6 +1525,7 @@
 		"artist": "Maroon 5",
 		"songs": [
 			"Daylight",
+			"Harder To Breathe",
 			"Love Somebody",
 			"Makes Me Wonder",
 			"Maps",
@@ -1650,6 +1672,12 @@
 		"artist": "Modest Mouse",
 		"songs": [
 			"Float On"
+		]
+	},
+	{
+		"artist": "Mohombi",
+		"songs": [
+			"Bumpy Ride"
 		]
 	},
 	{
@@ -1895,6 +1923,12 @@
 		"songs": [
 			"I Write Sins Not Tragedies",
 			"New Perspective"
+		]
+	},
+	{
+		"artist": "Paul Oakenfold",
+		"songs": [
+			"Starry Eyed Surprise"
 		]
 	},
 	{
@@ -2696,6 +2730,12 @@
 		"artist": "Yeah Yeah Yeahs",
 		"songs": [
 			"Heads Will Roll"
+		]
+	},
+	{
+		"artist": "Years & Years",
+		"songs":[
+			"King"
 		]
 	},
 	{
