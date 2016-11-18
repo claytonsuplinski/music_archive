@@ -179,6 +179,15 @@ tr.even td{
 	color:rgb(234, 219, 108);
 }
 
+.song.Christmas{
+	border-color:#60E67B;
+	background:#436B4B;
+}
+
+.song.Christmas .link{
+	color:#F66;
+}
+
 @media (max-width: 700px){
 	.artist{
 		margin:12px 6px;

@@ -31,9 +31,16 @@ $.ajax({
 	url: './assets/data/songs.json',
 	dataType: 'json',
 	success: function(data){
-		data = data.filter(function(a){ return a.artist; });
+		var now = new Date();
+		var christmas_condition = (now.getMonth() > 9);
+		data = data.filter(function(a){
+			return a.artist ||
+				(a.playlist == "Christmas" && christmas_condition); 
+		});
 		data.sort(function(a, b){
-			return a.artist.toLowerCase() > b.artist.toLowerCase();
+			var a_l = (a.artist || a.playlist).toLowerCase();
+			var b_l = (b.artist || b.playlist).toLowerCase();
+			return a_l > b_l;
 		});
 		SONG.data = data;
 		data.sort(function(a, b){
@@ -55,11 +62,11 @@ $.ajax({
 });
 
 function html_song(song){
-	var query = encodeURIComponent(song.artist + " " + song.song);
+	var query = encodeURIComponent((song.artist ? song.artist + " " : '') + song.song);
 	var youtube_link = 'https://www.youtube.com/results?search_query='+query;
 	var repeat_link  = 'http://youtubeonrepeat.com/results/?search_query='+query;
-	return '<div class="song">'+
-		song.artist.toUpperCase() + ' - ' + song.song +
+	return '<div class="song '+(song.playlist ? song.playlist : '')+'">'+
+		(song.artist ? song.artist.toUpperCase() + ' - ' : '') + song.song +
 		'<br>'+
 		'<a class="link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'+
 		'<a class="link" target="_blank" href="'+repeat_link+'"><i class="fa fa-refresh"></i></a>'+
@@ -68,7 +75,7 @@ function html_song(song){
 
 function all_songs(){
 	$("#content").html('');
-	var songs = SONG.data.map(function(a){ return a.songs.map(function(b){ return {song: b, artist: a.artist}; }); });
+	var songs = SONG.data.map(function(a){ return a.songs.map(function(b){ return {song: b, artist: a.artist, playlist: a.playlist}; }); });
 	songs = [].concat.apply([], songs).sort(function(a, b){
 		return a.song > b.song;
 	});
@@ -79,11 +86,11 @@ function all_artists(){
 	$("#content").html('');
 	$("#content").html(
 		SONG.data.map(function(a){
-			return '<div class="artist" onclick="load_artist(\''+a.artist+'\');">'+
+			return '<div class="artist" onclick="load_artist(\''+(a.artist || a.playlist)+'\');">'+
 				'<div class="name">'+
 					'<table>'+
 						'<tr>'+
-							'<td rowspan="6">'+a.artist.toUpperCase()+'<hr></div>'+
+							'<td rowspan="6">'+(a.artist || a.playlist).toUpperCase()+'<hr></div>'+
 						'</tr>'+
 					'</table>'+
 				'</div>'+
@@ -100,9 +107,9 @@ function all_artists(){
 
 function load_artist(artist){
 	$("#content").html('');
-	var matches = SONG.data.filter(function(a){ return a.artist.toLowerCase() == artist.toLowerCase(); });
+	var matches = SONG.data.filter(function(a){ return (a.artist || a.playlist).toLowerCase() == artist.toLowerCase(); });
 	if(matches.length){
-		var songs = matches[0].songs.map(function(a){ return {song: a, artist: matches[0].artist}; });
+		var songs = matches[0].songs.map(function(a){ return {song: a, artist: matches[0].artist, playlist: matches[0].playlist}; });
 		$("#content").html(songs.map(function(a){ return html_song(a); }).join(''));
 	}
 };
@@ -112,7 +119,7 @@ function random_artist(){
 };
 
 function random_songs(num){
-	var songs = SONG.data.map(function(a){ return a.songs.map(function(b){ return {song: b, artist: a.artist}; }); });
+	var songs = SONG.data.map(function(a){ return a.songs.map(function(b){ return {song: b, artist: a.artist, playlist: a.playlist}; }); });
 	songs = [].concat.apply([], songs);
 	
 	var results = [];

@@ -1,5 +1,11 @@
 [
 	{
+		"artist": "AC/DC",
+		"songs": [
+			"Thunderstruck"
+		]
+	},
+	{
 		"artist": "Ace of Base",
 		"songs": [
 			"The Sign"
@@ -391,6 +397,12 @@
 		]
 	},
 	{
+		"artist": "CBS",
+		"songs": [
+			"March Madness Theme"
+		]
+	},
+	{
 		"artist": "Cee Lo Green",
 		"songs": [
 			"Fuck You"
@@ -765,6 +777,12 @@
 		"artist": "Enya",
 		"songs": [
 			"Only Time"
+		]
+	},
+	{
+		"artist": "ESPN",
+		"songs": [
+			"NFL Primetime Music"
 		]
 	},
 	{
@@ -1188,6 +1206,7 @@
 		"songs": [
 			"Beauty and a Beat",
 			"Cold Water",
+			"Sorry",
 			"Where Are U Now"
 		]
 	},
@@ -2455,6 +2474,13 @@
 		]
 	},
 	{
+		"artist": "The Rolling Stones",
+		"songs": [
+			"She Said Yeah",
+			"Start Me Up"
+		]
+	},
+	{
 		"artist": "The Script",
 		"songs": [
 			"For the First Time"
@@ -2789,13 +2815,23 @@
 		]
 	},
 	{
+		"playlist": "Christmas",
+		"songs": [
+			"DIDDY KONG RACING - Walrus Cove",
+			"MARIAH CAREY - All I Want For Christmas",
+			"PANIC! AT THE DISCO - White Christmas",
+			"SPONGEBOB SQUAREPANTS - Very First Christmas",
+			"TRANS-SIBERIAN ORCHESTRA - Carol of the Bells"
+		]
+	},
+	{
 		"playlist": "Friday",
 		"songs": [
-			"Ignition - R Kelly",
-			"Crazy In Love - Beyonce",
-			"Work From Home - Fifth Harmony",
-			"Thinking Out Loud - Ed Sheeran",
-			"I Wanna Dance With Somebody - Whitney Houston"
+			"R KELLY - Ignition",
+			"BEYONCE - Crazy In Love",
+			"FIFTH HARMONY - Work From Home",
+			"ED SHEERAN - Thinking Out Loud",
+			"WHITNEY HOUSTON - I Wanna Dance With Somebody"
 		]
 	}
 ]
