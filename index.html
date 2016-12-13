@@ -77,7 +77,11 @@ function all_songs(){
 	$("#content").html('');
 	var songs = SONG.data.map(function(a){ return a.songs.map(function(b){ return {song: b, artist: a.artist, playlist: a.playlist}; }); });
 	songs = [].concat.apply([], songs).sort(function(a, b){
-		return a.song > b.song;
+		var c = a.song;
+		var d = b.song;
+		if(a.playlist) c = a.song.split(' - ')[1];
+		if(b.playlist) d = b.song.split(' - ')[1];
+		return c > d;
 	});
 	$("#content").html(songs.map(function(a){ return html_song(a); }).join(''));
 };

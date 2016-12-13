@@ -632,6 +632,12 @@
 		]
 	},
 	{
+		"artist": "Diplo",
+		"songs": [
+			"Express Yourself"
+		]
+	},
+	{
 		"artist": "DJ Earworm",
 		"songs": [
 			"United State of Pop (2007)", 
@@ -2572,6 +2578,12 @@
 		]
 	},
 	{
+		"artist": "TNGHT",
+		"songs": [
+			"Higher Ground"
+		]
+	},
+	{
 		"artist": "Tove Lo",
 		"songs": [
 			"Habits",
@@ -2819,10 +2831,23 @@
 	{
 		"playlist": "Christmas",
 		"songs": [
+			"ARIANA GRANDE - Santa Tell Me",
+			"BRITNEY SPEARS - My Only Wish",
+			"BRUCE SPRINGSTEEN - Santa Claus Is Coming To Town",
+			"CARLY RAE JEPSEN - Last Christmas",
+			"DIDDY KONG RACING - Frosty Village",
 			"DIDDY KONG RACING - Walrus Cove",
+			"ED SHEERAN - Do They Know It's Christmas",
+			"FUN. - Sleigh Ride",
+			"HANSON - Merry Christmas Baby",
+			"KATY PERRY - Everyday is a Holiday",
+			"KELLY CLARKSON - Underneath the Tree",
+			"KYLIE MINOGUE - Only You",
+			"LEONA LEWIS - One More Sleep",
 			"MARIAH CAREY - All I Want For Christmas",
 			"PANIC! AT THE DISCO - White Christmas",
 			"SPONGEBOB SQUAREPANTS - Very First Christmas",
+			"TRAIN - Shake Up Christmas",
 			"TRANS-SIBERIAN ORCHESTRA - Carol of the Bells"
 		]
 	},
