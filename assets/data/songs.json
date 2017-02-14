@@ -80,6 +80,7 @@
 	{
 		"artist": "All American Rejects",
 		"songs": [
+			"Beekeeper's Daughter",
 			"Dirty Little Secret",
 			"Gives You Hell",
 			"It Ends Tonight",
@@ -186,6 +187,12 @@
 		"artist": "Baha Men",
 		"songs": [
 			"Who Let The Dogs Out"
+		]
+	},
+	{
+		"artist": "Barenaked Ladies",
+		"songs": [
+			"One Week"
 		]
 	},
 	{
@@ -345,6 +352,7 @@
 	{
 		"artist": "Calvin Harris",
 		"songs": [
+			"Bounce",
 			"Feel So Close",
 			"Summer"
 		]
@@ -521,6 +529,12 @@
 		"artist": "Counting Crows",
 		"songs": [
 			"Accidentally In Love"
+		]
+	},
+	{
+		"artist": "Cupid",
+		"songs": [
+			"Cupid Shuffle"
 		]
 	},
 	{
@@ -880,6 +894,7 @@
 	{
 		"artist": "Foo Fighters",
 		"songs": [
+			"Everlong",
 			"Monkey Wrench",
 			"The Best of You"
 		]
@@ -920,6 +935,12 @@
 		"artist": "G-Eazy",
 		"songs": [
 			"Me, Myself and I"
+		]
+	},
+	{
+		"artist": "Garth Brooks",
+		"songs": [
+			"Friends in Low Places"
 		]
 	},
 	{
@@ -1027,6 +1048,12 @@
 		"songs": [
 			"I Like It Like That",
 			"Tonight, Tonight"
+		]
+	},
+	{
+		"artist": "House of Pain",
+		"songs": [
+			"Jump Around"
 		]
 	},
 	{
@@ -1169,6 +1196,7 @@
 	{
 		"artist": "Jimmy Eat World",
 		"songs": [
+			"23",
 			"The Middle"
 		]
 	},
@@ -1437,6 +1465,7 @@
 	{
 		"artist": "LFO",
 		"songs": [
+			"Every Other Time",
 			"Summer Girls"
 		]
 	},
@@ -1797,6 +1826,7 @@
 	{
 		"artist": "New Boyz",
 		"songs": [
+			"Backseat",
 			"Better with the Lights Off",
 			"Tie Me Down"
 		]
@@ -1828,6 +1858,7 @@
 			"Moment for Life",
 			"Pound the Alarm",
 			"Super Bass",
+			"Trini Dem Girls",
 			"Your Love"
 		]
 	},
@@ -2288,6 +2319,12 @@
 		]
 	},
 	{
+		"artist": "Stacie Orrico",
+		"songs": [
+			"More to Life"
+		]
+	},
+	{
 		"artist": "Sugababes",
 		"songs": [
 			"Round Round"
@@ -2329,6 +2366,7 @@
 	{
 		"artist": "T-Pain",
 		"songs": [
+			"All I Do Is Win",
 			"Bartender",
 			"Best Love Song",
 			"Buy You A Drank",
@@ -2733,8 +2771,10 @@
 			"My Life Would Suck Without a Milli",
 			"Push With Me",
 			"Rematch",
+			"Summit, Inc",
 			"The Pawprint",
-			"Versus"
+			"Versus",
+			"Viva Alive"
 		]
 	},
 	{
