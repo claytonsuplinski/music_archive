@@ -19,6 +19,10 @@ body{
 	text-align:center;
 }
 
+#content{
+	width:100%;
+}
+
 .artist{
 	margin:1vw 0.6vw;
 	display:inline-block;
@@ -234,7 +238,7 @@ tr.even td{
 	}
 
 	.song{
-		padding:5px 10px;
+		padding:5px 15px;
 		margin:10px auto;
 		font-size:16px;
 	}
