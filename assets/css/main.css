@@ -238,6 +238,7 @@ tr.even td{
 	}
 
 	.song{
+		width:90%;
 		padding:5px 15px;
 		margin:10px auto;
 		font-size:16px;
