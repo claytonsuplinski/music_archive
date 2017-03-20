@@ -186,6 +186,7 @@
 	{
 		"artist": "Baha Men",
 		"songs": [
+			"Hakuna Matata",
 			"Who Let The Dogs Out"
 		]
 	},
@@ -235,6 +236,12 @@
 		]
 	},
 	{
+		"artist": "Biz Markie",
+		"songs": [
+			"Just A Friend"
+		]
+	},
+	{
 		"artist": "Black Eyed Peas",
 		"songs": [
 			"Boom Boom Pow",
@@ -259,6 +266,9 @@
 		"artist": "Blink-182",
 		"songs": [
 			"All the Small Things",
+			"First Date",
+			"I Miss You",
+			"The Rock Show",
 			"What's My Age Again"
 		]
 	},
@@ -272,6 +282,12 @@
 		]
 	},
 	{
+		"artist": "Bob Seger",
+		"songs": [
+			"Old Time Rock and Roll"
+		]
+	},
+	{
 		"artist": "Bob Sinclar",
 		"songs": [
 			"Rock This Party"
@@ -280,13 +296,16 @@
 	{
 		"artist": "Bon Jovi",
 		"songs": [
+			"Livin' on a Prayer",
 			"Make a Memory",
-			"Who Says You Can't Go Home"
+			"Who Says You Can't Go Home",
+			"You Give Love a Bad Name"
 		]
 	},
 	{
 		"artist": "Bowling for Soup",
 		"songs": [
+			"Girl All The Bad Guys Want",
 			"High School Never Ends",
 			"1985"
 		]
@@ -528,7 +547,8 @@
 	{
 		"artist": "Counting Crows",
 		"songs": [
-			"Accidentally In Love"
+			"Accidentally In Love",
+			"Big Yellow Taxi"
 		]
 	},
 	{
@@ -560,6 +580,12 @@
 		"artist": "Danity Kane",
 		"songs": [
 			"Damaged"
+		]
+	},
+	{
+		"artist": "Darude",
+		"songs": [
+			"Sandstorm"
 		]
 	},
 	{
@@ -672,6 +698,12 @@
 		"artist": "DJ Kool",
 		"songs": [
 			"Let Me Clear My Throat"
+		]
+	},
+	{
+		"artist": "DJ Otzi",
+		"songs": [
+			"Hey Baby"
 		]
 	},
 	{
@@ -1088,6 +1120,13 @@
 		]
 	},
 	{
+		"artist": "Jackson 5",
+		"songs": [
+			"ABC",
+			"I Want You Back"
+		]
+	},
+	{
 		"artist": "James Blunt",
 		"songs": [
 			"You're Beautiful"
@@ -1184,7 +1223,8 @@
 	{
 		"artist": "Jet",
 		"songs": [
-			"Are You Gonna Be My Girl"
+			"Are You Gonna Be My Girl",
+			"She's a Genius"
 		]
 	},
 	{
@@ -1211,6 +1251,12 @@
 		"songs": [
 			"Beat Again",
 			"Everybody In Love"
+		]
+	},
+	{
+		"artist": "John Mellencamp",
+		"songs": [
+			"Peaceful World"
 		]
 	},
 	{
@@ -1421,7 +1467,8 @@
 	{
 		"artist": "Kygo",
 		"songs": [
-			"Firestone"
+			"Firestone",
+			"It Ain't Me"
 		]
 	},
 	{
@@ -1450,6 +1497,7 @@
 			"Bad Romance",
 			"Just Dance",
 			"Love Game",
+			"Million Reasons",
 			"Paparazzi",
 			"Poker Face",
 			"Telephone"
@@ -1514,6 +1562,12 @@
 		"songs": [
 			"I'm in Miami Trick",
 			"Party Rock Anthem"
+		]
+	},
+	{
+		"artist": "Lou Bega",
+		"songs": [
+			"Mambo No. 5"
 		]
 	},
 	{
@@ -1674,6 +1728,7 @@
 	{
 		"artist": "Michael Jackson",
 		"songs": [
+			"Black or White",
 			"Smooth Criminal",
 			"Thriller"
 		]
@@ -1693,6 +1748,7 @@
 			"Grace Kelly",
 			"Lollipop",
 			"Popular Song",
+			"Relax, Take It Easy",
 			"We Are Golden"
 		]
 	},
@@ -1802,7 +1858,8 @@
 	{
 		"artist": "Neil Diamond",
 		"songs": [
-			"America"
+			"America",
+			"Sweet Caroline"
 		]
 	},
 	{
@@ -1818,6 +1875,8 @@
 	{
 		"artist": "Nelly Furtado",
 		"songs": [
+			"All Good Things Come to an End",
+			"Hot n Fun",
 			"Promiscuous",
 			"Say It Right"
 		]
@@ -1921,7 +1980,9 @@
 	{
 		"artist": "O.K. Go",
 		"songs": [
-			"Here It Goes Again"
+			"Do What You Want",
+			"Here It Goes Again",
+			"White Knuckles"
 		]
 	},
 	{
@@ -2278,6 +2339,8 @@
 	{
 		"artist": "Simple Plan",
 		"songs": [
+			"Addicted",
+			"I'd Do Anything",
 			"When I'm Gone"
 		]
 	},
@@ -2305,6 +2368,12 @@
 		]
 	},
 	{
+		"artist": "Smash Mouth",
+		"songs": [
+			"All Star"
+		]
+	},
+	{
 		"artist": "Snoop Dogg",
 		"songs": [
 			"Drop It Like It's Hot",
@@ -2325,9 +2394,27 @@
 		]
 	},
 	{
+		"artist": "Spice Girls",
+		"songs": [
+			"Wannabe"
+		]
+	},
+	{
+		"artist": "Spin Doctors",
+		"songs": [
+			"Two Princes"
+		]
+	},
+	{
 		"artist": "Stacie Orrico",
 		"songs": [
 			"More to Life"
+		]
+	},
+	{
+		"artist": "Sublime",
+		"songs": [
+			"Santeria"
 		]
 	},
 	{
@@ -2420,6 +2507,7 @@
 			"Style",
 			"Teardrops On My Guitar",
 			"The Story of Us",
+			"Today Was a Fairytale",
 			"Two is Better Than One",
 			"We Are Never Ever Getting Back Together",
 			"You Belong With Me",
@@ -2486,6 +2574,18 @@
 		"artist": "The Eagles",
 		"songs": [
 			"The Last Resort"
+		]
+	},
+	{
+		"artist": "The Foundations",
+		"songs": [
+			"Build Me Up Buttercup"
+		]
+	},
+	{
+		"artist": "The Fratellis",
+		"songs": [
+			"Chelsea Dagger"
 		]
 	},
 	{
@@ -2584,7 +2684,8 @@
 	{
 		"artist": "Third Eye Blind",
 		"songs": [
-			"Never Let You Go"
+			"Never Let You Go",
+			"Semi-Charmed Life"
 		]
 	},
 	{
@@ -2625,6 +2726,12 @@
 		"artist": "TNGHT",
 		"songs": [
 			"Higher Ground"
+		]
+	},
+	{
+		"artist": "Toni Basil",
+		"songs": [
+			"Hey Mickey"
 		]
 	},
 	{
@@ -2705,7 +2812,8 @@
 		"songs": [
 			"Beautiful Day",
 			"City of Blinding Lights",
-			"Pride (in the Name of Love)"
+			"Pride (in the Name of Love)",
+			"Vertigo"
 		]
 	},
 	{
@@ -2718,6 +2826,12 @@
 		"artist": "Vanessa Carlton",
 		"songs": [
 			"A Thousand Miles"
+		]
+	},
+	{
+		"artist": "Vanilla Ice",
+		"songs": [
+			"Ice Ice Baby"
 		]
 	},
 	{
