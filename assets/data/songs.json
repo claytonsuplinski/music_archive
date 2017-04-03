@@ -533,6 +533,7 @@
 			"Hurts Like Heaven",
 			"Lovers in Japan",
 			"Paradise",
+			"Something Just Like This",
 			"Speed of Sound",
 			"Violet Hill",
 			"Viva la Vida"
@@ -1343,6 +1344,7 @@
 		"artist": "Katy Perry",
 		"songs": [
 			"California Gurls",
+			"Chained to the Rhythm",
 			"Dark Horse",
 			"Firework",
 			"Hot n Cold",
@@ -1465,6 +1467,12 @@
 		]
 	},
 	{
+		"artist": "Kungs",
+		"songs": [
+			"This Girl"
+		]
+	},
+	{
 		"artist": "Kygo",
 		"songs": [
 			"Firestone",
@@ -1543,6 +1551,13 @@
 			"Lollipop",
 			"6 foot 7 foot",
 			"Right Above It"
+		]
+	},
+	{
+		"artist": "Lily Allen",
+		"songs": [
+			"Fuck You",
+			"The Fear"
 		]
 	},
 	{
@@ -1652,6 +1667,12 @@
 			"Sunday Morning",
 			"This Love",
 			"Won't Go Home Without You"
+		]
+	},
+	{
+		"artist": "Marshmello",
+		"songs": [
+			"Alone"
 		]
 	},
 	{
@@ -2530,6 +2551,13 @@
 			"I'm Back",
 			"Live Your Life",
 			"Whatever You Like"
+		]
+	},
+	{
+		"artist": "The Beatles",
+		"songs": [
+			"Revolution",
+			"Twist and Shout"
 		]
 	},
 	{
