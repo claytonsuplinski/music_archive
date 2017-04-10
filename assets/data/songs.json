@@ -110,6 +110,7 @@
 	{
 		"artist": "Ariana Grande",
 		"songs": [
+			"One Last Time",
 			"Problem",
 			"The Way"
 		]
@@ -489,6 +490,12 @@
 			"Come On Over Baby",
 			"Feel This Moment",
 			"Lady Marmalade"
+		]
+	},
+	{
+		"artist": "Chromeo",
+		"songs": [
+			"Jealous"
 		]
 	},
 	{
@@ -1014,7 +1021,9 @@
 	{
 		"artist": "Gorillaz",
 		"songs": [
-			"Feel Good Inc."
+			"Feel Good Inc.",
+			"Let Me Out",
+			"Saturnz Barz"
 		]
 	},
 	{
@@ -2067,7 +2076,8 @@
 		"artist": "Panic! At the Disco",
 		"songs": [
 			"I Write Sins Not Tragedies",
-			"New Perspective"
+			"New Perspective",
+			"Nine in the Afternoon"
 		]
 	},
 	{
@@ -2905,6 +2915,7 @@
 		"songs": [
 			"Beverly Hills",
 			"Buddy Holly",
+			"Perfect Situation",
 			"Say It Ain't So"
 		]
 	},
@@ -3007,6 +3018,12 @@
 		"artist": "30 Seconds to Mars",
 		"songs": [
 			"Kings and Queens"
+		]
+	},
+	{
+		"artist": "5 Seconds of Summer",
+		"songs": [
+			"She Looks So Perfect"
 		]
 	},
 	{
