@@ -110,6 +110,7 @@
 	{
 		"artist": "Ariana Grande",
 		"songs": [
+			"Break Free",
 			"One Last Time",
 			"Problem",
 			"The Way"
@@ -174,8 +175,10 @@
 		"artist": "Backstreet Boys",
 		"songs": [
 			"As Long As You Love Me",
+			"DJ Earworm Mashup",
 			"Everybody (Backstreet's Back)",
-			"I Want It That Way"
+			"I Want It That Way",
+			"Shape Of My Heart"
 		]
 	},
 	{
@@ -693,13 +696,16 @@
 			"Blame It on the Pop (2009)",
 			"Like OMG, Baby (2010 Summer)",
 			"Don't Stop the Pop (2010)",
+			"Fly",
 			"Shine Brighter (2012)",
 			"Summermash '13",
 			"Summermash '14",
 			"Do What You Wanna Do (2014)",
 			"Summermash '15",
 			"50 Shades of Pop (2015)",
-			"Summermash '16"
+			"Summermash '16",
+			"Into Pieces (2016)",
+			"Shape of Now"
 		]
 	},
 	{
@@ -798,9 +804,16 @@
 	{
 		"artist": "Ellie Goulding",
 		"songs": [
+			"Anything Could Happen",
 			"Lights",
 			"On My Mind",
 			"Outside"
+		]
+	},
+	{
+		"artist": "Elliott Yamin",
+		"songs": [
+			"Wait For You"
 		]
 	},
 	{
@@ -855,6 +868,12 @@
 		"artist": "Europe",
 		"songs": [
 			"The Final Countdown"
+		]
+	},
+	{
+		"artist": "Everclear",
+		"songs": [
+			"Wonderful"
 		]
 	},
 	{
@@ -1355,6 +1374,7 @@
 			"California Gurls",
 			"Chained to the Rhythm",
 			"Dark Horse",
+			"E.T.",
 			"Firework",
 			"Hot n Cold",
 			"Kissed a Girl",
@@ -1484,8 +1504,7 @@
 	{
 		"artist": "Kygo",
 		"songs": [
-			"Firestone",
-			"It Ain't Me"
+			"Firestone"
 		]
 	},
 	{
@@ -1543,7 +1562,8 @@
 	{
 		"artist": "Lifehouse",
 		"songs": [
-			"Hanging by a Moment"
+			"Hanging by a Moment",
+			"You and Me"
 		]
 	},
 	{
@@ -1801,6 +1821,7 @@
 	{
 		"artist": "Mims",
 		"songs": [
+			"Like This",
 			"This Is Why I'm Hot"
 		]
 	},
@@ -1938,6 +1959,7 @@
 		"songs": [
 			"Bust It Baby",
 			"Closer",
+			"Mad",
 			"Play Hard"
 		]
 	},
@@ -2216,6 +2238,12 @@
 		]
 	},
 	{
+		"artist": "Rick Astley",
+		"songs": [
+			"Never Gonna Give You Up"
+		]
+	},
+	{
 		"artist": "Rihanna",
 		"songs": [
 			"Break It Off",
@@ -2236,6 +2264,7 @@
 			"Umbrella",
 			"Unfaithful",
 			"What's My Name",
+			"Where Have You Been",
 			"Who's That Chick?",
 			"Work",
 			"You Da One"
@@ -2301,6 +2330,7 @@
 		"artist": "Selena Gomez",
 		"songs": [
 			"I Want You To Know",
+			"It Ain't Me",
 			"Naturally"
 		]
 	},
@@ -2359,6 +2389,12 @@
 		"songs": [
 			"Impossible",
 			"Perfect Nightmare"
+		]
+	},
+	{
+		"artist": "Shop Boyz",
+		"songs": [
+			"Party Like a Rock Star"
 		]
 	},
 	{
@@ -2473,6 +2509,19 @@
 		"artist": "Sum 41",
 		"songs": [
 			"Fat Lip"
+		]
+	},
+	{
+		"artist": "Super Smash Bros Brawl",
+		"songs": [
+			"Bramble Blast",
+			"Dragon Roost Island",
+			"Mute City",
+			"Pokemon Center",
+			"Princess Peach's Castle",
+			"Road to Viridian City",
+			"Route 209",
+			"The Great Sea"
 		]
 	},
 	{

@@ -208,6 +208,10 @@ tr.even td{
 		width:calc(100% - 24px);
 	}
 	
+	.artist .name *{
+		font-size:12px;
+	}
+	
 	.artist .name table{
 		padding:0 10px;
 	}
