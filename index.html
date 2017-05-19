@@ -89,7 +89,7 @@ function all_artists(){
 	$("#content").html('');
 	$("#content").html(
 		SONG.data.map(function(a){
-			return '<div class="artist" onclick="load_artist(\''+(a.artist || a.playlist)+'\');">'+
+			return '<div class="artist" onclick="load_artist(&quot;'+(a.artist || a.playlist)+'&quot;);">'+
 				'<div class="name">'+
 					'<table>'+
 						'<tr>'+

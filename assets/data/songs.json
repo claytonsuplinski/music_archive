@@ -12,6 +12,12 @@
 		]
 	},
 	{
+		"artist": "Adele",
+		"songs": [
+			"Chasing Pavements"
+		]
+	},
+	{
 		"artist": "Aerosmith",
 		"songs": [
 			"I Don't Want To Miss a Thing",
@@ -614,6 +620,12 @@
 		]
 	},
 	{
+		"artist": "David Archuleta",
+		"songs": [
+			"Crush"
+		]
+	},
+	{
 		"artist": "David Cook",
 		"songs": [
 			"Always Be My Baby",
@@ -1009,6 +1021,12 @@
 		]
 	},
 	{
+		"artist": "Gavin Rossdale",
+		"songs": [
+			"Love Remains the Same"
+		]
+	},
+	{
 		"artist": "Ginuwine",
 		"songs": [
 			"Pony"
@@ -1229,6 +1247,12 @@
 		]
 	},
 	{
+		"artist": "Jess Glynne",
+		"songs": [
+			"Hold My Hand"
+		]
+	},
+	{
 		"artist": "Jesse McCartney",
 		"songs": [
 			"Beautiful Soul",
@@ -1406,6 +1430,12 @@
 		]
 	},
 	{
+		"artist": "Kelly Rowland",
+		"songs": [
+			"When Love Takes Over"
+		]
+	},
+	{
 		"artist": "Kendrick Lamar",
 		"songs": [
 			"Alright"
@@ -1576,6 +1606,7 @@
 		"artist": "Lil Wayne",
 		"songs": [
 			"A Milli",
+			"Got Money",
 			"How to Love",
 			"Knockout",
 			"Lollipop",
@@ -3067,6 +3098,7 @@
 	{
 		"artist": "30 Seconds to Mars",
 		"songs": [
+			"Closer to the Edge",
 			"Kings and Queens"
 		]
 	},
