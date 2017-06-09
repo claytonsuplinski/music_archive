@@ -49,6 +49,7 @@
 		"artist": "Akon",
 		"songs": [
 			"Angel",
+			"Bananza (Belly Dancer)",
 			"Beautiful",
 			"Don't Matter",
 			"Hypnotized",
@@ -431,6 +432,12 @@
 		"artist": "Cash Out",
 		"songs": [
 			"Cashing Out"
+		]
+	},
+	{
+		"artist": "Cassie",
+		"songs": [
+			"Me and U"
 		]
 	},
 	{
@@ -1345,6 +1352,7 @@
 		"songs": [
 			"Beauty and a Beat",
 			"Cold Water",
+			"I'm the One",
 			"Let Me Love You",
 			"Sorry",
 			"Where Are U Now"
@@ -1553,6 +1561,7 @@
 	{
 		"artist": "Lady Antebellum",
 		"songs": [
+			"Just a Kiss",
 			"Need You Now",
 			"I Run To You"
 		]
@@ -1592,6 +1601,7 @@
 	{
 		"artist": "Lifehouse",
 		"songs": [
+			"Halfway Gone",
 			"Hanging by a Moment",
 			"You and Me"
 		]
@@ -1634,6 +1644,12 @@
 		]
 	},
 	{
+		"artist": "Lloyd Banks",
+		"songs": [
+			"Beamer, Benz, or Bentley"
+		]
+	},
+	{
 		"artist": "LMFAO",
 		"songs": [
 			"I'm in Miami Trick",
@@ -1658,6 +1674,12 @@
 			"Out Of My Head",
 			"Superstar",
 			"The Show Goes On"
+		]
+	},
+	{
+		"artist": "Mac Miller",
+		"songs": [
+			"Knock Knock"
 		]
 	},
 	{
@@ -2282,6 +2304,7 @@
 			"Disturbia",
 			"Don't Stop the Music",
 			"FourFiveSeconds",
+			"If It's Lovin' That You Want",
 			"Only Girl (In the World)",
 			"Pon de Replay",
 			"Right Now",

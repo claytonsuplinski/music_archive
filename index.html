@@ -50,10 +50,10 @@ $.ajax({
 			'<div class="button button-2" onclick="all_songs();">'+
 				data.map(function(a){
 					return a.songs.length;
-				}).reduce(function(a,b){return a+b;	}) + " songs" +
+				}).reduce(function(a,b){return a+b;	}).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " songs" +
 			'</div>'+
 			'<div class="button button-2" onclick="all_artists();">'+
-				data.length + ' artists' +
+				data.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + ' artists' +
 			'</div>'
 		);
 		all_artists();
