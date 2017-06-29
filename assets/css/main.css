@@ -38,7 +38,7 @@ body{
 }
 
 .artist *{
-	font-size:2vw;
+	font-size:1.75vw;
 	transition:color 1s;
 }
 .artist:hover *{
@@ -170,6 +170,11 @@ tr.even td{
 	font-weight:100;
 }
 
+.song .year{
+	opacity:0.4;
+	margin-left:1vw;
+}
+
 .song .link{
 	width:50%;
 	display:inline-block;
@@ -201,7 +206,7 @@ tr.even td{
 	}
 	
 	.artist *{
-		font-size:16px;
+		font-size:12px;
 	}
 	
 	.artist .name{
@@ -239,6 +244,10 @@ tr.even td{
 	
 	.button-2{
 		width:90%;
+	}
+	
+	.button-half-sm{
+		width:42.5%;
 	}
 
 	.song{
