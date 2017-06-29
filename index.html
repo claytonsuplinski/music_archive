@@ -5,9 +5,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Biryani:900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">	
 	
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	
 	<link rel="stylesheet" href="./assets/css/main.css">
@@ -15,9 +15,7 @@
 <body>
 <div class="header">
 	<div class="hidden-sm hidden-xs"></div>
-	<div class="hidden-md hidden-lg">
-
-	</div>
+	<div class="hidden-md hidden-lg"></div>
 </div>
 <div id="content"></div>
 </body>
@@ -80,13 +78,13 @@ $.ajax({
 		'</div>';
 		var years_button = '<div class="button button-half-sm float-right" onclick="all_years();">'+SONG.ALL_YEARS.length+' years</div>';
 	
-		$(".header .hidden-sm").append(
+		$(".header .hidden-sm").html(
 			'<div class="button" onclick="random_artist();">RANDOM ARTIST</div>'+
 			'<div class="button" onclick="random_songs(5);">5 RANDOM SONGS</div>'+
 			'<div class="button" onclick="random_year();">RANDOM YEAR</div>'+
 			artists_button + songs_button + years_button
 		);
-		$(".header .hidden-lg").append(
+		$(".header .hidden-lg").html(
 			artists_button + '<div class="button button-half-sm" onclick="random_artist();">ARTIST</div>'  +
 			songs_button   + '<div class="button button-half-sm" onclick="random_songs(5);">5 SONGS</div>' + 
 			years_button   + '<div class="button button-half-sm" onclick="random_year();">YEAR</div>'      
