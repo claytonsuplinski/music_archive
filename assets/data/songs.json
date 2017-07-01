@@ -3156,34 +3156,34 @@
     {
         "playlist": "Christmas",
         "songs": [
-            {"song": "ARIANA GRANDE - Santa Tell Me", "year": ""},
-            {"song": "BRITNEY SPEARS - My Only Wish", "year": ""},
-            {"song": "BRUCE SPRINGSTEEN - Santa Claus Is Coming To Town", "year": ""},
-            {"song": "CARLY RAE JEPSEN - Last Christmas", "year": ""},
-            {"song": "DIDDY KONG RACING - Frosty Village", "year": ""},
-            {"song": "DIDDY KONG RACING - Walrus Cove", "year": ""},
-            {"song": "ED SHEERAN - Do They Know It's Christmas", "year": ""},
-            {"song": "FUN. - Sleigh Ride", "year": ""},
-            {"song": "HANSON - Merry Christmas Baby", "year": ""},
-            {"song": "KATY PERRY - Everyday is a Holiday", "year": ""},
-            {"song": "KELLY CLARKSON - Underneath the Tree", "year": ""},
-            {"song": "KYLIE MINOGUE - Only You", "year": ""},
-            {"song": "LEONA LEWIS - One More Sleep", "year": ""},
-            {"song": "MARIAH CAREY - All I Want For Christmas", "year": ""},
-            {"song": "PANIC! AT THE DISCO - White Christmas", "year": ""},
-            {"song": "SPONGEBOB SQUAREPANTS - Very First Christmas", "year": ""},
-            {"song": "TRAIN - Shake Up Christmas", "year": ""},
-            {"song": "TRANS-SIBERIAN ORCHESTRA - Carol of the Bells", "year": ""}
+            {"song": "ARIANA GRANDE - Santa Tell Me", "year": "2014"},
+            {"song": "BRITNEY SPEARS - My Only Wish", "year": "2000"},
+            {"song": "BRUCE SPRINGSTEEN - Santa Claus Is Coming To Town", "year": "1975"},
+            {"song": "CARLY RAE JEPSEN - Last Christmas", "year": "2015"},
+            {"song": "DIDDY KONG RACING - Frosty Village", "year": "1997"},
+            {"song": "DIDDY KONG RACING - Walrus Cove", "year": "1997"},
+            {"song": "ED SHEERAN - Do They Know It's Christmas", "year": "2014"},
+            {"song": "FUN. - Sleigh Ride", "year": "2012"},
+            {"song": "HANSON - Merry Christmas Baby", "year": "1997"},
+            {"song": "KATY PERRY - Everyday is a Holiday", "year": "2015"},
+            {"song": "KELLY CLARKSON - Underneath the Tree", "year": "2013"},
+            {"song": "KYLIE MINOGUE - Only You", "year": "2015"},
+            {"song": "LEONA LEWIS - One More Sleep", "year": "2013"},
+            {"song": "MARIAH CAREY - All I Want For Christmas", "year": "1994"},
+            {"song": "PANIC! AT THE DISCO - White Christmas", "year": "2011"},
+            {"song": "SPONGEBOB SQUAREPANTS - Very First Christmas", "year": "2000"},
+            {"song": "TRAIN - Shake Up Christmas", "year": "2010"},
+            {"song": "TRANS-SIBERIAN ORCHESTRA - Carol of the Bells", "year": "1996"}
         ]
     },
     {
         "playlist": "Friday",
         "songs": [
-            {"song": "R KELLY - Ignition", "year": ""},
-            {"song": "BEYONCE - Crazy In Love", "year": ""},
-            {"song": "FIFTH HARMONY - Work From Home", "year": ""},
-            {"song": "ED SHEERAN - Thinking Out Loud", "year": ""},
-            {"song": "WHITNEY HOUSTON - I Wanna Dance With Somebody", "year": ""}
+            {"song": "R KELLY - Ignition", "year": "2003"},
+            {"song": "BEYONCE - Crazy In Love", "year": "2003"},
+            {"song": "FIFTH HARMONY - Work From Home", "year": "2016"},
+            {"song": "ED SHEERAN - Thinking Out Loud", "year": "2015"},
+            {"song": "WHITNEY HOUSTON - I Wanna Dance With Somebody", "year": "1987"}
         ]
     }
 ]

@@ -154,7 +154,11 @@ tr.even td{
 }
 
 .button-2{
-	width:43vw;
+	width:41.5vw;
+}
+
+.button i.fa{
+	margin-right:1vw;
 }
 
 .song{
@@ -168,6 +172,18 @@ tr.even td{
 	border:2px solid #353263;
 	font-size:2vw;
 	font-weight:100;
+}
+
+.song .info-link{
+	color:rgba(212, 241, 255, 0.82);
+	opacity:0.4;
+	margin-right:1vw;
+	
+	transition:opacity 0.5s;
+}
+
+.song .info-link:hover{
+	opacity:0.8;
 }
 
 .song .year{
