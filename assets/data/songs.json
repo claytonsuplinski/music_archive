@@ -345,11 +345,11 @@
         "artist": "Britney Spears",
         "songs": [
             {"song": "Baby One More Time", "year": "1998"},
-            {"song": "Circus", "year": "2008"},
+            {"song": "Circus", "year": "2009"},
             {"song": "Crazy", "year": "1999"},
             {"song": "Hold It Against Me", "year": "2011"},
             {"song": "I Wanna Go", "year": "2011"},
-            {"song": "If U Seek Amy", "year": "2008"},
+            {"song": "If U Seek Amy", "year": "2009"},
             {"song": "Lucky", "year": "2000"},
             {"song": "Make Me", "year": "2016"},
             {"song": "Oops I Did It Again", "year": "2000"},
@@ -2067,6 +2067,12 @@
             {"song": "Smells Like Teen Spirit", "year": "1991"}
         ]
     },
+	{
+		"artist": "NKOTBSB",
+		"songs": [
+			{"song": "Don't Turn Out The Lights", "year": "2011"}
+		]
+	},
     {
         "artist": "No Doubt",
         "songs": [
@@ -2400,7 +2406,8 @@
         "songs": [
             {"song": "I Want You To Know", "year": "2015"},
             {"song": "It Ain't Me", "year": "2017"},
-            {"song": "Naturally", "year": "2009"}
+            {"song": "Naturally", "year": "2009"},
+			{"song": "Same Old Love", "year": "2015"}
         ]
     },
     {
@@ -2774,6 +2781,12 @@
             {"song": "Sweater Weather", "year": "2013"}
         ]
     },
+	{
+		"artist": "The Outfield",
+		"songs": [
+			{"song": "Your Love", "year": "1986"}
+		]
+	},
     {
         "artist": "The Ready Set",
         "songs": [

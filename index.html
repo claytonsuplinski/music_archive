@@ -146,6 +146,9 @@ function all_artists(){
 	var artists = SONG.data.slice();
 	var curr_sort_type  = SONG.SORT.artists.options[SONG.SORT.artists.curr];
 	artists.sort(function(a,b){
+		return (a.artist.toUpperCase() > b.artist.toUpperCase() ? -1 : 1);
+	});
+	artists.sort(function(a,b){
 		switch(curr_sort_type){
 			case '# SONGS':
 				return (SONG.SORT.artists.asc ? 1 : -1) * (a.songs.length > b.songs.length ? 1 : -1);
