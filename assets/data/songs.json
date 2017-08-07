@@ -713,6 +713,12 @@
             {"song": "Express Yourself", "year": "2012"}
         ]
     },
+	{
+		"artist": "DJ Dreamport",
+		"songs": [
+			{"song": "Our Party (2013 Mashup)", "year": "2013"}
+		]
+	},
     {
         "artist": "DJ Earworm",
         "songs": [
@@ -1246,6 +1252,12 @@
             {"song": "Bed", "year": "2007"}
         ]
     },
+	{
+		"artist": "J-Kwon",
+		"songs": [
+			{"song": "Tipsy", "year": "2004"}
+		]
+	},
     {
         "artist": "Jennifer Lopez",
         "songs": [
@@ -1671,6 +1683,12 @@
             {"song": "Party Rock Anthem", "year": "2011"}
         ]
     },
+	{
+		"artist": "Lorde",
+		"songs": [
+			{"song": "Tennis Court", "year": "2013"}
+		]
+	},
     {
         "artist": "Lou Bega",
         "songs": [
@@ -1734,7 +1752,7 @@
     {
         "artist": "Mann",
         "songs": [
-            {"song": "Text", "year": "2011"}
+            {"song": "Text", "year": "2010"}
         ]
     },
     {
@@ -1866,7 +1884,7 @@
         "songs": [
             {"song": "Grace Kelly", "year": "2007"},
             {"song": "Lollipop", "year": "2007"},
-            {"song": "Popular Song", "year": "2013"},
+            {"song": "Popular Song", "year": "2014"},
             {"song": "Relax, Take It Easy", "year": "2007"},
             {"song": "We Are Golden", "year": "2009"}
         ]
@@ -2234,6 +2252,12 @@
             {"song": "Shut It Down", "year": "2009"}
         ]
     },
+	{
+		"artist": "Prince Fatty",
+		"songs": [
+			{"song": "Shimmy Shimmy Ya", "year": "2009"}
+		]
+	},
     {
         "artist": "Pussycat Dolls",
         "songs": [
@@ -2764,6 +2788,7 @@
         "songs": [
             {"song": "All These Things That I've Done", "year": "2004"},
             {"song": "Mr. Brightside", "year": "2004"},
+			{"song": "Shot at the Night", "year": "2013"},
             {"song": "Somebody Told Me", "year": "2004"},
             {"song": "When You Were Young", "year": "2006"}
         ]
@@ -3140,10 +3165,10 @@
     {
         "artist": "3oh 3!",
         "songs": [
-            {"song": "Don't Trust Me", "year": "2008"},
+            {"song": "Don't Trust Me", "year": "2009"},
             {"song": "Double Vision", "year": "2010"},
             {"song": "Follow Me Down", "year": "2010"},
-            {"song": "Starstrukk", "year": "2008"}
+            {"song": "Starstrukk", "year": "2009"}
         ]
     },
     {
