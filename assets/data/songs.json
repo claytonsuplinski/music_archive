@@ -271,6 +271,8 @@
             {"song": "Meet Me Halfway", "year": "2009"},
             {"song": "My Humps", "year": "2005"},
             {"song": "Pump It", "year": "2005"},
+			{"song": "Rock That Body", "year": "2010"},
+			{"song": "The Time (Dirty Bit)", "year": "2011"},
             {"song": "Where Is The Love", "year": "2003"}
         ]
     },
@@ -769,6 +771,12 @@
             {"song": "Party Up (Up in Here)", "year": "1999"}
         ]
     },
+	{
+		"artist": "DNCE",
+		"songs": [
+			{"song": "Cake by the Ocean", "year": "2016"}
+		]
+	},
     {
         "artist": "Don Omar",
         "songs": [
@@ -1063,6 +1071,7 @@
         "songs": [
             {"song": "Better Days", "year": "2006"},
             {"song": "Black Balloon", "year": "1998"},
+			{"song": "Give a Little Bit", "year": "2004"},
             {"song": "Iris", "year": "1998"},
             {"song": "Slide", "year": "1998"}
         ]
@@ -1168,6 +1177,12 @@
             {"song": "All Night", "year": "2013"}
         ]
     },
+	{
+		"artist": "Ida Corr",
+		"songs": [
+			{"song": "Let Me Think About It", "year": "2007"}
+		]
+	},
     {
         "artist": "Ingrid Michaelson",
         "songs": [
@@ -1441,6 +1456,7 @@
             {"song": "Roar", "year": "2013"},
             {"song": "Teenage Dream", "year": "2010"},
             {"song": "The One That Got Away", "year": "2011"},
+			{"song": "This Is How We Do", "year": "2014"},
             {"song": "Waking Up In Vegas", "year": "2009"},
             {"song": "Wide Awake", "year": "2012"}
         ]
@@ -1778,6 +1794,7 @@
             {"song": "Misery", "year": "2010"},
             {"song": "Moves Like Jagger", "year": "2011"},
             {"song": "Never Gonna Leave This Bed", "year": "2010"},
+			{"song": "One More Night", "year": "2012"},
             {"song": "Payphone", "year": "2012"},
             {"song": "She Will Be Loved", "year": "2002"},
             {"song": "Sunday Morning", "year": "2002"},
@@ -2357,8 +2374,10 @@
             {"song": "Run This Town", "year": "2009"},
             {"song": "Shut Up and Drive", "year": "2008"},
             {"song": "S and M", "year": "2011"},
+			{"song": "S and M (Britney Spears remix)", "year": "2011"},
             {"song": "SOS", "year": "2006"},
             {"song": "Take a Bow", "year": "2008"},
+			{"song": "Talk That Talk", "year": "2011"},
             {"song": "This Is What You Came For", "year": "2016"},
             {"song": "Umbrella", "year": "2007"},
             {"song": "Unfaithful", "year": "2006"},
@@ -2454,6 +2473,7 @@
             {"song": "Hips Don't Lie", "year": "2005"},
             {"song": "Rabiosa", "year": "2010"},
             {"song": "She Wolf", "year": "2009"},
+			{"song": "Waka Waka", "year": "2010"},
             {"song": "Whenever, Wherever", "year": "2001"}
         ]
     },
@@ -2675,6 +2695,7 @@
         "songs": [
             {"song": "Back to December", "year": "2010"},
             {"song": "Blank Space", "year": "2015"},
+			{"song": "Enchanted", "year": "2010"},
             {"song": "Eyes Open", "year": "2012"},
             {"song": "Fifteen", "year": "2009"},
             {"song": "I Knew You Were Trouble", "year": "2012"},
