@@ -56,7 +56,8 @@
             {"song": "I Wanna Love You", "year": "2006"},
             {"song": "Right Now (Na Na Na)", "year": "2008"},
             {"song": "Sexy Bitch", "year": "2009"},
-            {"song": "Smack That", "year": "2006"}
+            {"song": "Smack That", "year": "2006"},
+			{"song": "Til The Sun Rise Up", "year": "2017"}
         ]
     },
     {
@@ -406,6 +407,7 @@
         "artist": "Carly Rae Jepsen",
         "songs": [
             {"song": "Call Me Maybe", "year": "2012"},
+			{"song": "Call Me Maybe (Coyote Kisses remix)", "year": "2012"},
             {"song": "I Really Like You", "year": "2015"},
             {"song": "Talk To Me", "year": "2012"},
             {"song": "This Kiss", "year": "2012"}
@@ -486,6 +488,12 @@
             {"song": "Fight For This Love", "year": "2010"}
         ]
     },
+	{
+		"artist": "Chiddy Bang",
+		"songs": [
+			{"song": "Opposite of Adults", "year": "2010"}
+		]
+	},
     {
         "artist": "Chingy",
         "songs": [
@@ -819,7 +827,8 @@
     {
         "artist": "Ed Sheeran",
         "songs": [
-            {"song": "Thinking Out Loud", "year": "2015"}
+            {"song": "Thinking Out Loud", "year": "2015"},
+			{"song": "Castle On The Hill", "year": "2017"}
         ]
     },
     {
@@ -1225,6 +1234,7 @@
         "artist": "Jason Derulo",
         "songs": [
             {"song": "In My Head", "year": "2010"},
+			{"song": "Love Hangover", "year": "2010"},
             {"song": "Ridin Solo", "year": "2010"},
             {"song": "Want to Want Me", "year": "2015"},
             {"song": "Whatcha Say", "year": "2009"}
@@ -1241,6 +1251,7 @@
         "artist": "Jay Sean",
         "songs": [
             {"song": "Down", "year": "2009"},
+			{"song": "Do You Love Me", "year": "2017"},
             {"song": "Do You Remember", "year": "2009"},
             {"song": "2012", "year": "2010"}
         ]
@@ -1776,6 +1787,7 @@
         "songs": [
             {"song": "All I Want For Christmas", "year": "1994"},
             {"song": "Always Be My Baby", "year": "1996"},
+			{"song": "Fantasy", "year": "1995"},
             {"song": "Hero", "year": "1993"},
             {"song": "I'll Be Lovin' You Long Time", "year": "2008"},
             {"song": "Obsessed", "year": "2009"},
@@ -2238,6 +2250,12 @@
             {"song": "Fall In Love", "year": "2014"}
         ]
     },
+	{
+		"artist": "Pharrell Williams",
+		"songs": [
+			{"song": "Feels", "year": "2017"}
+		]
+	},
     {
         "artist": "Phoenix",
         "songs": [
@@ -2599,6 +2617,12 @@
             {"song": "More to Life", "year": "2003"}
         ]
     },
+	{
+		"artist": "Styx",
+		"songs": [
+			{"song": "Renegade", "year": "1978"}
+		]
+	},
     {
         "artist": "Sublime",
         "songs": [
@@ -2914,6 +2938,7 @@
         "artist": "Tiesto",
         "songs": [
             {"song": "Don't Ditch", "year": "2011"},
+			{"song": "Knock You Out", "year": "2010"},
             {"song": "Red Lights", "year": "2014"}
         ]
     },
