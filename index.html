@@ -35,10 +35,14 @@ $.ajax({
 	dataType: 'json',
 	success: function(data){
 		var now = new Date();
+		var friday_condition = (now.getDay() == 5);
+		var halloween_condition = (now.getMonth() == 9);
 		var christmas_condition = (now.getMonth() > 9);
 		data = data.filter(function(a){
 			return a.artist ||
-				(a.playlist == "Christmas" && christmas_condition); 
+				(a.playlist == "Friday" && friday_condition) ||
+				(a.playlist == "Christmas" && christmas_condition) ||
+				(a.playlist == "Halloween" && halloween_condition); 
 		});
 		data.sort(function(a, b){
 			var a_l = (a.artist || a.playlist).toLowerCase();
@@ -146,7 +150,7 @@ function all_artists(){
 	var artists = SONG.data.slice();
 	var curr_sort_type  = SONG.SORT.artists.options[SONG.SORT.artists.curr];
 	artists.sort(function(a,b){
-		return (a.artist.toUpperCase() > b.artist.toUpperCase() ? -1 : 1);
+		return ( (a.artist || a.playlist).toUpperCase() > (b.artist || b.playlist).toUpperCase() ? -1 : 1);
 	});
 	artists.sort(function(a,b){
 		switch(curr_sort_type){

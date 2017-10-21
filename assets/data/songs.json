@@ -3263,11 +3263,35 @@
     {
         "playlist": "Friday",
         "songs": [
+			{"song": "COLDPLAY - Hymn for the Weekend", "year": "2015"},
+			{"song": "KATY PERRY - Last Friday Night", "year": "2011"},
+            {"song": "R KELLY - Ignition", "year": "2003"},
+			{"song": "REBECCA BLACK - Friday", "year": "2011"},
+			{"song": "RIHANNA - Cheers", "year": "2010"},
+			{"song": "THE CURE - Friday I'm In Love", "year": "1992"},
+			{"song": "THE WEEKND - Can't Feel My Face", "year": "2015"}
+        ]
+    },
+    {
+        "playlist": "Sunday",
+        "songs": [
             {"song": "R KELLY - Ignition", "year": "2003"},
             {"song": "BEYONCE - Crazy In Love", "year": "2003"},
             {"song": "FIFTH HARMONY - Work From Home", "year": "2016"},
             {"song": "ED SHEERAN - Thinking Out Loud", "year": "2015"},
             {"song": "WHITNEY HOUSTON - I Wanna Dance With Somebody", "year": "1987"}
         ]
-    }
+    },
+	{
+		"playlist": "Halloween",
+		"songs": [
+			{"song": "BOBBY PICKETT - Monster Mash", "year": "1962"},
+			{"song": "GILLAN/GLOVER - The Purple People Eater", "year": "1988"},
+			{"song": "DANNY ELFMAN - This Is Halloween", "year": "1993"},
+			{"song": "MICHAEL JACKSON - Thriller", "year": "1982"},
+			{"song": "PANIC! AT THE DISCO - This Is Halloween", "year": "2006"},
+			{"song": "RAY PARKER JR. - Ghostbusters Theme Song", "year": "1984"},
+			{"song": "THE NIGHTMARE BEFORE CHRISTMAS - Overture", "year": "1993"}
+		]
+	}
 ]

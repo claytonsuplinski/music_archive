@@ -213,6 +213,24 @@ tr.even td{
 	color:#F66;
 }
 
+.song.Halloween{
+	border-color:#111;
+	background:#333;
+}
+
+.song.Halloween .link{
+	color:#FF9E20;
+}
+
+.song.Friday{
+	border-color:#1d345f;
+	background:#355183;
+}
+
+.song.Friday .link{
+	color:#DF66EC;
+}
+
 @media (max-width: 700px){
 	.artist{
 		margin:12px 6px;
