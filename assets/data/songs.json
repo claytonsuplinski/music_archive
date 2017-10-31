@@ -1394,6 +1394,12 @@
         ]
     },
     {
+        "artist": "Jump5",
+        "songs": [
+            {"song": "Beauty and the Beast", "year": "2002"}
+        ]
+    },
+    {
         "artist": "Junior Senior",
         "songs": [
             {"song": "Move Your Feet", "year": "2003"}
@@ -2257,6 +2263,12 @@
 		]
 	},
     {
+        "artist": "Phil Collins",
+        "songs": [
+            {"song": "You'll Be In My Heart", "year": "1999"}
+        ]
+    },
+    {
         "artist": "Phoenix",
         "songs": [
             {"song": "1901", "year": "2009"}
@@ -2724,6 +2736,7 @@
             {"song": "Fifteen", "year": "2009"},
             {"song": "I Knew You Were Trouble", "year": "2012"},
             {"song": "Jump Then Fall", "year": "2009"},
+			{"song": "Look What You Made Me Do", "year": "2017"},
             {"song": "Love Story", "year": "2009"},
             {"song": "Mean", "year": "2010"},
             {"song": "Mine", "year": "2010"},

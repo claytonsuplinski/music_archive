@@ -44,9 +44,14 @@ $.ajax({
 				(a.playlist == "Christmas" && christmas_condition) ||
 				(a.playlist == "Halloween" && halloween_condition); 
 		});
+		
+		data.forEach(function(a){
+			if(!a.artist && a.playlist) a.artist = a.playlist;
+		});
+		
 		data.sort(function(a, b){
-			var a_l = (a.artist || a.playlist).toLowerCase();
-			var b_l = (b.artist || b.playlist).toLowerCase();
+			var a_l = a.artist.toLowerCase();
+			var b_l = b.artist.toLowerCase();
 			return (a_l > b_l ? 1 : -1);
 		});
 		SONG.data = data;
@@ -109,7 +114,7 @@ function html_song(song){
 	var repeat_link  = 'http://youtubeonrepeat.com/results/?search_query='+query;
 	return '<div class="song '+(song.playlist ? song.playlist : '')+'">'+
 		'<a class="info-link" href="'+google_link+'" target="_blank"><i class="fa fa-info-circle"></i></a> '+
-		(song.artist ? song.artist.toUpperCase() + ' - ' : '') + song.song +
+		(song.artist && !song.playlist ? song.artist.toUpperCase() + ' - ' : '') + song.song +
 		'<span class="year">(' + song.year + ')</span>' +
 		'<br>'+
 		'<a class="link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'+
@@ -150,7 +155,7 @@ function all_artists(){
 	var artists = SONG.data.slice();
 	var curr_sort_type  = SONG.SORT.artists.options[SONG.SORT.artists.curr];
 	artists.sort(function(a,b){
-		return ( (a.artist || a.playlist).toUpperCase() > (b.artist || b.playlist).toUpperCase() ? -1 : 1);
+		return ( a.artist.toUpperCase() > b.artist.toUpperCase() ? -1 : 1);
 	});
 	artists.sort(function(a,b){
 		switch(curr_sort_type){
@@ -174,11 +179,11 @@ function all_artists(){
 			'</div>'+
 		'</div>'+
 		artists.map(function(a){
-			return '<div class="artist" onclick="load_artist(&quot;'+(a.artist || a.playlist)+'&quot;);">'+
+			return '<div class="artist" onclick="load_artist(&quot;'+a.artist+'&quot;);">'+
 				'<div class="name">'+
 					'<table>'+
 						'<tr>'+
-							'<td rowspan="6">'+(a.artist || a.playlist).toUpperCase()+'<hr></div>'+
+							'<td rowspan="6">'+a.artist.toUpperCase()+'<hr></div>'+
 						'</tr>'+
 					'</table>'+
 				'</div>'+
@@ -239,7 +244,7 @@ function all_years(){
 
 function load_artist(artist){
 	$("#content").html('');
-	var matches = SONG.data.filter(function(a){ return (a.artist || a.playlist).toLowerCase() == artist.toLowerCase(); });
+	var matches = SONG.data.filter(function(a){ return a.artist.toLowerCase() == artist.toLowerCase(); });
 	if(matches.length){
 		var songs = matches[0].songs.map(function(a){ 
 			a.artist = matches[0].artist;
