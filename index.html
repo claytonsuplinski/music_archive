@@ -108,7 +108,7 @@ $.ajax({
 });
 
 function html_song(song){
-	var query = encodeURIComponent((song.artist ? song.artist + " " : '') + song.song);
+	var query = encodeURIComponent((song.artist && !song.playlist ? song.artist + " " : '') + song.song);
 	var youtube_link = 'https://www.youtube.com/results?search_query='+query;
 	var google_link  = 'https://www.google.com/#q='+query;
 	var repeat_link  = 'http://youtubeonrepeat.com/results/?search_query='+query;
