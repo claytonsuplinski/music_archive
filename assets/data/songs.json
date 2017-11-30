@@ -1,6 +1,6 @@
 [
     {
-        "artist": "AC\/DC",
+        "artist": "AC/DC",
         "songs": [
             {"song": "Thunderstruck", "year": "1990"}
         ]
@@ -238,6 +238,7 @@
             {"song": "Deja Vu", "year": "2007"},
             {"song": "Halo", "year": "2009"},
             {"song": "Irreplaceable", "year": "2007"},
+			{"song": "Runnin' (Lose It All)", "year": "2015"},
             {"song": "Single Ladies", "year": "2009"},
             {"song": "Sweet Dreams", "year": "2009"}
         ]
@@ -351,7 +352,8 @@
             {"song": "Circus", "year": "2009"},
             {"song": "Crazy", "year": "1999"},
             {"song": "Hold It Against Me", "year": "2011"},
-            {"song": "I Wanna Go", "year": "2011"},
+            {"song": "I Love Rock 'n' Roll", "year": "2002"},
+			{"song": "I Wanna Go", "year": "2011"},
             {"song": "If U Seek Amy", "year": "2009"},
             {"song": "Lucky", "year": "2000"},
             {"song": "Make Me", "year": "2016"},
@@ -1461,7 +1463,8 @@
     {
         "artist": "Katy Perry",
         "songs": [
-            {"song": "California Gurls", "year": "2010"},
+            {"song": "Birthday", "year": "2014"},
+			{"song": "California Gurls", "year": "2010"},
             {"song": "Chained to the Rhythm", "year": "2017"},
             {"song": "Dark Horse", "year": "2014"},
             {"song": "E.T.", "year": "2011"},
@@ -1628,6 +1631,7 @@
     {
         "artist": "Lady Gaga",
         "songs": [
+			{"song": "Alejandro", "year": "2010"},
             {"song": "Applause", "year": "2013"},
             {"song": "Bad Romance", "year": "2010"},
             {"song": "Just Dance", "year": "2009"},
@@ -1817,6 +1821,7 @@
             {"song": "She Will Be Loved", "year": "2002"},
             {"song": "Sunday Morning", "year": "2002"},
             {"song": "This Love", "year": "2002"},
+			{"song": "What Lovers Do", "year": "2017"},
             {"song": "Won't Go Home Without You", "year": "2007"}
         ]
     },
@@ -2253,7 +2258,8 @@
         "artist": "Phantogram",
         "songs": [
             {"song": "Don't Move", "year": "2011"},
-            {"song": "Fall In Love", "year": "2014"}
+            {"song": "Fall In Love", "year": "2014"},
+			{"song": "K.Y.S.A", "year": "2015"}
         ]
     },
 	{
@@ -2445,6 +2451,12 @@
             {"song": "It's Tricky", "year": "1986"}
         ]
     },
+	{
+		"artist": "Rusted Root",
+		"songs": [
+			{"song": "Send Me on My Way", "year": "1995"}
+		]
+	},
     {
         "artist": "Sam Smith",
         "songs": [
@@ -2551,6 +2563,7 @@
         "artist": "Sia",
         "songs": [
             {"song": "Chandelier", "year": "2014"},
+			{"song": "Cheap Thrills", "year": "2016"},
             {"song": "Titanium", "year": "2011"}
         ]
     },
@@ -2742,6 +2755,7 @@
             {"song": "Mine", "year": "2010"},
             {"song": "Our Song", "year": "2006"},
             {"song": "Out of the Woods", "year": "2014"},
+			{"song": "Ready for It", "year": "2017"},
             {"song": "Red", "year": "2013"},
             {"song": "Style", "year": "2014"},
             {"song": "Teardrops On My Guitar", "year": "2006"},
@@ -3267,6 +3281,7 @@
             {"song": "KYLIE MINOGUE - Only You", "year": "2015"},
             {"song": "LEONA LEWIS - One More Sleep", "year": "2013"},
             {"song": "MARIAH CAREY - All I Want For Christmas", "year": "1994"},
+			{"song": "N'SYNC - Love's In Our Hearts On Christmas Day", "year": "1999"},
             {"song": "PANIC! AT THE DISCO - White Christmas", "year": "2011"},
             {"song": "SPONGEBOB SQUAREPANTS - Very First Christmas", "year": "2000"},
             {"song": "TRAIN - Shake Up Christmas", "year": "2010"},
