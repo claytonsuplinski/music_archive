@@ -122,6 +122,12 @@
         ]
     },
     {
+        "artist": "Archie V",
+        "songs": [
+            {"song": "Magic is Timeless", "year": "2011"}
+        ]
+    },
+    {
         "artist": "Ariana Grande",
         "songs": [
             {"song": "Break Free", "year": "2014"},
@@ -2312,6 +2318,12 @@
         ]
     },
 	{
+		"artist": "Pixie Lott",
+		"songs": [
+			{"song": "Boys and Girls", "year": "2009"}
+		]
+	},
+	{
 		"artist": "Prince Fatty",
 		"songs": [
 			{"song": "Shimmy Shimmy Ya", "year": "2009"}
@@ -3279,6 +3291,7 @@
     {
         "playlist": "Christmas",
         "songs": [
+			{"song": "AFI - Love Like Winter", "year": "2006"},
             {"song": "ARIANA GRANDE - Santa Tell Me", "year": "2014"},
             {"song": "BRITNEY SPEARS - My Only Wish", "year": "2000"},
             {"song": "BRUCE SPRINGSTEEN - Santa Claus Is Coming To Town", "year": "1975"},
@@ -3296,6 +3309,7 @@
 			{"song": "N'SYNC - Love's In Our Hearts On Christmas Day", "year": "1999"},
             {"song": "PANIC! AT THE DISCO - White Christmas", "year": "2011"},
             {"song": "SPONGEBOB SQUAREPANTS - Very First Christmas", "year": "2000"},
+			{"song": "TAYLOR SWIFT - Back to December", "year": "2010"},
             {"song": "TRAIN - Shake Up Christmas", "year": "2010"},
             {"song": "TRANS-SIBERIAN ORCHESTRA - Carol of the Bells", "year": "1996"}
         ]

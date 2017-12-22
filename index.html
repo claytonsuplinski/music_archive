@@ -62,6 +62,11 @@ $.ajax({
 		SONG.ALL_SONGS = SONG.data.map(function(a){ return a.songs.map(function(b){
 			b.artist = a.artist;
 			b.playlist = a.playlist;
+			if(a.playlist){
+				var song_parts = b.song.split(' - ');
+				b.artist_only = song_parts[0];
+				b.song_only = song_parts[1];
+			}
 			return b;
 		}); });
 		
@@ -128,9 +133,9 @@ function all_songs(){
 	songs.sort(function(a,b){
 		switch(curr_sort_type){
 			case 'SONG':
-				return (SONG.SORT.songs.asc ? 1 : -1) * (a.song.toUpperCase() > b.song.toUpperCase() ? 1 : -1);
+				return (SONG.SORT.songs.asc ? 1 : -1) * ( (a.song_only || a.song).toUpperCase() > (b.song_only || b.song).toUpperCase() ? 1 : -1);
 			case 'ARTIST':          
-				return (SONG.SORT.songs.asc ? 1 : -1) * (a.artist.toUpperCase() > b.artist.toUpperCase() ? 1 : -1);
+				return (SONG.SORT.songs.asc ? 1 : -1) * ( (a.artist_only || a.artist).toUpperCase() > (b.artist_only || b.artist).toUpperCase() ? 1 : -1);
 			case 'YEAR':          
 				return (SONG.SORT.songs.asc ? 1 : -1) * (a.year > b.year ? 1 : -1);
 		}
