@@ -208,6 +208,12 @@
             {"song": "Lighters", "year": "2011"}
         ]
     },
+	{
+		"artist": "Bag Raiders",
+		"songs": [
+			{"song": "Shooting Stars", "year": "2009"}
+		]
+	},
     {
         "artist": "Baha Men",
         "songs": [
@@ -890,6 +896,12 @@
             {"song": "Without Me", "year": "2002"}
         ]
     },
+	{
+		"artist": "Empire Of The Sun",
+		"songs": [
+			{"song": "Walking On A Dream", "year": "2009"}
+		]
+	},
     {
         "artist": "Enrique Iglesias",
         "songs": [
@@ -1499,8 +1511,10 @@
         "songs": [
             {"song": "Behind These Hazel Eyes", "year": "2004"},
             {"song": "Breakaway", "year": "2004"},
+			{"song": "Catch My Breath", "year": "2012"},
             {"song": "Dark Side", "year": "2011"},
             {"song": "I Do Not Hook Up", "year": "2009"},
+			{"song": "Mr. Know It All", "year": "2011"},
             {"song": "My Life Would Suck Without You", "year": "2009"},
             {"song": "Since U Been Gone", "year": "2004"}
         ]
@@ -1713,6 +1727,12 @@
             {"song": "My Own Worst Enemy", "year": "1999"}
         ]
     },
+	{
+		"artist": "Little Boots",
+		"songs": [
+			{"song": "New In Town", "year": "2009"}
+		]
+	},
     {
         "artist": "Lloyd Banks",
         "songs": [
@@ -1840,7 +1860,8 @@
     {
         "artist": "Martin Garrix",
         "songs": [
-            {"song": "Animals", "year": "2013"}
+            {"song": "Animals", "year": "2013"},
+			{"song": "Scared to Be Lonely", "year": "2017"}
         ]
     },
     {
@@ -2922,6 +2943,12 @@
             {"song": "For the First Time", "year": "2010"}
         ]
     },
+	{
+		"artist": "The Submarines",
+		"songs": [
+			{"song": "Submarine Symphonika", "year": "2008"}
+		]
+	},
     {
         "artist": "The Ting Tings",
         "songs": [
