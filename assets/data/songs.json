@@ -236,6 +236,12 @@
         ]
     },
     {
+        "artist": "Bebe Rexha",
+        "songs": [
+            {"song": "Take Me Home", "year": "2016"}
+        ]
+    },
+    {
         "artist": "Benny Benassi",
         "songs": [
             {"song": "Cinema", "year": "2011"},
@@ -253,6 +259,12 @@
 			{"song": "Runnin' (Lose It All)", "year": "2015"},
             {"song": "Single Ladies", "year": "2009"},
             {"song": "Sweet Dreams", "year": "2009"}
+        ]
+    },
+    {
+        "artist": "Big and Rich",
+        "songs": [
+            {"song": "Save a Horse (Ride a Cowboy)", "year": "2004"}
         ]
     },
     {
@@ -445,12 +457,6 @@
             {"song": "Evacuate the Dancefloor", "year": "2009"},
             {"song": "Everytime We Touch", "year": "2007"},
             {"song": "What Hurts the Most", "year": "2007"}
-        ]
-    },
-    {
-        "artist": "Cash Cash",
-        "songs": [
-            {"song": "Take Me Home", "year": "2016"}
         ]
     },
     {
@@ -1074,7 +1080,8 @@
     {
         "artist": "Gavin DeGraw",
         "songs": [
-            {"song": "I Don't Want To Be", "year": "2003"}
+            {"song": "I Don't Want To Be", "year": "2003"},
+			{"song": "Not Over You", "year": "2011"}
         ]
     },
     {
