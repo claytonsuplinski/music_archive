@@ -110,6 +110,12 @@
         ]
     },
     {
+        "artist": "American Hi-Fi",
+        "songs": [
+            {"song": "Flavor of the Weak", "year": "2001"}
+        ]
+    },
+    {
         "artist": "Andrew W.K.",
         "songs": [
             {"song": "Party Hard", "year": "2001"}
@@ -131,6 +137,7 @@
         "artist": "Ariana Grande",
         "songs": [
             {"song": "Break Free", "year": "2014"},
+			{"song": "No Tears Left to Cry", "year": "2018"},
             {"song": "One Last Time", "year": "2014"},
             {"song": "Problem", "year": "2014"},
             {"song": "The Way", "year": "2013"}
@@ -697,6 +704,12 @@
         ]
     },
     {
+        "artist": "Demi Lovato",
+        "songs": [
+            {"song": "No Promises", "year": "2017"}
+        ]
+    },
+    {
         "artist": "Destiny's Child",
         "songs": [
             {"song": "Check On It", "year": "2006"},
@@ -757,6 +770,7 @@
             {"song": "Blame It on the Pop (2009)", "year": "2009"},
             {"song": "Like OMG, Baby (2010 Summer)", "year": "2010"},
             {"song": "Don't Stop the Pop (2010)", "year": "2010"},
+			{"song": "World Go Boom (2011)", "year": "2011"},
             {"song": "Fly", "year": "2012"},
             {"song": "Shine Brighter (2012)", "year": "2012"},
             {"song": "Summermash '13", "year": "2013"},
@@ -882,6 +896,12 @@
         "artist": "Elliott Yamin",
         "songs": [
             {"song": "Wait For You", "year": "2007"}
+        ]
+    },
+    {
+        "artist": "Elton John",
+        "songs": [
+            {"song": "Can You Feel the Love Tonight", "year": "1994"}
         ]
     },
     {
@@ -1258,6 +1278,12 @@
         ]
     },
     {
+        "artist": "Jamie Lynn Spears",
+        "songs": [
+            {"song": "Follow Me", "year": "2005"}
+        ]
+    },
+    {
         "artist": "Jason Derulo",
         "songs": [
             {"song": "In My Head", "year": "2010"},
@@ -1549,7 +1575,7 @@
         "artist": "Ke$ha",
         "songs": [
             {"song": "C U Next Tuesday", "year": "2010"},
-            {"song": "Come On", "year": "2012"},
+            {"song": "C'Mon", "year": "2012"},
             {"song": "Die Young", "year": "2012"},
             {"song": "Take It Off", "year": "2010"},
             {"song": "Tik Tok", "year": "2010"},
@@ -1687,6 +1713,12 @@
         "songs": [
             {"song": "Every Other Time", "year": "2001"},
             {"song": "Summer Girls", "year": "1999"}
+        ]
+    },
+    {
+        "artist": "Liam Payne",
+        "songs": [
+            {"song": "Strip That Down", "year": "2017"}
         ]
     },
     {
@@ -1839,6 +1871,12 @@
         ]
     },
     {
+        "artist": "Marky Mark and the Funky Bunch",
+        "songs": [
+            {"song": "Good Vibrations", "year": "1991"}
+        ]
+    },
+    {
         "artist": "Maroon 5",
         "songs": [
             {"song": "Daylight", "year": "2012"},
@@ -1854,6 +1892,7 @@
             {"song": "She Will Be Loved", "year": "2002"},
             {"song": "Sunday Morning", "year": "2002"},
             {"song": "This Love", "year": "2002"},
+			{"song": "Wait", "year": "2018"},
 			{"song": "What Lovers Do", "year": "2017"},
             {"song": "Won't Go Home Without You", "year": "2007"}
         ]
@@ -1861,7 +1900,8 @@
     {
         "artist": "Marshmello",
         "songs": [
-            {"song": "Alone", "year": "2017"}
+            {"song": "Alone", "year": "2017"},
+			{"song": "Friends", "year": "2018"}
         ]
     },
     {
@@ -1884,7 +1924,7 @@
         ]
     },
     {
-        "artist": "Matchbox Romance",
+        "artist": "Matchbook Romance",
         "songs": [
             {"song": "Monsters", "year": "2006"}
         ]
@@ -2463,6 +2503,7 @@
             {"song": "This Is What You Came For", "year": "2016"},
             {"song": "Umbrella", "year": "2007"},
             {"song": "Unfaithful", "year": "2006"},
+			{"song": "We Found Love", "year": "2011"},
             {"song": "What's My Name", "year": "2010"},
             {"song": "Where Have You Been", "year": "2011"},
             {"song": "Who's That Chick?", "year": "2011"},
@@ -2537,8 +2578,10 @@
         "songs": [
             {"song": "I Want You To Know", "year": "2015"},
             {"song": "It Ain't Me", "year": "2017"},
+			{"song": "Love You Like a Love Song", "year": "2011"},
             {"song": "Naturally", "year": "2009"},
-			{"song": "Same Old Love", "year": "2015"}
+			{"song": "Same Old Love", "year": "2015"},
+			{"song": "Wolves", "year": "2017"}
         ]
     },
     {
@@ -2688,6 +2731,12 @@
             {"song": "More to Life", "year": "2003"}
         ]
     },
+	{
+		"artist": "Stone Temple Pilots",
+		"songs": [
+			{"song": "Plush", "year": "1992"}
+		]
+	},
 	{
 		"artist": "Styx",
 		"songs": [
@@ -3221,7 +3270,8 @@
             {"song": "Summit, Inc", "year": "2012"},
             {"song": "The Pawprint", "year": "2015"},
             {"song": "Versus", "year": "2009"},
-            {"song": "Viva Alive", "year": "2013"}
+            {"song": "Viva Alive", "year": "2013"},
+			{"song": "We Found 2012", "year": "2012"}
         ]
     },
     {
@@ -3284,6 +3334,7 @@
         "songs": [
             {"song": "Clarity", "year": "2013"},
             {"song": "Find You", "year": "2014"},
+			{"song": "The Middle", "year": "2018"},
             {"song": "Spectrum", "year": "2012"}
         ]
     },
