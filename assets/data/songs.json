@@ -189,6 +189,7 @@
             {"song": "Complicated", "year": "2002"},
             {"song": "Girlfriend", "year": "2007"},
             {"song": "Here's to Never Growing Up", "year": "2013"},
+			{"song": "Keep Holding On", "year": "2006"},
             {"song": "What The Hell", "year": "2011"}
         ]
     },
@@ -427,6 +428,7 @@
         "songs": [
             {"song": "Bounce", "year": "2012"},
             {"song": "Feel So Close", "year": "2012"},
+			{"song": "One Kiss", "year": "2018"},
             {"song": "Summer", "year": "2014"}
         ]
     },
@@ -840,6 +842,7 @@
             {"song": "Headlines", "year": "2011"},
             {"song": "Hold On We're Going Home", "year": "2013"},
             {"song": "Hotline Bling", "year": "2015"},
+			{"song": "Nice For What", "year": "2018"},
             {"song": "One Dance", "year": "2016"},
             {"song": "Over", "year": "2010"},
             {"song": "Take Care", "year": "2011"},
@@ -1519,6 +1522,7 @@
             {"song": "Chained to the Rhythm", "year": "2017"},
             {"song": "Dark Horse", "year": "2014"},
             {"song": "E.T.", "year": "2011"},
+			{"song": "Feels", "year": "2017"},
             {"song": "Firework", "year": "2011"},
             {"song": "Hot n Cold", "year": "2009"},
             {"song": "Kissed a Girl", "year": "2008"},
@@ -2343,12 +2347,6 @@
 			{"song": "K.Y.S.A", "year": "2015"}
         ]
     },
-	{
-		"artist": "Pharrell Williams",
-		"songs": [
-			{"song": "Feels", "year": "2017"}
-		]
-	},
     {
         "artist": "Phil Collins",
         "songs": [
