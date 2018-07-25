@@ -2074,6 +2074,12 @@
         ]
     },
     {
+        "artist": "Mr. Hyunh",
+        "songs": [
+            {"song": "The Simple Things", "year": "1998"}
+        ]
+    },
+    {
         "artist": "Mr. Probz",
         "songs": [
             {"song": "Waves", "year": "2013"}
@@ -2143,6 +2149,12 @@
         "songs": [
             {"song": "Animal", "year": "2010"},
             {"song": "Everybody Talks", "year": "2012"}
+        ]
+    },
+	{
+        "artist": "N.E.R.D",
+        "songs": [
+            {"song": "Lemon", "year": "2017"}
         ]
     },
     {
