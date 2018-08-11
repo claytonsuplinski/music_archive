@@ -125,6 +125,11 @@ function html_song(song){
 		'<a class="info-link" href="'+google_link+'" target="_blank"><i class="fa fa-info-circle"></i></a> '+
 		(song.artist && !song.playlist ? song.artist.toUpperCase() + ' - ' : '') + song.song +
 		'<span class="year">(' + song.year + ')</span>' +
+		( song.stars ? 
+			'<span class="stars ' + ( song.stars >= 6 ? 'six' : '' ) + '">' + 
+				Array.apply( null, { length : song.stars } ).map( s => '<i class="fa fa-star"></i>' ).join('') + 
+			'</span>' 
+			: '' ) +
 		'<br>'+
 		'<a class="link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'+
 		'<a class="link" target="_blank" href="'+repeat_link+'"><i class="fa fa-refresh"></i></a>'+
