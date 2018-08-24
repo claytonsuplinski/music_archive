@@ -40,6 +40,8 @@
 </div>
 <div id="content">
 	<svg id="graph"></svg>
+	
+	<div id="table"></div>
 </div>
 </body>
 
@@ -51,7 +53,7 @@
 $.ajax({
 	url      : './assets/data/songs.json',
 	dataType : 'json',
-	success  : function(data){
+	success  : function(data){	
 		var id = '#graph';
 	
 		var container = $(id).parent();
@@ -113,6 +115,15 @@ $.ajax({
 		}
 		
 		years = years_final;
+		
+		$("#table").html('<table>'+
+			years.slice().sort( (a,b) => b.value - a.value ).map(function(year){
+				return '<tr>' + 
+					'<td>' + year.name + '</td>' +
+					'<td>' + year.value + '</td>' +
+				'</tr>';
+			}).join('')+
+		'</table>');
 		
 		console.log(years);
 

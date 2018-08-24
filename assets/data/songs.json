@@ -849,6 +849,12 @@
             {"song": "The Motto", "year": "2011", "stars" : 1}
         ]
     },
+	{
+		"artist" : "Drake Bell",
+		"songs"  : [
+			{ "song" : "I Found A Way", "year" : 2003, "stars" : 2 }
+		]
+	},
     {
         "artist": "Dr. Dre",
         "songs": [
