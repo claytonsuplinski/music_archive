@@ -153,6 +153,10 @@ tr.even td{
 	filter:hue-rotate(90deg) invert(100%);
 }
 
+.button-1{
+	width:95vw;
+}
+
 .button-2{
 	width:41.5vw;
 }

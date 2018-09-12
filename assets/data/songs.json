@@ -2,7 +2,7 @@
     {
         "artist": "AC/DC",
         "songs": [
-            {"song": "Thunderstruck", "year": "1990", "stars" : 4}
+            {"song": "Thunderstruck", "year": "1990", "stars" : 2}
         ]
     },
     {
@@ -35,28 +35,28 @@
     {
         "artist": "Afrojack",
         "songs": [
-            {"song": "Take Over Control", "year": "2011", "stars" : 4},
+            {"song": "Take Over Control", "year": "2011", "stars" : 3},
             {"song": "Ten Feet Tall", "year": "2014", "stars" : 2}
         ]
     },
     {
         "artist": "Agnes",
         "songs": [
-            {"song": "Release Me", "year": "2009", "stars" : 3}
+            {"song": "Release Me", "year": "2009", "stars" : 2}
         ]
     },
     {
         "artist": "Akon",
         "songs": [
-            {"song": "Angel", "year": "2010", "stars" : 4},
-            {"song": "Bananza (Belly Dancer)", "year": "2004", "stars" : 3},
+            {"song": "Angel", "year": "2010", "stars" : 3},
+            {"song": "Bananza (Belly Dancer)", "year": "2004", "stars" : 1},
             {"song": "Beautiful", "year": "2009", "stars" : 4},
-            {"song": "Don't Matter", "year": "2006", "stars" : 2},
+            {"song": "Don't Matter", "year": "2006", "stars" : 1},
             {"song": "Hypnotized", "year": "2007", "stars" : 3},
-            {"song": "I Wanna Love You", "year": "2006", "stars" : 3},
-            {"song": "Right Now (Na Na Na)", "year": "2008", "stars" : 2},
+            {"song": "I Wanna Love You", "year": "2006", "stars" : 2},
+            {"song": "Right Now (Na Na Na)", "year": "2008", "stars" : 1},
             {"song": "Sexy Bitch", "year": "2009", "stars" : 5},
-            {"song": "Smack That", "year": "2006", "stars" : 3},
+            {"song": "Smack That", "year": "2006", "stars" : 2},
 			{"song": "Til The Sun Rise Up", "year": "2017", "stars" : 1}
         ]
     },
@@ -69,19 +69,19 @@
     {
         "artist": "Alessia Cara",
         "songs": [
-            {"song": "Stay", "year": "2017", "stars" : 3}
+            {"song": "Stay", "year": "2017", "stars" : 2}
         ]
     },
 	{
         "artist": "Alice Deejay",
         "songs": [
-            {"song": "Better Off Alone", "year": "2000", "stars" : 4}
+            {"song": "Better Off Alone", "year": "2000", "stars" : 2}
         ]
     },
     {
         "artist": "Alicia Keys",
         "songs": [
-            {"song": "No One", "year": "2007", "stars" : 3},
+            {"song": "No One", "year": "2007", "stars" : 2},
             {"song": "Try Sleeping with a Broken Heart", "year": "2009", "stars" : 1}
         ]
     },
@@ -98,7 +98,7 @@
             {"song": "Dirty Little Secret", "year": "2005", "stars" : 5},
             {"song": "Gives You Hell", "year": "2009", "stars" : 5},
             {"song": "It Ends Tonight", "year": "2005", "stars" : 3},
-            {"song": "Move Along", "year": "2005", "stars" : 4},
+            {"song": "Move Along", "year": "2005", "stars" : 3},
             {"song": "Swing, Swing", "year": "2003", "stars" : 3}
         ]
     },
@@ -112,7 +112,7 @@
     {
         "artist": "American Hi-Fi",
         "songs": [
-            {"song": "Flavor of the Weak", "year": "2001", "stars" : 3}
+            {"song": "Flavor of the Weak", "year": "2001", "stars" : 1}
         ]
     },
     {
@@ -124,7 +124,7 @@
     {
         "artist": "Aqua",
         "songs": [
-            {"song": "Barbie Girl", "year": "1997", "stars" : 3}
+            {"song": "Barbie Girl", "year": "1997", "stars" : 2}
         ]
     },
     {
@@ -146,13 +146,13 @@
     {
         "artist": "Ashlee Simpson",
         "songs": [
-            {"song": "Pieces of Me", "year": "2004", "stars" : 3}
+            {"song": "Pieces of Me", "year": "2004", "stars" : 2}
         ]
     },
     {
         "artist": "ATC",
         "songs": [
-            {"song": "All Around The World", "year": "2001", "stars" : 2}
+            {"song": "All Around The World", "year": "2001", "stars" : 1}
         ]
     },
     {
@@ -179,15 +179,15 @@
         "artist": "Avicii",
         "songs": [
             {"song": "I Could Be The One", "year": "2013", "stars" : 2},
-            {"song": "Levels", "year": "2011", "stars" : 5},
+            {"song": "Levels", "year": "2011", "stars" : 4},
             {"song": "Levels (Original Mix)", "year": "2011", "stars" : 3}
         ]
     },
     {
         "artist": "Avril Lavigne",
         "songs": [
-            {"song": "Complicated", "year": "2002", "stars" : 2},
-            {"song": "Girlfriend", "year": "2007", "stars" : 3},
+            {"song": "Complicated", "year": "2002", "stars" : 1},
+            {"song": "Girlfriend", "year": "2007", "stars" : 2},
             {"song": "Here's to Never Growing Up", "year": "2013", "stars" : 2},
 			{"song": "Keep Holding On", "year": "2006", "stars" : 1},
             {"song": "What The Hell", "year": "2011", "stars" : 2}
@@ -196,18 +196,18 @@
     {
         "artist": "Awolnation",
         "songs": [
-            {"song": "I Am", "year": "2015", "stars" : 2}
+            {"song": "I Am", "year": "2015", "stars" : 1}
         ]
     },
     {
         "artist": "Backstreet Boys",
         "songs": [
-            {"song": "As Long As You Love Me", "year": "1997", "stars" : 2},
-            {"song": "DJ Earworm Mashup", "year": "2017", "stars" : 3},
+            {"song": "As Long As You Love Me", "year": "1997", "stars" : 1},
+            {"song": "DJ Earworm Mashup", "year": "2017"},
 			{"song": "Drowning", "year": "2001", "stars" : 1},
             {"song": "Everybody (Backstreet's Back)", "year": "1997", "stars" : 4},
             {"song": "I Want It That Way", "year": "1999", "stars" : 5},
-            {"song": "Shape Of My Heart", "year": "2000", "stars" : 3}
+            {"song": "Shape Of My Heart", "year": "2000", "stars" : 2}
         ]
     },
     {
@@ -226,7 +226,7 @@
         "artist": "Baha Men",
         "songs": [
             {"song": "Hakuna Matata", "year": "2002", "stars" : 1},
-            {"song": "Who Let The Dogs Out", "year": "2000", "stars" : 3}
+            {"song": "Who Let The Dogs Out", "year": "2000", "stars" : 2}
         ]
     },
     {
@@ -240,7 +240,7 @@
         "songs": [
             {"song": "Ch-Check It Out", "year": "2004", "stars" : 3},
             {"song": "Fight For Your Right", "year": "1986", "stars" : 4},
-            {"song": "No Sleep Till Brooklyn", "year": "1986", "stars" : 2}
+            {"song": "No Sleep Till Brooklyn", "year": "1986", "stars" : 1}
         ]
     },
     {
@@ -252,7 +252,7 @@
     {
         "artist": "Benny Benassi",
         "songs": [
-            {"song": "Cinema", "year": "2011", "stars" : 3},
+            {"song": "Cinema", "year": "2011", "stars" : 2},
             {"song": "House Music", "year": "2011", "stars" : 3}
         ]
     },
@@ -262,8 +262,8 @@
             {"song": "Countdown", "year": "2011", "stars" : 4},
             {"song": "Crazy in Love", "year": "2003", "stars" : 5},
             {"song": "Deja Vu", "year": "2007", "stars" : 1},
-            {"song": "Halo", "year": "2009", "stars" : 2},
-            {"song": "Irreplaceable", "year": "2007", "stars" : 2},
+            {"song": "Halo", "year": "2009", "stars" : 1},
+            {"song": "Irreplaceable", "year": "2007", "stars" : 1},
 			{"song": "Runnin' (Lose It All)", "year": "2015", "stars" : 2},
             {"song": "Single Ladies", "year": "2009", "stars" : 4},
             {"song": "Sweet Dreams", "year": "2009", "stars" : 3}
@@ -272,7 +272,7 @@
     {
         "artist": "Big and Rich",
         "songs": [
-            {"song": "Save a Horse (Ride a Cowboy)", "year": "2004", "stars" : 4}
+            {"song": "Save a Horse (Ride a Cowboy)", "year": "2004", "stars" : 3}
         ]
     },
     {
@@ -354,6 +354,12 @@
             {"song": "Make a Memory", "year": "2007", "stars" : 2},
             {"song": "Who Says You Can't Go Home", "year": "2005", "stars" : 1},
             {"song": "You Give Love a Bad Name", "year": "1986", "stars" : 1}
+        ]
+    },
+	{
+        "artist": "Boney M.",
+        "songs": [
+            {"song": "Sunny", "year": "1976", "stars" : 1}
         ]
     },
     {
@@ -1808,6 +1814,12 @@
             {"song": "Mambo No. 5", "year": "1999", "stars" : 3}
         ]
     },
+	{
+        "artist": "Lovelytheband",
+        "songs": [
+            {"song": "Broken", "year": "2018", "stars" : 1}
+        ]
+    },
     {
         "artist": "Ludacris",
         "songs": [
@@ -2244,13 +2256,14 @@
         ]
     },
     {
-        "artist": "N'Sync",
+        "artist": "NSYNC",
         "songs": [
             {"song": "Bye Bye Bye", "year": "2000", "stars" : 5},
             {"song": "Girlfriend", "year": "2001", "stars" : 1},
             {"song": "It's Gonna Be Me", "year": "2000", "stars" : 1},
             {"song": "Pop", "year": "2001", "stars" : 3},
-            {"song": "Space Cowboy", "year": "2000", "stars" : 2}
+            {"song": "Space Cowboy", "year": "2000", "stars" : 2},
+			{"song": "Tearin' up My Heart", "year": "1997", "stars" : 2}
         ]
     },
     {

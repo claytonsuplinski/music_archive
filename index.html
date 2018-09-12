@@ -34,6 +34,12 @@ SONG.SORT = {
 	years   : {asc: false, curr: 0, options: ['# SONGS', 'YEAR']}
 };
 
+var LIMIT = {
+	artists : 20,
+	songs   : 50,
+	years   : 20
+};
+
 $.ajax({
 	url: './assets/data/songs.json',
 	dataType: 'json',
@@ -91,15 +97,17 @@ $.ajax({
 			return a.songs.length < b.songs.length;
 		});
 		
-		var artists_button = '<div class="button button-half-sm float-right" onclick="all_artists();">'+
+		var artists_button = '<div class="button button-half-sm float-right" onclick="all_artists(' + LIMIT.artists + ');">'+
 			data.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + ' artists' +
 		'</div>';
-		var songs_button = '<div class="button button-half-sm float-right" onclick="all_songs();">'+
+		var songs_button = '<div class="button button-half-sm float-right" onclick="all_songs(' + LIMIT.songs + ');">'+
 			data.map(function(a){
 				return a.songs.length;
 			}).reduce(function(a,b){return a+b;	}).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " songs" +
 		'</div>';
-		var years_button = '<div class="button button-half-sm float-right" onclick="all_years();">'+SONG.ALL_YEARS.length+' years</div>';
+		var years_button = '<div class="button button-half-sm float-right" onclick="all_years(' + LIMIT.years + ');">' + 
+			SONG.ALL_YEARS.length + 
+		' years</div>';
 	
 		$(".header .hidden-sm").html(
 			'<div class="button" onclick="random_artist();">RANDOM ARTIST</div>'+
@@ -112,7 +120,7 @@ $.ajax({
 			songs_button   + '<div class="button button-half-sm" onclick="random_songs(5);">5 SONGS</div>' + 
 			years_button   + '<div class="button button-half-sm" onclick="random_year();">YEAR</div>'      
 		);
-		all_artists();
+		all_artists( LIMIT.artists );
 	}
 });
 
@@ -136,7 +144,7 @@ function html_song(song){
 	'</div>';
 };
 
-function all_songs(){
+function all_songs( limit ){
 	var songs = SONG.ALL_SONGS.slice();
 	var curr_sort_type  = SONG.SORT.songs.options[SONG.SORT.songs.curr];
 	songs.sort(function(a,b){
@@ -149,6 +157,9 @@ function all_songs(){
 				return (SONG.SORT.songs.asc ? 1 : -1) * (a.year > b.year ? 1 : -1);
 		}
 	});
+	
+	if( limit ) songs = songs.slice( 0, limit );
+	
 	var toggle_sort_order = 'SONG.SORT.songs.asc = !SONG.SORT.songs.asc;';
 	var toggle_sort_type  = 'SONG.SORT.songs.curr++;'+
 		'SONG.SORT.songs.curr %= SONG.SORT.songs.options.length;';
@@ -161,11 +172,12 @@ function all_songs(){
 				'<i class="fa fa-sort-amount-asc"></i> '+curr_sort_type+
 			'</div>'+
 		'</div>'+
-		songs.map(function(a){ return html_song(a); }).join('')
+		songs.map(function(a){ return html_song(a); }).join('') +
+		( limit ? '<div class="button button-1" onclick="all_songs();">ALL SONGS</div>' : '' )
 	);
 };
 
-function all_artists(){
+function all_artists( limit ){
 	var artists = SONG.data.slice();
 	var curr_sort_type  = SONG.SORT.artists.options[SONG.SORT.artists.curr];
 	artists.sort(function(a,b){
@@ -179,6 +191,9 @@ function all_artists(){
 				return (SONG.SORT.artists.asc ? 1 : -1) * (a.artist.toUpperCase() > b.artist.toUpperCase() ? 1 : -1);
 		}
 	});
+	
+	if( limit ) artists = artists.slice( 0, limit );
+	
 	var toggle_sort_order = 'SONG.SORT.artists.asc = !SONG.SORT.artists.asc;';
 	var toggle_sort_type  = 'SONG.SORT.artists.curr++;'+
 		'SONG.SORT.artists.curr %= SONG.SORT.artists.options.length;';
@@ -208,11 +223,12 @@ function all_artists(){
 					'</table>'+
 				'</div>'+
 			'</div>';
-		}).join('')
+		}).join('') +
+		( limit ? '<div class="button button-1" onclick="all_artists();">ALL ARTISTS</div>' : '' )
 	);
 };
 
-function all_years(){
+function all_years( limit ){
 	var years = SONG.ALL_YEARS.slice();
 	var curr_sort_type  = SONG.SORT.years.options[SONG.SORT.years.curr];
 	years.sort(function(a,b){
@@ -223,6 +239,9 @@ function all_years(){
 				return (SONG.SORT.years.asc ? 1 : -1) * (a.year > b.year ? 1 : -1);
 		}
 	});
+	
+	if( limit ) years = years.slice( 0, limit );
+	
 	var toggle_sort_order = 'SONG.SORT.years.asc = !SONG.SORT.years.asc;';
 	var toggle_sort_type  = 'SONG.SORT.years.curr++;'+
 		'SONG.SORT.years.curr %= SONG.SORT.years.options.length;';
@@ -252,7 +271,8 @@ function all_years(){
 					'</table>'+
 				'</div>'+
 			'</div>';
-		}).join('')
+		}).join('') +
+		( limit ? '<div class="button button-1" onclick="all_years();">ALL YEARS</div>' : '' )
 	);
 };
 
