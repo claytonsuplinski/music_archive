@@ -45,14 +45,23 @@ $.ajax({
 	dataType: 'json',
 	success: function(data){
 		var now = new Date();
-		var friday_condition = (now.getDay() == 5);
-		var halloween_condition = (now.getMonth() == 9);
-		var christmas_condition = (now.getMonth() > 9);
+		
+		var doy = now.getDay();
+		var mth = now.getMonth();
+		
+		var friday_condition    = ( doy ==  5 );
+		var halloween_condition = ( mth ==  9 );
+		var christmas_condition = ( mth >= 10 );
+		var nfl_condition       = ( [0,1,4].indexOf( doy ) != -1 && [7,8,9,10,11,0,1].indexOf( mth ) != -1 );
+		var ncaaf_condition     = ( [5,6].indexOf( doy ) != -1 && [7,8,9,10,11,0].indexOf( mth ) != -1 );
+		
 		data = data.filter(function(a){
 			return a.artist ||
 				(a.playlist == "Friday" && friday_condition) ||
 				(a.playlist == "Christmas" && christmas_condition) ||
-				(a.playlist == "Halloween" && halloween_condition); 
+				(a.playlist == "Halloween" && halloween_condition) ||
+				( ['Badgers'].indexOf( a.playlist ) != -1 && ncaaf_condition ) || 
+				( ['Steelers', 'Packers'].indexOf( a.playlist ) != -1 && nfl_condition ); 
 		});
 		
 		data.forEach(function(a){

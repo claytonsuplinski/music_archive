@@ -255,6 +255,33 @@ tr.even td{
 	color:#DF66EC;
 }
 
+.song.Badgers{
+	border-color:#a53030;
+	background:#4d0d0d;
+	color:#BABABA;
+}
+
+.song.Badgers .link{
+	color:#B4B4B4;
+}
+
+.song.Packers{
+	border-color:#002400;
+	background:#1f3f1f;
+	color:#C2C274;
+}
+
+.song.Steelers{
+	border-color:#000;
+	background:#1e1e1e;
+	color:#C2C274;
+}
+
+.song.Packers .link,
+.song.Steelers .link{
+	color:#BFBF40;
+}
+
 @media (max-width: 700px){
 	.artist{
 		margin:12px 6px;

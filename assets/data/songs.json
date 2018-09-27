@@ -2346,6 +2346,7 @@
     {
         "artist": "Panic! At the Disco",
         "songs": [
+			{"song": "High Hopes", "year": "2018", "stars" : 1},
             {"song": "I Write Sins Not Tragedies", "year": "2005", "stars" : 2},
             {"song": "New Perspective", "year": "2009", "stars" : 3},
             {"song": "Nine in the Afternoon", "year": "2008", "stars" : 1}
@@ -3449,6 +3450,38 @@
             {"song": "FIFTH HARMONY - Work From Home", "year": "2016"},
             {"song": "ED SHEERAN - Thinking Out Loud", "year": "2015"},
             {"song": "WHITNEY HOUSTON - I Wanna Dance With Somebody", "year": "1987"}
+        ]
+    },
+	{
+        "playlist": "Badgers",
+        "songs": [
+			{"song": "BACKSTREET BOYS - I Want It That Way", "year": "1999"},
+			{"song": "HOUSE OF PAIN - Jump Around", "year": "1992"},
+			{"song": "NEIL DIAMOND - Sweet Caroline", "year": "1969"},
+			{"song": "THE FOUNDATIONS - Build Me Up Buttercup", "year": "1968"}
+        ]
+    },
+	{
+        "playlist": "Packers",
+        "songs": [
+            {"song": "B.O.B. - Airplanes", "year": "2010"},
+			{"song": "BLACK EYED PEAS - I Gotta Feeling", "year": "2009"},
+			{"song": "TODD RUNDGREN - Bang The Drum All Day", "year": "1983"},
+			{"song": "2 UNLIMITED - Get Ready For This", "year": "1991"}
+        ]
+    },
+	{
+        "playlist": "Steelers",
+        "songs": [
+			{"song": "B.O.B. - Airplanes", "year": "2010"},
+			{"song": "BRUCE SPRINGSTEEN - Born to Run", "year": "1975"},
+			{"song": "BRUCE SPRINGSTEEN - Tenth Avenue Freeze-out", "year": "1975"},
+			{"song": "BRUCE SPRINGSTEEN - Working on a Dream", "year": "2009"},
+			{"song": "STYX - Renegade", "year": "1978"},
+			{"song": "THE KILLERS - All These Things That I've Done", "year": "2004"},
+			{"song": "THE ROLLING STONES - Start Me Up", "year": "1981"},
+			{"song": "WIZ KHALIFA - Black and Yellow", "year": "2011"},
+            {"song": "WIZ KHALIFA - Black and Yellow (G-mix)", "year": "2011"}
         ]
     },
 	{
