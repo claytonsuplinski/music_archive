@@ -3464,8 +3464,8 @@
 	{
         "playlist": "Packers",
         "songs": [
-            {"song": "B.O.B. - Airplanes", "year": "2010"},
 			{"song": "BLACK EYED PEAS - I Gotta Feeling", "year": "2009"},
+            {"song": "B.O.B. - Airplanes", "year": "2010"},
 			{"song": "TODD RUNDGREN - Bang The Drum All Day", "year": "1983"},
 			{"song": "2 UNLIMITED - Get Ready For This", "year": "1991"}
         ]
@@ -3473,6 +3473,7 @@
 	{
         "playlist": "Steelers",
         "songs": [
+			{"song": "BLACK EYED PEAS - Boom Boom Pow", "year": "2009"},
 			{"song": "B.O.B. - Airplanes", "year": "2010"},
 			{"song": "BRUCE SPRINGSTEEN - Born to Run", "year": "1975"},
 			{"song": "BRUCE SPRINGSTEEN - Tenth Avenue Freeze-out", "year": "1975"},
