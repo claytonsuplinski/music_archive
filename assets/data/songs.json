@@ -980,6 +980,12 @@
             {"song": "The Final Countdown", "year": "1986", "stars" : 1}
         ]
     },
+	{
+        "artist": "Evan and Jaron",
+        "songs": [
+            {"song": "Crazy for This Girl", "year": "2000", "stars" : 1}
+        ]
+    },
     {
         "artist": "Everclear",
         "songs": [
@@ -1749,7 +1755,8 @@
     {
         "artist": "Lil Jon",
         "songs": [
-            {"song": "Get Low", "year": "2003", "stars" : 4}
+            {"song": "Get Low", "year": "2003", "stars" : 4},
+			{"song": "Let's Go", "year": "2004", "stars" : 1}
         ]
     },
     {
@@ -2333,7 +2340,7 @@
             {"song": "Fireflies", "year": "2009", "stars" : 5},
             {"song": "Good Time", "year": "2012", "stars" : 4},
             {"song": "Vanilla Twilight", "year": "2010", "stars" : 1},
-            {"song": "When Will I See You Again", "year": "2012", "stars" : 2}
+            {"song": "When Can I See You Again", "year": "2012", "stars" : 2}
         ]
     },
     {
@@ -2580,6 +2587,12 @@
         "songs": [
             {"song": "La La La", "year": "2014", "stars" : 1},
             {"song": "Latch", "year": "2014", "stars" : 1}
+        ]
+    },
+	{
+        "artist": "Savage",
+        "songs": [
+            {"song": "Swing", "year": "2005", "stars" : 1}
         ]
     },
     {
@@ -3442,16 +3455,6 @@
 			{"song": "THE WEEKND - Can't Feel My Face", "year": "2015"}
         ]
     },
-    {
-        "playlist": "Sunday",
-        "songs": [
-            {"song": "R KELLY - Ignition", "year": "2003"},
-            {"song": "BEYONCE - Crazy In Love", "year": "2003"},
-            {"song": "FIFTH HARMONY - Work From Home", "year": "2016"},
-            {"song": "ED SHEERAN - Thinking Out Loud", "year": "2015"},
-            {"song": "WHITNEY HOUSTON - I Wanna Dance With Somebody", "year": "1987"}
-        ]
-    },
 	{
         "playlist": "Badgers",
         "songs": [
@@ -3491,10 +3494,19 @@
 			{"song": "BOBBY PICKETT - Monster Mash", "year": "1962"},
 			{"song": "GILLAN/GLOVER - The Purple People Eater", "year": "1988"},
 			{"song": "DANNY ELFMAN - This Is Halloween", "year": "1993"},
+			{"song": "DEADMAU5 - Ghosts N Stuff", "year": "2011"},
+			{"song": "EMINEM - The Monster", "year": "2013"},
+			{"song": "KANYE WEST - Monster", "year": "2010"},
 			{"song": "MICHAEL JACKSON - Thriller", "year": "1982"},
 			{"song": "PANIC! AT THE DISCO - This Is Halloween", "year": "2006"},
 			{"song": "RAY PARKER JR. - Ghostbusters Theme Song", "year": "1984"},
-			{"song": "THE NIGHTMARE BEFORE CHRISTMAS - Overture", "year": "1993"}
+			{"song": "RIHANNA - Disturbia", "year": "2008"},
+			{"song": "SHAKIRA - She Wolf", "year": "2009"},
+			{"song": "SKRILLEX - Scary Monsters and Nice Sprites", "year": "2011"},
+			{"song": "THE CRANBERRIES - Zombie", "year": "1994"},
+			{"song": "THE LONELY ISLAND - The Creep", "year": "2011"},
+			{"song": "THE NIGHTMARE BEFORE CHRISTMAS - Overture", "year": "1993"},
+			{"song": "YEAH YEAH YEAHS - Heads Will Roll", "year": "2009"}
 		]
 	}
 ]
