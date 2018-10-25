@@ -539,10 +539,12 @@
         "artist": "Chris Brown",
         "songs": [
             {"song": "Beautiful People", "year": "2011", "stars" : 1},
+			{"song": "Don't Wake Me Up", "year": "2012", "stars" : 1},
             {"song": "Forever", "year": "2008", "stars" : 4},
             {"song": "Kiss Kiss", "year": "2008", "stars" : 2},
             {"song": "Look At Me Now", "year": "2011", "stars" : 2},
             {"song": "Loyal", "year": "2014", "stars" : 1},
+			{"song": "Next To You", "year": "2011", "stars" : 1},
             {"song": "Run It!", "year": "2005", "stars" : 3},
             {"song": "She Ain't You", "year": "2011", "stars" : 1},
             {"song": "With You", "year": "2008", "stars" : 3},
@@ -1056,7 +1058,7 @@
     {
         "artist": "Florida Georgia Line",
         "songs": [
-            {"song": "Cruise", "year": "2013", "stars" : 4},
+            {"song": "Cruise", "year": "2013", "stars" : 3},
             {"song": "This Is How We Roll", "year": "2014", "stars" : 1}
         ]
     },
@@ -1326,7 +1328,7 @@
         "songs": [
             {"song": "Down", "year": "2009", "stars" : 6},
 			{"song": "Do You Love Me", "year": "2017", "stars" : 1},
-            {"song": "Do You Remember", "year": "2009", "stars" : 4},
+            {"song": "Do You Remember", "year": "2009", "stars" : 5},
             {"song": "2012", "year": "2010", "stars" : 4}
         ]
     },
@@ -1486,7 +1488,7 @@
             {"song": "Cold Water", "year": "2016", "stars" : 1},
             {"song": "I'm the One", "year": "2017", "stars" : 1},
             {"song": "Let Me Love You", "year": "2016", "stars" : 2},
-            {"song": "Sorry", "year": "2015", "stars" : 2},
+            {"song": "Sorry", "year": "2015", "stars" : 3},
             {"song": "Where Are U Now", "year": "2015", "stars" : 2}
         ]
     },
@@ -1537,7 +1539,7 @@
         "songs": [
             {"song": "Birthday", "year": "2014", "stars" : 1},
 			{"song": "California Gurls", "year": "2010", "stars" : 4},
-            {"song": "Chained to the Rhythm", "year": "2017", "stars" : 1},
+            {"song": "Chained to the Rhythm", "year": "2017", "stars" : 2},
             {"song": "Dark Horse", "year": "2014", "stars" : 1},
             {"song": "E.T.", "year": "2011", "stars" : 1},
 			{"song": "Feels", "year": "2017", "stars" : 1},
@@ -1910,6 +1912,7 @@
         "artist": "Maroon 5",
         "songs": [
             {"song": "Daylight", "year": "2012", "stars" : 1},
+			{"song": "Girls Like You (without Cardi B)", "year": "2018", "stars" : 2},
             {"song": "Harder To Breathe", "year": "2002", "stars" : 2},
             {"song": "Love Somebody", "year": "2013", "stars" : 1},
             {"song": "Makes Me Wonder", "year": "2007", "stars" : 1},
@@ -2201,7 +2204,8 @@
         "songs": [
             {"song": "Bust It Baby", "year": "2008", "stars" : 2},
             {"song": "Closer", "year": "2008", "stars" : 1},
-            {"song": "Mad", "year": "2009", "stars" : 3},
+			{"song": "Mad", "year": "2009", "stars" : 3},
+            {"song": "Miss Independent", "year": "2008", "stars" : 1},
             {"song": "Play Hard", "year": "2011", "stars" : 1}
         ]
     },
@@ -2355,7 +2359,7 @@
         "songs": [
 			{"song": "High Hopes", "year": "2018", "stars" : 1},
             {"song": "I Write Sins Not Tragedies", "year": "2005", "stars" : 2},
-            {"song": "New Perspective", "year": "2009", "stars" : 3},
+            {"song": "New Perspective", "year": "2009", "stars" : 4},
             {"song": "Nine in the Afternoon", "year": "2008", "stars" : 1}
         ]
     },
@@ -2389,7 +2393,7 @@
     {
         "artist": "Phil Collins",
         "songs": [
-            {"song": "You'll Be In My Heart", "year": "1999", "stars" : 1}
+            {"song": "You'll Be In My Heart", "year": "1999", "stars" : 2}
         ]
     },
     {
@@ -2586,7 +2590,7 @@
         "artist": "Sam Smith",
         "songs": [
             {"song": "La La La", "year": "2014", "stars" : 1},
-            {"song": "Latch", "year": "2014", "stars" : 1}
+            {"song": "Latch", "year": "2014", "stars" : 2}
         ]
     },
 	{
@@ -2598,7 +2602,7 @@
     {
         "artist": "Sean Kingston",
         "songs": [
-            {"song": "Eenie Meenie", "year": "2010", "stars" : 2},
+            {"song": "Eenie Meenie", "year": "2010", "stars" : 3},
             {"song": "Fire Burning", "year": "2009", "stars" : 1},
             {"song": "Love Like This", "year": "2008", "stars" : 2}
         ]
@@ -2647,7 +2651,7 @@
         "songs": [
             {"song": "Hips Don't Lie", "year": "2005", "stars" : 4},
             {"song": "Rabiosa", "year": "2010", "stars" : 3},
-            {"song": "She Wolf", "year": "2009", "stars" : 2},
+            {"song": "She Wolf", "year": "2009", "stars" : 3},
 			{"song": "Waka Waka", "year": "2010", "stars" : 2},
             {"song": "Whenever, Wherever", "year": "2001", "stars" : 3}
         ]
@@ -2725,10 +2729,10 @@
     {
         "artist": "Skrillex",
         "songs": [
-            {"song": "Bangarang", "year": "2011", "stars" : 1},
+            {"song": "Bangarang", "year": "2011", "stars" : 2},
             {"song": "First of the Year", "year": "2011", "stars" : 1},
             {"song": "Scary Monsters and Nice Sprites", "year": "2011", "stars" : 3},
-            {"song": "Summit", "year": "2011", "stars" : 2}
+            {"song": "Summit", "year": "2011", "stars" : 3}
         ]
     },
     {
@@ -2753,8 +2757,8 @@
     {
         "artist": "Soulja Boy",
         "songs": [
-            {"song": "Crank That", "year": "2007", "stars" : 1},
-            {"song": "Kiss Me Thru The Phone", "year": "2009", "stars" : 2}
+            {"song": "Crank That", "year": "2007", "stars" : 2},
+            {"song": "Kiss Me Thru The Phone", "year": "2009", "stars" : 3}
         ]
     },
     {
@@ -2784,7 +2788,7 @@
 	{
 		"artist": "Styx",
 		"songs": [
-			{"song": "Renegade", "year": "1978", "stars" : 1}
+			{"song": "Renegade", "year": "1978", "stars" : 3}
 		]
 	},
     {
@@ -2802,7 +2806,7 @@
     {
         "artist": "Sugar Hill Gang",
         "songs": [
-            {"song": "Apache (Jump On It)", "year": "1998", "stars" : 2}
+            {"song": "Apache (Jump On It)", "year": "1998", "stars" : 3}
         ]
     },
     {
@@ -2822,11 +2826,11 @@
     {
         "artist": "Super Smash Bros Brawl",
         "songs": [
-            {"song": "Bramble Blast", "year": "2008", "stars" : 2},
-            {"song": "Dragon Roost Island", "year": "2008", "stars" : 1},
+            {"song": "Bramble Blast", "year": "2008", "stars" : 4},
+            {"song": "Dragon Roost Island", "year": "2008", "stars" : 2},
             {"song": "Mute City", "year": "2008", "stars" : 1},
             {"song": "Pokemon Center", "year": "2008", "stars" : 2},
-            {"song": "Princess Peach's Castle", "year": "2008", "stars" : 3},
+            {"song": "Princess Peach's Castle", "year": "2008", "stars" : 4},
             {"song": "Road to Viridian City", "year": "2008", "stars" : 2},
             {"song": "Route 209", "year": "2008", "stars" : 3},
             {"song": "The Great Sea", "year": "2008", "stars" : 2}
@@ -3491,11 +3495,13 @@
 	{
 		"playlist": "Halloween",
 		"songs": [
+			{"song": "AARON CARTER - I Want Candy", "year": "2000"},
 			{"song": "BOBBY PICKETT - Monster Mash", "year": "1962"},
 			{"song": "GILLAN/GLOVER - The Purple People Eater", "year": "1988"},
 			{"song": "DANNY ELFMAN - This Is Halloween", "year": "1993"},
 			{"song": "DEADMAU5 - Ghosts N Stuff", "year": "2011"},
 			{"song": "EMINEM - The Monster", "year": "2013"},
+			{"song": "GOOFY - Monster Mash", "year": "2000"},
 			{"song": "KANYE WEST - Monster", "year": "2010"},
 			{"song": "MICHAEL JACKSON - Thriller", "year": "1982"},
 			{"song": "PANIC! AT THE DISCO - This Is Halloween", "year": "2006"},
@@ -3506,6 +3512,7 @@
 			{"song": "THE CRANBERRIES - Zombie", "year": "1994"},
 			{"song": "THE LONELY ISLAND - The Creep", "year": "2011"},
 			{"song": "THE NIGHTMARE BEFORE CHRISTMAS - Overture", "year": "1993"},
+			{"song": "THE TWILIGHT ZONE TOWER OF TERROR - The Twilight Zone Tower of Terror Theme", "year": "1994"},
 			{"song": "YEAH YEAH YEAHS - Heads Will Roll", "year": "2009"}
 		]
 	}
