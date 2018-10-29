@@ -697,7 +697,7 @@
         "artist": "Deadmau5",
         "songs": [
             {"song": "Aural Psynapse", "year": "2011", "stars" : 3},
-            {"song": "Ghost n Stuff (Moar)", "year": "2011", "stars" : 3},
+            {"song": "Ghosts n Stuff (Moar)", "year": "2011", "stars" : 3},
             {"song": "Hiatus Fantasy", "year": "2011", "stars" : 1}
         ]
     },
@@ -3513,6 +3513,7 @@
 			{"song": "THE LONELY ISLAND - The Creep", "year": "2011"},
 			{"song": "THE NIGHTMARE BEFORE CHRISTMAS - Overture", "year": "1993"},
 			{"song": "THE TWILIGHT ZONE TOWER OF TERROR - The Twilight Zone Tower of Terror Theme", "year": "1994"},
+			{"song": "WHITE PANDA - Foolish Monsters", "year": "2012"},
 			{"song": "YEAH YEAH YEAHS - Heads Will Roll", "year": "2009"}
 		]
 	}
