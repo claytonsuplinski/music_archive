@@ -154,5 +154,18 @@ $.ajax({
 	}
 });
 
+/*
+
+-One liner for getting total number of stars per artist
+SONG.data.map(function( artist ){ return { artist : artist.artist, stars : artist.songs.map( s => Number(s.stars||0)).reduce(function(a,b){ return a+b; }) }; }).sort(function(a,b){ return b.stars - a.stars; }).slice(0,10).forEach(function(a){ console.log( a.artist, a.stars ); });
+
+-One liner for getting average number of stars per artist
+SONG.data.map(function( artist ){ return { artist : artist.artist, stars : artist.songs.map( s => Number(s.stars||0)).reduce(function(a,b){ return a+b; }) / (artist.songs.length || 1) }; }).sort(function(a,b){ return b.stars - a.stars; }).slice(0,10).forEach(function(a){ console.log( a.artist, a.stars ); });
+
+-One liner for getting average number of stars per artist (limit 5 songs)
+SONG.data.map(function( artist ){ if(artist.songs.length >= 5) return { artist : artist.artist, stars : artist.songs.map( s => Number(s.stars||0)).reduce(function(a,b){ return a+b; }) / (artist.songs.length || 1) }; }).sort(function(a,b){ return b.stars - a.stars; }).slice(0,10).forEach(function(a){ console.log( a.artist, a.stars ); });
+
+*/
+
 </script>
 </html>
