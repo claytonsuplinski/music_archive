@@ -1052,7 +1052,7 @@
             {"song": "Where Them Girls At", "year": "2011", "stars" : 2},
             {"song": "Whistle", "year": "2012", "stars" : 1},
             {"song": "Who Dat Girl", "year": "2010", "stars" : 1},
-            {"song": "Wild Ones", "year": "2012", "stars" : 2}
+            {"song": "Wild Ones", "year": "2012", "stars" : 3}
         ]
     },
     {
@@ -2522,6 +2522,12 @@
             {"song": "Never Gonna Give You Up", "year": "1987", "stars" : 3}
         ]
     },
+	{
+        "artist": "Ricky Martin",
+        "songs": [
+            {"song": "Livin' la Vida Loca", "year": "1999", "stars" : 2}
+        ]
+    },
     {
         "artist": "Rihanna",
         "songs": [
@@ -2820,7 +2826,7 @@
 	{
         "artist": "Sugarland",
         "songs": [
-            {"song": "Babe", "year": "2018", "stars" : 1}
+            {"song": "Babe", "year": "2018", "stars" : 2}
         ]
     },
     {
