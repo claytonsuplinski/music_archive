@@ -29,7 +29,7 @@
 <script>
 var SONG = {};
 SONG.SORT = {
-	songs   : {asc:  true, curr: 0, options: ['SONG', 'ARTIST', 'YEAR']},
+	songs   : {asc:  true, curr: 0, options: ['SONG', 'ARTIST', 'YEAR', 'STARS']},
 	artists : {asc: false, curr: 0, options: ['# SONGS', 'NAME']},
 	years   : {asc: false, curr: 0, options: ['# SONGS', 'YEAR']}
 };
@@ -137,7 +137,7 @@ function html_song(song){
 	var query = encodeURIComponent((song.artist && !song.playlist ? song.artist + " " : '') + song.song);
 	var youtube_link = 'https://www.youtube.com/results?search_query='+query;
 	var google_link  = 'https://www.google.com/#q='+query;
-	var repeat_link  = 'http://youtubeonrepeat.com/results/?search_query='+query;
+	var repeat_link  = 'http://reppeat.com/results/?search_query='+query;
 	return '<div class="song '+(song.playlist ? song.playlist : '')+'">'+
 		'<a class="info-link" href="'+google_link+'" target="_blank"><i class="fa fa-info-circle"></i></a> '+
 		(song.artist && !song.playlist ? song.artist.toUpperCase() + ' - ' : '') + song.song +
@@ -164,6 +164,8 @@ function all_songs( limit ){
 				return (SONG.SORT.songs.asc ? 1 : -1) * ( (a.artist_only || a.artist).toUpperCase() > (b.artist_only || b.artist).toUpperCase() ? 1 : -1);
 			case 'YEAR':          
 				return (SONG.SORT.songs.asc ? 1 : -1) * (a.year > b.year ? 1 : -1);
+			case 'STARS':
+				return (SONG.SORT.songs.asc ? 1 : -1) * ( (a.stars || 0) > (b.stars || 0) ? 1 : -1);
 		}
 	});
 	

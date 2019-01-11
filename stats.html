@@ -91,7 +91,7 @@ $.ajax({
 		data.forEach(function(artist){
 			if(artist.songs){
 				artist.songs.forEach(function(song){
-					if(song.year && song.stars){
+					if(song.year && song.stars && song.year >= 1900){
 						var year = years.find( y => y.name == song.year );
 						if(!year){
 							year = { name : song.year, value : 0 };
