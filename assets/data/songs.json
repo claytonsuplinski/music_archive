@@ -241,6 +241,12 @@
             {"song": "One Week", "year": "1998", "stars" : 1}
         ]
     },
+	{
+        "artist": "Bastille",
+        "songs": [
+            {"song": "Happier", "year": "2018", "stars" : 3}
+        ]
+    },
     {
         "artist": "Beastie Boys",
         "songs": [
@@ -440,7 +446,7 @@
         "songs": [
             {"song": "Bounce", "year": "2012", "stars" : 1},
             {"song": "Feel So Close", "year": "2012", "stars" : 2},
-			{"song": "One Kiss", "year": "2018", "stars" : 1},
+			{"song": "One Kiss", "year": "2018", "stars" : 2},
             {"song": "Summer", "year": "2014", "stars" : 4}
         ]
     },
@@ -722,7 +728,8 @@
     {
         "artist": "Demi Lovato",
         "songs": [
-            {"song": "No Promises", "year": "2017", "stars" : 1}
+            {"song": "No Promises", "year": "2017", "stars" : 1},
+			{"song": "Solo", "year": "2018", "stars" : 1}
         ]
     },
     {
@@ -1762,6 +1769,7 @@
     {
         "artist": "Lil Jon",
         "songs": [
+			{"song": "All I Really Want For Christmas", "year": "2018", "stars" : 4},
             {"song": "Get Low", "year": "2003", "stars" : 4},
 			{"song": "Let's Go", "year": "2004", "stars" : 1}
         ]
@@ -1831,7 +1839,7 @@
 	{
         "artist": "Lovelytheband",
         "songs": [
-            {"song": "Broken", "year": "2018", "stars" : 1}
+            {"song": "Broken", "year": "2018", "stars" : 2}
         ]
     },
     {
@@ -1928,13 +1936,13 @@
     {
         "artist": "Maroon 5",
         "songs": [
-            {"song": "Daylight", "year": "2012", "stars" : 1},
+            {"song": "Daylight", "year": "2012", "stars" : 2},
 			{"song": "Girls Like You (without Cardi B)", "year": "2018", "stars" : 2},
             {"song": "Harder To Breathe", "year": "2002", "stars" : 2},
             {"song": "Love Somebody", "year": "2013", "stars" : 1},
             {"song": "Makes Me Wonder", "year": "2007", "stars" : 1},
             {"song": "Maps", "year": "2014", "stars" : 1},
-            {"song": "Misery", "year": "2010", "stars" : 1},
+            {"song": "Misery", "year": "2010", "stars" : 2},
             {"song": "Moves Like Jagger", "year": "2011", "stars" : 3},
             {"song": "Never Gonna Leave This Bed", "year": "2010", "stars" : 1},
 			{"song": "One More Night", "year": "2012", "stars" : 1},
@@ -1942,7 +1950,7 @@
             {"song": "She Will Be Loved", "year": "2002", "stars" : 3},
             {"song": "Sunday Morning", "year": "2002", "stars" : 4},
             {"song": "This Love", "year": "2002", "stars" : 3},
-			{"song": "Wait", "year": "2018", "stars" : 1},
+			{"song": "Wait", "year": "2018", "stars" : 2},
 			{"song": "What Lovers Do", "year": "2017", "stars" : 1},
             {"song": "Won't Go Home Without You", "year": "2007", "stars" : 1}
         ]
@@ -1951,7 +1959,7 @@
         "artist": "Marshmello",
         "songs": [
             {"song": "Alone", "year": "2017", "stars" : 1},
-			{"song": "Friends", "year": "2018", "stars" : 1}
+			{"song": "Friends", "year": "2018", "stars" : 2}
         ]
     },
     {
@@ -3252,6 +3260,8 @@
     {
         "artist": "Utada Hikaru",
         "songs": [
+			{"song": "Don't Think Twice", "year": "2019", "stars" : 3},
+			{"song": "Face My Fears", "year": "2019", "stars" : 3},
             {"song": "Sanctuary", "year": "2006", "stars" : 4},
             {"song": "Simple and Clean", "year": "2002", "stars" : 5}
         ]
