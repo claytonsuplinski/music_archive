@@ -71,6 +71,7 @@ path {
 .year-table table td{
 	border-top:1px solid #333;
 	background:#bbb;
+	padding:5px;
 }
 
 .year-table table td.rank{

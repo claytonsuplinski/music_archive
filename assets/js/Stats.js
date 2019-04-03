@@ -2,28 +2,21 @@ SONG.STARTING_YEAR = 1993;
 SONG.ENDING_YEAR = ( new Date() ).getFullYear();
 
 function home_screen(){
-	var artists_button = '<div class="button button-half-sm float-right" onclick="all_artists(' + LIMIT.artists + ');">'+
-		SONG.data.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + ' artists' +
-	'</div>';
-	var songs_button = '<div class="button button-half-sm float-right" onclick="all_songs(' + LIMIT.songs + ');">'+
-		SONG.ALL_SONGS.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " songs" +
-	'</div>';
-	var years_button = '<div class="button button-half-sm float-right" onclick="all_years(' + LIMIT.years + ');">' + 
-		SONG.ALL_YEARS.length + 
-	' years</div>';
+
+	var buttons = [
+		{ label : 'MUSIC OVER TIME'     , onclick : 'graph_stars_per_year();' , label_sm : 'MUSIC / TIME'   },
+		{ label : 'ARTISTS OVER TIME'   , onclick : 'graph_stars_per_year();' , label_sm : 'ARTISTS / TIME' },
+		{ label : 'ARTIST OVER TIME'    , onclick : 'graph_stars_per_year();' , label_sm : 'ARTIST / TIME'  },
+		{ label : 'TOP SONGS PER YEAR'  , onclick : 'top_songs_per_year();'   , label_sm : 'SONGS / YEAR'   },
+		{ label : 'TOP ARTISTS PER YEAR', onclick : 'top_artists_per_year();' , label_sm : 'ARTISTS / YEAR' },
+		{ label : 'TOP ARTISTS'         , onclick : 'top_artists();'          },
+	];
 
 	$(".header .hidden-sm").html(
-		'<div class="button" onclick="graph_stars_per_year();">MUSIC OVER TIME</div>' +
-		'<div class="button" onclick="graph_stars_per_year();">ARTISTS OVER TIME</div>' +
-		'<div class="button" onclick="graph_stars_per_year();">ARTIST OVER TIME</div>' +
-		'<div class="button" onclick="top_songs_per_year();">TOP SONGS PER YEAR</div>' +
-		'<div class="button" onclick="top_artists_per_year();">TOP ARTISTS PER YEAR</div>' +
-		'<div class="button" onclick="top_artists();">TOP ARTISTS</div>'
+		buttons.map( b => '<div class="button" onclick="' + b.onclick + '">' + b.label + '</div>' ).join('')
 	);
 	$(".header .hidden-lg").html(
-		artists_button + '<div class="button button-half-sm" onclick="random_artist();">ARTIST</div>'  +
-		songs_button   + '<div class="button button-half-sm" onclick="random_songs(5);">5 SONGS</div>' + 
-		years_button   + '<div class="button button-half-sm" onclick="random_year();">YEAR</div>'      
+		buttons.map( b => '<div class="button button-half-sm" onclick="' + b.onclick + '">' + ( b.label_sm || b.label ) + '</div>' ).join('')
 	);
 
 	graph_stars_per_year();
@@ -196,14 +189,7 @@ function top_artists_per_year( p ){
 			name    : YYYY,
 			artists : ordered_artists
 		});
-		
-		// console.log( '--', YYYY, '--' );
-		// ordered_artists.forEach(function( artist ){
-		// 	console.log( artist.name, ' : ', artist.score );
-		// });
 	}
-	
-	console.log( ordered_years );
 	
 	$("#content").html(
 		ordered_years.map(function( year ){
