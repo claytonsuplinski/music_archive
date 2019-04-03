@@ -146,7 +146,7 @@
 			{"song": "No Tears Left to Cry", "year": "2018", "stars" : 1},
             {"song": "One Last Time", "year": "2014", "stars" : 3},
             {"song": "Problem", "year": "2014", "stars" : 2},
-            {"song": "The Way", "year": "2013", "stars" : 3}
+            {"song": "The Way", "year": "2013", "stars" : 2}
         ]
     },
     {
@@ -175,6 +175,12 @@
             {"song": "Hex", "year": "2014", "stars" : 1}
         ]
     },
+	{
+        "artist": "Ava Max",
+        "songs": [
+            {"song": "Sweet but Psycho", "year": "2019", "stars" : 4}
+        ]
+    },
     {
         "artist": "Avenged Sevenfold",
         "songs": [
@@ -184,7 +190,7 @@
     {
         "artist": "Avicii",
         "songs": [
-            {"song": "I Could Be The One", "year": "2013", "stars" : 2},
+            {"song": "I Could Be The One", "year": "2013", "stars" : 1},
             {"song": "Levels", "year": "2011", "stars" : 4},
             {"song": "Levels (Original Mix)", "year": "2011", "stars" : 3}
         ]
@@ -553,6 +559,7 @@
             {"song": "Beautiful People", "year": "2011", "stars" : 1},
 			{"song": "Don't Wake Me Up", "year": "2012", "stars" : 1},
             {"song": "Forever", "year": "2008", "stars" : 4},
+			{"song": "I Can Only Imagine", "year": "2012", "stars" : 1},
             {"song": "Kiss Kiss", "year": "2008", "stars" : 2},
             {"song": "Look At Me Now", "year": "2011", "stars" : 2},
             {"song": "Loyal", "year": "2014", "stars" : 1},
@@ -1065,7 +1072,7 @@
             {"song": "Where Them Girls At", "year": "2011", "stars" : 2},
             {"song": "Whistle", "year": "2012", "stars" : 1},
             {"song": "Who Dat Girl", "year": "2010", "stars" : 1},
-            {"song": "Wild Ones", "year": "2012", "stars" : 3}
+            {"song": "Wild Ones", "year": "2012", "stars" : 5}
         ]
     },
     {
@@ -2953,7 +2960,8 @@
         "artist": "Tegan and Sara",
         "songs": [
             {"song": "Body Work", "year": "2012", "stars" : 3},
-            {"song": "Closer", "year": "2013", "stars" : 2}
+            {"song": "Closer", "year": "2013", "stars" : 2},
+			{"song": "Feel It in My Bones", "year": "2009", "stars" : 1}
         ]
     },
     {
@@ -3261,7 +3269,7 @@
         "artist": "Utada Hikaru",
         "songs": [
 			{"song": "Don't Think Twice", "year": "2019", "stars" : 3},
-			{"song": "Face My Fears", "year": "2019", "stars" : 3},
+			{"song": "Face My Fears", "year": "2019", "stars" : 4},
             {"song": "Sanctuary", "year": "2006", "stars" : 4},
             {"song": "Simple and Clean", "year": "2002", "stars" : 5}
         ]

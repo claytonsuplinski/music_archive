@@ -1,0 +1,92 @@
+path { 
+	stroke: #359;
+	stroke-width: 2;
+	fill:transparent;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #333;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+
+.graph-values{
+	border:1px solid rgba(255, 255, 255, 0.3);
+	display:inline-block;
+	width:80%;
+	background:rgba(255,255,255,0.25);
+	margin:20px auto;
+	padding:10px;
+}
+
+.graph-values .header{
+	font-size:24px;
+	padding:15px;
+}
+
+.graph-values .header hr{
+	border-color:rgba(0,0,0,0.2);
+	width:50%;
+	margin:10px auto 0;
+}
+
+.graph-values .value{
+	display:inline-block;
+	border:1px solid #888;
+	border-radius:10px;
+	overflow:hidden;
+	margin:5px;
+}
+
+.graph-values .value .lbl{
+	background:#606060;
+	color:#eee;
+	border-bottom:1px solid rgba(255,255,255,0.25);
+	padding:5px 20px;
+}
+
+.graph-values .value .val{
+	background:#d4d4d4;
+	width:100%;
+	padding:4px;
+}
+
+.year-table{
+	width:100%;
+	padding:15px 5px;
+}
+
+.year-table table{
+	border:1px solid #333;
+}
+
+.year-table table th{
+	width:100px;
+	background:#333;
+	color:#ccc;
+}
+
+.year-table table td{
+	border-top:1px solid #333;
+	background:#bbb;
+}
+
+.year-table table td.rank{
+	width:50px;
+	background:#555;
+	color:#ccc;
+}
+
+.year-table table td.score{
+	width:70px;
+}
+
+.year-table table td.score i{
+	font-size:10px;
+}
+
+.year-table table td.score.six-stars{
+	color:#908904;
+}

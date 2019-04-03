@@ -15,22 +15,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	
 	<link rel="stylesheet" href="./assets/css/main.css">
-	
-	<style>
-	path { 
-		stroke: #359;
-		stroke-width: 2;
-		fill:transparent;
-	}
-
-	.axis path,
-	.axis line {
-		fill: none;
-		stroke: #333;
-		stroke-width: 1;
-		shape-rendering: crispEdges;
-	}
-	</style>
+	<link rel="stylesheet" href="./assets/css/stats.css">
 	
 </head>
 <body>
@@ -38,134 +23,13 @@
 	<div class="hidden-sm hidden-xs"></div>
 	<div class="hidden-md hidden-lg"></div>
 </div>
-<div id="content">
-	<svg id="graph"></svg>
-	
-	<div id="table"></div>
-</div>
+<div id="content"></div>
 </body>
 
 <script src="./assets/lib/jquery.min.js"></script>
 <script src="./assets/lib/d3.min.js"></script>
 
-<script>
+<script src="./assets/js/Main.js"></script>
+<script src="./assets/js/Stats.js"></script>
 
-$.ajax({
-	url      : './assets/data/songs.json',
-	dataType : 'json',
-	success  : function(data){	
-		var id = '#graph';
-	
-		var container = $(id).parent();
-
-		var is_daily = false;
-
-		var margin = {top: 40, right: 20, bottom: 40, left: 80},
-		width  = 0.75 * container.width() - margin.left - margin.right,
-		height = 0.75 * ( container.width() / 3 ) - margin.top - margin.bottom;
-
-		var parse_date = d3.time.format( "%Y" ).parse;
-
-		var x = d3.time.scale().range([0, width]);
-		var y = d3.scale.linear().range([height, 0]);
-
-		var x_axis = d3.svg.axis().scale(x).orient("bottom").ticks(5);
-		var y_axis = d3.svg.axis().scale(y).orient("left").ticks(5);
-
-		// Define the line
-		var lines = d3.svg.line()
-			.x(function(d) { return x(d.date); })
-			.y(function(d) { return y(d.value); });
-
-		// Adds the svg canvas
-		var svg = d3.select( id )
-				.attr("width", width + margin.left + margin.right)
-				.attr("height", height + margin.top + margin.bottom)
-			.append("g")
-				.attr("transform", 
-				"translate(" + margin.left + "," + margin.top + ")");
-				
-				
-		var years = [];
-		
-		data.forEach(function(artist){
-			if(artist.songs){
-				artist.songs.forEach(function(song){
-					if(song.year && song.stars && song.year >= 1900){
-						var year = years.find( y => y.name == song.year );
-						if(!year){
-							year = { name : song.year, value : 0 };
-							years.push( year );
-						}
-						
-						year.value += song.stars;
-					}
-				});
-			}
-		});
-		
-		years = years.sort( (a,b) => ( a.name - b.name ) );
-		
-		var min_year = years[0];
-		var max_year = years[ years.length - 1 ];
-		
-		var years_final = [];
-		for(var yr = Number(min_year.name); yr <= Number(max_year.name); yr++){
-			years_final.push( years.find( year => year.name == yr ) || { name : String(yr), value : 0 } );
-		}
-		
-		years = years_final;
-		
-		$("#table").html('<table>'+
-			years.slice().sort( (a,b) => b.value - a.value ).map(function(year){
-				return '<tr>' + 
-					'<td>' + year.name + '</td>' +
-					'<td>' + year.value + '</td>' +
-				'</tr>';
-			}).join('')+
-		'</table>');
-		
-		console.log(years);
-
-		x.domain([ parse_date( min_year.name ), parse_date( max_year.name ) ]);
-		y.domain([0, d3.max(years, function(d) { return d.value; })]);
-
-		var data = [];
-		years.forEach(function(year){
-			data.push({ date : parse_date( year.name ), value : year.value });
-		});
-
-		// Plot the lines.
-		svg.append("path")
-			.attr("class", "line")
-			.attr("d", lines(data));
-
-		// Add the X Axis
-		svg.append("g")
-			.attr("class", "x axis")
-			.attr("transform", "translate(0," + height + ")")
-			.call(x_axis);
-
-		// Add the Y Axis
-		svg.append("g")
-			.attr("class", "y axis")
-			.call(y_axis);
-		
-	}
-});
-
-/*
-
--One liner for getting total number of stars per artist
-SONG.data.map(function( artist ){ return { artist : artist.artist, stars : artist.songs.map( s => Number(s.stars||0)).reduce(function(a,b){ return a+b; }) }; }).sort(function(a,b){ return b.stars - a.stars; }).slice(0,10).forEach(function(a){ console.log( a.artist, a.stars ); });
-
--One liner for getting average number of stars per artist
-SONG.data.map(function( artist ){ return { artist : artist.artist, stars : artist.songs.map( s => Number(s.stars||0)).reduce(function(a,b){ return a+b; }) / (artist.songs.length || 1) }; }).sort(function(a,b){ return b.stars - a.stars; }).slice(0,10).forEach(function(a){ console.log( a.artist, a.stars ); });
-
--One liner for getting average number of stars per artist (limit 5 songs)
-SONG.data.map(function( artist ){ if(artist.songs.length >= 5) return { artist : artist.artist, stars : artist.songs.map( s => Number(s.stars||0)).reduce(function(a,b){ return a+b; }) / (artist.songs.length || 1) }; }).sort(function(a,b){ return b.stars - a.stars; }).slice(0,10).forEach(function(a){ console.log( a.artist, a.stars ); });
-
-*/
-
-</script>
 </html>
