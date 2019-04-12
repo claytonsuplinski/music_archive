@@ -178,7 +178,7 @@
 	{
         "artist": "Ava Max",
         "songs": [
-            {"song": "Sweet but Psycho", "year": "2019", "stars" : 4}
+            {"song": "Sweet but Psycho", "year": "2019", "stars" : 3}
         ]
     },
     {
@@ -250,7 +250,7 @@
 	{
         "artist": "Bastille",
         "songs": [
-            {"song": "Happier", "year": "2018", "stars" : 3}
+            {"song": "Happier", "year": "2018", "stars" : 2}
         ]
     },
     {
@@ -578,6 +578,18 @@
             {"song": "Candyman", "year": "2006", "stars" : 1},
             {"song": "Feel This Moment", "year": "2013", "stars" : 2},
             {"song": "Lady Marmalade", "year": "2001", "stars" : 2}
+        ]
+    },
+	{
+        "artist": "Christina Milian",
+        "songs": [
+            {"song": "Call Me, Beep Me!", "year": "2002", "stars" : 1}
+        ]
+    },
+	{
+        "artist": "Christy Carlson Romano",
+        "songs": [
+            {"song": "Dream Vacation", "year": "2003", "stars" : 2}
         ]
     },
     {
@@ -1519,6 +1531,12 @@
             {"song": "Summer Love", "year": "2006", "stars" : 1}
         ]
     },
+	{
+        "artist": "Kamehameha Chorus",
+        "songs": [
+            {"song": "Hawaiian Roller Coaster Ride", "year": "2002", "stars" : 2}
+        ]
+    },
     {
         "artist": "Kanye West",
         "songs": [
@@ -1776,7 +1794,7 @@
     {
         "artist": "Lil Jon",
         "songs": [
-			{"song": "All I Really Want For Christmas", "year": "2018", "stars" : 4},
+			{"song": "All I Really Want For Christmas", "year": "2018", "stars" : 3},
             {"song": "Get Low", "year": "2003", "stars" : 4},
 			{"song": "Let's Go", "year": "2004", "stars" : 1}
         ]
@@ -2613,6 +2631,12 @@
             {"song": "Smooth", "year": "1999", "stars" : 4}
         ]
     },
+	{
+        "artist": "Roger Bart",
+        "songs": [
+            {"song": "Go the Distance", "year": "1997", "stars" : 1}
+        ]
+    },
     {
         "artist": "Run DMC",
         "songs": [
@@ -2901,7 +2925,7 @@
             {"song": "All I Do Is Win", "year": "2010", "stars" : 2},
             {"song": "Bartender", "year": "2007", "stars" : 1},
             {"song": "Best Love Song", "year": "2011", "stars" : 1},
-            {"song": "Buy You A Drank", "year": "2007", "stars" : 1},
+            {"song": "Buy You A Drank", "year": "2007", "stars" : 2},
             {"song": "Can't Believe It", "year": "2008", "stars" : 2},
             {"song": "Cyclone", "year": "2007", "stars" : 1},
             {"song": "Freeze", "year": "2008", "stars" : 1},
@@ -3268,8 +3292,8 @@
     {
         "artist": "Utada Hikaru",
         "songs": [
-			{"song": "Don't Think Twice", "year": "2019", "stars" : 3},
-			{"song": "Face My Fears", "year": "2019", "stars" : 4},
+			{"song": "Don't Think Twice", "year": "2019", "stars" : 2},
+			{"song": "Face My Fears", "year": "2019", "stars" : 3},
             {"song": "Sanctuary", "year": "2006", "stars" : 4},
             {"song": "Simple and Clean", "year": "2002", "stars" : 5}
         ]

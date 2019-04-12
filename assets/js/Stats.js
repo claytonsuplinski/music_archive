@@ -1,15 +1,12 @@
-SONG.STARTING_YEAR = 1993;
-SONG.ENDING_YEAR = ( new Date() ).getFullYear();
-
 function home_screen(){
 
 	var buttons = [
-		{ label : 'MUSIC OVER TIME'     , onclick : 'graph_stars_per_year();' , label_sm : 'MUSIC / TIME'   },
-		{ label : 'ARTISTS OVER TIME'   , onclick : 'graph_stars_per_year();' , label_sm : 'ARTISTS / TIME' },
-		{ label : 'ARTIST OVER TIME'    , onclick : 'graph_stars_per_year();' , label_sm : 'ARTIST / TIME'  },
-		{ label : 'TOP SONGS PER YEAR'  , onclick : 'top_songs_per_year();'   , label_sm : 'SONGS / YEAR'   },
-		{ label : 'TOP ARTISTS PER YEAR', onclick : 'top_artists_per_year();' , label_sm : 'ARTISTS / YEAR' },
-		{ label : 'TOP ARTISTS'         , onclick : 'top_artists();'          },
+		{ label : 'MUSIC OVER TIME'    , onclick : 'graph_stars_per_year();'  , label_sm : 'MUSIC / TIME'   },
+		{ label : 'ARTISTS PER DECADE' , onclick : 'top_artists_per_decade();', label_sm : 'ARTIST / 10yrs'  },
+		{ label : 'ARTISTS OVER TIME'  , onclick : 'graph_stars_per_year();'  , label_sm : 'ARTISTS / TIME' },
+		{ label : 'SONGS PER YEAR'     , onclick : 'top_songs_per_year();'    , label_sm : 'SONGS / YEAR'   },
+		{ label : 'ARTISTS PER YEAR'   , onclick : 'top_artists_per_year();'  , label_sm : 'ARTISTS / YEAR' },
+		{ label : 'TOP ARTISTS'        , onclick : 'top_artists();'           },
 	];
 
 	$(".header .hidden-sm").html(
@@ -18,6 +15,8 @@ function home_screen(){
 	$(".header .hidden-lg").html(
 		buttons.map( b => '<div class="button button-half-sm" onclick="' + b.onclick + '">' + ( b.label_sm || b.label ) + '</div>' ).join('')
 	);
+	
+	SONG.ALL_YEARS = SONG.ALL_YEARS.sort( (a,b) => ( b.year - a.year ) );
 
 	graph_stars_per_year();
 };
@@ -125,12 +124,12 @@ function graph_stars_per_year(){
 };
 
 function total_stars_per_artist( num_results ){
-	SONG.data.map(function( artist ){
+	return SONG.data.map(function( artist ){
 		return {
 			artist : artist.artist,
 			stars  : artist.songs.map( s => Number( s.stars || 0 ) ).reduce(function(a,b){ return a+b; })
 		};
-	}).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, num_results || 10 ).forEach(function(a){ console.log( a.artist, a.stars ); });
+	}).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, num_results || 10 );
 };
 
 function average_stars_per_artist( p ){
@@ -138,12 +137,31 @@ function average_stars_per_artist( p ){
 	
 	p.min_songs = p.min_songs || 0;
 
-	SONG.data.map(function( artist ){
+	return SONG.data.map(function( artist ){
 		if( artist.songs.length >= p.min_songs ) return {
 			artist : artist.artist,
-			stars  : artist.songs.map( s => Number( s.stars || 0 ) ).reduce(function(a,b){ return a+b; }) / (artist.songs.length || 1)
+			stars  : Number( artist.songs.map( s => Number( s.stars || 0 ) ).reduce(function(a,b){ return a+b; }) / (artist.songs.length || 1) ).toFixed( 2 )
 		};
-	}).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, p.num_results || 10 ).forEach(function(a){ console.log( a.artist, a.stars ); });
+	}).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, p.num_results || 10 );
+};
+
+function median_stars_per_artist( p ){
+	var p = p || {};
+	
+	p.min_songs = p.min_songs || 0;
+
+	return SONG.data.map(function( artist ){
+		var values = artist.songs.map( s => Number( s.stars || 0 ) ).sort( (a,b) => ( a - b ) );
+		var middle_index = Math.floor( values.length / 2 );
+		
+		var median = values[ middle_index ];
+		if( !( values.length % 2 ) ) median = ( values[ middle_index - 1 ] + values[ middle_index ] ) / 2;
+	
+		if( artist.songs.length >= p.min_songs ) return {
+			artist : artist.artist,
+			stars  : median.toFixed( 1 )
+		};
+	}).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, p.num_results || 10 );
 };
 
 function top_artists(){
@@ -151,11 +169,36 @@ function top_artists(){
 	console.log( average_stars_per_artist() );
 	$("#content").html(
 		[
-			'Total Stars',
-			'Average Stars (min 10 songs)',
-			'Average Stars (min 5 songs)',
-			'Median Stars (min 5 songs)',
-		].join('<br>')
+			{ label : 'Total Stars'                  , results : total_stars_per_artist() },
+			{ label : 'Average Stars - Min 10 Songs' , results : average_stars_per_artist({ min_songs : 10 }) },
+			{ label : 'Average Stars - Min 5 Songs'  , results : average_stars_per_artist({ min_songs :  5 }) },
+			{ label : 'Median Stars  - Min 5 Songs'  , results : median_stars_per_artist({  min_songs :  5 }) },
+		].map(function( category ){
+			var prev_score = 999;
+			var prev_rank_count = 0;
+			var rank = 0;
+			
+			return '<div class="year-table">' +
+				'<table>' +
+					'<tr><th colspan="3">' + category.label + '</th></tr>' +
+					category.results.map(function( result ){					
+						prev_rank_count++;
+						
+						if( result.stars != prev_score ){
+							rank += prev_rank_count;
+							prev_rank_count = 0;
+							prev_score = result.stars;
+						}
+					
+						return '<tr>' +
+							'<td class="rank">' + rank + '</td>' +
+							'<td>' + result.artist + '</td>' + 
+							'<td class="score">' + result.stars + ' <i class="fa fa-star"></i></td>' + 
+						'</tr>';
+					}).join('') +
+				'</table>' +
+			'</div>';
+		}).join('<br>')
 	);
 };
 
@@ -165,10 +208,8 @@ function top_artists_per_year( p ){
 	var years = {};
 	var ordered_years = [];
 	
-	SONG.ALL_YEARS.forEach(function( y ){ years[ y.year ] = y; });
-
-	for( var YYYY = SONG.ENDING_YEAR; YYYY >= SONG.STARTING_YEAR; YYYY-- ){
-		var year = years[ YYYY ];
+	SONG.ALL_YEARS.forEach(function( year ){
+		years[ year.year ] = year;
 		
 		var artists = {};
 		
@@ -186,10 +227,10 @@ function top_artists_per_year( p ){
 		}).sort( ( a, b ) => ( a.score > b.score ? -1 : 1 ) ).slice( 0, p.num_results || 10 );
 		
 		ordered_years.push({
-			name    : YYYY,
+			name    : year.year,
 			artists : ordered_artists
 		});
-	}
+	});
 	
 	$("#content").html(
 		ordered_years.map(function( year ){
@@ -199,6 +240,7 @@ function top_artists_per_year( p ){
 			
 			return '<div class="year-table">' +
 				'<table>' +
+					'<tr><th colspan="3">' + year.name + '</th></tr>' +
 					year.artists.map(function( item, i ){
 						prev_rank_count++;
 						
@@ -209,7 +251,7 @@ function top_artists_per_year( p ){
 						}
 						
 						return '<tr>' + 
-							( i == 0 ? '<th rowspan="' + year.artists.length + '">' + year.name + '</th>' : '' ) +
+							// ( i == 0 ? '<th rowspan="' + year.artists.length + '">' + year.name + '</th>' : '' ) +
 							'<td class="rank">' + rank + '</td>' +
 							'<td>' + item.name + '</td>' + 
 							'<td class="score">' + item.score + ' <i class="fa fa-star"></i></td>' + 
@@ -226,10 +268,10 @@ function top_songs_per_year( p ){
 	
 	var years = [];
 	
-	for( var year = SONG.ENDING_YEAR; year >= SONG.STARTING_YEAR; year-- ){
+	SONG.ALL_YEARS.forEach(function( year ){
 		years.push({ 
-			name  : year,
-			songs : ( SONG.ALL_YEARS.find( s => s.year == year ) || { songs : [] } ).songs.sort(function(a,b){
+			name  : year.year,
+			songs : ( SONG.ALL_YEARS.find( s => s.year == year.year ) || { songs : [] } ).songs.sort(function(a,b){
 					var a_stars = a.stars || 0;
 					var b_stars = b.stars || 0;
 					if( a_stars > b_stars ) return -1;
@@ -237,7 +279,7 @@ function top_songs_per_year( p ){
 					return ( a.song > b.song ? 1 : -1 );
 				}).slice( 0, p.num_results || 10 )
 		});
-	}
+	});
 	
 	$("#content").html(
 		years.map(function( year ){
@@ -247,6 +289,7 @@ function top_songs_per_year( p ){
 			
 			return '<div class="year-table">' +
 				'<table>' +
+					'<tr><th colspan="3">' + year.name + '</th></tr>' +
 					year.songs.map(function( song, i ){
 						prev_rank_count++;
 						
@@ -257,7 +300,6 @@ function top_songs_per_year( p ){
 						}
 						
 						return '<tr>' + 
-							( i == 0 ? '<th rowspan="' + year.songs.length + '">' + year.name + '</th>' : '' ) +
 							'<td class="rank">' + rank + '</td>' +
 							'<td>' + song.song + ' - ' + song.artist + '</td>' + 
 							'<td class="score ' + ( song.stars == 6 ? 'six-stars' : '' ) + '">' + 
@@ -272,10 +314,3 @@ function top_songs_per_year( p ){
 };
 
 load_data( home_screen );
-
-/*
--- Stats to Collect --
-Top 10 artists of all time -- based on total number of stars or average number of stars (may need a minimum number of songs to make the list)
-Top 10 artists per year    -- based on total number of stars that year
-Top 10 songs per year      -- based on number of stars of the individual song
-*/
