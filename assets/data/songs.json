@@ -404,7 +404,7 @@
     {
         "artist": "Britney Spears",
         "songs": [
-            {"song": "Baby One More Time", "year": "1998", "stars" : 4},
+            {"song": "Baby One More Time", "year": "1998", "stars" : 3},
             {"song": "Circus", "year": "2009", "stars" : 3},
             {"song": "Crazy", "year": "1999", "stars" : 1},
             {"song": "Hold It Against Me", "year": "2011", "stars" : 3},
@@ -413,11 +413,11 @@
             {"song": "If U Seek Amy", "year": "2009", "stars" : 2},
             {"song": "Lucky", "year": "2000", "stars" : 2},
             {"song": "Make Me", "year": "2016", "stars" : 1},
-            {"song": "Oops I Did It Again", "year": "2000", "stars" : 3},
+            {"song": "Oops I Did It Again", "year": "2000", "stars" : 2},
             {"song": "Piece of Me", "year": "2007", "stars" : 1},
             {"song": "Stronger", "year": "2000", "stars" : 1},
             {"song": "Toxic", "year": "2004", "stars" : 3},
-            {"song": "Womanizer", "year": "2008", "stars" : 4},
+            {"song": "Womanizer", "year": "2008", "stars" : 3},
             {"song": "3", "year": "2009", "stars" : 4}
         ]
     },

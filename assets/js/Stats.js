@@ -2,11 +2,11 @@ function home_screen(){
 
 	var buttons = [
 		{ label : 'MUSIC OVER TIME'    , onclick : 'graph_stars_per_year();'  , label_sm : 'MUSIC / TIME'   },
-		{ label : 'ARTISTS PER DECADE' , onclick : 'top_artists_per_decade();', label_sm : 'ARTIST / 10yrs'  },
-		{ label : 'ARTISTS OVER TIME'  , onclick : 'graph_stars_per_year();'  , label_sm : 'ARTISTS / TIME' },
-		{ label : 'SONGS PER YEAR'     , onclick : 'top_songs_per_year();'    , label_sm : 'SONGS / YEAR'   },
 		{ label : 'ARTISTS PER YEAR'   , onclick : 'top_artists_per_year();'  , label_sm : 'ARTISTS / YEAR' },
+		{ label : 'SONGS PER YEAR'     , onclick : 'top_songs_per_year();'    , label_sm : 'SONGS / YEAR'   },
 		{ label : 'TOP ARTISTS'        , onclick : 'top_artists();'           },
+		{ label : 'ARTISTS PER DECADE' , onclick : 'top_artists_per_decade();', label_sm : 'ARTIST / 10yrs' },
+		{ label : 'SONGS PER DECADE'   , onclick : 'top_songs_per_decade();'  , label_sm : 'SONGS / 10yrs'  },
 	];
 
 	$(".header .hidden-sm").html(
@@ -17,6 +17,16 @@ function home_screen(){
 	);
 	
 	SONG.ALL_YEARS = SONG.ALL_YEARS.sort( (a,b) => ( b.year - a.year ) );
+	
+	SONG.ALL_DECADES = {};
+	
+	SONG.ALL_YEARS.forEach(function( year ){
+		var decade = Math.floor( year.year / 10 ) * 10;
+
+		if( !SONG.ALL_DECADES[ decade ] ) SONG.ALL_DECADES[ decade ] = [];
+		
+		SONG.ALL_DECADES[ decade ] = SONG.ALL_DECADES[ decade ].concat( year.songs );
+	});
 
 	graph_stars_per_year();
 };
@@ -29,10 +39,12 @@ function graph_stars_per_year(){
 	var container = $(id).parent();
 
 	var is_daily = false;
+	
+	var container_width = Math.max( container.width(), 300 );
 
 	var margin = {top: 40, right: 20, bottom: 40, left: 80},
-	width  = 0.75 * container.width() - margin.left - margin.right,
-	height = 0.75 * ( container.width() / 3 ) - margin.top - margin.bottom;
+	width  = 0.75 *   container_width - margin.left - margin.right,
+	height = 0.75 * ( container_width / 3 ) - margin.top - margin.bottom;
 
 	var parse_date = d3.time.format( "%Y" ).parse;
 
@@ -165,8 +177,6 @@ function median_stars_per_artist( p ){
 };
 
 function top_artists(){
-	console.log( total_stars_per_artist() );
-	console.log( average_stars_per_artist() );
 	$("#content").html(
 		[
 			{ label : 'Total Stars'                  , results : total_stars_per_artist() },
@@ -199,6 +209,65 @@ function top_artists(){
 				'</table>' +
 			'</div>';
 		}).join('<br>')
+	);
+};
+
+function top_artists_per_decade( p ){
+	var p = p || {};
+	
+	var ordered_decades = [];
+	
+	Object.keys( SONG.ALL_DECADES ).sort( (a,b) => ( b - a ) ).forEach(function( year ){
+		var decade = SONG.ALL_DECADES[ year ];
+	
+		decade.artists = {};
+		
+		decade.forEach(function( song ){
+			if( !decade.artists[ song.artist ] ) decade.artists[ song.artist ] = 0;
+			
+			decade.artists[ song.artist ] += song.stars || 0;
+		});
+		
+		var ordered_artists = Object.keys( decade.artists ).map(function( name ){
+			return {
+				name  : name,
+				score : decade.artists[ name ]
+			};
+		}).sort( ( a, b ) => ( a.score > b.score ? -1 : 1 ) ).slice( 0, p.num_results || 10 );
+		
+		ordered_decades.push({
+			name    : year,
+			artists : ordered_artists
+		});
+	});
+	
+	$("#content").html(
+		ordered_decades.map(function( decade ){
+			var prev_score = 999;
+			var prev_rank_count = 0;
+			var rank = 0;
+			
+			return '<div class="year-table">' +
+				'<table>' +
+					'<tr><th colspan="3">' + decade.name + 's</th></tr>' +
+					decade.artists.map(function( item, i ){
+						prev_rank_count++;
+						
+						if( item.score != prev_score ){
+							rank += prev_rank_count;
+							prev_rank_count = 0;
+							prev_score = item.score;
+						}
+						
+						return '<tr>' + 
+							'<td class="rank">' + rank + '</td>' +
+							'<td>' + item.name + '</td>' + 
+							'<td class="score">' + item.score + ' <i class="fa fa-star"></i></td>' + 
+						'</tr>';
+					}).join('') +
+				'</table>' +
+			'</div>';
+		}).join('')
 	);
 };
 
@@ -251,7 +320,6 @@ function top_artists_per_year( p ){
 						}
 						
 						return '<tr>' + 
-							// ( i == 0 ? '<th rowspan="' + year.artists.length + '">' + year.name + '</th>' : '' ) +
 							'<td class="rank">' + rank + '</td>' +
 							'<td>' + item.name + '</td>' + 
 							'<td class="score">' + item.score + ' <i class="fa fa-star"></i></td>' + 
@@ -261,6 +329,45 @@ function top_artists_per_year( p ){
 			'</div>';
 		}).join('')
 	);
+};
+
+function top_songs_per_decade( p ){
+	var p = p || {};
+	
+	if( !p.num_results ) p.num_results = 20;
+	
+	$("#content").html(
+		Object.keys( SONG.ALL_DECADES ).sort( (a,b) => ( b - a ) ).map(function( year ){
+			var decade = SONG.ALL_DECADES[ year ];
+		
+			var prev_stars = 999;
+			var prev_rank_count = 0;
+			var rank = 0;
+			
+			return '<div class="year-table">' +
+				'<table>' +
+					'<tr><th colspan="3">' + year + 's</th></tr>' +
+					decade.sort( (a,b) => ( ( b.stars || 0 ) - ( a.stars || 0 ) ) ).slice( 0, p.num_results ).map(function( song, i ){
+						prev_rank_count++;
+						
+						if( song.stars != prev_stars ){
+							rank += prev_rank_count;
+							prev_rank_count = 0;
+							prev_stars = song.stars;
+						}
+						
+						return '<tr>' + 
+							'<td class="rank">' + rank + '</td>' +
+							'<td>' + song.song + ' - ' + song.artist + ' (' + song.year + ')</td>' + 
+							'<td class="score ' + ( song.stars == 6 ? 'six-stars' : '' ) + '">' + 
+								Array.apply( null, { length : song.stars } ).map( s => '<i class="fa fa-star"></i>' ).join('') + 
+							'</td>' + 
+						'</tr>';
+					}).join('') +
+				'</table>' +
+			'</div>';
+		}).join('')
+	);	
 };
 
 function top_songs_per_year( p ){
