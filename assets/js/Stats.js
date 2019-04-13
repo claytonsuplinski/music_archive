@@ -40,7 +40,7 @@ function graph_stars_per_year(){
 
 	var is_daily = false;
 	
-	var container_width = Math.max( container.width(), 300 );
+	var container_width = Math.max( container.width(), 1200 );
 
 	var margin = {top: 40, right: 20, bottom: 40, left: 80},
 	width  = 0.75 *   container_width - margin.left - margin.right,
