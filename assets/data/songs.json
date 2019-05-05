@@ -79,6 +79,12 @@
         ]
     },
 	{
+        "artist": "Alex Gaudino",
+        "songs": [
+            {"song": "Destination Calabria", "year": "2007", "stars" : 1}
+        ]
+    },
+	{
         "artist": "Alice Deejay",
         "songs": [
             {"song": "Better Off Alone", "year": "2000", "stars" : 2}
@@ -178,7 +184,7 @@
 	{
         "artist": "Ava Max",
         "songs": [
-            {"song": "Sweet but Psycho", "year": "2019", "stars" : 3}
+            {"song": "Sweet but Psycho", "year": "2019", "stars" : 4}
         ]
     },
     {
@@ -560,7 +566,7 @@
 			{"song": "Don't Wake Me Up", "year": "2012", "stars" : 1},
             {"song": "Forever", "year": "2008", "stars" : 4},
 			{"song": "I Can Only Imagine", "year": "2012", "stars" : 1},
-            {"song": "Kiss Kiss", "year": "2008", "stars" : 2},
+            {"song": "Kiss Kiss", "year": "2008", "stars" : 3},
             {"song": "Look At Me Now", "year": "2011", "stars" : 2},
             {"song": "Loyal", "year": "2014", "stars" : 1},
 			{"song": "Next To You", "year": "2011", "stars" : 1},
@@ -994,6 +1000,12 @@
         "artist": "Enya",
         "songs": [
             {"song": "Only Time", "year": "2000", "stars" : 1}
+        ]
+    },
+	{
+        "artist": "Eric Prydz",
+        "songs": [
+            {"song": "Call on Me", "year": "2004", "stars" : 1}
         ]
     },
     {
@@ -1526,6 +1538,7 @@
     {
         "artist": "Justin Timberlake",
         "songs": [
+			{"song": "My Love", "year": "2006", "stars" : 1},
             {"song": "Rock Your Body", "year": "2002", "stars" : 1},
             {"song": "SexyBack", "year": "2006", "stars" : 4},
             {"song": "Summer Love", "year": "2006", "stars" : 1}
@@ -1795,7 +1808,7 @@
         "artist": "Lil Jon",
         "songs": [
 			{"song": "All I Really Want For Christmas", "year": "2018", "stars" : 3},
-            {"song": "Get Low", "year": "2003", "stars" : 4},
+            {"song": "Get Low", "year": "2003", "stars" : 5},
 			{"song": "Let's Go", "year": "2004", "stars" : 1}
         ]
     },
@@ -2274,6 +2287,7 @@
             {"song": "Pound the Alarm", "year": "2012", "stars" : 1},
             {"song": "Super Bass", "year": "2011", "stars" : 4},
             {"song": "Trini Dem Girls", "year": "2015", "stars" : 1},
+			{"song": "Turn Me On", "year": "2012", "stars" : 1},
             {"song": "Your Love", "year": "2010", "stars" : 3}
         ]
     },
@@ -2793,6 +2807,7 @@
     {
         "artist": "Skrillex",
         "songs": [
+			{"song": "All I Ask of You", "year": "2010", "stars" : 1},
             {"song": "Bangarang", "year": "2011", "stars" : 2},
             {"song": "First of the Year", "year": "2011", "stars" : 1},
             {"song": "Scary Monsters and Nice Sprites", "year": "2011", "stars" : 3},
@@ -3140,6 +3155,12 @@
         "artist": "The Verve",
         "songs": [
             {"song": "Bittersweet Symphony", "year": "1997", "stars" : 1}
+        ]
+    },
+	{
+        "artist": "The Village People",
+        "songs": [
+            {"song": "Y.M.C.A.", "year": "1978", "stars" : 2}
         ]
     },
     {
