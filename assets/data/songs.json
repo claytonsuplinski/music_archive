@@ -1997,7 +1997,8 @@
         "artist": "Marshmello",
         "songs": [
             {"song": "Alone", "year": "2017", "stars" : 1},
-			{"song": "Friends", "year": "2018", "stars" : 2}
+			{"song": "Friends", "year": "2018", "stars" : 2},
+			{"song": "Here with Me", "year": "2019", "stars" : 1}
         ]
     },
     {
@@ -2628,6 +2629,7 @@
         "artist": "Rita Ora",
         "songs": [
             {"song": "Black Widow", "year": "2014", "stars" : 3},
+			{"song": "Carry On", "year": "2019", "stars" : 1},
             {"song": "How We Do", "year": "2012", "stars" : 2},
             {"song": "I Will Never Let You Down", "year": "2014", "stars" : 1}
         ]

@@ -98,15 +98,31 @@ function graph_stars_per_year(){
 	
 	years = years_final;
 	
+	var prev_score = 999;
+	var prev_rank_count = 0;
+	var rank = 0;
+
+	
 	$("#content").append(
-		'<div class="graph-values">' +
-			'<div class="header">VALUES<hr></div>' +
-			years.slice().sort( (a,b) => b.value - a.value ).map(function(year){
-				return '<div class="value">' + 
-					'<div class="lbl">' + year.name  + '</div>' +
-					'<div class="val">' + year.value + '</div>' +
-				'</div>';
-			}).join('')+
+		'<div class="year-table">' +
+			'<table>' +
+				'<tr><th colspan="3">Top Years</th></tr>' +
+				years.slice().sort( (a,b) => b.value - a.value ).map(function( item ){
+					prev_rank_count++;
+					
+					if( item.value != prev_score ){
+						rank += prev_rank_count;
+						prev_rank_count = 0;
+						prev_score = item.value;
+					}
+					
+					return '<tr>' + 
+						'<td class="rank">' + rank + '</td>' +
+						'<td>' + item.name + '</td>' + 
+						'<td class="score">' + item.value + ' <i class="fa fa-star"></i></td>' + 
+					'</tr>';
+				}).join('') +
+			'</table>' +
 		'</div>'
 	);
 
