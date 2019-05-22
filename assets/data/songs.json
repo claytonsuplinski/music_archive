@@ -1849,6 +1849,12 @@
 			{"song": "New In Town", "year": "2009", "stars" : 1}
 		]
 	},
+	{
+		"artist": "Little Mix",
+		"songs": [
+			{"song": "Black Magic", "year": "2015", "stars" : 1}
+		]
+	},
     {
         "artist": "Lloyd Banks",
         "songs": [
@@ -2910,17 +2916,30 @@
             {"song": "Fat Lip", "year": "2001", "stars" : 3}
         ]
     },
-    {
+	{
         "artist": "Super Smash Bros Brawl",
         "songs": [
             {"song": "Bramble Blast", "year": "2008", "stars" : 4},
             {"song": "Dragon Roost Island", "year": "2008", "stars" : 2},
             {"song": "Mute City", "year": "2008", "stars" : 1},
             {"song": "Pokemon Center", "year": "2008", "stars" : 2},
-            {"song": "Princess Peach's Castle", "year": "2008", "stars" : 4},
             {"song": "Road to Viridian City", "year": "2008", "stars" : 2},
             {"song": "Route 209", "year": "2008", "stars" : 3},
             {"song": "The Great Sea", "year": "2008", "stars" : 2}
+        ]
+    },
+    {
+        "artist": "Super Smash Bros Melee",
+        "songs": [
+			{"song": "Hyrule Temple", "year": "2001", "stars" : 3},
+            {"song": "Onett", "year": "2001", "stars" : 3},
+			{"song": "Princess Peach's Castle", "year": "2001", "stars" : 4}
+        ]
+    },
+	{
+        "artist": "Susan Egan",
+        "songs": [
+            {"song": "I Won't Say (I'm In Love)", "year": "1997", "stars" : 2}
         ]
     },
     {
