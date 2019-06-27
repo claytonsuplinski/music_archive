@@ -149,6 +149,7 @@
         "artist": "Ariana Grande",
         "songs": [
             {"song": "Break Free", "year": "2014", "stars" : 5},
+			{"song": "Love Me Harder", "year": "2014", "stars" : 1},
 			{"song": "No Tears Left to Cry", "year": "2018", "stars" : 1},
             {"song": "One Last Time", "year": "2014", "stars" : 3},
             {"song": "Problem", "year": "2014", "stars" : 2},
@@ -184,7 +185,7 @@
 	{
         "artist": "Ava Max",
         "songs": [
-            {"song": "Sweet but Psycho", "year": "2019", "stars" : 4}
+            {"song": "Sweet but Psycho", "year": "2019", "stars" : 5}
         ]
     },
     {
@@ -303,6 +304,12 @@
         "artist": "Big Sean",
         "songs": [
             {"song": "Dance (A$$)", "year": "2011", "stars" : 1}
+        ]
+    },
+	{
+        "artist": "Billie Eilish",
+        "songs": [
+            {"song": "Bad Guy", "year": "2019", "stars" : 1}
         ]
     },
     {
@@ -1088,6 +1095,7 @@
     {
         "artist": "Flo Rida",
         "songs": [
+			{"song": "Cake", "year": "2017", "stars" : 2},
             {"song": "Club Can't Handle Me", "year": "2010", "stars" : 5},
             {"song": "I Cry", "year": "2012", "stars" : 3},
             {"song": "Low", "year": "2008", "stars" : 2},
@@ -1225,6 +1233,12 @@
             {"song": "Know Your Enemy", "year": "2009", "stars" : 1},
             {"song": "Wake Me Up When September Ends", "year": "2004", "stars" : 2},
             {"song": "21 Guns", "year": "2009", "stars" : 3}
+        ]
+    },
+	{
+        "artist": "Grouplove",
+        "songs": [
+            {"song": "Tongue Tied", "year": "2011", "stars" : 1}
         ]
     },
     {
@@ -2689,6 +2703,7 @@
         "songs": [
             {"song": "Eenie Meenie", "year": "2010", "stars" : 3},
             {"song": "Fire Burning", "year": "2009", "stars" : 1},
+			{"song": "Letting Go (Dutty Love)", "year": "2010", "stars" : 1},
             {"song": "Love Like This", "year": "2008", "stars" : 2}
         ]
     },

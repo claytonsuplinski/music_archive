@@ -104,7 +104,7 @@ function graph_stars_per_year(){
 
 	
 	$("#content").append(
-		'<div class="year-table">' +
+		'<div class="year-table" style="max-width:290px;">' +
 			'<table>' +
 				'<tr><th colspan="3">Top Years</th></tr>' +
 				years.slice().sort( (a,b) => b.value - a.value ).map(function( item ){
