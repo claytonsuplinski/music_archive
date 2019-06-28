@@ -195,12 +195,21 @@ function random_artist(){
 	load_artist(SONG.data[Math.floor(Math.random()*SONG.data.length)].artist);
 };
 
+function random_index( arr ){
+	return Math.floor( Math.random() * arr.length );
+};
+
 function random_songs(num){
-	var results = [];
-	var songs = SONG.ALL_SONGS.slice();
-	for(var i=0; i<num; i++){
-		results.push(songs.splice(Math.floor(Math.random()*songs.length), 1)[0]);
-	}
+	var results      = [];
+	var used_indices = [];
+	
+	while( used_indices.length < num ){
+		var index = random_index( SONG.ALL_SONGS );
+		if( used_indices.indexOf( index ) == -1 ){
+			results.push( SONG.ALL_SONGS[ index ] );
+			used_indices.push( index );
+		}
+	};
 	
 	$("#content").html(results.map(function(a){ return html_song(a); }).join(''));
 };
