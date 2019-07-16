@@ -128,7 +128,8 @@ tr.even td{
 	color:#eee;
 }
 
-.button{
+.button,
+.select-button{
 	background:#467763;
 	width:27vw;
 	display:inline-block;
@@ -163,6 +164,21 @@ tr.even td{
 
 .button i.fa{
 	margin-right:1vw;
+}
+
+.select-button{
+	width:85vw;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.select-button option{
+	background:#642863;
+	padding:2px;
+	text-align:center;
 }
 
 .song{

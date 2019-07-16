@@ -93,3 +93,8 @@ path {
 .year-table table td.score.six-stars{
 	color:#908904;
 }
+
+.sub-title{
+	font-style:italic;
+	font-size:12px;
+}

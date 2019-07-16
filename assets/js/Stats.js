@@ -1,19 +1,19 @@
 function home_screen(){
 
-	var buttons = [
-		{ label : 'MUSIC OVER TIME'    , onclick : 'graph_stars_per_year();'  , label_sm : 'MUSIC / TIME'   },
-		{ label : 'ARTISTS PER YEAR'   , onclick : 'top_artists_per_year();'  , label_sm : 'ARTISTS / YEAR' },
-		{ label : 'SONGS PER YEAR'     , onclick : 'top_songs_per_year();'    , label_sm : 'SONGS / YEAR'   },
-		{ label : 'TOP ARTISTS'        , onclick : 'top_artists();'           },
-		{ label : 'ARTISTS PER DECADE' , onclick : 'top_artists_per_decade();', label_sm : 'ARTIST / 10yrs' },
-		{ label : 'SONGS PER DECADE'   , onclick : 'top_songs_per_decade();'  , label_sm : 'SONGS / 10yrs'  },
+	SONG.buttons = [
+		{ label : 'MUSIC OVER TIME'    , onclick : function(){ graph_stars_per_year();   } },
+		{ label : 'TOP ARTISTS'        , onclick : function(){ top_artists();            } },
+		{ label : 'ARTISTS PER YEAR'   , onclick : function(){ top_artists_per_year();   } },
+		{ label : 'ARTISTS PER DECADE' , onclick : function(){ top_artists_per_decade(); } },
+		{ label : 'SONGS PER YEAR'     , onclick : function(){ top_songs_per_year();     } },
+		{ label : 'SONGS PER DECADE'   , onclick : function(){ top_songs_per_decade();   } },
+		{ label : 'TOP ALBUMS'         , onclick : function(){ top_albums();             } },
 	];
-
-	$(".header .hidden-sm").html(
-		buttons.map( b => '<div class="button" onclick="' + b.onclick + '">' + b.label + '</div>' ).join('')
-	);
-	$(".header .hidden-lg").html(
-		buttons.map( b => '<div class="button button-half-sm" onclick="' + b.onclick + '">' + ( b.label_sm || b.label ) + '</div>' ).join('')
+	
+	$(".header").append(
+		'<select class="select-button" onchange="SONG.buttons[ this.value ].onclick();">' +
+			SONG.buttons.map( ( b, i ) => '<option value="' + i + '">' + b.label + '</option>' ).join('') +
+		'</select>'
 	);
 	
 	SONG.ALL_YEARS = SONG.ALL_YEARS.sort( (a,b) => ( b.year - a.year ) );
@@ -436,4 +436,61 @@ function top_songs_per_year( p ){
 	);
 };
 
+function top_albums( p ){
+	var p = p || {};
+
+	var albums = {};
+	
+	SONG.ALL_SONGS.forEach(function( song ){
+		if( song.album ){
+			if( !albums[ song.album ] ){
+				albums[ song.album ] = { artist : song.artist, score : 0 };
+			}
+			albums[ song.album ].score += song.stars;
+		}
+	});
+	albums = Object.keys( albums ).map( n => ( { name : n, score : albums[ n ].score, artist : albums[ n ].artist } ) ).sort( (a,b) => ( b.score - a.score ) ); 
+
+	$("#content").html(
+		[
+			{ results : albums.slice( 0, p.num_results || 50 ) },
+		].map(function( category ){
+			var prev_score = 999;
+			var prev_rank_count = 0;
+			var rank = 0;
+			
+			return '<div class="year-table">' +
+				'<table>' +
+					'<tr><th colspan="3">Top Albums</th></tr>' +
+					category.results.map(function( result ){					
+						prev_rank_count++;
+						
+						if( result.score != prev_score ){
+							rank += prev_rank_count;
+							prev_rank_count = 0;
+							prev_score = result.score;
+						}
+					
+						return '<tr>' +
+							'<td class="rank">' + rank + '</td>' +
+							'<td>' + 
+								result.name + '<br>' + 
+								'<span class="sub-title">' + result.artist + '</span>' +
+							'</td>' + 
+							'<td class="score">' + result.score + ' <i class="fa fa-star"></i></td>' + 
+						'</tr>';
+					}).join('') +
+				'</table>' +
+			'</div>';
+		}).join('<br>')
+	);
+};
+
 load_data( home_screen );
+
+/*
+
+-One-liner to get the top 10 albums of all time:
+var albums = {}; SONG.ALL_SONGS.forEach(function( song ){ if( song.album ){ if( !albums[ song.album ] ){ albums[ song.album ] = { artist : song.artist, score : 0 }; } albums[ song.album ].score += song.stars; } }); albums = Object.keys( albums ).map( n => ( { name : n, score : albums[ n ].score, artist : albums[ n ].artist } ) ).sort( (a,b) => ( b.score - a.score ) ); albums.slice(0,10).forEach(function( album ){ console.log( album.score, album.artist, ' -- ', album.name ); });
+
+*/

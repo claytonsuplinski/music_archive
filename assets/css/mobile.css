@@ -35,7 +35,8 @@
 		padding:0px;
 	}
 	
-	.button{
+	.button,
+	.select-button{
 		width:90%;
 		padding:10px;
 		margin:5px;
