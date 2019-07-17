@@ -2418,9 +2418,9 @@
     {
         "artist": "Outkast",
         "songs": [
-            {"year": "2003", "stars" : 5, "song": "Hey Ya!"},
-            {"year": "2003", "stars" : 4, "song": "Roses"},
-            {"year": "2003", "stars" : 2, "song": "The Way You Move"}
+            {"year": "2003", "stars" : 5, "song": "Hey Ya!"         , "album" : "Speakerboxxx/The Love Below"},
+            {"year": "2003", "stars" : 4, "song": "Roses"           , "album" : "Speakerboxxx/The Love Below"},
+            {"year": "2003", "stars" : 2, "song": "The Way You Move", "album" : "Speakerboxxx/The Love Below"}
         ]
     },
     {

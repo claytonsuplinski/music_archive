@@ -31,6 +31,10 @@ function home_screen(){
 	graph_stars_per_year();
 };
 
+function text_to_filename( text ){
+	return text.toLowerCase().replace(/[.,\/#!$%?\^&\*;:{}=\-\[\]_`~()\']/g, "").replace(/ /g, '');
+};
+
 function graph_stars_per_year(){
 	var id = '#graph';
 	
@@ -461,7 +465,7 @@ function top_albums( p ){
 			
 			return '<div class="year-table">' +
 				'<table>' +
-					'<tr><th colspan="3">Top Albums</th></tr>' +
+					'<tr><th colspan="4">Top Albums</th></tr>' +
 					category.results.map(function( result ){					
 						prev_rank_count++;
 						
@@ -473,6 +477,8 @@ function top_albums( p ){
 					
 						return '<tr>' +
 							'<td class="rank">' + rank + '</td>' +
+							'<td class="album-cover" style="background-image:url(./assets/data/albums/' + text_to_filename( result.artist ) + '_' + 
+																										  text_to_filename( result.name ) + '.jpg);"></td>' +
 							'<td>' + 
 								result.name + '<br>' + 
 								'<span class="sub-title">' + result.artist + '</span>' +
