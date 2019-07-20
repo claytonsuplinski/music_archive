@@ -82,3 +82,7 @@ function load_data( callback ){
 		}
 	});
 };
+
+function text_to_filename( text ){
+	return text.toLowerCase().replace(/[.,\/#!$%?\^&\*;:{}=\-\[\]_`~()\']/g, "").replace(/ /g, '');
+};

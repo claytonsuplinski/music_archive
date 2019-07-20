@@ -31,10 +31,6 @@ function home_screen(){
 	graph_stars_per_year();
 };
 
-function text_to_filename( text ){
-	return text.toLowerCase().replace(/[.,\/#!$%?\^&\*;:{}=\-\[\]_`~()\']/g, "").replace(/ /g, '');
-};
-
 function graph_stars_per_year(){
 	var id = '#graph';
 	
@@ -495,10 +491,3 @@ function top_albums( p ){
 };
 
 load_data( home_screen );
-
-/*
-
--One-liner to get the top 10 albums of all time:
-var albums = {}; SONG.ALL_SONGS.forEach(function( song ){ if( song.album ){ if( !albums[ song.album ] ){ albums[ song.album ] = { artist : song.artist, score : 0 }; } albums[ song.album ].score += song.stars; } }); albums = Object.keys( albums ).map( n => ( { name : n, score : albums[ n ].score, artist : albums[ n ].artist } ) ).sort( (a,b) => ( b.score - a.score ) ); albums.slice(0,10).forEach(function( album ){ console.log( album.score, album.artist, ' -- ', album.name ); });
-
-*/

@@ -110,11 +110,37 @@ function all_artists( limit ){
 			'</div>'+
 		'</div>'+
 		artists.map(function(a){
+			var albums = {};
+			a.songs.forEach(function( song ){
+				if( song.album ){
+					if( !albums[ song.album ] ) albums[ song.album ] = 0;
+					albums[ song.album ] += song.stars;
+				}
+			});
+			
+			var max_album_stars = 0;
+			var max_album_name  = false;
+			Object.keys( albums ).forEach(function( name ){
+				if( albums[ name ] > max_album_stars ){
+					max_album_stars = albums[ name ];
+					max_album_name  = name;
+				}
+			});
+			
+			var artist_background = false;
+			if( max_album_name ){
+				artist_background = './assets/data/albums/' + text_to_filename( a.artist ) + '_' + 
+															  text_to_filename( max_album_name ) + '.jpg';
+			}
+			
 			return '<div class="artist" onclick="load_artist(&quot;'+a.artist+'&quot;);">'+
 				'<div class="name">'+
 					'<table>'+
 						'<tr>'+
-							'<td rowspan="6">'+a.artist.toUpperCase()+'<hr></div>'+
+							'<td rowspan="6" style="position:relative;">' + 
+								( max_album_name ? '<div class="artist-background" style="background-image:url(' + artist_background + ');"></div>' : '' ) +
+								'<div>' + a.artist.toUpperCase()+'<hr></div>' + 
+							'</td>'+
 						'</tr>'+
 					'</table>'+
 				'</div>'+
