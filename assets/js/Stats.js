@@ -448,12 +448,14 @@ function top_albums( p ){
 	SONG.ALL_SONGS.forEach(function( song ){
 		if( song.album ){
 			if( !albums[ song.album ] ){
-				albums[ song.album ] = { artist : song.artist, score : 0 };
+				albums[ song.album ] = { artist : song.artist, score : 0, highest : 0 };
 			}
 			albums[ song.album ].score += song.stars;
+			if( song.stars > albums[ song.album ].highest ) albums[ song.album ].highest = song.stars;
 		}
 	});
-	albums = Object.keys( albums ).map( n => ( { name : n, score : albums[ n ].score, artist : albums[ n ].artist } ) ).sort( (a,b) => ( b.score - a.score ) ); 
+	albums = Object.keys( albums ).map( n => ( { name : n, score : albums[ n ].score, artist : albums[ n ].artist, highest : albums[ n ].highest } ) )
+	albums = albums.sort( (a,b) => ( b.highest - a.highest ) ).sort( (a,b) => ( b.score - a.score ) ); 
 
 	$("#content").html(
 		[

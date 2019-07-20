@@ -48,16 +48,16 @@
     {
         "artist": "Akon",
         "songs": [
-            {"year": "2010", "stars" : 3, "song": "Angel"},
-            {"year": "2004", "stars" : 1, "song": "Bananza (Belly Dancer)"},
-            {"year": "2009", "stars" : 4, "song": "Beautiful"},
-            {"year": "2006", "stars" : 1, "song": "Don't Matter"},
-            {"year": "2007", "stars" : 3, "song": "Hypnotized"},
-            {"year": "2006", "stars" : 2, "song": "I Wanna Love You"},
-            {"year": "2008", "stars" : 1, "song": "Right Now (Na Na Na)"},
-            {"year": "2009", "stars" : 5, "song": "Sexy Bitch"},
-            {"year": "2006", "stars" : 2, "song": "Smack That"},
-			{"year": "2017", "stars" : 1, "song": "Til The Sun Rise Up"}
+            {"year": "2010", "stars" : 3, "song": "Angel"                 },
+            {"year": "2004", "stars" : 1, "song": "Bananza (Belly Dancer)", "album" : "Trouble"},
+            {"year": "2009", "stars" : 4, "song": "Beautiful"             , "album" : "Freedom"},
+            {"year": "2006", "stars" : 1, "song": "Don't Matter"          , "album" : "Konvicted"},
+            {"year": "2007", "stars" : 3, "song": "Hypnotized"            },
+            {"year": "2006", "stars" : 2, "song": "I Wanna Love You"      , "album" : "Konvicted"},
+            {"year": "2008", "stars" : 1, "song": "Right Now (Na Na Na)"  , "album" : "Freedom"},
+            {"year": "2009", "stars" : 5, "song": "Sexy Bitch"            },
+            {"year": "2006", "stars" : 2, "song": "Smack That"            , "album" : "Konvicted"},
+			{"year": "2017", "stars" : 1, "song": "Til The Sun Rise Up"   }
         ]
     },
     {
@@ -148,12 +148,12 @@
     {
         "artist": "Ariana Grande",
         "songs": [
-            {"year": "2014", "stars" : 5, "song": "Break Free"},
-			{"year": "2014", "stars" : 1, "song": "Love Me Harder"},
-			{"year": "2018", "stars" : 1, "song": "No Tears Left to Cry"},
-            {"year": "2014", "stars" : 3, "song": "One Last Time"},
-            {"year": "2014", "stars" : 2, "song": "Problem"},
-            {"year": "2013", "stars" : 2, "song": "The Way"}
+            {"year": "2014", "stars" : 5, "song": "Break Free"          , "album" : "My Everything"},
+			{"year": "2014", "stars" : 1, "song": "Love Me Harder"      , "album" : "My Everything"},
+			{"year": "2018", "stars" : 1, "song": "No Tears Left to Cry", "album" : "Sweetener"},
+            {"year": "2014", "stars" : 3, "song": "One Last Time"       , "album" : "My Everything"},
+            {"year": "2014", "stars" : 2, "song": "Problem"             , "album" : "My Everything"},
+            {"year": "2013", "stars" : 2, "song": "The Way"             , "album" : "Yours Truly"}
         ]
     },
     {
@@ -350,11 +350,11 @@
     {
         "artist": "Blink-182",
         "songs": [
-            {"year": "1999", "stars" : 4, "song": "All the Small Things"},
-            {"year": "2001", "stars" : 2, "song": "First Date"},
-            {"year": "2003", "stars" : 1, "song": "I Miss You"},
-            {"year": "2001", "stars" : 1, "song": "The Rock Show"},
-            {"year": "1999", "stars" : 2, "song": "What's My Age Again"}
+            {"year": "1999", "stars" : 4, "song": "All the Small Things", "album" : "Enema of the State"},
+            {"year": "2001", "stars" : 2, "song": "First Date"          , "album" : "Take Off Your Pants and Jacket"},
+            {"year": "2003", "stars" : 1, "song": "I Miss You"          , "album" : "Blink-182"},
+            {"year": "2001", "stars" : 1, "song": "The Rock Show"       , "album" : "Take Off Your Pants and Jacket"},
+            {"year": "1999", "stars" : 2, "song": "What's My Age Again" , "album" : "Enema of the State"}
         ]
     },
     {
@@ -443,21 +443,22 @@
     {
         "artist": "Bruce Springsteen",
         "songs": [
-            {"year": "1984", "stars" : 2, "song": "Born in the USA"},
-            {"year": "1975", "stars" : 5, "song": "Born to Run"},
-            {"year": "1975", "stars" : 4, "song": "Tenth Avenue Freeze-out"},
-            {"year": "2009", "stars" : 4, "song": "Working on a Dream"}
+            {"year": "1984", "stars" : 2, "song": "Born in the USA"        , "album" : "Born in the U.S.A."},
+            {"year": "1975", "stars" : 5, "song": "Born to Run"            , "album" : "Born to Run"},
+			{"year": "1985", "stars" : 1, "song": "Glory Days"             , "album" : "Born in the U.S.A."},
+            {"year": "1975", "stars" : 4, "song": "Tenth Avenue Freeze-out", "album" : "Born to Run"},
+            {"year": "2009", "stars" : 4, "song": "Working on a Dream"     , "album" : "Working on a Dream"}
         ]
     },
     {
         "artist": "Bruno Mars",
         "songs": [
-            {"year": "2010", "stars" : 2, "song": "Billionaire"},
-            {"year": "2011", "stars" : 1, "song": "It Will Rain"},
-            {"year": "2010", "stars" : 3, "song": "Just the Way You Are"},
-            {"year": "2012", "stars" : 2, "song": "Locked Out Of Heaven"},
-            {"year": "2012", "stars" : 1, "song": "Treasure"},
-            {"year": "2014", "stars" : 1, "song": "Uptown Funk"}
+            {"year": "2010", "stars" : 2, "song": "Billionaire"         },
+            {"year": "2011", "stars" : 1, "song": "It Will Rain"        },
+            {"year": "2010", "stars" : 3, "song": "Just the Way You Are", "album" : "Doo-Wops & Hooligans"},
+            {"year": "2012", "stars" : 2, "song": "Locked Out Of Heaven", "album" : "Unorthodox Jukebox"},
+            {"year": "2012", "stars" : 1, "song": "Treasure"            , "album" : "Unorthodox Jukebox"},
+            {"year": "2014", "stars" : 1, "song": "Uptown Funk"         }
         ]
     },
     {
@@ -740,9 +741,9 @@
     {
         "artist": "Deadmau5",
         "songs": [
-            {"year": "2011", "stars" : 3, "song": "Aural Psynapse"},
-            {"year": "2011", "stars" : 3, "song": "Ghosts n Stuff (Moar)"},
-            {"year": "2011", "stars" : 1, "song": "Hiatus Fantasy"}
+            {"year": "2011", "stars" : 3, "song": "Aural Psynapse"       , "album" : "5 Years of Mau5"},
+            {"year": "2011", "stars" : 3, "song": "Ghosts n Stuff (Moar)", "album" : "For Lack of a Better Name"},
+            {"year": "2011", "stars" : 1, "song": "Hiatus Fantasy"       }
         ]
     },
     {
@@ -975,13 +976,13 @@
     {
         "artist": "Eminem",
         "songs": [
-            {"year": "2013", "stars" : 1, "song": "Berzerk"},
-            {"year": "2002", "stars" : 2, "song": "Lose Yourself"},
-            {"year": "2010", "stars" : 3, "song": "Love the Way You Lie"},
-            {"year": "2013", "stars" : 1, "song": "Rap God"},
-            {"year": "2002", "stars" : 1, "song": "Sing for the Moment"},
-            {"year": "2000", "stars" : 1, "song": "The Real Slim Shady"},
-            {"year": "2002", "stars" : 3, "song": "Without Me"}
+            {"year": "2013", "stars" : 1, "song": "Berzerk"             , "album" : "The Marshall Mathers LP 2"},
+            {"year": "2002", "stars" : 2, "song": "Lose Yourself"       },
+            {"year": "2010", "stars" : 3, "song": "Love the Way You Lie", "album" : "Recovery"},
+            {"year": "2013", "stars" : 1, "song": "Rap God"             , "album" : "The Marshall Mathers LP 2"},
+            {"year": "2002", "stars" : 1, "song": "Sing for the Moment" , "album" : "The Eminem Show"},
+            {"year": "2000", "stars" : 1, "song": "The Real Slim Shady" , "album" : "The Marshall Mathers LP"},
+            {"year": "2002", "stars" : 3, "song": "Without Me"          , "album" : "The Eminem Show"}
         ]
     },
 	{
@@ -1078,33 +1079,33 @@
     {
         "artist": "Fergie",
         "songs": [
-            {"year": "2007", "stars" : 2, "song": "Big Girls Don't Cry"},
-            {"year": "2006", "stars" : 3, "song": "Fergilicious"},
-            {"year": "2007", "stars" : 5, "song": "Glamorous"},
-            {"year": "2006", "stars" : 1, "song": "London Bridge"}
+            {"year": "2007", "stars" : 2, "song": "Big Girls Don't Cry", "album" : "The Dutchess"},
+            {"year": "2006", "stars" : 3, "song": "Fergilicious"       , "album" : "The Dutchess"},
+            {"year": "2007", "stars" : 5, "song": "Glamorous"          , "album" : "The Dutchess"},
+            {"year": "2006", "stars" : 1, "song": "London Bridge"      , "album" : "The Dutchess"}
         ]
     },
     {
         "artist": "Fifth Harmony",
         "songs": [
-            {"year": "2016", "stars" : 1, "song": "All In My Head"},
-            {"year": "2015", "stars" : 3, "song": "Sledgehammer"},
-            {"year": "2016", "stars" : 5, "song": "Work from Home"}
+            {"year": "2016", "stars" : 1, "song": "All In My Head", "album" : "7/27"},
+            {"year": "2015", "stars" : 3, "song": "Sledgehammer"  , "album" : "Reflection"},
+            {"year": "2016", "stars" : 5, "song": "Work from Home", "album" : "7/27"}
         ]
     },
     {
         "artist": "Flo Rida",
         "songs": [
-			{"year": "2017", "stars" : 2, "song": "Cake"},
-            {"year": "2010", "stars" : 5, "song": "Club Can't Handle Me"},
-            {"year": "2012", "stars" : 3, "song": "I Cry"},
-            {"year": "2008", "stars" : 2, "song": "Low"},
-            {"year": "2009", "stars" : 2, "song": "Right Round"},
-            {"year": "2009", "stars" : 1, "song": "Sugar"},
-            {"year": "2011", "stars" : 2, "song": "Where Them Girls At"},
-            {"year": "2012", "stars" : 1, "song": "Whistle"},
-            {"year": "2010", "stars" : 1, "song": "Who Dat Girl"},
-            {"year": "2012", "stars" : 5, "song": "Wild Ones"}
+			{"year": "2017", "stars" : 2, "song": "Cake"                , "album" : "This Is A Challenge"},
+            {"year": "2010", "stars" : 5, "song": "Club Can't Handle Me", "album" : "Only One Flo (Part 1)"},
+            {"year": "2012", "stars" : 3, "song": "I Cry"               , "album" : "Wild Ones"},
+            {"year": "2008", "stars" : 2, "song": "Low"                 , "album" : "Mail on Sunday"},
+            {"year": "2009", "stars" : 2, "song": "Right Round"         , "album" : "R.O.O.T.S."},
+            {"year": "2009", "stars" : 1, "song": "Sugar"               , "album" : "R.O.O.T.S."},
+            {"year": "2011", "stars" : 2, "song": "Where Them Girls At" },
+            {"year": "2012", "stars" : 1, "song": "Whistle"             , "album" : "Wild Ones"},
+            {"year": "2010", "stars" : 1, "song": "Who Dat Girl"        , "album" : "Only One Flo (Part 1)"},
+            {"year": "2012", "stars" : 5, "song": "Wild Ones"           , "album" : "Wild Ones"}
         ]
     },
     {
@@ -1154,9 +1155,9 @@
     {
         "artist": "fun.",
         "songs": [
-            {"year": "2012", "stars" : 1, "song": "Carry On"},
-            {"year": "2012", "stars" : 1, "song": "Some Nights"},
-            {"year": "2012", "stars" : 4, "song": "We Are Young"}
+            {"year": "2012", "stars" : 1, "song": "Carry On"    , "album" : "Some Nights"},
+            {"year": "2012", "stars" : 1, "song": "Some Nights" , "album" : "Some Nights"},
+            {"year": "2012", "stars" : 4, "song": "We Are Young", "album" : "Some Nights"}
         ]
     },
     {
@@ -1199,11 +1200,11 @@
     {
         "artist": "Goo Goo Dolls",
         "songs": [
-            {"year": "2006", "stars" : 1, "song": "Better Days"},
-            {"year": "1998", "stars" : 4, "song": "Black Balloon"},
-			{"year": "2004", "stars" : 3, "song": "Give a Little Bit"},
-            {"year": "1998", "stars" : 3, "song": "Iris"},
-            {"year": "1998", "stars" : 2, "song": "Slide"}
+            {"year": "2006", "stars" : 1, "song": "Better Days"      , "album" : "Let Love In"},
+            {"year": "1998", "stars" : 4, "song": "Black Balloon"    , "album" : "Dizzy Up the Girl"},
+			{"year": "2004", "stars" : 3, "song": "Give a Little Bit", "album" : "Let Love In"},
+            {"year": "1998", "stars" : 3, "song": "Iris"             , "album" : "Dizzy Up the Girl"},
+            {"year": "1998", "stars" : 2, "song": "Slide"            , "album" : "Dizzy Up the Girl"}
         ]
     },
     {
@@ -1226,13 +1227,13 @@
     {
         "artist": "Green Day",
         "songs": [
-            {"year": "2004", "stars" : 4, "song": "American Idiot"},
-            {"year": "2004", "stars" : 2, "song": "Boulevard of Broken Dreams"},
-            {"year": "1997", "stars" : 3, "song": "Good Riddance"},
-            {"year": "2004", "stars" : 3, "song": "Holiday"},
-            {"year": "2009", "stars" : 1, "song": "Know Your Enemy"},
-            {"year": "2004", "stars" : 2, "song": "Wake Me Up When September Ends"},
-            {"year": "2009", "stars" : 3, "song": "21 Guns"}
+            {"year": "2004", "stars" : 4, "song": "American Idiot"                , "album" : "American Idiot"},
+            {"year": "2004", "stars" : 2, "song": "Boulevard of Broken Dreams"    , "album" : "American Idiot"},
+            {"year": "1997", "stars" : 3, "song": "Good Riddance"                 , "album" : "Nimrod"},
+            {"year": "2004", "stars" : 3, "song": "Holiday"                       , "album" : "American Idiot"},
+            {"year": "2009", "stars" : 1, "song": "Know Your Enemy"               , "album" : "21st Century Breakdown"},
+            {"year": "2004", "stars" : 2, "song": "Wake Me Up When September Ends", "album" : "American Idiot"},
+            {"year": "2009", "stars" : 3, "song": "21 Guns"                       , "album" : "21st Century Breakdown"}
         ]
     },
 	{
@@ -1366,11 +1367,11 @@
     {
         "artist": "Jason Derulo",
         "songs": [
-            {"year": "2010", "stars" : 3, "song": "In My Head"},
-			{"year": "2010", "stars" : 2, "song": "Love Hangover"},
-            {"year": "2010", "stars" : 2, "song": "Ridin Solo"},
-            {"year": "2015", "stars" : 1, "song": "Want to Want Me"},
-            {"year": "2009", "stars" : 5, "song": "Whatcha Say"}
+            {"year": "2010", "stars" : 3, "song": "In My Head"     , "album" : "Jason Derulo"},
+			{"year": "2010", "stars" : 2, "song": "Love Hangover"  , "album" : "Jason Derulo"},
+            {"year": "2010", "stars" : 2, "song": "Ridin Solo"     , "album" : "Jason Derulo"},
+            {"year": "2015", "stars" : 1, "song": "Want to Want Me", "album" : "Everything Is 4"},
+            {"year": "2009", "stars" : 5, "song": "Whatcha Say"    , "album" : "Jason Derulo"}
         ]
     },
     {
@@ -1541,12 +1542,12 @@
     {
         "artist": "Justin Bieber",
         "songs": [
-            {"year": "2012", "stars" : 3, "song": "Beauty and a Beat"},
-            {"year": "2016", "stars" : 1, "song": "Cold Water"},
-            {"year": "2017", "stars" : 1, "song": "I'm the One"},
-            {"year": "2016", "stars" : 2, "song": "Let Me Love You"},
-            {"year": "2015", "stars" : 3, "song": "Sorry"},
-            {"year": "2015", "stars" : 2, "song": "Where Are U Now"}
+            {"year": "2012", "stars" : 3, "song": "Beauty and a Beat", "album" : "Believe"},
+            {"year": "2016", "stars" : 1, "song": "Cold Water"       },
+            {"year": "2017", "stars" : 1, "song": "I'm the One"      },
+            {"year": "2016", "stars" : 2, "song": "Let Me Love You"  },
+            {"year": "2015", "stars" : 3, "song": "Sorry"            , "album" : "Purpose"},
+            {"year": "2015", "stars" : 2, "song": "Where Are U Now"  , "album" : "Purpose"}
         ]
     },
     {
@@ -1567,16 +1568,16 @@
     {
         "artist": "Kanye West",
         "songs": [
-            {"year": "2004", "stars" : 1, "song": "All Falls Down"},
-            {"year": "2010", "stars" : 4, "song": "All of the Lights"},
-            {"year": "2007", "stars" : 3, "song": "Flashing Lights"},
-            {"year": "2005", "stars" : 5, "song": "Gold Digger"},
-            {"year": "2007", "stars" : 3, "song": "Good Life"},
-            {"year": "2009", "stars" : 5, "song": "Heartless"},
-            {"year": "2008", "stars" : 2, "song": "Love Lockdown"},
-            {"year": "2011", "stars" : 3, "song": "Power"},
-            {"year": "2007", "stars" : 3, "song": "Stronger"},
-            {"year": "2009", "stars" : 2, "song": "Supernova"}
+            {"year": "2004", "stars" : 1, "song": "All Falls Down"   , "album" : "The College Dropout"},
+            {"year": "2010", "stars" : 4, "song": "All of the Lights", "album" : "My Beautiful Dark Twisted Fantasy"},
+            {"year": "2007", "stars" : 3, "song": "Flashing Lights"  , "album" : "Graduation"},
+            {"year": "2005", "stars" : 5, "song": "Gold Digger"      , "album" : "Late Registration"},
+            {"year": "2007", "stars" : 3, "song": "Good Life"        , "album" : "Graduation"},
+            {"year": "2009", "stars" : 5, "song": "Heartless"        , "album" : "808s & Heartbreak"},
+            {"year": "2008", "stars" : 2, "song": "Love Lockdown"    , "album" : "808s & Heartbreak"},
+            {"year": "2011", "stars" : 3, "song": "Power"            , "album" : "My Beautiful Dark Twisted Fantasy"},
+            {"year": "2007", "stars" : 3, "song": "Stronger"         , "album" : "Graduation"},
+            {"year": "2009", "stars" : 2, "song": "Supernova"        }
         ]
     },
     {
@@ -1630,14 +1631,14 @@
     {
         "artist": "Kelly Clarkson",
         "songs": [
-            {"year": "2004", "stars" : 3, "song": "Behind These Hazel Eyes"},
-            {"year": "2004", "stars" : 1, "song": "Breakaway"},
-			{"year": "2012", "stars" : 1, "song": "Catch My Breath"},
-            {"year": "2011", "stars" : 2, "song": "Dark Side"},
-            {"year": "2009", "stars" : 1, "song": "I Do Not Hook Up"},
-			{"year": "2011", "stars" : 2, "song": "Mr. Know It All"},
-            {"year": "2009", "stars" : 5, "song": "My Life Would Suck Without You"},
-            {"year": "2004", "stars" : 4, "song": "Since U Been Gone"}
+            {"year": "2004", "stars" : 3, "song": "Behind These Hazel Eyes"       , "album" : "Breakaway"},
+            {"year": "2004", "stars" : 1, "song": "Breakaway"                     , "album" : "Breakaway"},
+			{"year": "2012", "stars" : 1, "song": "Catch My Breath"               , "album" : "Greatest Hits – Chapter One"},
+            {"year": "2011", "stars" : 2, "song": "Dark Side"                     , "album" : "Stronger"},
+            {"year": "2009", "stars" : 1, "song": "I Do Not Hook Up"              , "album" : "All I Ever Wanted"},
+			{"year": "2011", "stars" : 2, "song": "Mr. Know It All"               , "album" : "Stronger"},
+            {"year": "2009", "stars" : 5, "song": "My Life Would Suck Without You", "album" : "All I Ever Wanted"},
+            {"year": "2004", "stars" : 4, "song": "Since U Been Gone"             , "album" : "Breakaway"}
         ]
     },
     {
@@ -1655,20 +1656,20 @@
     {
         "artist": "Keri Hilson",
         "songs": [
-            {"year": "2009", "stars" : 1, "song": "Energy"},
-            {"year": "2009", "stars" : 6, "song": "Knock You Down"}
+            {"year": "2009", "stars" : 1, "song": "Energy"        , "album" : "In a Perfect World..."},
+            {"year": "2009", "stars" : 6, "song": "Knock You Down", "album" : "In a Perfect World..."}
         ]
     },
     {
         "artist": "Ke$ha",
         "songs": [
-            {"year": "2010", "stars" : 2, "song": "C U Next Tuesday"},
-            {"year": "2012", "stars" : 2, "song": "C'Mon"},
-            {"year": "2012", "stars" : 4, "song": "Die Young"},
-            {"year": "2010", "stars" : 2, "song": "Take It Off"},
-            {"year": "2010", "stars" : 3, "song": "Tik Tok"},
-            {"year": "2011", "stars" : 1, "song": "We R Who We R"},
-            {"year": "2010", "stars" : 2, "song": "Your Love is My Drug"}
+            {"year": "2010", "stars" : 2, "song": "C U Next Tuesday"    , "album" : "Animal"},
+            {"year": "2012", "stars" : 2, "song": "C'Mon"               , "album" : "Warrior"},
+            {"year": "2012", "stars" : 4, "song": "Die Young"           , "album" : "Warrior"},
+            {"year": "2010", "stars" : 2, "song": "Take It Off"         , "album" : "Animal"},
+            {"year": "2010", "stars" : 3, "song": "Tik Tok"             , "album" : "Animal"},
+            {"year": "2011", "stars" : 1, "song": "We R Who We R"       , "album" : "Cannibal"},
+            {"year": "2010", "stars" : 2, "song": "Your Love is My Drug", "album" : "Animal"}
         ]
     },
     {
@@ -1680,13 +1681,13 @@
     {
         "artist": "Kid Cudi",
         "songs": [
-            {"year": "2009", "stars" : 2, "song": "Day n Night"},
-            {"year": "2009", "stars" : 3, "song": "Day n Night (Crookers Remix)"},
-            {"year": "2010", "stars" : 3, "song": "Erase Me"},
-            {"year": "2012", "stars" : 1, "song": "Just What I Am"},
-            {"year": "2009", "stars" : 2, "song": "Make Her Say"},
-            {"year": "2010", "stars" : 4, "song": "Memories"},
-            {"year": "2011", "stars" : 4, "song": "Pursuit of Happiness"},
+            {"year": "2009", "stars" : 2, "song": "Day n Night"                      , "album" : "Man on the Moon"},
+            {"year": "2009", "stars" : 3, "song": "Day n Night (Crookers Remix)"     },
+            {"year": "2010", "stars" : 3, "song": "Erase Me"                         , "album" : "Man on the Moon II"},
+            {"year": "2012", "stars" : 1, "song": "Just What I Am"                   , "album" : "Indicud"},
+            {"year": "2009", "stars" : 2, "song": "Make Her Say"                     , "album" : "Man on the Moon"},
+            {"year": "2010", "stars" : 4, "song": "Memories"                         },
+            {"year": "2011", "stars" : 4, "song": "Pursuit of Happiness"             , "album" : "Man on the Moon"},
             {"year": "2011", "stars" : 3, "song": "Pursuit of Happiness (Aoki Remix)"}
         ]
     },
@@ -1706,9 +1707,9 @@
     {
         "artist": "Kings of Leon",
         "songs": [
-            {"year": "2010", "stars" : 3, "song": "Notion"},
-            {"year": "2008", "stars" : 1, "song": "Sex on Fire"},
-            {"year": "2009", "stars" : 5, "song": "Use Somebody"}
+            {"year": "2010", "stars" : 3, "song": "Notion"      , "album" : "Only by the Night"},
+            {"year": "2008", "stars" : 1, "song": "Sex on Fire" , "album" : "Only by the Night"},
+            {"year": "2009", "stars" : 5, "song": "Use Somebody", "album" : "Only by the Night"}
         ]
     },
     {
@@ -1829,13 +1830,13 @@
     {
         "artist": "Lil Wayne",
         "songs": [
-            {"year": "2008", "stars" : 1, "song": "A Milli"},
-            {"year": "2008", "stars" : 2, "song": "Got Money"},
-            {"year": "2011", "stars" : 1, "song": "How to Love"},
-            {"year": "2010", "stars" : 3, "song": "Knockout"},
-            {"year": "2008", "stars" : 3, "song": "Lollipop"},
-            {"year": "2011", "stars" : 2, "song": "6 foot 7 foot"},
-            {"year": "2010", "stars" : 2, "song": "Right Above It"}
+            {"year": "2008", "stars" : 1, "song": "A Milli"       , "album" : "Tha Carter III"},
+            {"year": "2008", "stars" : 2, "song": "Got Money"     , "album" : "Tha Carter III"},
+            {"year": "2011", "stars" : 1, "song": "How to Love"   , "album" : "Tha Carter IV"},
+            {"year": "2010", "stars" : 3, "song": "Knockout"      , "album" : "Rebirth"},
+            {"year": "2008", "stars" : 3, "song": "Lollipop"      , "album" : "Tha Carter III"},
+            {"year": "2011", "stars" : 2, "song": "6 foot 7 foot" , "album" : "Tha Carter IV"},
+            {"year": "2010", "stars" : 2, "song": "Right Above It", "album" : "I Am Not a Human Being"}
         ]
     },
     {
@@ -1969,14 +1970,14 @@
     {
         "artist": "Mariah Carey",
         "songs": [
-            {"year": "1994", "stars" : 5, "song": "All I Want For Christmas"},
-            {"year": "1996", "stars" : 5, "song": "Always Be My Baby"},
-			{"year": "1995", "stars" : 1, "song": "Fantasy"},
-            {"year": "1993", "stars" : 2, "song": "Hero"},
-            {"year": "2008", "stars" : 2, "song": "I'll Be Lovin' You Long Time"},
-            {"year": "2009", "stars" : 1, "song": "Obsessed"},
-            {"year": "2008", "stars" : 3, "song": "Touch My Body"},
-            {"year": "2005", "stars" : 3, "song": "We Belong Together"}
+            {"year": "1994", "stars" : 5, "song": "All I Want For Christmas"    , "album" : "Merry Christmas"},
+            {"year": "1996", "stars" : 5, "song": "Always Be My Baby"           , "album" : "Daydream"},
+			{"year": "1995", "stars" : 1, "song": "Fantasy"                     , "album" : "Daydream"},
+            {"year": "1993", "stars" : 2, "song": "Hero"                        , "album" : "Music Box"},
+            {"year": "2008", "stars" : 2, "song": "I'll Be Lovin' You Long Time", "album" : "E=MC²"},
+            {"year": "2009", "stars" : 1, "song": "Obsessed"                    , "album" : "Memoirs of an Imperfect Angel"},
+            {"year": "2008", "stars" : 3, "song": "Touch My Body"               , "album" : "E=MC²"},
+            {"year": "2005", "stars" : 3, "song": "We Belong Together"          , "album" : "The Emancipation of Mimi"}
         ]
     },
 	{
@@ -2131,8 +2132,8 @@
     {
         "artist": "Miley Cyrus",
         "songs": [
-            {"year": "2009", "stars" : 6, "song": "Party in the USA"},
-            {"year": "2009", "stars" : 4, "song": "The Climb"}
+            {"year": "2009", "stars" : 6, "song": "Party in the USA", "album" : "The Time of Our Lives"},
+            {"year": "2009", "stars" : 4, "song": "The Climb"       , "album" : "Hannah Montana: The Movie"}
         ]
     },
     {
@@ -2251,10 +2252,10 @@
     {
         "artist": "Nelly Furtado",
         "songs": [
-            {"year": "2006", "stars" : 1, "song": "All Good Things Come to an End"},
-            {"year": "2010", "stars" : 1, "song": "Hot n Fun"},
-            {"year": "2006", "stars" : 3, "song": "Promiscuous"},
-            {"year": "2006", "stars" : 3, "song": "Say It Right"}
+            {"year": "2006", "stars" : 1, "song": "All Good Things Come to an End", "album" : "Loose"},
+            {"year": "2010", "stars" : 1, "song": "Hot n Fun"                     },
+            {"year": "2006", "stars" : 3, "song": "Promiscuous"                   , "album" : "Loose"},
+            {"year": "2006", "stars" : 3, "song": "Say It Right"                  , "album" : "Loose"}
         ]
     },
     {
@@ -2303,13 +2304,13 @@
     {
         "artist": "Nicki Minaj",
         "songs": [
-            {"year": "2011", "stars" : 2, "song": "Check It Out"},
-            {"year": "2010", "stars" : 2, "song": "Moment for Life"},
-            {"year": "2012", "stars" : 1, "song": "Pound the Alarm"},
-            {"year": "2011", "stars" : 4, "song": "Super Bass"},
-            {"year": "2015", "stars" : 1, "song": "Trini Dem Girls"},
-			{"year": "2012", "stars" : 1, "song": "Turn Me On"},
-            {"year": "2010", "stars" : 3, "song": "Your Love"}
+            {"year": "2011", "stars" : 2, "song": "Check It Out"   , "album" : "Pink Friday"},
+            {"year": "2010", "stars" : 2, "song": "Moment for Life", "album" : "Pink Friday"},
+            {"year": "2012", "stars" : 1, "song": "Pound the Alarm", "album" : "Pink Friday: Roman Reloaded"},
+            {"year": "2011", "stars" : 4, "song": "Super Bass"     , "album" : "Pink Friday"},
+            {"year": "2015", "stars" : 1, "song": "Trini Dem Girls", "album" : "The Pinkprint"},
+			{"year": "2012", "stars" : 1, "song": "Turn Me On"     },
+            {"year": "2010", "stars" : 3, "song": "Your Love"      , "album" : "Pink Friday"}
         ]
     },
     {
@@ -2355,12 +2356,12 @@
     {
         "artist": "NSYNC",
         "songs": [
-            {"year": "2000", "stars" : 5, "song": "Bye Bye Bye"},
-            {"year": "2001", "stars" : 1, "song": "Girlfriend"},
-            {"year": "2000", "stars" : 1, "song": "It's Gonna Be Me"},
-            {"year": "2001", "stars" : 3, "song": "Pop"},
-            {"year": "2000", "stars" : 2, "song": "Space Cowboy"},
-			{"year": "1997", "stars" : 2, "song": "Tearin' up My Heart"}
+            {"year": "2000", "stars" : 5, "song": "Bye Bye Bye"        , "album" : "No Strings Attached"},
+            {"year": "2001", "stars" : 1, "song": "Girlfriend"         , "album" : "Celebrity"},
+            {"year": "2000", "stars" : 1, "song": "It's Gonna Be Me"   , "album" : "No Strings Attached"},
+            {"year": "2001", "stars" : 3, "song": "Pop"                , "album" : "Celebrity"},
+            {"year": "2000", "stars" : 2, "song": "Space Cowboy"       , "album" : "No Strings Attached"},
+			{"year": "1997", "stars" : 2, "song": "Tearin' up My Heart", "album" : "*NSYNC"}
         ]
     },
     {
@@ -2426,10 +2427,10 @@
     {
         "artist": "Owl City",
         "songs": [
-            {"year": "2014", "stars" : 4, "song": "Beautiful Times"},
-            {"year": "2009", "stars" : 5, "song": "Fireflies"},
-            {"year": "2012", "stars" : 4, "song": "Good Time"},
-            {"year": "2010", "stars" : 1, "song": "Vanilla Twilight"},
+            {"year": "2014", "stars" : 4, "song": "Beautiful Times"         , "album" : "Ultraviolet"},
+            {"year": "2009", "stars" : 5, "song": "Fireflies"               , "album" : "Ocean Eyes"},
+            {"year": "2012", "stars" : 4, "song": "Good Time"               , "album" : "The Midsummer Station"},
+            {"year": "2010", "stars" : 1, "song": "Vanilla Twilight"        , "album" : "Ocean Eyes"},
             {"year": "2012", "stars" : 2, "song": "When Can I See You Again"}
         ]
     },
@@ -2503,14 +2504,14 @@
     {
         "artist": "Pitbull",
         "songs": [
-            {"year": "2012", "stars" : 2, "song": "Back in Time"},
-            {"year": "2009", "stars" : 3, "song": "Calle Ocho"},
-            {"year": "2011", "stars" : 3, "song": "Give Me Everything"},
-            {"year": "2011", "stars" : 1, "song": "Hey Baby"},
-            {"year": "2009", "stars" : 3, "song": "Hotel Room Service"},
-            {"year": "2011", "stars" : 2, "song": "International Love"},
-            {"year": "2011", "stars" : 1, "song": "Rain Over Me"},
-            {"year": "2009", "stars" : 1, "song": "Shut It Down"}
+            {"year": "2012", "stars" : 2, "song": "Back in Time"                   , "album" : "Global Warming"},
+            {"year": "2009", "stars" : 3, "song": "I Know You Want Me (Calle Ocho)", "album" : "Rebelution"},
+            {"year": "2011", "stars" : 3, "song": "Give Me Everything"             , "album" : "Planet Pit"},
+            {"year": "2011", "stars" : 1, "song": "Hey Baby"                       , "album" : "Planet Pit"},
+            {"year": "2009", "stars" : 3, "song": "Hotel Room Service"             , "album" : "Rebelution"},
+            {"year": "2011", "stars" : 2, "song": "International Love"             , "album" : "Planet Pit"},
+            {"year": "2011", "stars" : 1, "song": "Rain Over Me"                   , "album" : "Planet Pit"},
+            {"year": "2009", "stars" : 1, "song": "Shut It Down"                   , "album" : "Rebelution"}
         ]
     },
 	{
@@ -2548,9 +2549,9 @@
     {
         "artist": "R Kelly",
         "songs": [
-            {"year": "1993", "stars" : 1, "song": "Bump and Grind"},
-            {"year": "2003", "stars" : 5, "song": "Ignition (Remix)"},
-            {"year": "2007", "stars" : 1, "song": "I'm A Flirt"},
+            {"year": "1993", "stars" : 1, "song": "Bump and Grind"  , "album" : "12 Play"},
+            {"year": "2003", "stars" : 5, "song": "Ignition (Remix)", "album" : "Chocolate Factory"},
+            {"year": "2007", "stars" : 1, "song": "I'm A Flirt"     , "album" : "Double Up"},
             {"year": "2003", "stars" : 3, "song": "World's Greatest"}
         ]
     },
@@ -2585,9 +2586,9 @@
     {
         "artist": "Red Jumpsuit Apparatus",
         "songs": [
-            {"year": "2006", "stars" : 2, "song": "Don't You Fake It"},
-            {"year": "2006", "stars" : 1, "song": "Face Down"},
-            {"year": "2006", "stars" : 3, "song": "Your Guardian Angel"}
+            {"year": "2006", "stars" : 2, "song": "Don't You Fake It"  , "album" : "Don't You Fake It"},
+            {"year": "2006", "stars" : 1, "song": "Face Down"          , "album" : "Don't You Fake It"},
+            {"year": "2006", "stars" : 3, "song": "Your Guardian Angel", "album" : "Don't You Fake It"}
         ]
     },
     {
@@ -2725,12 +2726,12 @@
     {
         "artist": "Selena Gomez",
         "songs": [
-            {"year": "2015", "stars" : 3, "song": "I Want You To Know"},
-            {"year": "2017", "stars" : 3, "song": "It Ain't Me"},
-			{"year": "2011", "stars" : 2, "song": "Love You Like a Love Song"},
-            {"year": "2009", "stars" : 4, "song": "Naturally"},
-			{"year": "2015", "stars" : 1, "song": "Same Old Love"},
-			{"year": "2017", "stars" : 2, "song": "Wolves"}
+            {"year": "2015", "stars" : 3, "song": "I Want You To Know"       },
+            {"year": "2017", "stars" : 3, "song": "It Ain't Me"              , "album" : "Stargazing"},
+			{"year": "2011", "stars" : 2, "song": "Love You Like a Love Song", "album" : "When the Sun Goes Down"},
+            {"year": "2009", "stars" : 4, "song": "Naturally"                , "album" : "Kiss & Tell"},
+			{"year": "2015", "stars" : 1, "song": "Same Old Love"            , "album" : "Revival"},
+			{"year": "2017", "stars" : 2, "song": "Wolves"                   }
         ]
     },
     {
@@ -2973,22 +2974,22 @@
     {
         "artist": "T-Pain",
         "songs": [
-            {"year": "2010", "stars" : 2, "song": "All I Do Is Win"},
-            {"year": "2007", "stars" : 1, "song": "Bartender"},
-            {"year": "2011", "stars" : 1, "song": "Best Love Song"},
-            {"year": "2007", "stars" : 2, "song": "Buy You A Drank"},
-            {"year": "2008", "stars" : 2, "song": "Can't Believe It"},
-            {"year": "2007", "stars" : 1, "song": "Cyclone"},
-            {"year": "2008", "stars" : 1, "song": "Freeze"},
-            {"year": "2010", "stars" : 1, "song": "Reverse Cowgirl"},
-            {"year": "2011", "stars" : 2, "song": "5 O'Clock"}
+            {"year": "2010", "stars" : 2, "song": "All I Do Is Win" },
+            {"year": "2007", "stars" : 1, "song": "Bartender"       , "album" : "Epiphany"},
+            {"year": "2011", "stars" : 1, "song": "Best Love Song"  , "album" : "Revolver"},
+            {"year": "2007", "stars" : 2, "song": "Buy You A Drank" , "album" : "Epiphany"},
+            {"year": "2008", "stars" : 2, "song": "Can't Believe It", "album" : "Three Ringz"},
+            {"year": "2007", "stars" : 1, "song": "Cyclone"         },
+            {"year": "2008", "stars" : 1, "song": "Freeze"          , "album" : "Three Ringz"},
+            {"year": "2010", "stars" : 1, "song": "Reverse Cowgirl" },
+            {"year": "2011", "stars" : 2, "song": "5 O'Clock"       , "album" : "Revolver"}
         ]
     },
     {
         "artist": "Taio Cruz",
         "songs": [
-            {"year": "2010", "stars" : 2, "song": "Break Your Heart"},
-            {"year": "2010", "stars" : 3, "song": "Dynamite"}
+            {"year": "2010", "stars" : 2, "song": "Break Your Heart", "album" : "Rokstarr"},
+            {"year": "2010", "stars" : 3, "song": "Dynamite"        , "album" : "Rokstarr"}
         ]
     },
     {
@@ -3335,15 +3336,15 @@
     {
         "artist": "Usher",
         "songs": [
-            {"year": "2004", "stars" : 2, "song": "Burn"                     },
-            {"year": "2010", "stars" : 2, "song": "DJ Got Us Falling In Love"},
+            {"year": "2004", "stars" : 2, "song": "Burn"                     , "album" : "Confessions"},
+            {"year": "2010", "stars" : 2, "song": "DJ Got Us Falling In Love", "album" : "Versus"},
 			{"year": "2015", "stars" : 1, "song": "Don't Look Down"          },
-            {"year": "2010", "stars" : 2, "song": "Hot Tottie"               },
-            {"year": "2008", "stars" : 1, "song": "Love In This Club"        },
-            {"year": "2004", "stars" : 2, "song": "My Boo"                   },
-            {"year": "2010", "stars" : 2, "song": "OMG"                      },
+            {"year": "2010", "stars" : 2, "song": "Hot Tottie"               , "album" : "Versus"},
+            {"year": "2008", "stars" : 1, "song": "Love In This Club"        , "album" : "Here I Stand"},
+            {"year": "2004", "stars" : 2, "song": "My Boo"                   , "album" : "Confessions"},
+            {"year": "2010", "stars" : 2, "song": "OMG"                      , "album" : "Raymond v. Raymond"},
             {"year": "2011", "stars" : 1, "song": "Without You"              },
-            {"year": "2004", "stars" : 2, "song": "Yeah!"                    }
+            {"year": "2004", "stars" : 3, "song": "Yeah!"                    , "album" : "Confessions"}
         ]
     },
     {
@@ -3526,10 +3527,10 @@
     {
         "artist": "3oh 3!",
         "songs": [
-            {"year": "2009", "stars" : 5, "song": "Don't Trust Me"},
-            {"year": "2010", "stars" : 4, "song": "Double Vision" },
+            {"year": "2009", "stars" : 5, "song": "Don't Trust Me", "album" : "Want"},
+            {"year": "2010", "stars" : 4, "song": "Double Vision" , "album" : "Streets of Gold"},
             {"year": "2010", "stars" : 3, "song": "Follow Me Down"},
-            {"year": "2009", "stars" : 2, "song": "Starstrukk"    }
+            {"year": "2009", "stars" : 2, "song": "Starstrukk"    , "album" : "Want"}
         ]
     },
     {
