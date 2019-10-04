@@ -76,7 +76,7 @@ function graph_stars_per_year(){
 				if(song.year && song.stars && song.year >= 1900){
 					var year = years.find( y => y.name == song.year );
 					if(!year){
-						year = { name : song.year, value : 0 };
+						year = { name : song.year, year : Number( song.year ), value : 0 };
 						years.push( year );
 					}
 					
@@ -93,38 +93,43 @@ function graph_stars_per_year(){
 	
 	var years_final = [];
 	for(var yr = Number(min_year.name); yr <= Number(max_year.name); yr++){
-		years_final.push( years.find( year => year.name == yr ) || { name : String(yr), value : 0 } );
+		years_final.push( years.find( year => year.name == yr ) || { name : String(yr), year : yr, value : 0 } );
 	}
 	
 	years = years_final;
 	
+	years.forEach(function( item, i ){
+		item.delta = item.value;
+		
+		if( i ){
+			var prev_year = years[ i - 1 ];
+			if( item.name - prev_year.name == 1 ){
+				item.delta = item.value - prev_year.value;
+			}
+		}
+	});
+	
 	var prev_score = 999;
 	var prev_rank_count = 0;
 	var rank = 0;
-
 	
-	$("#content").append(
-		'<div class="year-table" style="max-width:290px;">' +
-			'<table>' +
-				'<tr><th colspan="3">Top Years</th></tr>' +
-				years.slice().sort( (a,b) => b.value - a.value ).map(function( item ){
-					prev_rank_count++;
-					
-					if( item.value != prev_score ){
-						rank += prev_rank_count;
-						prev_rank_count = 0;
-						prev_score = item.value;
-					}
-					
-					return '<tr>' + 
-						'<td class="rank">' + rank + '</td>' +
-						'<td>' + item.name + '</td>' + 
-						'<td class="score">' + item.value + ' <i class="fa fa-star"></i></td>' + 
-					'</tr>';
-				}).join('') +
-			'</table>' +
-		'</div>'
-	);
+	SONG.aggregate_years = years.slice();
+	
+	SONG.aggregate_years.sort( (a,b) => b.value - a.value ).forEach(function( item ){
+		prev_rank_count++;
+		
+		if( item.value != prev_score ){
+			rank += prev_rank_count;
+			prev_rank_count = 0;
+			prev_score = item.value;
+		}
+		
+		item.rank = rank;
+	});
+	
+	$("#content").append( '<div class="year-table" style="max-width:290px;"></div>' );
+	
+	draw_year_table( 'value' );
 
 	x.domain([ parse_date( min_year.name ), parse_date( max_year.name ) ]);
 	y.domain([0, d3.max(years, function(d) { return d.value; })]);
@@ -149,6 +154,52 @@ function graph_stars_per_year(){
 	svg.append("g")
 		.attr("class", "y axis")
 		.call(y_axis);
+};
+
+function draw_year_table( sort_by ){
+	var years = SONG.aggregate_years.slice();
+	
+	var key = sort_by || 'value';
+
+	years = years.sort( (a,b) => b[ key ] - a[ key ] );
+	
+	var table_headers = [ 'Rank', 'Year', 'Stars', 'Delta' ];
+
+	$("#content .year-table").html(
+		'<table>' +
+			'<tr><th colspan="' + table_headers.length + '">Top Years</th></tr>' +
+			'<tr class="sub-header">' +
+				table_headers.map(function( header ){
+					return '<th class="active" onclick="draw_year_table(\'' + header.toLowerCase() + '\');">' +
+						header +
+					'</th>';
+				}).join('') + 
+			'</tr>' +
+			years.map(function( item ){
+				var delta_sign  = '';
+				var delta_color = false;
+				
+				if( item.delta > 0 ){
+					delta_sign  = '+';
+					delta_color = 'rgba(70, 255, 70, ' + Math.min( Math.max( item.delta / 100, 0.15 ), 1 ) + ')';
+				}
+				else if( item.delta < 0 ){
+					delta_sign  = '-';
+					delta_color = 'rgba(255, 100, 100, ' + Math.min( Math.max( -item.delta / 100, 0.15 ), 1 ) + ')';
+				}
+			
+				return '<tr>' + 
+					'<td class="rank" >' + item.rank + '</td>' +
+					'<td class="name" >' + item.name + '</td>' + 
+					'<td class="score">' + item.value + ' <i class="fa fa-star"></i></td>' + 
+					'<td class="delta" style="background:' + delta_color + ';">' + 
+						delta_sign +
+						Math.abs( item.delta ) + 
+					'</td>' + 
+				'</tr>';
+			}).join('') +
+		'</table>'
+	);
 };
 
 function total_stars_per_artist( num_results ){

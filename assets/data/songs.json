@@ -309,7 +309,7 @@
 	{
         "artist": "Billie Eilish",
         "songs": [
-            {"year": "2019", "stars" : 1, "song": "Bad Guy"}
+            {"year": "2019", "stars" : 2, "song": "Bad Guy"}
         ]
     },
     {
@@ -994,14 +994,14 @@
     {
         "artist": "Enrique Iglesias",
         "songs": [
-            {"year": "1998", "stars" : 1, "song": "Bailamos"},
-            {"year": "2001", "stars" : 2, "song": "Escape"},
-            {"year": "2014", "stars" : 3, "song": "Heart Attack"},
-            {"year": "2001", "stars" : 2, "song": "Hero"},
-            {"year": "2010", "stars" : 3, "song": "I Like It"},
-            {"year": "2014", "stars" : 1, "song": "I'm a Freak"},
-            {"year": "2007", "stars" : 3, "song": "The Ping Pong Song"},
-            {"year": "2010", "stars" : 1, "song": "Tonight (I'm Fuckin' You)"}
+            {"year": "1998", "stars" : 1, "song": "Bailamos"                 , "album" : "Enrique"},
+            {"year": "2001", "stars" : 2, "song": "Escape"                   , "album" : "Escape"},
+            {"year": "2014", "stars" : 3, "song": "Heart Attack"             , "album" : "Sex and Love"},
+            {"year": "2001", "stars" : 2, "song": "Hero"                     , "album" : "Escape"},
+            {"year": "2010", "stars" : 3, "song": "I Like It"                , "album" : "Euphoria"},
+            {"year": "2014", "stars" : 1, "song": "I'm a Freak"              , "album" : "Sex and Love"},
+            {"year": "2007", "stars" : 3, "song": "The Ping Pong Song"       , "album" : "Insomniac"},
+            {"year": "2010", "stars" : 1, "song": "Tonight (I'm Fuckin' You)", "album" : "Euphoria"}
         ]
     },
     {
@@ -1239,13 +1239,13 @@
 	{
         "artist": "Grouplove",
         "songs": [
-            {"year": "2011", "stars" : 1, "song": "Tongue Tied"}
+            {"year": "2011", "stars" : 3, "song": "Tongue Tied"}
         ]
     },
     {
         "artist": "Gwen Stefani",
         "songs": [
-            {"year": "2004", "stars" : 1, "song": "Cool"},
+            {"year": "2004", "stars" : 2, "song": "Cool"},
             {"year": "2004", "stars" : 2, "song": "Hollaback Girl"},
             {"year": "2006", "stars" : 3, "song": "The Sweet Escape"},
             {"year": "2006", "stars" : 1, "song": "Wind It Up"},
@@ -1656,8 +1656,9 @@
     {
         "artist": "Keri Hilson",
         "songs": [
-            {"year": "2009", "stars" : 1, "song": "Energy"        , "album" : "In a Perfect World..."},
-            {"year": "2009", "stars" : 6, "song": "Knock You Down", "album" : "In a Perfect World..."}
+            {"year": "2009", "stars" : 1, "song": "Energy"          , "album" : "In a Perfect World..."},
+            {"year": "2009", "stars" : 6, "song": "Knock You Down"  , "album" : "In a Perfect World..."},
+			{"year": "2010", "stars" : 1, "song": "Pretty Girl Rock", "album" : "No Boys Allowed"}
         ]
     },
     {
@@ -2353,6 +2354,12 @@
             {"year": "2001", "stars" : 2, "song": "Underneath It All"}
         ]
     },
+	{
+        "artist": "Normani",
+        "songs": [
+            {"year": "2019", "stars" : 1, "song": "Motivation"}
+        ]
+    },
     {
         "artist": "NSYNC",
         "songs": [
@@ -3020,6 +3027,7 @@
             {"year": "2010", "stars" : 3, "song": "Mine"                                   , "album" : "Speak Now"},
             {"year": "2006", "stars" : 3, "song": "Our Song"                               , "album" : "Taylor Swift"},
             {"year": "2014", "stars" : 1, "song": "Out of the Woods"                       , "album" : "1989"},
+			{"year": "2019", "stars" : 1, "song": "Paper Rings"                            , "album" : "Lover"},
 			{"year": "2017", "stars" : 1, "song": "Ready for It"                           , "album" : "Reputation"},
             {"year": "2013", "stars" : 1, "song": "Red"                                    , "album" : "Red"},
             {"year": "2014", "stars" : 2, "song": "Style"                                  , "album" : "1989"},
@@ -3555,6 +3563,7 @@
     },
     {
         "playlist": "Christmas",
+		"background": "christmas.png",
         "songs": [
 			{"year": "2006", "song": "AFI - Love Like Winter"},
             {"year": "2014", "song": "ARIANA GRANDE - Santa Tell Me"},
@@ -3586,6 +3595,7 @@
     },
     {
         "playlist": "Friday",
+		"background": "friday.png",
         "songs": [
 			{"year": "2015", "song": "COLDPLAY - Hymn for the Weekend"},
 			{"year": "2011", "song": "KATY PERRY - Last Friday Night"},
@@ -3598,6 +3608,7 @@
     },
 	{
         "playlist": "Badgers",
+		"background": "badgers.png",
         "songs": [
 			{"year": "1999", "song": "BACKSTREET BOYS - I Want It That Way"},
 			{"year": "1992", "song": "HOUSE OF PAIN - Jump Around"},
@@ -3607,6 +3618,7 @@
     },
 	{
         "playlist": "Packers",
+		"background": "packers.png",
         "songs": [
 			{"year": "2009", "song": "BLACK EYED PEAS - I Gotta Feeling"},
             {"year": "2010", "song": "B.O.B. - Airplanes"},
@@ -3616,6 +3628,7 @@
     },
 	{
         "playlist": "Steelers",
+		"background": "steelers.png",
         "songs": [
 			{"year": "2009", "song": "BLACK EYED PEAS - Boom Boom Pow"},
 			{"year": "2010", "song": "B.O.B. - Airplanes"},
@@ -3631,6 +3644,7 @@
     },
 	{
 		"playlist": "Halloween",
+		"background": "halloween.png",
 		"songs": [
 			{"year": "2000", "song": "AARON CARTER - I Want Candy"},
 			{"year": "1962", "song": "BOBBY PICKETT - Monster Mash"},

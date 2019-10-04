@@ -128,7 +128,10 @@ function all_artists( limit ){
 			});
 			
 			var artist_background = false;
-			if( max_album_name ){
+			if( a.background ){
+				artist_background = './assets/data/backgrounds/' + a.background;
+			}
+			else if( max_album_name ){
 				artist_background = './assets/data/albums/' + text_to_filename( a.artist ) + '_' + 
 															  text_to_filename( max_album_name ) + '.jpg';
 			}
@@ -138,7 +141,7 @@ function all_artists( limit ){
 					'<table>'+
 						'<tr>'+
 							'<td rowspan="6" style="position:relative;">' + 
-								( max_album_name ? '<div class="artist-background" style="background-image:url(' + artist_background + ');"></div>' : '' ) +
+								( artist_background ? '<div class="artist-background" style="background-image:url(' + artist_background + ');"></div>' : '' ) +
 								'<div>' + a.artist.toUpperCase()+'<hr></div>' + 
 							'</td>'+
 						'</tr>'+

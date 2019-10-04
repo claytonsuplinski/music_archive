@@ -70,6 +70,11 @@ path {
 	color:#ccc;
 }
 
+.year-table table tr.sub-header th{
+	background:#444;
+	border:1px solid #333;
+}
+
 .year-table table td{
 	border-top:1px solid #333;
 	background:#bbb;
@@ -83,6 +88,7 @@ path {
 }
 
 .year-table table td.score{
+	border-left:1px solid #aaa;
 	width:70px;
 }
 
@@ -93,6 +99,14 @@ path {
 .year-table table td.score.six-stars{
 	color:#908904;
 }
+
+.year-table table td.delta{
+	border-left:1px solid #aaa;
+	width:70px;
+}
+
+.year-table table td.delta.positive{ background:#9ee69e; }
+.year-table table td.delta.negative{ background:#f5a4a4; }
 
 .year-table table td.album-cover{
 	width:34px;
