@@ -16,7 +16,9 @@ function home_screen(){
 		'</select>'
 	);
 	
-	SONG.ALL_YEARS = SONG.ALL_YEARS.sort( (a,b) => ( b.year - a.year ) );
+	SONG.ALL_YEARS = SONG.ALL_YEARS.filter(function( year ){
+		return year.songs.find( s => s.stars );
+	}).sort( (a,b) => ( b.year - a.year ) );
 	
 	SONG.ALL_DECADES = {};
 	
@@ -208,7 +210,7 @@ function total_stars_per_artist( num_results ){
 			artist : artist.artist,
 			stars  : artist.songs.map( s => Number( s.stars || 0 ) ).reduce(function(a,b){ return a+b; })
 		};
-	}).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, num_results || 10 );
+	}).filter( x => x.stars ).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, num_results || 10 );
 };
 
 function average_stars_per_artist( p ){
@@ -221,7 +223,7 @@ function average_stars_per_artist( p ){
 			artist : artist.artist,
 			stars  : Number( artist.songs.map( s => Number( s.stars || 0 ) ).reduce(function(a,b){ return a+b; }) / (artist.songs.length || 1) ).toFixed( 2 )
 		};
-	}).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, p.num_results || 10 );
+	}).filter( x => x && Number( x.stars ) ).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, p.num_results || 10 );
 };
 
 function median_stars_per_artist( p ){
@@ -240,41 +242,68 @@ function median_stars_per_artist( p ){
 			artist : artist.artist,
 			stars  : median.toFixed( 1 )
 		};
-	}).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, p.num_results || 10 );
+	}).filter( x => x && Number( x.stars ) ).sort(function(a,b){ return b.stars - a.stars; }).slice( 0, p.num_results || 10 );
+};
+
+function top_artists_html( category, idx ){
+	var prev_score = 999;
+	var prev_rank_count = 0;
+	var rank = 0;
+	
+	return '<table>' +
+		'<tr><th colspan="3">' + category.label + '</th></tr>' +
+		category[ category.expanded ? 'expand' : 'results' ].map(function( result ){					
+			prev_rank_count++;
+			
+			if( result.stars != prev_score ){
+				rank += prev_rank_count;
+				prev_rank_count = 0;
+				prev_score = result.stars;
+			}
+		
+			return '<tr>' +
+				'<td class="rank">' + rank + '</td>' +
+				'<td>' + result.artist + '</td>' + 
+				'<td class="score">' + result.stars + ' <i class="fa fa-star"></i></td>' + 
+			'</tr>';
+		}).join('') +
+		( category.expanded ? '' : '<tr><td colspan="3" onclick="expand_top_artists(' + idx + ');">Click for Full List</td></tr>' ) +
+	'</table>';
+};
+
+function expand_top_artists( idx ){
+	var category = SONG.top_artists_categories[ idx ];
+	category.expanded = true;
+	$( '#content #table-' + idx ).html( top_artists_html( category, idx ) );
 };
 
 function top_artists(){
+	SONG.top_artists_categories = [
+		{
+			label   : 'Total Stars',
+			results : total_stars_per_artist(),
+			expand  : total_stars_per_artist( 9999 )
+		},
+		{
+			label   : 'Average Stars - Min 10 Songs',
+			results : average_stars_per_artist({ min_songs : 10 }),
+			expand  : average_stars_per_artist({ min_songs : 10, num_results : 9999 })
+		},
+		{
+			label   : 'Average Stars - Min 5 Songs',
+			results : average_stars_per_artist({ min_songs :  5 }),
+			expand  : average_stars_per_artist({ min_songs :  5, num_results : 9999 })
+		},
+		{
+			label   : 'Median Stars  - Min 5 Songs',
+			results : median_stars_per_artist({  min_songs :  5 }),
+			expand  : median_stars_per_artist({  min_songs :  5, num_results : 9999 })
+		},
+	];
+
 	$("#content").html(
-		[
-			{ label : 'Total Stars'                  , results : total_stars_per_artist() },
-			{ label : 'Average Stars - Min 10 Songs' , results : average_stars_per_artist({ min_songs : 10 }) },
-			{ label : 'Average Stars - Min 5 Songs'  , results : average_stars_per_artist({ min_songs :  5 }) },
-			{ label : 'Median Stars  - Min 5 Songs'  , results : median_stars_per_artist({  min_songs :  5 }) },
-		].map(function( category ){
-			var prev_score = 999;
-			var prev_rank_count = 0;
-			var rank = 0;
-			
-			return '<div class="year-table">' +
-				'<table>' +
-					'<tr><th colspan="3">' + category.label + '</th></tr>' +
-					category.results.map(function( result ){					
-						prev_rank_count++;
-						
-						if( result.stars != prev_score ){
-							rank += prev_rank_count;
-							prev_rank_count = 0;
-							prev_score = result.stars;
-						}
-					
-						return '<tr>' +
-							'<td class="rank">' + rank + '</td>' +
-							'<td>' + result.artist + '</td>' + 
-							'<td class="score">' + result.stars + ' <i class="fa fa-star"></i></td>' + 
-						'</tr>';
-					}).join('') +
-				'</table>' +
-			'</div>';
+		SONG.top_artists_categories.map(function( category, idx ){
+			return '<div class="year-table" id="table-' + idx + '">' + top_artists_html( category, idx ) + '</div>';
 		}).join('<br>')
 	);
 };

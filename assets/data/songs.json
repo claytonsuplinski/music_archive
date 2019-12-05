@@ -420,6 +420,7 @@
             {"year": "1998", "stars" : 3, "song": "Baby One More Time"   , "album" : "...Baby One More Time"},
             {"year": "2009", "stars" : 3, "song": "Circus"               , "album" : "Circus"},
             {"year": "1999", "stars" : 1, "song": "Crazy"                , "album" : "Playing with Fire"},
+			{"year": "2011", "stars" : 1, "song": "Criminal"             , "album" : "Femme Fatale"},
             {"year": "2011", "stars" : 3, "song": "Hold It Against Me"   , "album" : "Femme Fatale"},
             {"year": "2002", "stars" : 1, "song": "I Love Rock 'n' Roll" , "album" : "Britney"},
 			{"year": "2011", "stars" : 2, "song": "I Wanna Go"           , "album" : "Femme Fatale"},
@@ -466,7 +467,7 @@
         "songs": [
             {"year": "2012", "stars" : 1, "song": "Bounce"},
             {"year": "2012", "stars" : 2, "song": "Feel So Close"},
-			{"year": "2018", "stars" : 2, "song": "One Kiss"},
+			{"year": "2018", "stars" : 1, "song": "One Kiss"},
             {"year": "2014", "stars" : 4, "song": "Summer"}
         ]
     },
@@ -482,6 +483,7 @@
             {"year": "2012", "stars" : 4, "song": "Call Me Maybe"                      , "album" : "Curiosity"},
 			{"year": "2012", "stars" : 4, "song": "Call Me Maybe (Coyote Kisses remix)"},
             {"year": "2015", "stars" : 2, "song": "I Really Like You"                  , "album" : "Emotion"},
+			{"year": "2012", "stars" : 1, "song": "More than a Memory"                 , "album" : "Kiss"},
             {"year": "2012", "stars" : 2, "song": "Talk To Me"                         , "album" : "Curiosity"},
             {"year": "2012", "stars" : 3, "song": "This Kiss"                          , "album" : "Kiss"}
         ]
