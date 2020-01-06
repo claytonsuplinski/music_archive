@@ -185,6 +185,7 @@
 	{
         "artist": "Ava Max",
         "songs": [
+			{"year": "2019", "stars" : 3, "song": "Freaking Me Out"},
             {"year": "2019", "stars" : 5, "song": "Sweet but Psycho"}
         ]
     },
@@ -482,10 +483,12 @@
         "songs": [
             {"year": "2012", "stars" : 4, "song": "Call Me Maybe"                      , "album" : "Curiosity"},
 			{"year": "2012", "stars" : 4, "song": "Call Me Maybe (Coyote Kisses remix)"},
+			{"year": "2012", "stars" : 1, "song": "Curiosity"                          , "album" : "Curiosity"},
             {"year": "2015", "stars" : 2, "song": "I Really Like You"                  , "album" : "Emotion"},
 			{"year": "2012", "stars" : 1, "song": "More than a Memory"                 , "album" : "Kiss"},
             {"year": "2012", "stars" : 2, "song": "Talk To Me"                         , "album" : "Curiosity"},
-            {"year": "2012", "stars" : 3, "song": "This Kiss"                          , "album" : "Kiss"}
+            {"year": "2012", "stars" : 3, "song": "This Kiss"                          , "album" : "Kiss"},
+			{"year": "2012", "stars" : 1, "song": "Turn Me Up"                         , "album" : "Kiss"}
         ]
     },
     {
@@ -822,6 +825,7 @@
 	},
     {
         "artist": "DJ Earworm",
+		"background": "dj_earworm.png",
         "songs": [
             {"year": "2007", "song": "United State of Pop (2007)"},
             {"year": "2008", "song": "United State of Pop (2008)"},
@@ -838,7 +842,8 @@
             {"year": "2015", "song": "50 Shades of Pop (2015)"},
             {"year": "2016", "song": "Summermash '16"},
             {"year": "2016", "song": "Into Pieces (2016)"},
-            {"year": "2017", "song": "Shape of Now"}
+            {"year": "2017", "song": "Shape of Now"},
+			{"year": "2019", "song": "Run Away (2019)"}
         ]
     },
     {
@@ -926,8 +931,9 @@
     {
         "artist": "Ed Sheeran",
         "songs": [
-            {"year": "2015", "stars" : 4, "song": "Thinking Out Loud"},
-			{"year": "2017", "stars" : 2, "song": "Castle On The Hill"}
+			{"year": "2017", "stars" : 2, "song": "Castle On The Hill"},
+			{"year": "2019", "stars" : 1, "song": "I Don't Care"},
+            {"year": "2015", "stars" : 4, "song": "Thinking Out Loud"}
         ]
     },
     {
@@ -1825,7 +1831,6 @@
     {
         "artist": "Lil Jon",
         "songs": [
-			{"year": "2018", "stars" : 3, "song": "All I Really Want For Christmas"},
             {"year": "2003", "stars" : 5, "song": "Get Low"},
 			{"year": "2004", "stars" : 1, "song": "Let's Go"}
         ]
@@ -2527,6 +2532,12 @@
 		"artist": "Pixie Lott",
 		"songs": [
 			{"year": "2009", "stars" : 1, "song": "Boys and Girls"}
+		]
+	},
+	{
+		"artist": "Plain White T's",
+		"songs": [
+			{"year": "2010", "stars" : 1, "song": "Rhythm of Love"}
 		]
 	},
 	{
@@ -3448,6 +3459,7 @@
     },
     {
         "artist": "White Panda",
+		"background": "white_panda.png",
         "songs": [
             {"year": "2012", "song": "Bambooyah"                         },
             {"year": "2013", "song": "Bearly Legal"                      },
