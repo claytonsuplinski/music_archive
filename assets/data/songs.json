@@ -186,7 +186,7 @@
         "artist": "Ava Max",
         "songs": [
 			{"year": "2019", "stars" : 3, "song": "Freaking Me Out"},
-            {"year": "2019", "stars" : 5, "song": "Sweet but Psycho"}
+            {"year": "2019", "stars" : 4, "song": "Sweet but Psycho"}
         ]
     },
     {
@@ -483,7 +483,7 @@
         "songs": [
             {"year": "2012", "stars" : 4, "song": "Call Me Maybe"                      , "album" : "Curiosity"},
 			{"year": "2012", "stars" : 4, "song": "Call Me Maybe (Coyote Kisses remix)"},
-			{"year": "2012", "stars" : 1, "song": "Curiosity"                          , "album" : "Curiosity"},
+			{"year": "2012", "stars" : 2, "song": "Curiosity"                          , "album" : "Curiosity"},
             {"year": "2015", "stars" : 2, "song": "I Really Like You"                  , "album" : "Emotion"},
 			{"year": "2012", "stars" : 1, "song": "More than a Memory"                 , "album" : "Kiss"},
             {"year": "2012", "stars" : 2, "song": "Talk To Me"                         , "album" : "Curiosity"},
@@ -634,7 +634,7 @@
     {
         "artist": "Clean Bandit",
         "songs": [
-            {"year": "2014", "stars" : 1, "song": "Rather Be"}
+            {"year": "2014", "stars" : 3, "song": "Rather Be"}
         ]
     },
     {
@@ -843,7 +843,8 @@
             {"year": "2016", "song": "Summermash '16"},
             {"year": "2016", "song": "Into Pieces (2016)"},
             {"year": "2017", "song": "Shape of Now"},
-			{"year": "2019", "song": "Run Away (2019)"}
+			{"year": "2019", "song": "Run Away (2019)"},
+			{"year": "2019", "song": "Decade of Pop (2010s)"}
         ]
     },
     {
@@ -1064,11 +1065,11 @@
     {
         "artist": "Fall Out Boy",
         "songs": [
-            {"year": "2005", "stars" : 2, "song": "Dance, Dance"                                                        , "album" : "From Under the Cork Tree"},
-            {"year": "2005", "stars" : 3, "song": "Our Lawyer Made Us Change the Name of This Song So We Don't Get Sued", "album" : "From Under the Cork Tree"},
-            {"year": "2005", "stars" : 4, "song": "Sugar, We're Goin Down"                                              , "album" : "From Under the Cork Tree"},
-            {"year": "2007", "stars" : 2, "song": "Thanks Fr Th Mmrs"                                                   , "album" : "Infinity on High"},
-            {"year": "2007", "stars" : 2, "song": "This Ain't a Scene, It's an Arms Race"                               , "album" : "Infinity on High"}
+            {"year": "2005", "stars" : 2, "song": "Dance, Dance"                                                            , "album" : "From Under the Cork Tree"},
+            {"year": "2005", "stars" : 3, "song": "Our Lawyers Made Us Change The Name Of This Song So We Wouldn't Get Sued", "album" : "From Under the Cork Tree"},
+            {"year": "2005", "stars" : 4, "song": "Sugar, We're Goin Down"                                                  , "album" : "From Under the Cork Tree"},
+            {"year": "2007", "stars" : 2, "song": "Thanks Fr Th Mmrs"                                                       , "album" : "Infinity on High"},
+            {"year": "2007", "stars" : 2, "song": "This Ain't a Scene, It's an Arms Race"                                   , "album" : "Infinity on High"}
         ]
     },
     {
@@ -1292,9 +1293,10 @@
         ]
     },
     {
-        "artist": "Hillary Duff",
+        "artist": "Hilary Duff",
         "songs": [
-            {"year": "2003", "stars" : 2, "song": "What Dreams Are Made Of"}
+            {"year": "2003", "stars" : 2, "song": "What Dreams Are Made Of"},
+			{"year": "2003", "stars" : 1, "song": "Why Not"}
         ]
     },
     {
@@ -1521,6 +1523,12 @@
             {"year": "2008", "stars" : 2, "song": "No Air"},
             {"year": "2007", "stars" : 3, "song": "One Step at a Time"},
             {"year": "2007", "stars" : 2, "song": "Tattoo"}
+        ]
+    },
+	{
+        "artist": "Josh Geating",
+        "songs": [
+            {"year": "2013", "song": "Mashup 3"}
         ]
     },
     {
