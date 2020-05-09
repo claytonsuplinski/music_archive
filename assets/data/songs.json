@@ -200,7 +200,7 @@
         "songs": [
             {"year": "2013", "stars" : 1, "song": "I Could Be The One"},
             {"year": "2011", "stars" : 4, "song": "Levels"},
-            {"year": "2011", "stars" : 3, "song": "Levels (Original Mix)"}
+            {"year": "2011", "song": "Levels (Original Mix)"}
         ]
     },
     {
@@ -258,7 +258,7 @@
 	{
         "artist": "Bastille",
         "songs": [
-            {"year": "2018", "stars" : 2, "song": "Happier"}
+            {"year": "2018", "stars" : 1, "song": "Happier"}
         ]
     },
     {
@@ -397,6 +397,7 @@
     {
         "artist": "Bowling for Soup",
         "songs": [
+			{"year": "2005", "stars" : 1, "song": "Almost"},
             {"year": "2002", "stars" : 1, "song": "Girl All The Bad Guys Want"},
             {"year": "2006", "stars" : 1, "song": "High School Never Ends"},
             {"year": "2004", "stars" : 3, "song": "1985"}
@@ -472,6 +473,12 @@
             {"year": "2014", "stars" : 4, "song": "Summer"}
         ]
     },
+	{
+        "artist": "Camila Cabello",
+        "songs": [
+            {"year": "2020", "stars" : 1, "song": "My Oh My"}
+        ]
+    },
     {
         "artist": "Capital Cities",
         "songs": [
@@ -482,7 +489,7 @@
         "artist": "Carly Rae Jepsen",
         "songs": [
             {"year": "2012", "stars" : 4, "song": "Call Me Maybe"                      , "album" : "Curiosity"},
-			{"year": "2012", "stars" : 4, "song": "Call Me Maybe (Coyote Kisses remix)"},
+			{"year": "2012", "song": "Call Me Maybe (Coyote Kisses remix)"},
 			{"year": "2012", "stars" : 2, "song": "Curiosity"                          , "album" : "Curiosity"},
             {"year": "2015", "stars" : 2, "song": "I Really Like You"                  , "album" : "Emotion"},
 			{"year": "2012", "stars" : 1, "song": "More than a Memory"                 , "album" : "Kiss"},
@@ -593,7 +600,7 @@
         "artist": "Christina Aguilera",
         "songs": [
             {"year": "2006", "stars" : 4, "song": "Ain't No Other Man"},
-            {"year": "1999", "stars" : 1, "song": "All I Want Is You"},
+            {"year": "1999", "stars" : 2, "song": "All I Want Is You"},
             {"year": "2006", "stars" : 1, "song": "Candyman"},
             {"year": "2013", "stars" : 2, "song": "Feel This Moment"},
             {"year": "2001", "stars" : 2, "song": "Lady Marmalade"}
@@ -889,6 +896,12 @@
             {"year": "2011", "stars" : 2, "song": "Danza Kuduro"}
         ]
     },
+	{
+        "artist": "Donny Osmond",
+        "songs": [
+            {"year": "1998", "stars" : 1, "song": "I'll Make a Man Out of You"}
+        ]
+    },
     {
         "artist": "Dragonforce",
         "songs": [
@@ -1097,7 +1110,7 @@
     {
         "artist": "Fifth Harmony",
         "songs": [
-            {"year": "2016", "stars" : 1, "song": "All In My Head", "album" : "7/27"},
+            {"year": "2016", "stars" : 2, "song": "All In My Head", "album" : "7/27"},
             {"year": "2015", "stars" : 3, "song": "Sledgehammer"  , "album" : "Reflection"},
             {"year": "2016", "stars" : 5, "song": "Work from Home", "album" : "7/27"}
         ]
@@ -1391,6 +1404,12 @@
             {"year": "2002", "stars" : 3, "song": "The Remedy"}
         ]
     },
+	{
+        "artist": "Jason Paige",
+        "songs": [
+            {"year": "1999", "stars" : 2, "song": "Pokemon Theme Song"}
+        ]
+    },
     {
         "artist": "Jay Sean",
         "songs": [
@@ -1620,7 +1639,7 @@
         "songs": [
             {"year": "2014", "stars" : 1, "song": "Birthday"             , "album" : "Prism"},
 			{"year": "2010", "stars" : 4, "song": "California Gurls"     , "album" : "Teenage Dream"},
-            {"year": "2017", "stars" : 2, "song": "Chained to the Rhythm", "album" : "Witness"},
+            {"year": "2017", "stars" : 1, "song": "Chained to the Rhythm", "album" : "Witness"},
             {"year": "2014", "stars" : 1, "song": "Dark Horse"           , "album" : "Prism"},
             {"year": "2011", "stars" : 1, "song": "E.T."                 , "album" : "Teenage Dream"},
 			{"year": "2017", "stars" : 1, "song": "Feels"                },
@@ -1699,13 +1718,13 @@
         "artist": "Kid Cudi",
         "songs": [
             {"year": "2009", "stars" : 2, "song": "Day n Night"                      , "album" : "Man on the Moon"},
-            {"year": "2009", "stars" : 3, "song": "Day n Night (Crookers Remix)"     },
+            {"year": "2009", "song": "Day n Night (Crookers Remix)" },
             {"year": "2010", "stars" : 3, "song": "Erase Me"                         , "album" : "Man on the Moon II"},
             {"year": "2012", "stars" : 1, "song": "Just What I Am"                   , "album" : "Indicud"},
             {"year": "2009", "stars" : 2, "song": "Make Her Say"                     , "album" : "Man on the Moon"},
             {"year": "2010", "stars" : 4, "song": "Memories"                         },
             {"year": "2011", "stars" : 4, "song": "Pursuit of Happiness"             , "album" : "Man on the Moon"},
-            {"year": "2011", "stars" : 3, "song": "Pursuit of Happiness (Aoki Remix)"}
+            {"year": "2011", "song": "Pursuit of Happiness (Aoki Remix)"}
         ]
     },
     {
@@ -1782,7 +1801,7 @@
     {
         "artist": "Lady Antebellum",
         "songs": [
-			{"year": "2009", "stars" : 1, "song": "I Run To You"},
+			{"year": "2009", "stars" : 2, "song": "I Run To You"},
             {"year": "2011", "stars" : 1, "song": "Just a Kiss"},
             {"year": "2010", "stars" : 3, "song": "Need You Now"}
         ]
@@ -1914,7 +1933,7 @@
 	{
         "artist": "Lovelytheband",
         "songs": [
-            {"year": "2018", "stars" : 2, "song": "Broken"}
+            {"year": "2018", "stars" : 1, "song": "Broken"}
         ]
     },
     {
@@ -1947,7 +1966,7 @@
         "artist": "Macklemore and Ryan Lewis",
         "songs": [
             {"year": "2013", "stars" : 2, "song": "Can't Hold Us"},
-            {"year": "2013", "stars" : 2, "song": "Thrift Shop"}
+            {"year": "2013", "stars" : 1, "song": "Thrift Shop"}
         ]
     },
     {
@@ -2012,7 +2031,7 @@
         "artist": "Maroon 5",
         "songs": [
             {"year": "2012", "stars" : 2, "song": "Daylight"                         , "album" : "Overexposed"},
-			{"year": "2018", "stars" : 2, "song": "Girls Like You (without Cardi B)" , "album" : "Red Pill Blues"},
+			{"year": "2018", "stars" : 1, "song": "Girls Like You (without Cardi B)" , "album" : "Red Pill Blues"},
             {"year": "2002", "stars" : 2, "song": "Harder To Breathe"                , "album" : "Songs About Jane"},
             {"year": "2013", "stars" : 1, "song": "Love Somebody"                    , "album" : "Overexposed"},
             {"year": "2007", "stars" : 1, "song": "Makes Me Wonder"                  , "album" : "It Won't Be Soon Before Long"},
@@ -2659,7 +2678,7 @@
             {"year": "2009", "stars" : 2, "song": "Run This Town"                 , "album" : "The Blueprint 3"},
             {"year": "2008", "stars" : 1, "song": "Shut Up and Drive"             , "album" : "Good Girl Gone Bad"},
             {"year": "2011", "stars" : 3, "song": "S and M"                       , "album" : "Loud"},
-			{"year": "2011", "stars" : 3, "song": "S and M (Britney Spears remix)", "album" : "Loud"},
+			{"year": "2011", "song": "S and M (Britney Spears remix)"},
             {"year": "2006", "stars" : 2, "song": "SOS"                           , "album" : "A Girl like Me"},
             {"year": "2008", "stars" : 1, "song": "Take a Bow"                    , "album" : "Good Girl Gone Bad: Reloaded"},
 			{"year": "2011", "stars" : 1, "song": "Talk That Talk"                , "album" : "Talk That Talk"},
@@ -3500,7 +3519,7 @@
         "artist": "Wiz Khalifa",
         "songs": [
             {"year": "2011", "stars" : 4, "song": "Black and Yellow"        , "album" : "Rolling Papers"},
-            {"year": "2011", "stars" : 5, "song": "Black and Yellow (G-mix)"},
+            {"year": "2011", "song": "Black and Yellow (G-mix)"},
             {"year": "2011", "stars" : 2, "song": "No Sleep"                , "album" : "Rolling Papers"},
             {"year": "2008", "stars" : 2, "song": "Say Yeah"                },
             {"year": "2009", "stars" : 1, "song": "The Thrill"              },
@@ -3542,10 +3561,11 @@
     {
         "artist": "Zedd",
         "songs": [
-            {"year": "2013", "stars" : 1, "song": "Clarity"   },
-            {"year": "2014", "stars" : 2, "song": "Find You"  },
-			{"year": "2018", "stars" : 1, "song": "The Middle"},
-            {"year": "2012", "stars" : 1, "song": "Spectrum"  }
+			{"year": "2015", "stars" : 1, "song": "Beautiful Now"},
+            {"year": "2013", "stars" : 1, "song": "Clarity"      },
+            {"year": "2014", "stars" : 2, "song": "Find You"     },
+			{"year": "2018", "stars" : 1, "song": "The Middle"   },
+            {"year": "2012", "stars" : 1, "song": "Spectrum"     }
         ]
     },
     {
@@ -3566,7 +3586,7 @@
     {
         "artist": "30 Seconds to Mars",
         "songs": [
-            {"year": "2009", "stars" : 3, "song": "Closer to the Edge"},
+            {"year": "2009", "stars" : 2, "song": "Closer to the Edge"},
             {"year": "2009", "stars" : 1, "song": "Kings and Queens"  }
         ]
     },
