@@ -1535,6 +1535,13 @@
             {"year": "2001", "stars" : 1, "song": "Peaceful World"}
         ]
     },
+	{
+        "artist": "John Williams",
+        "songs": [
+			{"year": "2002", "stars" : 2, "song": "Across the Stars"},
+            {"year": "2001", "stars" : 2, "song": "Hedwig's Theme"}
+        ]
+    },
     {
         "artist": "Jordin Sparks",
         "songs": [
@@ -1965,7 +1972,8 @@
     {
         "artist": "Macklemore and Ryan Lewis",
         "songs": [
-            {"year": "2013", "stars" : 2, "song": "Can't Hold Us"},
+            {"year": "2013", "stars" : 1, "song": "Can't Hold Us"},
+			{"year": "2019", "stars" : 2, "song": "Summer Days"},
             {"year": "2013", "stars" : 1, "song": "Thrift Shop"}
         ]
     },
@@ -2018,7 +2026,7 @@
 	{
         "artist": "Marina and the Diamonds",
         "songs": [
-            {"year": "2012", "stars" : 2, "song": "Lies"}
+            {"year": "2012", "stars" : 1, "song": "Lies"}
         ]
     },
     {
@@ -2633,8 +2641,8 @@
     {
         "artist": "Red Jumpsuit Apparatus",
         "songs": [
-            {"year": "2006", "stars" : 2, "song": "Don't You Fake It"  , "album" : "Don't You Fake It"},
             {"year": "2006", "stars" : 1, "song": "Face Down"          , "album" : "Don't You Fake It"},
+            {"year": "2006", "stars" : 2, "song": "In Fate's Hands"    , "album" : "Don't You Fake It"},
             {"year": "2006", "stars" : 3, "song": "Your Guardian Angel", "album" : "Don't You Fake It"}
         ]
     },
@@ -2850,7 +2858,8 @@
         "songs": [
             {"year": "2014", "stars" : 1, "song": "Chandelier"},
 			{"year": "2016", "stars" : 1, "song": "Cheap Thrills"},
-            {"year": "2011", "stars" : 3, "song": "Titanium"}
+            {"year": "2011", "stars" : 3, "song": "Titanium"},
+			{"year": "2020", "stars" : 1, "song": "Together"}
         ]
     },
     {
@@ -3055,7 +3064,7 @@
         "artist": "Taylor Swift",
         "songs": [
             {"year": "2010", "stars" : 2, "song": "Back to December"                       , "album" : "Speak Now"},
-            {"year": "2015", "stars" : 1, "song": "Blank Space"                            , "album" : "1989"},
+            {"year": "2015", "stars" : 3, "song": "Blank Space"                            , "album" : "1989"},
 			{"year": "2010", "stars" : 2, "song": "Enchanted"                              , "album" : "Speak Now"},
             {"year": "2012", "stars" : 1, "song": "Eyes Open"                              , "album" : "The Hunger Games Soundtrack"},
             {"year": "2009", "stars" : 3, "song": "Fifteen"                                , "album" : "Fearless"},
@@ -3072,7 +3081,7 @@
             {"year": "2013", "stars" : 1, "song": "Red"                                    , "album" : "Red"},
             {"year": "2014", "stars" : 2, "song": "Style"                                  , "album" : "1989"},
             {"year": "2006", "stars" : 2, "song": "Teardrops On My Guitar"                 , "album" : "Taylor Swift"},
-            {"year": "2011", "stars" : 1, "song": "The Story of Us"                        , "album" : "Speak Now"},
+            {"year": "2011", "stars" : 2, "song": "The Story of Us"                        , "album" : "Speak Now"},
             {"year": "2010", "stars" : 1, "song": "Today Was a Fairytale"                  , "album" : "Valentine's Day"},
             {"year": "2009", "stars" : 3, "song": "Two is Better Than One"                 , "album" : "Love Drunk"},
             {"year": "2012", "stars" : 2, "song": "We Are Never Ever Getting Back Together", "album" : "Red"},
@@ -3266,6 +3275,12 @@
         "songs": [
             {"year": "2015", "stars" : 1, "song": "Can't Feel My Face"},
             {"year": "2015", "stars" : 1, "song": "The Hills"}
+        ]
+    },
+	{
+        "artist": "The 1975",
+        "songs": [
+            {"year": "2016", "stars" : 1, "song": "The Sound"}
         ]
     },
     {
