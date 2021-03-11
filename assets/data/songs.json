@@ -200,7 +200,8 @@
         "songs": [
             {"year": "2013", "stars" : 1, "song": "I Could Be The One"},
             {"year": "2011", "stars" : 4, "song": "Levels"},
-            {"year": "2011", "song": "Levels (Original Mix)"}
+            {"year": "2011", "song": "Levels (Original Mix)"},
+			{"year": "2014", "stars" : 1, "song": "The Days"}
         ]
     },
     {
@@ -258,7 +259,7 @@
 	{
         "artist": "Bastille",
         "songs": [
-            {"year": "2018", "stars" : 1, "song": "Happier"}
+            {"year": "2018", "stars" : 2, "song": "Happier"}
         ]
     },
     {
@@ -603,7 +604,8 @@
             {"year": "1999", "stars" : 2, "song": "All I Want Is You"},
             {"year": "2006", "stars" : 1, "song": "Candyman"},
             {"year": "2013", "stars" : 2, "song": "Feel This Moment"},
-            {"year": "2001", "stars" : 2, "song": "Lady Marmalade"}
+            {"year": "2001", "stars" : 2, "song": "Lady Marmalade"},
+			{"year": "1999", "stars" : 1, "song": "Reflection"}
         ]
     },
 	{
@@ -936,6 +938,12 @@
             {"year": "2011", "stars" : 1, "song": "I Need a Doctor"}
         ]
     },
+	{
+        "artist": "Dua Lipa",
+        "songs": [
+            {"year": "2020", "stars" : 1, "song": "Levitating"}
+        ]
+    },
     {
         "artist": "Duck Sauce",
         "songs": [
@@ -966,6 +974,12 @@
         "artist": "Electric Guest",
         "songs": [
             {"year": "2012", "stars" : 1, "song": "Waves"}
+        ]
+    },
+	{
+        "artist": "Ella Henderson",
+        "songs": [
+            {"year": "2014", "stars" : 1, "song": "Ghost"}
         ]
     },
     {
@@ -1159,7 +1173,8 @@
     {
         "artist": "Foster the People",
         "songs": [
-            {"year": "2011", "stars" : 2, "song": "Pumped Up Kicks"}
+            {"year": "2011", "stars" : 1, "song": "Helena Beat"},
+			{"year": "2011", "stars" : 2, "song": "Pumped Up Kicks"}
         ]
     },
     {
@@ -1656,6 +1671,7 @@
             {"year": "2011", "stars" : 2, "song": "Last Friday Night"    , "album" : "Teenage Dream"},
             {"year": "2012", "stars" : 2, "song": "Part of Me"           , "album" : "Teenage Dream: The Complete Confection"},
             {"year": "2013", "stars" : 1, "song": "Roar"                 , "album" : "Prism"},
+			{"year": "2020", "stars" : 1, "song": "Smile"                , "album" : "Smile"},
             {"year": "2010", "stars" : 5, "song": "Teenage Dream"        , "album" : "Teenage Dream"},
             {"year": "2011", "stars" : 2, "song": "The One That Got Away", "album" : "Teenage Dream"},
 			{"year": "2014", "stars" : 1, "song": "This Is How We Do"    , "album" : "Prism"},
@@ -3009,6 +3025,12 @@
         ]
     },
 	{
+        "artist": "Surf Mesa",
+        "songs": [
+            {"year": "2020", "stars" : 1, "song": "ILY"}
+        ]
+    },
+	{
         "artist": "Susan Egan",
         "songs": [
             {"year": "1997", "stars" : 2, "song": "I Won't Say (I'm In Love)"}
@@ -3632,10 +3654,10 @@
             {"year": "2014", "song": "ED SHEERAN - Do They Know It's Christmas"},
             {"year": "2012", "song": "FUN. - Sleigh Ride"},
             {"year": "1997", "song": "HANSON - Merry Christmas Baby"},
-			{"year": "2018", "song": "LIL JON - All I Really Want For Christmas"},
             {"year": "2015", "song": "KATY PERRY - Everyday is a Holiday"},
             {"year": "2013", "song": "KELLY CLARKSON - Underneath the Tree"},
             {"year": "2015", "song": "KYLIE MINOGUE - Only You"},
+			{"year": "2018", "song": "LIL JON - All I Really Want For Christmas"},
             {"year": "2013", "song": "LEONA LEWIS - One More Sleep"},
 			{"year": "1948", "song": "LEROY ANDERSON - Sleigh Ride"},
             {"year": "1994", "song": "MARIAH CAREY - All I Want For Christmas"},
@@ -3711,6 +3733,8 @@
 			{"year": "2013", "song": "EMINEM - The Monster"},
 			{"year": "2000", "song": "GOOFY - Monster Mash"},
 			{"year": "2010", "song": "KANYE WEST - Monster"},
+			{"year": "1940", "song": "LEOPOLD STOKOWSKI - Night on Bald Mountain"},
+			{"year": "1984", "song": "LIL JON vs RAY PARKER JR. - Lowbusters"},
 			{"year": "1982", "song": "MICHAEL JACKSON - Thriller"},
 			{"year": "2006", "song": "PANIC! AT THE DISCO - This Is Halloween"},
 			{"year": "1984", "song": "RAY PARKER JR. - Ghostbusters Theme Song"},

@@ -23,7 +23,7 @@ function load_data( callback ){
 			
 			var friday_condition    = ( doy ==  5 );
 			var halloween_condition = ( mth ==  9 );
-			var christmas_condition = ( mth >= 10 );
+			var christmas_condition = ( mth >= 11 );
 			var nfl_condition       = ( [0,1,4].indexOf( doy ) != -1 && [7,8,9,10,11,0,1].indexOf( mth ) != -1 );
 			var ncaaf_condition     = ( [5,6].indexOf( doy ) != -1 && [7,8,9,10,11,0].indexOf( mth ) != -1 );
 			
