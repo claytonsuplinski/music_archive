@@ -1024,6 +1024,7 @@
 	{
 		"artist": "Empire Of The Sun",
 		"songs": [
+			{"year": "2016", "stars" : 1, "song": "High and Low"      },
 			{"year": "2009", "stars" : 1, "song": "Walking On A Dream"}
 		]
 	},
@@ -1950,7 +1951,7 @@
     {
         "artist": "Lou Bega",
         "songs": [
-            {"year": "1999", "stars" : 3, "song": "Mambo No. 5"}
+            {"year": "1999", "stars" : 1, "song": "Mambo No. 5"}
         ]
     },
 	{
@@ -2513,6 +2514,13 @@
             {"year": "2005", "stars" : 2, "song": "I Write Sins Not Tragedies"},
             {"year": "2009", "stars" : 4, "song": "New Perspective"},
             {"year": "2008", "stars" : 1, "song": "Nine in the Afternoon"}
+        ]
+    },
+	{
+        "artist": "Paramore",
+        "songs": [
+            {"year": "2013", "stars" : 1, "song": "Ain't It Fun"},
+            {"year": "2013", "stars" : 1, "song": "Still Into You"}
         ]
     },
     {
