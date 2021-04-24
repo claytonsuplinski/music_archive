@@ -39,8 +39,8 @@ function html_song(song){
 			'</span>' 
 			: '' ) +
 		'<br>'+
-		'<a class="link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'+
-		'<a class="link" target="_blank" href="'+repeat_link+'"><i class="fa fa-refresh"></i></a>'+
+		'<a class="link youtube-link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'+
+		'<a class="link  repeat-link" target="_blank" href="'+repeat_link+'"><i class="fa fa-refresh"></i></a>'+
 	'</div>';
 };
 
@@ -253,6 +253,12 @@ function load_year(year){
 
 function random_year(){
 	load_year(SONG.ALL_YEARS[Math.floor(Math.random()*SONG.ALL_YEARS.length)].year);
+};
+
+function open_link( idx ){
+	try{
+		window.open( $( ".song a.youtube-link" )[ idx ], '_blank' ).focus();
+	} catch(e){}
 };
 
 load_data( home_screen );
