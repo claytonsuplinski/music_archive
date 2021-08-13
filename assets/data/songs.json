@@ -153,6 +153,7 @@
 			{"year": "2018", "stars" : 1, "song": "No Tears Left to Cry", "album" : "Sweetener"},
             {"year": "2014", "stars" : 3, "song": "One Last Time"       , "album" : "My Everything"},
             {"year": "2014", "stars" : 2, "song": "Problem"             , "album" : "My Everything"},
+			{"year": "2021", "stars" : 1, "song": "Save Your Tears"     },
             {"year": "2013", "stars" : 2, "song": "The Way"             , "album" : "Yours Truly"}
         ]
     },
@@ -186,6 +187,7 @@
         "artist": "Ava Max",
         "songs": [
 			{"year": "2019", "stars" : 3, "song": "Freaking Me Out"},
+			{"year": "2021", "stars" : 2, "song": "My Head & My Heart"},
             {"year": "2019", "stars" : 4, "song": "Sweet but Psycho"}
         ]
     },
@@ -892,6 +894,12 @@
 			{"year": "2016", "stars" : 1, "song": "Cake by the Ocean"}
 		]
 	},
+	{
+        "artist": "Doja Cat",
+        "songs": [
+            {"year": "2021", "stars" : 1, "song": "Kiss Me More"}
+        ]
+    },
     {
         "artist": "Don Omar",
         "songs": [
@@ -1758,10 +1766,16 @@
             {"year": "1998", "stars" : 1, "song": "Cowboy"}
         ]
     },
-    {
+	{
         "artist": "Kiiara",
         "songs": [
             {"year": "2016", "stars" : 1, "song": "Gold"}
+        ]
+    },
+    {
+        "artist": "Kim Petras",
+        "songs": [
+            {"year": "2018", "stars" : 2, "song": "Heart to Break"}
         ]
     },
     {
@@ -2192,6 +2206,7 @@
     {
         "artist": "Miley Cyrus",
         "songs": [
+			{"year": "2020", "stars" : 1, "song": "Edge of Midnight"},
             {"year": "2009", "stars" : 6, "song": "Party in the USA", "album" : "The Time of Our Lives"},
             {"year": "2009", "stars" : 4, "song": "The Climb"       , "album" : "Hannah Montana: The Movie"}
         ]
@@ -2200,7 +2215,7 @@
         "artist": "Mims",
         "songs": [
             {"year": "2007", "stars" : 1, "song": "Like This"},
-            {"year": "2007", "stars" : 2, "song": "This Is Why I'm Hot"}
+            {"year": "2007", "stars" : 1, "song": "This Is Why I'm Hot"}
         ]
     },
     {
@@ -2288,7 +2303,7 @@
     {
         "artist": "Natalie La Rose",
         "songs": [
-            {"year": "2015", "stars" : 1, "song": "Somebody"}
+            {"year": "2015", "stars" : 2, "song": "Somebody"}
         ]
     },
     {
@@ -3461,6 +3476,7 @@
     {
         "artist": "Van Halen",
         "songs": [
+			{"year": "1984", "stars" : 1, "song": "Jump"},
             {"year": "1991", "stars" : 1, "song": "Right Now"}
         ]
     },
@@ -3503,7 +3519,7 @@
     {
         "artist": "Walk The Moon",
         "songs": [
-            {"year": "2015", "stars" : 1, "song": "Shut Up and Dance"}
+            {"year": "2015", "stars" : 2, "song": "Shut Up and Dance"}
         ]
     },
     {
