@@ -1587,10 +1587,16 @@
             {"year": "1981", "stars" : 5, "song": "Don't Stop Believin'"}
         ]
     },
-    {
+	{
         "artist": "Juanes",
         "songs": [
             {"year": "2004", "stars" : 4, "song": "La Camisa Negra"}
+        ]
+    },
+    {
+        "artist": "Jubel",
+        "songs": [
+            {"year": "2018", "stars" : 1, "song": "Dancing In The Moonlight"}
         ]
     },
     {
