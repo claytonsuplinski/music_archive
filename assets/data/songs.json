@@ -2854,6 +2854,7 @@
             {"year": "2005", "stars" : 4, "song": "Hips Don't Lie"},
             {"year": "2010", "stars" : 3, "song": "Rabiosa"},
             {"year": "2009", "stars" : 3, "song": "She Wolf"},
+			{"year": "2016", "stars" : 1, "song": "Try Everything"},
 			{"year": "2010", "stars" : 2, "song": "Waka Waka"},
             {"year": "2001", "stars" : 3, "song": "Whenever, Wherever"}
         ]
