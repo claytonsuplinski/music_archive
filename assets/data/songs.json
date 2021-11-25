@@ -2038,7 +2038,8 @@
     {
         "artist": "Major Lazer",
         "songs": [
-            {"year": "2015", "stars" : 2, "song": "Lean On"}
+            {"year": "2015", "stars" : 2, "song": "Lean On"},
+			{"year": "2015", "stars" : 1, "song": "Light It Up"}
         ]
     },
     {
@@ -2541,7 +2542,7 @@
         "artist": "Paramore",
         "songs": [
             {"year": "2013", "stars" : 1, "song": "Ain't It Fun"},
-            {"year": "2013", "stars" : 1, "song": "Still Into You"}
+            {"year": "2013", "stars" : 3, "song": "Still Into You"}
         ]
     },
     {
@@ -3694,6 +3695,7 @@
             {"year": "1994", "song": "MARIAH CAREY - All I Want For Christmas"},
 			{"year": "1999", "song": "N'SYNC - Love's In Our Hearts On Christmas Day"},
             {"year": "2011", "song": "PANIC! AT THE DISCO - White Christmas"},
+			{"year": "2017", "song": "SIA - Santa's Coming For Us"},
 			{"year": "2011", "song": "SKRILLEX - First of the Year"},
             {"year": "2000", "song": "SPONGEBOB SQUAREPANTS - Very First Christmas"},
 			{"year": "2010", "song": "TAYLOR SWIFT - Back to December"},
