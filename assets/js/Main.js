@@ -11,6 +11,19 @@ var LIMIT = {
 	years   : 20
 };
 
+function get_nth_day_of_week( month, day, n ){
+	var dt = new Date();
+	dt.setMonth( month );
+	dt.setDate( 1 );
+	dt.setHours( 0 );
+	
+	while( dt.getDay() != day ) dt.setDate( dt.getDate() + 1 );
+
+	dt.setDate( dt.getDate() + 7 * ( n - 1 ) );
+
+	return dt;
+};
+
 function load_data( callback ){
 	$.ajax({
 		url: './assets/data/songs.json',
@@ -23,7 +36,7 @@ function load_data( callback ){
 			
 			var friday_condition    = ( doy ==  5 );
 			var halloween_condition = ( mth ==  9 );
-			var christmas_condition = ( mth >= 11 );
+			var christmas_condition = ( now > get_nth_day_of_week( 10, 6, 4 ) );
 			var nfl_condition       = ( [0,1,4].indexOf( doy ) != -1 && [7,8,9,10,11,0,1].indexOf( mth ) != -1 );
 			var ncaaf_condition     = ( [5,6].indexOf( doy ) != -1 && [7,8,9,10,11,0].indexOf( mth ) != -1 );
 			
