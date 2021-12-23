@@ -3678,6 +3678,7 @@
         "songs": [
 			{"year": "2006", "song": "AFI - Love Like Winter"},
             {"year": "2014", "song": "ARIANA GRANDE - Santa Tell Me"},
+			{"year": "1984", "song": "BAND AID - Do They Know It's Christmas?"},
             {"year": "2000", "song": "BRITNEY SPEARS - My Only Wish"},
             {"year": "1975", "song": "BRUCE SPRINGSTEEN - Santa Claus Is Coming To Town"},
             {"year": "2015", "song": "CARLY RAE JEPSEN - Last Christmas"},
@@ -3694,7 +3695,10 @@
 			{"year": "1948", "song": "LEROY ANDERSON - Sleigh Ride"},
             {"year": "1994", "song": "MARIAH CAREY - All I Want For Christmas"},
 			{"year": "1999", "song": "N'SYNC - Love's In Our Hearts On Christmas Day"},
+			{"year": "1998", "song": "N'SYNC - Merry Christmas, Happy Holidays"},
             {"year": "2011", "song": "PANIC! AT THE DISCO - White Christmas"},
+			{"year": "1979", "song": "PAUL MCCARTNEY - Wonderful Christmastime"},
+			{"year": "2021", "song": "ROB THOMAS - Small Town Christmas"},
 			{"year": "2017", "song": "SIA - Santa's Coming For Us"},
 			{"year": "2011", "song": "SKRILLEX - First of the Year"},
             {"year": "2000", "song": "SPONGEBOB SQUAREPANTS - Very First Christmas"},
