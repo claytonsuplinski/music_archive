@@ -1231,10 +1231,16 @@
             {"year": "2008", "stars" : 1, "song": "Love Remains the Same"}
         ]
     },
-    {
+	{
         "artist": "Ginuwine",
         "songs": [
             {"year": "1996", "stars" : 2, "song": "Pony"}
+        ]
+    },
+    {
+        "artist": "Glass Animals",
+        "songs": [
+            {"year": "2021", "stars" : 1, "song": "Heat Waves"}
         ]
     },
     {
