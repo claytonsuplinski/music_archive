@@ -28,7 +28,8 @@ function html_song(song){
 	var query = encodeURIComponent((song.artist && !song.playlist ? song.artist + " " : '') + song.song);
 	var youtube_link = 'https://www.youtube.com/results?search_query='+query;
 	var google_link  = 'https://www.google.com/#q='+query;
-	var repeat_link  = 'http://reppeat.com/results/?search_query='+query;
+	var link_8_bit   = 'https://www.youtube.com/results?search_query=8 bit '+query;
+	// var repeat_link  = 'http://reppeat.com/results/?search_query='+query;
 	return '<div class="song '+(song.playlist ? song.playlist : '')+'">'+
 		'<a class="info-link" href="'+google_link+'" target="_blank"><i class="fa fa-info-circle"></i></a> '+
 		(song.artist && !song.playlist ? song.artist.toUpperCase() + ' - ' : '') + song.song +
@@ -40,7 +41,7 @@ function html_song(song){
 			: '' ) +
 		'<br>'+
 		'<a class="link youtube-link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'+
-		'<a class="link  repeat-link" target="_blank" href="'+repeat_link+'"><i class="fa fa-refresh"></i></a>'+
+		'<a class="link  repeat-link" target="_blank" href="'+link_8_bit+'"><i class="fa fa-th"></i></a>'+
 	'</div>';
 };
 

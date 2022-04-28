@@ -423,6 +423,7 @@
         "artist": "Britney Spears",
         "songs": [
             {"year": "1998", "stars" : 3, "song": "Baby One More Time"   , "album" : "...Baby One More Time"},
+			{"year": "2008", "stars" : 1, "song": "Break the Ice"        , "album" : "Blackout"},
             {"year": "2009", "stars" : 3, "song": "Circus"               , "album" : "Circus"},
             {"year": "1999", "stars" : 1, "song": "Crazy"                , "album" : "Playing with Fire"},
 			{"year": "2011", "stars" : 1, "song": "Criminal"             , "album" : "Femme Fatale"},
@@ -695,10 +696,16 @@
             {"year": "2007", "stars" : 1, "song": "Cupid Shuffle"}
         ]
     },
-    {
+	{
         "artist": "Daft Punk",
         "songs": [
             {"year": "2001", "stars" : 1, "song": "One More Time"}
+        ]
+    },
+    {
+        "artist": "Daisy the Great",
+        "songs": [
+            {"year": "2021", "stars" : 1, "song": "Record Player"}
         ]
     },
     {
