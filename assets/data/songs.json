@@ -1959,7 +1959,7 @@
 	{
 		"artist": "Little Mix",
 		"songs": [
-			{"year": "2015", "stars" : 1, "song": "Black Magic"}
+			{"year": "2015", "stars" : 2, "song": "Black Magic"}
 		]
 	},
     {
@@ -2502,6 +2502,7 @@
         "songs": [
             {"year": "2009", "stars" : 3, "song": "All the Right Moves"},
             {"year": "2013", "stars" : 1, "song": "If I Lose Myself"},
+			{"year": "2020", "stars" : 1, "song": "Lose Somebody"},
             {"year": "2010", "stars" : 1, "song": "Marching On"}
         ]
     },
@@ -2545,6 +2546,7 @@
     {
         "artist": "Panic! At the Disco",
         "songs": [
+			{"year": "2019", "stars" : 1, "song": "Hey Look Ma, I Made It"},
 			{"year": "2018", "stars" : 1, "song": "High Hopes"},
             {"year": "2005", "stars" : 2, "song": "I Write Sins Not Tragedies"},
             {"year": "2009", "stars" : 4, "song": "New Perspective"},
@@ -3777,20 +3779,25 @@
 		"songs": [
 			{"year": "2000", "song": "AARON CARTER - I Want Candy"},
 			{"year": "1962", "song": "BOBBY PICKETT - Monster Mash"},
-			{"year": "1988", "song": "GILLAN/GLOVER - The Purple People Eater"},
-			{"year": "1993", "song": "DANNY ELFMAN - This Is Halloween"},
 			{"year": "2011", "song": "DEADMAU5 - Ghosts N Stuff"},
 			{"year": "2013", "song": "EMINEM - The Monster"},
+			{"year": "1988", "song": "GILLAN/GLOVER - The Purple People Eater"},
+			{"year": "2021", "song": "GLENN GATSBY - Grim Grinning Ghosts"},
 			{"year": "2000", "song": "GOOFY - Monster Mash"},
 			{"year": "2010", "song": "KANYE WEST - Monster"},
+			{"year": "2016", "song": "KID KASINO - Headless Horseman"},
+			{"year": "2009", "song": "LADY GAGA - Monster"},
 			{"year": "1940", "song": "LEOPOLD STOKOWSKI - Night on Bald Mountain"},
 			{"year": "1984", "song": "LIL JON vs RAY PARKER JR. - Lowbusters"},
+			{"year": "2015", "song": "LITTLE MIX - Black Magic"},
+			{"year": "2006", "song": "MATCHBOOK ROMANCE - Monsters"},
 			{"year": "1982", "song": "MICHAEL JACKSON - Thriller"},
 			{"year": "2006", "song": "PANIC! AT THE DISCO - This Is Halloween"},
 			{"year": "1984", "song": "RAY PARKER JR. - Ghostbusters Theme Song"},
 			{"year": "2008", "song": "RIHANNA - Disturbia"},
 			{"year": "2009", "song": "SHAKIRA - She Wolf"},
 			{"year": "2011", "song": "SKRILLEX - Scary Monsters and Nice Sprites"},
+			{"year": "1993", "song": "THE CITIZENS OF HALLOWEEN TOWN - This Is Halloween"},
 			{"year": "1994", "song": "THE CRANBERRIES - Zombie"},
 			{"year": "2011", "song": "THE LONELY ISLAND - The Creep"},
 			{"year": "1993", "song": "THE NIGHTMARE BEFORE CHRISTMAS - Overture"},
