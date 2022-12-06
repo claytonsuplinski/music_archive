@@ -1539,10 +1539,16 @@
             {"year": "2006", "stars" : 1, "song": "Chain Hang Low"}
         ]
     },
-    {
+	{
         "artist": "Jim Jones",
         "songs": [
             {"year": "2006", "stars" : 2, "song": "We Fly High"}
+        ]
+    },
+    {
+        "artist": "Jim-E Stack",
+        "songs": [
+            {"year": "2020", "stars" : 1, "song": "Note To Self"}
         ]
     },
     {
