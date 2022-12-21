@@ -1263,7 +1263,8 @@
             {"year": "1998", "stars" : 4, "song": "Black Balloon"    , "album" : "Dizzy Up the Girl"},
 			{"year": "2004", "stars" : 3, "song": "Give a Little Bit", "album" : "Let Love In"},
             {"year": "1998", "stars" : 3, "song": "Iris"             , "album" : "Dizzy Up the Girl"},
-            {"year": "1998", "stars" : 2, "song": "Slide"            , "album" : "Dizzy Up the Girl"}
+            {"year": "1998", "stars" : 2, "song": "Slide"            , "album" : "Dizzy Up the Girl"},
+            {"year": "2002", "stars" : 1, "song": "Sympathy"         , "album" : "Gutterflower"}
         ]
     },
     {
@@ -3703,6 +3704,7 @@
             {"year": "2000", "song": "BRITNEY SPEARS - My Only Wish"},
             {"year": "1975", "song": "BRUCE SPRINGSTEEN - Santa Claus Is Coming To Town"},
             {"year": "2015", "song": "CARLY RAE JEPSEN - Last Christmas"},
+			{"year": "2000", "song": "CHRISTINA AGUILERA - This Christmas"},
             {"year": "1997", "song": "DIDDY KONG RACING - Frosty Village"},
             {"year": "1997", "song": "DIDDY KONG RACING - Walrus Cove"},
             {"year": "2014", "song": "ED SHEERAN - Do They Know It's Christmas"},
