@@ -1681,7 +1681,8 @@
     {
         "artist": "Kaskade",
         "songs": [
-            {"year": "2011", "stars" : 2, "song": "Turn It Down"}
+			{"year": "2011", "stars" : 2, "song": "Turn It Down"},
+            {"year": "2006", "stars" : 1, "song": "4 AM"}
         ]
     },
     {
@@ -3389,6 +3390,7 @@
         "artist": "Timbaland",
         "songs": [
             {"year": "2007", "stars" : 3, "song": "Apologize"            },
+			{"year": "2007", "stars" : 1, "song": "Give It to Me"        },
             {"year": "2010", "stars" : 2, "song": "If We Ever Meet Again"},
             {"year": "2007", "stars" : 1, "song": "The Way I Are"        }
         ]
