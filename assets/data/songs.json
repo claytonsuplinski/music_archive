@@ -1924,6 +1924,7 @@
         "artist": "Lil Jon",
         "songs": [
             {"year": "2003", "stars" : 5, "song": "Get Low"},
+			{"year": "2023", "stars" : 1, "song": "Jumpin"},
 			{"year": "2004", "stars" : 1, "song": "Let's Go"}
         ]
     },
@@ -2629,7 +2630,8 @@
             {"year": "2009", "stars" : 3, "song": "Hotel Room Service"             , "album" : "Rebelution"},
             {"year": "2011", "stars" : 2, "song": "International Love"             , "album" : "Planet Pit"},
             {"year": "2011", "stars" : 1, "song": "Rain Over Me"                   , "album" : "Planet Pit"},
-            {"year": "2009", "stars" : 1, "song": "Shut It Down"                   , "album" : "Rebelution"}
+            {"year": "2009", "stars" : 1, "song": "Shut It Down"                   , "album" : "Rebelution"},
+            {"year": "2007", "stars" : 1, "song": "The Anthem"                     , "album" : "The Boatlift"}
         ]
     },
 	{
@@ -2960,6 +2962,7 @@
 			{"year": "2010", "stars" : 1, "song": "All I Ask of You"               , "album" : "Scary Monsters and Nice Sprites"},
             {"year": "2011", "stars" : 2, "song": "Bangarang"                      , "album" : "Bangarang"},
             {"year": "2011", "stars" : 1, "song": "First of the Year"              , "album" : "More Monsters and Sprites"},
+			{"year": "2011", "stars" : 1, "song": "Goin' In"                       },
             {"year": "2011", "stars" : 3, "song": "Scary Monsters and Nice Sprites", "album" : "Scary Monsters and Nice Sprites"},
             {"year": "2011", "stars" : 3, "song": "Summit"                         , "album" : "Bangarang"}
         ]
