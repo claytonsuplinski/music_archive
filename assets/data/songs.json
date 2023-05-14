@@ -362,6 +362,12 @@
         ]
     },
     {
+        "artist": "Blur",
+        "songs": [
+            {"year": "1997", "stars" : 1, "song": "Song 2"}
+        ]
+    },
+    {
         "artist": "B.O.B.",
         "songs": [
             {"year": "2010", "stars" : 6, "song": "Airplanes"    , "album" : "The Adventures of Bobby Ray"},
