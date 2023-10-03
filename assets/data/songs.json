@@ -150,7 +150,6 @@
         "songs": [
             {"year": "2014", "stars" : 5, "song": "Break Free"          , "album" : "My Everything"},
 			{"year": "2014", "stars" : 1, "song": "Love Me Harder"      , "album" : "My Everything"},
-			{"year": "2018", "stars" : 1, "song": "No Tears Left to Cry", "album" : "Sweetener"},
             {"year": "2014", "stars" : 3, "song": "One Last Time"       , "album" : "My Everything"},
             {"year": "2014", "stars" : 2, "song": "Problem"             , "album" : "My Everything"},
 			{"year": "2021", "stars" : 1, "song": "Save Your Tears"     },
@@ -1098,6 +1097,12 @@
             {"year": "2000", "stars" : 1, "song": "Crazy for This Girl"}
         ]
     },
+	{
+        "artist": "Eve",
+        "songs": [
+            {"year": "2007", "stars" : 1, "song": "Tambourine"}
+        ]
+    },
     {
         "artist": "Everclear",
         "songs": [
@@ -1770,6 +1775,7 @@
             {"year": "2010", "stars" : 2, "song": "Take It Off"         , "album" : "Animal"},
             {"year": "2010", "stars" : 3, "song": "Tik Tok"             , "album" : "Animal"},
             {"year": "2011", "stars" : 1, "song": "We R Who We R"       , "album" : "Cannibal"},
+			{"year": "2012", "stars" : 1, "song": "Wherever You Are"    , "album" : "Warrior"},
             {"year": "2010", "stars" : 2, "song": "Your Love is My Drug", "album" : "Animal"}
         ]
     },
@@ -2498,6 +2504,12 @@
             {"year": "2005", "stars" : 1, "song": "Do What You Want"},
             {"year": "2005", "stars" : 2, "song": "Here It Goes Again"},
             {"year": "2010", "stars" : 1, "song": "White Knuckles"}
+        ]
+    },
+	{
+        "artist": "Olivia Rodrigo",
+        "songs": [
+            {"year": "2023", "stars" : 1, "song": "Get Him Back!"}
         ]
     },
     {
@@ -3804,6 +3816,7 @@
 			{"year": "2021", "song": "GLENN GATSBY - Grim Grinning Ghosts"},
 			{"year": "2000", "song": "GOOFY - Monster Mash"},
 			{"year": "2010", "song": "KANYE WEST - Monster"},
+			{"year": "2013", "song": "KE$HA - Crazy Kids"},
 			{"year": "2016", "song": "KID KASINO - Headless Horseman"},
 			{"year": "2009", "song": "LADY GAGA - Monster"},
 			{"year": "1940", "song": "LEOPOLD STOKOWSKI - Night on Bald Mountain"},
