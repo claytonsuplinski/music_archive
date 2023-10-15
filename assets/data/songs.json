@@ -592,7 +592,8 @@
         "artist": "Chris Brown",
         "songs": [
             {"year": "2011", "stars" : 1, "song": "Beautiful People"   , "album" : "F.A.M.E."},
-			{"year": "2012", "stars" : 1, "song": "Don't Wake Me Up"   , "album" : "Fortune"},
+			{"year": "2012", "stars" : 2, "song": "Don't Wake Me Up"   , "album" : "Fortune"},
+			{"year": "2015", "stars" : 2, "song": "Five More Hours"   },
             {"year": "2008", "stars" : 4, "song": "Forever"            , "album" : "Exclusive"},
 			{"year": "2012", "stars" : 1, "song": "I Can Only Imagine" },
             {"year": "2008", "stars" : 3, "song": "Kiss Kiss"          , "album" : "Exclusive"},
@@ -786,11 +787,17 @@
             {"year": "1987", "stars" : 1, "song": "Pour Some Sugar On Me"}
         ]
     },
-    {
+	{
         "artist": "Demi Lovato",
         "songs": [
             {"year": "2017", "stars" : 1, "song": "No Promises"},
 			{"year": "2018", "stars" : 1, "song": "Solo"}
+        ]
+    },
+    {
+        "artist": "Deorro",
+        "songs": [
+			{"year": "2014", "stars" : 1, "song": "Five Hours"}
         ]
     },
     {
@@ -1032,7 +1039,7 @@
     {
         "artist": "Eminem",
         "songs": [
-            {"year": "2013", "stars" : 1, "song": "Berzerk"             , "album" : "The Marshall Mathers LP 2"},
+            {"year": "2013", "stars" : 2, "song": "Berzerk"             , "album" : "The Marshall Mathers LP 2"},
             {"year": "2002", "stars" : 2, "song": "Lose Yourself"       },
             {"year": "2010", "stars" : 3, "song": "Love the Way You Lie", "album" : "Recovery"},
             {"year": "2013", "stars" : 1, "song": "Rap God"             , "album" : "The Marshall Mathers LP 2"},
@@ -1645,12 +1652,13 @@
     {
         "artist": "Justin Bieber",
         "songs": [
-            {"year": "2012", "stars" : 3, "song": "Beauty and a Beat", "album" : "Believe"},
+            {"year": "2012", "stars" : 2, "song": "Beauty and a Beat", "album" : "Believe"},
             {"year": "2016", "stars" : 1, "song": "Cold Water"       },
             {"year": "2017", "stars" : 1, "song": "I'm the One"      },
             {"year": "2016", "stars" : 2, "song": "Let Me Love You"  },
-            {"year": "2015", "stars" : 3, "song": "Sorry"            , "album" : "Purpose"},
-            {"year": "2015", "stars" : 2, "song": "Where Are U Now"  , "album" : "Purpose"}
+            {"year": "2015", "stars" : 4, "song": "Sorry"            , "album" : "Purpose"},
+			{"year": "2015", "stars" : 1, "song": "What Do You Mean?", "album" : "Purpose"},
+            {"year": "2015", "stars" : 1, "song": "Where Are U Now"  , "album" : "Purpose"}
         ]
     },
     {
@@ -1771,7 +1779,7 @@
         "songs": [
             {"year": "2010", "stars" : 2, "song": "C U Next Tuesday"    , "album" : "Animal"},
             {"year": "2012", "stars" : 2, "song": "C'Mon"               , "album" : "Warrior"},
-            {"year": "2012", "stars" : 4, "song": "Die Young"           , "album" : "Warrior"},
+            {"year": "2012", "stars" : 5, "song": "Die Young"           , "album" : "Warrior"},
             {"year": "2010", "stars" : 2, "song": "Take It Off"         , "album" : "Animal"},
             {"year": "2010", "stars" : 3, "song": "Tik Tok"             , "album" : "Animal"},
             {"year": "2011", "stars" : 1, "song": "We R Who We R"       , "album" : "Cannibal"},
@@ -2834,7 +2842,7 @@
         "artist": "Sam Smith",
         "songs": [
             {"year": "2014", "stars" : 1, "song": "La La La"},
-            {"year": "2014", "stars" : 2, "song": "Latch"}
+            {"year": "2014", "stars" : 4, "song": "Latch"}
         ]
     },
 	{
@@ -3759,13 +3767,16 @@
         "playlist": "Friday",
 		"background": "friday.png",
         "songs": [
+			{"year": "2009", "song": "BLACK EYED PEAS - I Gotta Feeling"},
 			{"year": "2015", "song": "COLDPLAY - Hymn for the Weekend"},
 			{"year": "2011", "song": "KATY PERRY - Last Friday Night"},
             {"year": "2003", "song": "R KELLY - Ignition"},
 			{"year": "2011", "song": "REBECCA BLACK - Friday"},
 			{"year": "2010", "song": "RIHANNA - Cheers"},
+			{"year": "2016", "song": "SIA - Cheap Thrills"},
 			{"year": "1992", "song": "THE CURE - Friday I'm In Love"},
-			{"year": "2015", "song": "THE WEEKND - Can't Feel My Face"}
+			{"year": "2015", "song": "THE WEEKND - Can't Feel My Face"},
+			{"year": "2010", "song": "USHER - DJ Got Us Falling In Love"}
         ]
     },
 	{
@@ -3827,6 +3838,8 @@
 			{"year": "2006", "song": "PANIC! AT THE DISCO - This Is Halloween"},
 			{"year": "1984", "song": "RAY PARKER JR. - Ghostbusters Theme Song"},
 			{"year": "2008", "song": "RIHANNA - Disturbia"},
+			{"year": "2014", "song": "RITA ORA - Black Widow"},
+			{"year": "1966", "song": "ROLLING STONES - Paint It Black"},
 			{"year": "2009", "song": "SHAKIRA - She Wolf"},
 			{"year": "2011", "song": "SKRILLEX - Scary Monsters and Nice Sprites"},
 			{"year": "1993", "song": "THE CITIZENS OF HALLOWEEN TOWN - This Is Halloween"},
