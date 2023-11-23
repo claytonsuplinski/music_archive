@@ -133,6 +133,12 @@
             {"year": "2001", "stars" : 5, "song": "Party Hard"}
         ]
     },
+	{
+        "artist": "Annie Lennox",
+        "songs": [
+            {"year": "1992", "stars" : 1, "song": "Walking on Broken Glass"}
+        ]
+    },
     {
         "artist": "Aqua",
         "songs": [
@@ -1151,6 +1157,7 @@
         "songs": [
             {"year": "2007", "stars" : 2, "song": "Big Girls Don't Cry", "album" : "The Dutchess"},
             {"year": "2006", "stars" : 3, "song": "Fergilicious"       , "album" : "The Dutchess"},
+			{"year": "2010", "stars" : 2, "song": "Gettin' Over You"   },
             {"year": "2007", "stars" : 5, "song": "Glamorous"          , "album" : "The Dutchess"},
             {"year": "2006", "stars" : 1, "song": "London Bridge"      , "album" : "The Dutchess"}
         ]
@@ -3821,6 +3828,7 @@
 		"songs": [
 			{"year": "2000", "song": "AARON CARTER - I Want Candy"},
 			{"year": "1962", "song": "BOBBY PICKETT - Monster Mash"},
+			{"year": "1980", "song": "BREAKWATER - Release the Beast"},
 			{"year": "2011", "song": "DEADMAU5 - Ghosts N Stuff"},
 			{"year": "2013", "song": "EMINEM - The Monster"},
 			{"year": "1988", "song": "GILLAN/GLOVER - The Purple People Eater"},
