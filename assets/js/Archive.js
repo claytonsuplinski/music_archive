@@ -29,6 +29,8 @@ function html_song(song){
 	var youtube_link = 'https://www.youtube.com/results?search_query='+query;
 	var google_link  = 'https://www.google.com/#q='+query;
 	var link_8_bit   = 'https://www.youtube.com/results?search_query=8 bit '+query;
+	var local_path;
+	if( song.local ) local_path = './assets/data/content/' + song.local;
 	// var repeat_link  = 'http://reppeat.com/results/?search_query='+query;
 	return '<div class="song '+(song.playlist ? song.playlist : '')+'">'+
 		'<a class="info-link" href="'+google_link+'" target="_blank"><i class="fa fa-info-circle"></i></a> '+
@@ -40,7 +42,10 @@ function html_song(song){
 			'</span>' 
 			: '' ) +
 		'<br>'+
-		'<a class="link youtube-link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'+
+		( local_path ? 
+			'<a class="link youtube-link" onclick="open_music_player(\'' + local_path + '\');"><i class="fa fa-music"></i></a>' :
+			'<a class="link youtube-link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'
+		) +
 		'<a class="link  repeat-link" target="_blank" href="'+link_8_bit+'"><i class="fa fa-th"></i></a>'+
 	'</div>';
 };
@@ -260,6 +265,17 @@ function open_link( idx ){
 	try{
 		window.open( $( ".song a.youtube-link" )[ idx ], '_blank' ).focus();
 	} catch(e){}
+};
+
+function open_music_player( path ){
+	$( '#music-player' ).html(
+		'<audio controls loop autoplay src="' + path + '" />' +
+		'<div class="close-music-player" onclick="close_music_player();">Close Music Player</div>'
+	).show();
+};
+
+function close_music_player( path ){
+	$( '#music-player' ).html('').hide();
 };
 
 load_data( home_screen );

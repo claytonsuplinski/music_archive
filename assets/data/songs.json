@@ -3198,7 +3198,7 @@
             {"year": "2009", "stars" : 3, "song": "Two is Better Than One"                 , "album" : "Love Drunk"},
             {"year": "2012", "stars" : 2, "song": "We Are Never Ever Getting Back Together", "album" : "Red"},
             {"year": "2009", "stars" : 6, "song": "You Belong With Me"                     , "album" : "Fearless"},
-            {"year": "2012", "stars" : 2, "song": "22"                                     , "album" : "Red"}
+            {"year": "2012", "stars" : 2, "song": "22"                                     , "album" : "Red", "local" : "1.mp3"}
         ]
     },
     {

@@ -1,0 +1,32 @@
+#music-player{
+	position:fixed;
+	background:rgba(0,0,0,0.5);
+	z-index:999;
+	display:none;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+	text-align:center;
+}
+
+#music-player .close-music-player{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100vw;
+	font-size:20px;
+	padding:15px;
+	background:linear-gradient( #700, #400 );
+	color:#ddd;
+	border-top:1px solid rgba(255,255,255,0.5);
+}
+
+#music-player .close-music-player:hover{
+	background:#900;
+}
+
+#music-player audio{
+	margin-top:100px;
+	width:99vw;
+}
