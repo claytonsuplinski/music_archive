@@ -28,5 +28,5 @@
 
 #music-player audio{
 	margin-top:100px;
-	width:99vw;
+	width: calc( 100vw + 105px );
 }

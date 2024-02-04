@@ -3176,7 +3176,7 @@
         "artist": "Taylor Swift",
         "songs": [
             {"year": "2010", "stars" : 2, "song": "Back to December"                       , "album" : "Speak Now"},
-            {"year": "2015", "stars" : 3, "song": "Blank Space"                            , "album" : "1989"},
+            {"year": "2015", "stars" : 3, "song": "Blank Space"                            , "album" : "1989", "local" : "2.mp3"},
 			{"year": "2010", "stars" : 2, "song": "Enchanted"                              , "album" : "Speak Now"},
             {"year": "2012", "stars" : 1, "song": "Eyes Open"                              , "album" : "The Hunger Games Soundtrack"},
             {"year": "2009", "stars" : 3, "song": "Fifteen"                                , "album" : "Fearless"},
