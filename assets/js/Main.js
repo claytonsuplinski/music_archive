@@ -81,6 +81,8 @@ function load_data( callback ){
 				if(b.playlist) d = b.song.split(' - ')[1];
 				return (c > d ? 1 : -1);
 			});
+
+			SONG.player.set_playlist( SONG.ALL_SONGS );
 			
 			SONG.ALL_YEARS = {};
 			SONG.ALL_SONGS.forEach(function(song){

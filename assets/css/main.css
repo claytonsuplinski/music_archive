@@ -69,13 +69,16 @@ body{
 }
 
 .artist .name table{
-	padding:0 1vw;
 	background:#B1A355;
 	background: -webkit-linear-gradient(135deg, #7DC88E 0%, #102638 100%);
 	background:    -moz-linear-gradient(135deg, #7DC88E 0%, #102638 100%);
 	background:      -o-linear-gradient(135deg, #7DC88E 0%, #102638 100%);
 	background:         linear-gradient(135deg, #7DC88E 0%, #102638 100%);
 	color:#F3F283;
+}
+
+.artist .name td{
+	padding:0 1vw;
 }
 
 .artist .name *{

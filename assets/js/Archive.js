@@ -1,24 +1,19 @@
 function home_screen(){
-	var artists_button = '<div class="button button-half-sm float-right" onclick="all_artists(' + LIMIT.artists + ');">'+
+	var artists_button = '<div class="button float-right" onclick="all_artists(' + LIMIT.artists + ');">'+
 		SONG.data.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + ' artists' +
 	'</div>';
-	var songs_button = '<div class="button button-half-sm float-right" onclick="all_songs(' + LIMIT.songs + ');">'+
+	var songs_button = '<div class="button float-right" onclick="all_songs(' + LIMIT.songs + ');">'+
 		SONG.ALL_SONGS.length.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " songs" +
 	'</div>';
-	var years_button = '<div class="button button-half-sm float-right" onclick="all_years(' + LIMIT.years + ');">' + 
+	var years_button = '<div class="button float-right" onclick="all_years(' + LIMIT.years + ');">' + 
 		SONG.ALL_YEARS.length + 
 	' years</div>';
 
-	$(".header .hidden-sm").html(
-		'<div class="button" onclick="random_artist();">RANDOM ARTIST</div>'+
+	$(".header").html(
+		'<div class="button" onclick="SONG.player.play_playlist();">LOCAL PLAYLIST</div>' +
 		'<div class="button" onclick="random_songs(5);">5 RANDOM SONGS</div>'+
 		'<div class="button" onclick="random_year();">RANDOM YEAR</div>'+
-		artists_button + songs_button + years_button
-	);
-	$(".header .hidden-lg").html(
-		artists_button + '<div class="button button-half-sm" onclick="random_artist();">ARTIST</div>'  +
-		songs_button   + '<div class="button button-half-sm" onclick="random_songs(5);">5 SONGS</div>' + 
-		years_button   + '<div class="button button-half-sm" onclick="random_year();">YEAR</div>'      
+		artists_button + songs_button + years_button 
 	);
 
 	all_artists( LIMIT.artists );
@@ -29,8 +24,6 @@ function html_song(song){
 	var youtube_link = 'https://www.youtube.com/results?search_query='+query;
 	var google_link  = 'https://www.google.com/#q='+query;
 	var link_8_bit   = 'https://www.youtube.com/results?search_query=8 bit '+query;
-	var local_path;
-	if( song.local ) local_path = './assets/data/content/' + song.local;
 	// var repeat_link  = 'http://reppeat.com/results/?search_query='+query;
 	return '<div class="song '+(song.playlist ? song.playlist : '')+'">'+
 		'<a class="info-link" href="'+google_link+'" target="_blank"><i class="fa fa-info-circle"></i></a> '+
@@ -42,8 +35,8 @@ function html_song(song){
 			'</span>' 
 			: '' ) +
 		'<br>'+
-		( local_path ? 
-			'<a class="link youtube-link" onclick="open_music_player(\'' + local_path + '\');"><i class="fa fa-music"></i></a>' :
+		( song.local ? 
+			'<a class="link youtube-link" onclick="SONG.player.open(\'' + song.local + '\', { loop : true});"><i class="fa fa-music"></i></a>' :
 			'<a class="link youtube-link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'
 		) +
 		'<a class="link  repeat-link" target="_blank" href="'+link_8_bit+'"><i class="fa fa-th"></i></a>'+
@@ -65,6 +58,8 @@ function all_songs( limit ){
 				return (SONG.SORT.songs.asc ? 1 : -1) * ( (a.stars || 0) > (b.stars || 0) ? 1 : -1);
 		}
 	});
+
+	SONG.player.set_playlist( songs );
 	
 	if( limit ) songs = songs.slice( 0, limit );
 	
@@ -222,7 +217,7 @@ function load_artist(artist){
 			a.playlist = matches[0].playlist;
 			return a
 		});
-		$("#content").html(songs.map(function(a){ return html_song(a); }).join(''));
+		draw_songs( songs );
 	}
 };
 
@@ -246,15 +241,20 @@ function random_songs(num){
 		}
 	};
 	
-	$("#content").html(results.map(function(a){ return html_song(a); }).join(''));
+	draw_songs( results );
 };
 
 function load_year(year){
 	$("#content").html('');
 	var matches = SONG.ALL_SONGS.filter(function(a){ return year == a.year; });
-	if(matches.length){
-		$("#content").html(matches.map(function(a){ return html_song(a); }).join(''));
-	}
+	if( matches.length ) draw_songs( matches );
+};
+
+function draw_songs( songs ){
+	SONG.player.set_playlist( songs );
+	$( "#content" ).html(
+		songs.map(function( s ){ return html_song(s); }).join('')
+	);
 };
 
 function random_year(){
@@ -265,17 +265,6 @@ function open_link( idx ){
 	try{
 		window.open( $( ".song a.youtube-link" )[ idx ], '_blank' ).focus();
 	} catch(e){}
-};
-
-function open_music_player( path ){
-	$( '#music-player' ).html(
-		'<audio controls loop autoplay src="' + path + '" />' +
-		'<div class="close-music-player" onclick="close_music_player();">Close Music Player</div>'
-	).show();
-};
-
-function close_music_player( path ){
-	$( '#music-player' ).html('').hide();
 };
 
 load_data( home_screen );
