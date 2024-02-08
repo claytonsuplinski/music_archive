@@ -11,7 +11,7 @@ function home_screen(){
 
 	$(".header").html(
 		'<div class="button" onclick="SONG.player.play_playlist();">LOCAL PLAYLIST</div>' +
-		'<div class="button" onclick="random_songs(5);">5 RANDOM SONGS</div>'+
+		'<div class="button" onclick="random_songs(5);">5 SONGS</div>'+
 		'<div class="button" onclick="random_year();">RANDOM YEAR</div>'+
 		artists_button + songs_button + years_button 
 	);
