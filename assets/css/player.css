@@ -29,6 +29,7 @@
 	margin-left:5px;
 }
 
+#music-player .loop-song,
 #music-player .next-song,
 #music-player .prev-song{
 	position:fixed;
@@ -45,6 +46,20 @@
 #music-player .next-song:hover,
 #music-player .prev-song:hover{
 	background:rgba(26, 174, 172, 0.75);
+}
+
+#music-player .loop-song{
+	width:30px;
+	background:rgba(0,0,0, 0.75);
+	left:0;
+	right:0;
+	margin:auto;
+	border-left :1px solid rgba(255,255,255,0.5);
+	border-right:1px solid rgba(255,255,255,0.5);
+}
+
+#music-player .loop-song.active{
+	background:rgba(192, 73, 254, 0.75);
 }
 
 #music-player .prev-song{

@@ -19,6 +19,10 @@ SONG.player.open = function( filename, p ){
 		else           $( '#music-player .' + k + '-song' ).hide();
 	}, this);
 
+	if( p.next_song ) $( '#music-player .loop-song' ).show();
+	else              $( '#music-player .loop-song' ).hide();
+	$( '#music-player .loop-song' ).removeClass( 'active' );
+
 	$( '#music-player .contents' ).html(
 		'<audio controls ' + 
 			( p.loop ? 'loop' : '' ) + ' ' + 
@@ -26,11 +30,27 @@ SONG.player.open = function( filename, p ){
 			' autoplay src="' + path + '" />'
 	);
 	$( '#music-player' ).show();
+
+	this.is_open = true;
 };
 
-SONG.player.close = function( path ){
-	$( '#music-player .contents' ).html('');
-	$( '#music-player' ).hide();
+SONG.player.close = function(){
+	if( this.is_open ){
+		$( '#music-player .contents' ).html('');
+		$( '#music-player' ).hide();
+
+		this.is_open = false;
+	}
+};
+
+SONG.player.toggle_loop = function(){
+	if( this.is_open ){
+		var val = !$( '#music-player .contents audio' )[ 0 ].loop;
+
+		$( '#music-player .contents audio' )[ 0 ].loop = val;
+
+		$( '#music-player .loop-song' )[ ( val ? 'add' : 'remove' ) + 'Class' ]( 'active' );
+	}
 };
 
 SONG.player.set_playlist = function( songs ){
@@ -57,8 +77,10 @@ SONG.player.play_playlist_song = function(){
 };
 
 SONG.player.next_playlist_song = function( offset ){
-	this.playlist_idx += ( offset || 1 );
-	while( this.playlist_idx < 0 ) this.playlist_idx += this.playlist.length;
-	this.playlist_idx %= this.playlist.length;
-	this.play_playlist_song();
+	if( this.is_open ){
+		this.playlist_idx += ( offset || 1 );
+		while( this.playlist_idx < 0 ) this.playlist_idx += this.playlist.length;
+		this.playlist_idx %= this.playlist.length;
+		this.play_playlist_song();
+	}
 };

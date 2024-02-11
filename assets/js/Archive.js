@@ -10,7 +10,7 @@ function home_screen(){
 	' years</div>';
 
 	$(".header").html(
-		'<div class="button" onclick="SONG.player.play_playlist();">LOCAL PLAYLIST</div>' +
+		'<div class="button" onclick="SONG.player.play_playlist();">PLAYLIST</div>' +
 		'<div class="button" onclick="random_songs(5);">5 SONGS</div>'+
 		'<div class="button" onclick="random_year();">RANDOM YEAR</div>'+
 		artists_button + songs_button + years_button 
@@ -36,7 +36,7 @@ function html_song(song){
 			: '' ) +
 		'<br>'+
 		( song.local ? 
-			'<a class="link youtube-link" onclick="SONG.player.open(\'' + song.local + '\', { loop : true});"><i class="fa fa-music"></i></a>' :
+			'<a class="link youtube-link" onclick="SONG.player.open(\'' + song.local + '\', { loop : true, song : {' + [ 'artist', 'song', 'year' ].map(function(k){ return k + ' : \'' + song[ k ].replace( /[']/g, '`' ) + '\''; }).join(',') + '} });"><i class="fa fa-music"></i></a>' :
 			'<a class="link youtube-link" target="_blank" href="'+youtube_link+'"><i class="fa fa-youtube-play"></i></a>'
 		) +
 		'<a class="link  repeat-link" target="_blank" href="'+link_8_bit+'"><i class="fa fa-th"></i></a>'+
@@ -242,6 +242,8 @@ function random_songs(num){
 	};
 	
 	draw_songs( results );
+
+	SONG.player.set_playlist( SONG.ALL_SONGS );
 };
 
 function load_year(year){
@@ -262,9 +264,11 @@ function random_year(){
 };
 
 function open_link( idx ){
-	try{
-		window.open( $( ".song a.youtube-link" )[ idx ], '_blank' ).focus();
-	} catch(e){}
+	var ele = $( ".song a.youtube-link" )[ idx ];
+	if( $( ele ).attr( "onclick" ) !== undefined ) $( ele )[0].onclick();
+	else{
+		try{ window.open( ele, '_blank' ).focus(); } catch(e){}
+	}
 };
 
 load_data( home_screen );
