@@ -10,6 +10,7 @@ function home_screen(){
 	' years</div>';
 
 	$(".header").html(
+		'<div class="search-bar"><i class="fa fa-search"></i> <input ' + [ 'onchange', 'onkeyup' ].map( x => x + '="search(this.value);"' ).join(' ') + '/></div>' +
 		'<div class="button" onclick="SONG.player.play_playlist();">PLAYLIST</div>' +
 		'<div class="button" onclick="random_songs(5);">5 SONGS</div>'+
 		'<div class="button" onclick="random_year();">RANDOM YEAR</div>'+
@@ -269,6 +270,35 @@ function open_link( idx ){
 	else{
 		try{ window.open( ele, '_blank' ).focus(); } catch(e){}
 	}
+};
+
+function focus_on_search_bar(){
+	$( '.search-bar input' ).focus();
+}
+
+function search( query ){
+	var song_scores = Array( SONG.ALL_SONGS.length );
+	SONG.ALL_SONGS.forEach(function( song, song_idx ){
+		var entry = { song, score : 0 }
+
+		var artist = song.artist.toLowerCase();
+		var title  = song.song.toLowerCase();
+
+		if( artist.includes( query ) || query.includes( artist ) ) entry.score += 5;
+		if(  title.includes( query ) || query.includes(  title ) ) entry.score += 6;
+
+		if( artist == query ) entry.score += 50;
+		if(  title == query ) entry.score += 60;
+
+		song_scores[ song_idx ] = entry;
+	});
+
+	var matches = song_scores.filter(function(s){
+			return s.score;
+		}).sort(function(a,b){
+			return ( b.score - a.score );
+		}).map( s => s.song );
+	draw_songs( matches );
 };
 
 load_data( home_screen );

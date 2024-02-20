@@ -8,7 +8,7 @@
     {
         "artist": "Ace of Base",
         "songs": [
-            {"year": "1993", "stars" : 3, "song": "The Sign", "local" : ""}
+            {"year": "1993", "stars" : 3, "song": "The Sign", "local" : "00259"}
         ]
     },
     {
@@ -87,7 +87,7 @@
 	{
         "artist": "Alice Deejay",
         "songs": [
-            {"year": "2000", "stars" : 2, "song": "Better Off Alone", "local" : ""}
+            {"year": "2000", "stars" : 2, "song": "Better Off Alone", "local" : "00260"}
         ]
     },
     {
@@ -293,14 +293,14 @@
     {
         "artist": "Beyonce",
         "songs": [
-            {"year": "2011", "stars" : 4, "song": "Countdown"            , "album" : "4"                   , "local" : ""},
-            {"year": "2003", "stars" : 5, "song": "Crazy in Love"        , "album" : "Dangerously in Love" , "local" : ""},
-            {"year": "2007", "stars" : 1, "song": "Deja Vu"              , "album" : "B'Day"               , "local" : ""},
+            {"year": "2011", "stars" : 4, "song": "Countdown"            , "album" : "4"                   , "local" : "00229"},
+            {"year": "2003", "stars" : 5, "song": "Crazy in Love"        , "album" : "Dangerously in Love" , "local" : "00230"},
+            {"year": "2007", "stars" : 1, "song": "Deja Vu"              , "album" : "B'Day"               , "local" : "00232"},
             {"year": "2009", "stars" : 1, "song": "Halo"                 , "album" : "I Am... Sasha Fierce", "local" : ""},
-            {"year": "2007", "stars" : 1, "song": "Irreplaceable"        , "album" : "B'Day"               , "local" : ""},
-			{"year": "2015", "stars" : 2, "song": "Runnin' (Lose It All)"                                  , "local" : ""},
-            {"year": "2009", "stars" : 4, "song": "Single Ladies"        , "album" : "I Am... Sasha Fierce", "local" : ""},
-            {"year": "2009", "stars" : 3, "song": "Sweet Dreams"         , "album" : "I Am... Sasha Fierce", "local" : ""}
+            {"year": "2007", "stars" : 1, "song": "Irreplaceable"        , "album" : "B'Day"               , "local" : "00243"},
+			{"year": "2015", "stars" : 2, "song": "Runnin' (Lose It All)"                                  , "local" : "00261"},
+            {"year": "2009", "stars" : 4, "song": "Single Ladies"        , "album" : "I Am... Sasha Fierce", "local" : "00231"},
+            {"year": "2009", "stars" : 3, "song": "Sweet Dreams"         , "album" : "I Am... Sasha Fierce", "local" : "00233"}
         ]
     },
     {
@@ -528,8 +528,8 @@
     {
         "artist": "Cascada",
         "songs": [
-            {"year": "2009", "stars" : 1, "song": "Evacuate the Dancefloor", "local" : ""},
-            {"year": "2007", "stars" : 4, "song": "Everytime We Touch"     , "local" : ""},
+            {"year": "2009", "stars" : 1, "song": "Evacuate the Dancefloor", "local" : "00266"},
+            {"year": "2007", "stars" : 4, "song": "Everytime We Touch"     , "local" : "00265"},
             {"year": "2007", "stars" : 1, "song": "What Hurts the Most"    , "local" : ""}
         ]
     },
@@ -542,7 +542,7 @@
     {
         "artist": "Cassie",
         "songs": [
-            {"year": "2007", "stars" : 1, "song": "Me and U", "local" : ""}
+            {"year": "2007", "stars" : 1, "song": "Me and U", "local" : "00227"}
         ]
     },
     {
@@ -591,7 +591,7 @@
     {
         "artist": "Chingy",
         "songs": [
-            {"year": "2003", "stars" : 1, "song": "Right Thurr", "local" : ""}
+            {"year": "2003", "stars" : 1, "song": "Right Thurr", "local" : "00250"}
         ]
     },
     {
@@ -602,13 +602,13 @@
 			{"year": "2015", "stars" : 2, "song": "Five More Hours"                             , "local" : "00098"},
             {"year": "2008", "stars" : 4, "song": "Forever"            , "album" : "Exclusive"  , "local" : "00099"},
 			{"year": "2012", "stars" : 1, "song": "I Can Only Imagine"                          , "local" : ""},
-            {"year": "2008", "stars" : 3, "song": "Kiss Kiss"          , "album" : "Exclusive"  , "local" : ""},
-            {"year": "2011", "stars" : 2, "song": "Look At Me Now"     , "album" : "F.A.M.E."   , "local" : ""},
-            {"year": "2014", "stars" : 1, "song": "Loyal"              , "album" : "X"          , "local" : ""},
-			{"year": "2011", "stars" : 1, "song": "Next To You"        , "album" : "F.A.M.E."   , "local" : ""},
-            {"year": "2005", "stars" : 3, "song": "Run It!"            , "album" : "Chris Brown", "local" : ""},
-            {"year": "2011", "stars" : 1, "song": "She Ain't You"      , "album" : "F.A.M.E."   , "local" : ""},
-            {"year": "2008", "stars" : 3, "song": "With You"           , "album" : "Exclusive"  , "local" : ""},
+            {"year": "2008", "stars" : 3, "song": "Kiss Kiss"          , "album" : "Exclusive"  , "local" : "00239"},
+            {"year": "2011", "stars" : 2, "song": "Look At Me Now"     , "album" : "F.A.M.E."   , "local" : "00236"},
+            {"year": "2014", "stars" : 1, "song": "Loyal"              , "album" : "X"          , "local" : "00237"},
+			{"year": "2011", "stars" : 1, "song": "Next To You"        , "album" : "F.A.M.E."   , "local" : "00242"},
+            {"year": "2005", "stars" : 3, "song": "Run It!"            , "album" : "Chris Brown", "local" : "00241"},
+            {"year": "2011", "stars" : 1, "song": "She Ain't You"      , "album" : "F.A.M.E."   , "local" : "00240"},
+            {"year": "2008", "stars" : 3, "song": "With You"           , "album" : "Exclusive"  , "local" : "00238"},
             {"year": "2011", "stars" : 4, "song": "Yeah 3X"            , "album" : "F.A.M.E."   , "local" : "00100"}
         ]
     },
@@ -632,7 +632,7 @@
 	{
         "artist": "Christy Carlson Romano",
         "songs": [
-            {"year": "2003", "stars" : 2, "song": "Dream Vacation", "local" : ""}
+            {"year": "2003", "stars" : 2, "song": "Dream Vacation", "local" : "00263"}
         ]
     },
     {
@@ -928,7 +928,7 @@
     {
         "artist": "Don Omar",
         "songs": [
-            {"year": "2011", "stars" : 2, "song": "Danza Kuduro", "local" : ""}
+            {"year": "2011", "stars" : 2, "song": "Danza Kuduro", "local" : "00264"}
         ]
     },
 	{
@@ -1159,7 +1159,7 @@
             {"year": "2006", "stars" : 3, "song": "Fergilicious"       , "album" : "The Dutchess", "local" : "00077"},
 			{"year": "2010", "stars" : 2, "song": "Gettin' Over You"                             , "local" : ""},
             {"year": "2007", "stars" : 5, "song": "Glamorous"          , "album" : "The Dutchess", "local" : "00076"},
-            {"year": "2006", "stars" : 1, "song": "London Bridge"      , "album" : "The Dutchess", "local" : ""}
+            {"year": "2006", "stars" : 1, "song": "London Bridge"      , "album" : "The Dutchess", "local" : "00234"}
         ]
     },
     {
@@ -1227,7 +1227,7 @@
     {
         "artist": "Franz Ferdinand",
         "songs": [
-            {"year": "2004", "stars" : 2, "song": "Take Me Out", "local" : ""}
+            {"year": "2004", "stars" : 2, "song": "Take Me Out", "local" : "00256"}
         ]
     },
     {
@@ -1686,16 +1686,16 @@
     {
         "artist": "Kanye West",
         "songs": [
-            {"year": "2004", "stars" : 1, "song": "All Falls Down"   , "album" : "The College Dropout", "local" : ""},
-            {"year": "2010", "stars" : 4, "song": "All of the Lights", "album" : "My Beautiful Dark Twisted Fantasy", "local" : ""},
-            {"year": "2007", "stars" : 3, "song": "Flashing Lights"  , "album" : "Graduation", "local" : ""},
-            {"year": "2005", "stars" : 5, "song": "Gold Digger"      , "album" : "Late Registration", "local" : ""},
-            {"year": "2007", "stars" : 3, "song": "Good Life"        , "album" : "Graduation", "local" : ""},
-            {"year": "2009", "stars" : 5, "song": "Heartless"        , "album" : "808s & Heartbreak", "local" : ""},
-            {"year": "2008", "stars" : 2, "song": "Love Lockdown"    , "album" : "808s & Heartbreak", "local" : ""},
-            {"year": "2011", "stars" : 3, "song": "Power"            , "album" : "My Beautiful Dark Twisted Fantasy", "local" : ""},
-            {"year": "2007", "stars" : 3, "song": "Stronger"         , "album" : "Graduation", "local" : ""},
-            {"year": "2009", "stars" : 2, "song": "Supernova"        }
+            {"year": "2004", "stars" : 1, "song": "All Falls Down"   , "album" : "The College Dropout"              , "local" : ""},
+            {"year": "2010", "stars" : 4, "song": "All of the Lights", "album" : "My Beautiful Dark Twisted Fantasy", "local" : "00276"},
+            {"year": "2007", "stars" : 3, "song": "Flashing Lights"  , "album" : "Graduation"                       , "local" : "00279"},
+            {"year": "2005", "stars" : 5, "song": "Gold Digger"      , "album" : "Late Registration"                , "local" : "00282"},
+            {"year": "2007", "stars" : 3, "song": "Good Life"        , "album" : "Graduation"                       , "local" : "00278"},
+            {"year": "2009", "stars" : 5, "song": "Heartless"        , "album" : "808s & Heartbreak"                , "local" : "00281"},
+            {"year": "2008", "stars" : 2, "song": "Love Lockdown"    , "album" : "808s & Heartbreak"                , "local" : ""},
+            {"year": "2011", "stars" : 3, "song": "Power"            , "album" : "My Beautiful Dark Twisted Fantasy", "local" : "00277"},
+            {"year": "2007", "stars" : 3, "song": "Stronger"         , "album" : "Graduation"                       , "local" : "00280"},
+            {"year": "2009", "stars" : 2, "song": "Supernova"                                                       , "local" : "00275"}
         ]
     },
     {
@@ -1903,14 +1903,14 @@
         "artist": "Lady Gaga",
         "songs": [
 			{"year": "2010", "stars" : 2, "song": "Alejandro"                     , "album" : "The Fame Monster", "local" : ""},
-            {"year": "2013", "stars" : 1, "song": "Applause"                      , "album" : "Artpop", "local" : ""},
+            {"year": "2013", "stars" : 1, "song": "Applause"                      , "album" : "Artpop"          , "local" : ""},
             {"year": "2010", "stars" : 3, "song": "Bad Romance"                   , "album" : "The Fame Monster", "local" : ""},
-			{"year": "2009", "stars" : 1, "song": "Eh Eh (Nothing Else I Can Say)", "album" : "The Fame", "local" : ""},
-            {"year": "2009", "stars" : 6, "song": "Just Dance"                    , "album" : "The Fame", "local" : ""},
-            {"year": "2009", "stars" : 1, "song": "Love Game"                     , "album" : "The Fame", "local" : ""},
-            {"year": "2016", "stars" : 1, "song": "Million Reasons"               , "album" : "Joanne", "local" : ""},
-            {"year": "2009", "stars" : 4, "song": "Paparazzi"                     , "album" : "The Fame", "local" : ""},
-            {"year": "2009", "stars" : 6, "song": "Poker Face"                    , "album" : "The Fame", "local" : ""},
+			{"year": "2009", "stars" : 1, "song": "Eh Eh (Nothing Else I Can Say)", "album" : "The Fame"        , "local" : ""},
+            {"year": "2009", "stars" : 6, "song": "Just Dance"                    , "album" : "The Fame"        , "local" : ""},
+            {"year": "2009", "stars" : 1, "song": "Love Game"                     , "album" : "The Fame"        , "local" : ""},
+            {"year": "2016", "stars" : 1, "song": "Million Reasons"               , "album" : "Joanne"          , "local" : ""},
+            {"year": "2009", "stars" : 4, "song": "Paparazzi"                     , "album" : "The Fame"        , "local" : ""},
+            {"year": "2009", "stars" : 6, "song": "Poker Face"                    , "album" : "The Fame"        , "local" : ""},
             {"year": "2010", "stars" : 2, "song": "Telephone"                     , "album" : "The Fame Monster", "local" : ""}
         ]
     },
@@ -2203,14 +2203,14 @@
     {
         "artist": "Metro Station",
         "songs": [
-            {"year": "2008", "stars" : 4, "song": "Shake It", "local" : ""}
+            {"year": "2008", "stars" : 4, "song": "Shake It", "local" : "00253"}
         ]
     },
     {
         "artist": "MGMT",
         "songs": [
-            {"year": "2007", "stars" : 3, "song": "Electric Feel", "local" : ""},
-            {"year": "2007", "stars" : 2, "song": "Kids"         , "local" : ""}
+            {"year": "2007", "stars" : 3, "song": "Electric Feel", "local" : "00254"},
+            {"year": "2007", "stars" : 2, "song": "Kids"         , "local" : "00255"}
         ]
     },
     {
@@ -2400,7 +2400,7 @@
 	{
         "artist": "N.E.R.D",
         "songs": [
-            {"year": "2017", "stars" : 1, "song": "Lemon", "local" : ""}
+            {"year": "2017", "stars" : 1, "song": "Lemon", "local" : "00235"}
         ]
     },
     {
@@ -2849,7 +2849,7 @@
     {
         "artist": "Sam Smith",
         "songs": [
-            {"year": "2014", "stars" : 1, "song": "La La La", "local" : ""},
+            {"year": "2014", "stars" : 1, "song": "La La La", "local" : "00262"},
             {"year": "2014", "stars" : 4, "song": "Latch"   , "local" : "00074"}
         ]
     },
@@ -2862,19 +2862,19 @@
     {
         "artist": "Sean Kingston",
         "songs": [
-            {"year": "2010", "stars" : 3, "song": "Eenie Meenie", "local" : ""},
-            {"year": "2009", "stars" : 1, "song": "Fire Burning", "local" : ""},
+            {"year": "2010", "stars" : 3, "song": "Eenie Meenie"           , "local" : ""},
+            {"year": "2009", "stars" : 1, "song": "Fire Burning"           , "local" : ""},
 			{"year": "2010", "stars" : 1, "song": "Letting Go (Dutty Love)", "local" : ""},
-            {"year": "2008", "stars" : 2, "song": "Love Like This", "local" : ""}
+            {"year": "2008", "stars" : 2, "song": "Love Like This"         , "local" : ""}
         ]
     },
     {
         "artist": "Sean Paul",
         "songs": [
             {"year": "2005", "stars" : 1, "song": "Give It Up to Me", "local" : ""},
-			{"year": "2016", "stars" : 2, "song": "Rockabye", "local" : ""},
-            {"year": "2011", "stars" : 1, "song": "She Don't Mind", "local" : ""},
-            {"year": "2005", "stars" : 2, "song": "Temperature", "local" : ""}
+			{"year": "2016", "stars" : 2, "song": "Rockabye"        , "local" : ""},
+            {"year": "2011", "stars" : 1, "song": "She Don't Mind"  , "local" : ""},
+            {"year": "2005", "stars" : 2, "song": "Temperature"     , "local" : ""}
         ]
     },
     {
@@ -2903,19 +2903,19 @@
     {
         "artist": "Shaggy",
         "songs": [
-            {"year": "2000", "stars" : 2, "song": "Angel", "local" : ""},
+            {"year": "2000", "stars" : 2, "song": "Angel"        , "local" : ""},
             {"year": "2002", "stars" : 1, "song": "Hey Sexy Lady", "local" : ""},
-            {"year": "2000", "stars" : 3, "song": "It Wasn't Me", "local" : ""}
+            {"year": "2000", "stars" : 3, "song": "It Wasn't Me" , "local" : ""}
         ]
     },
     {
         "artist": "Shakira",
         "songs": [
-            {"year": "2005", "stars" : 4, "song": "Hips Don't Lie", "local" : ""},
-            {"year": "2010", "stars" : 3, "song": "Rabiosa", "local" : ""},
-            {"year": "2009", "stars" : 3, "song": "She Wolf", "local" : ""},
-			{"year": "2016", "stars" : 1, "song": "Try Everything", "local" : ""},
-			{"year": "2010", "stars" : 2, "song": "Waka Waka", "local" : ""},
+            {"year": "2005", "stars" : 4, "song": "Hips Don't Lie"    , "local" : ""},
+            {"year": "2010", "stars" : 3, "song": "Rabiosa"           , "local" : ""},
+            {"year": "2009", "stars" : 3, "song": "She Wolf"          , "local" : ""},
+			{"year": "2016", "stars" : 1, "song": "Try Everything"    , "local" : ""},
+			{"year": "2010", "stars" : 2, "song": "Waka Waka"         , "local" : ""},
             {"year": "2001", "stars" : 3, "song": "Whenever, Wherever", "local" : ""}
         ]
     },
@@ -2949,7 +2949,7 @@
     {
         "artist": "Shontelle",
         "songs": [
-            {"year": "2010", "stars" : 2, "song": "Impossible", "local" : ""},
+            {"year": "2010", "stars" : 2, "song": "Impossible"       , "local" : ""},
             {"year": "2010", "stars" : 1, "song": "Perfect Nightmare", "local" : ""}
         ]
     },
@@ -3010,8 +3010,8 @@
     {
         "artist": "Snoop Dogg",
         "songs": [
-            {"year": "2005", "stars" : 2, "song": "Drop It Like It's Hot", "local" : ""},
-            {"year": "2008", "stars" : 1, "song": "Sensual Seduction", "local" : ""}
+            {"year": "2005", "stars" : 2, "song": "Drop It Like It's Hot", "local" : "00249"},
+            {"year": "2008", "stars" : 1, "song": "Sensual Seduction"    , "local" : ""}
         ]
     },
     {
@@ -3023,8 +3023,8 @@
     {
         "artist": "Soulja Boy",
         "songs": [
-            {"year": "2007", "stars" : 2, "song": "Crank That", "local" : ""},
-            {"year": "2009", "stars" : 3, "song": "Kiss Me Thru The Phone", "local" : ""}
+            {"year": "2007", "stars" : 2, "song": "Crank That"            , "local" : ""},
+            {"year": "2009", "stars" : 3, "song": "Kiss Me Thru The Phone", "local" : "00228"}
         ]
     },
     {
@@ -3294,11 +3294,11 @@
     {
         "artist": "The Killers",
         "songs": [
-            {"year": "2004", "stars" : 4, "song": "All These Things That I've Done" , "album" : "Hot Fuss", "local" : ""},
-            {"year": "2004", "stars" : 5, "song": "Mr. Brightside"                  , "album" : "Hot Fuss", "local" : ""},
+            {"year": "2004", "stars" : 4, "song": "All These Things That I've Done" , "album" : "Hot Fuss"   , "local" : "00272"},
+            {"year": "2004", "stars" : 5, "song": "Mr. Brightside"                  , "album" : "Hot Fuss"   , "local" : "00273"},
 			{"year": "2013", "stars" : 1, "song": "Shot at the Night"               , "album" : "Direct Hits", "local" : ""},
-            {"year": "2004", "stars" : 2, "song": "Somebody Told Me"                , "album" : "Hot Fuss", "local" : ""},
-            {"year": "2006", "stars" : 4, "song": "When You Were Young"             , "album" : "Sam's Town", "local" : ""}
+            {"year": "2004", "stars" : 2, "song": "Somebody Told Me"                , "album" : "Hot Fuss"   , "local" : "00274"},
+            {"year": "2006", "stars" : 4, "song": "When You Were Young"             , "album" : "Sam's Town" , "local" : ""}
         ]
     },
     {
@@ -3331,7 +3331,7 @@
         "artist": "The Rolling Stones",
         "songs": [
             {"year": "1965", "stars" : 1, "song": "She Said Yeah", "local" : ""},
-            {"year": "1981", "stars" : 3, "song": "Start Me Up", "local" : ""}
+            {"year": "1981", "stars" : 3, "song": "Start Me Up"  , "local" : ""}
         ]
     },
     {
@@ -3355,7 +3355,7 @@
     {
         "artist": "The Veronicas",
         "songs": [
-            {"year": "2009", "stars" : 2, "song": "Untouched", "local" : ""}
+            {"year": "2009", "stars" : 2, "song": "Untouched", "local" : "00252"}
         ]
     },
     {
@@ -3373,8 +3373,8 @@
     {
         "artist": "The Wanted",
         "songs": [
-            {"year": "2010", "stars" : 1, "song": "Chasing the Sun", "local" : ""},
-            {"year": "2011", "stars" : 1, "song": "Glad You Came", "local" : ""}
+            {"year": "2010", "stars" : 1, "song": "Chasing the Sun", "local" : "00258"},
+            {"year": "2011", "stars" : 1, "song": "Glad You Came"  , "local" : "00257"}
         ]
     },
     {
@@ -3393,7 +3393,7 @@
 	{
         "artist": "The 1975",
         "songs": [
-            {"year": "2016", "stars" : 1, "song": "The Sound", "local" : ""}
+            {"year": "2016", "stars" : 1, "song": "The Sound", "local" : "00251"}
         ]
     },
     {
@@ -3514,32 +3514,32 @@
         "artist": "Usher",
         "songs": [
             {"year": "2004", "stars" : 2, "song": "Burn"                     , "album" : "Confessions"       , "local" : ""},
-            {"year": "2010", "stars" : 2, "song": "DJ Got Us Falling In Love", "album" : "Versus"            , "local" : ""},
+            {"year": "2010", "stars" : 2, "song": "DJ Got Us Falling In Love", "album" : "Versus"            , "local" : "00245"},
 			{"year": "2015", "stars" : 1, "song": "Don't Look Down"                                          , "local" : ""},
             {"year": "2010", "stars" : 2, "song": "Hot Tottie"               , "album" : "Versus"            , "local" : ""},
             {"year": "2008", "stars" : 1, "song": "Love In This Club"        , "album" : "Here I Stand"      , "local" : ""},
-            {"year": "2004", "stars" : 2, "song": "My Boo"                   , "album" : "Confessions"       , "local" : ""},
-            {"year": "2010", "stars" : 2, "song": "OMG"                      , "album" : "Raymond v. Raymond", "local" : ""},
-            {"year": "2011", "stars" : 1, "song": "Without You"                                              , "local" : ""},
-            {"year": "2004", "stars" : 3, "song": "Yeah!"                    , "album" : "Confessions"       , "local" : ""}
+            {"year": "2004", "stars" : 2, "song": "My Boo"                   , "album" : "Confessions"       , "local" : "00246"},
+            {"year": "2010", "stars" : 2, "song": "OMG"                      , "album" : "Raymond v. Raymond", "local" : "00244"},
+            {"year": "2011", "stars" : 1, "song": "Without You"                                              , "local" : "00247"},
+            {"year": "2004", "stars" : 3, "song": "Yeah!"                    , "album" : "Confessions"       , "local" : "00248"}
         ]
     },
     {
         "artist": "Utada Hikaru",
         "songs": [
 			{"year": "2019", "stars" : 2, "song": "Don't Think Twice", "local" : ""},
-			{"year": "2019", "stars" : 3, "song": "Face My Fears"    },
-            {"year": "2006", "stars" : 4, "song": "Sanctuary"        },
-            {"year": "2002", "stars" : 5, "song": "Simple and Clean" }
+			{"year": "2019", "stars" : 3, "song": "Face My Fears"    , "local" : ""},
+            {"year": "2006", "stars" : 4, "song": "Sanctuary"        , "local" : ""},
+            {"year": "2002", "stars" : 5, "song": "Simple and Clean" , "local" : ""}
         ]
     },
     {
         "artist": "U2",
         "songs": [
-            {"year": "2000", "stars" : 1, "song": "Beautiful Day"              },
-            {"year": "2004", "stars" : 2, "song": "City of Blinding Lights"    },
+            {"year": "2000", "stars" : 1, "song": "Beautiful Day"              , "local" : ""},
+            {"year": "2004", "stars" : 2, "song": "City of Blinding Lights"    , "local" : ""},
             {"year": "1984", "stars" : 2, "song": "Pride (in the Name of Love)", "local" : ""},
-            {"year": "2004", "stars" : 1, "song": "Vertigo"                    }
+            {"year": "2004", "stars" : 1, "song": "Vertigo"                    , "local" : ""}
         ]
     },
     {
@@ -3608,8 +3608,8 @@
     {
         "artist": "Weezer",
         "songs": [
-            {"year": "2005", "stars" : 2, "song": "Beverly Hills"    , "local" : ""},
-            {"year": "1994", "stars" : 2, "song": "Buddy Holly"      , "local" : ""},
+            {"year": "2005", "stars" : 2, "song": "Beverly Hills"    , "local" : "00267"},
+            {"year": "1994", "stars" : 2, "song": "Buddy Holly"      , "local" : "00268"},
             {"year": "2005", "stars" : 1, "song": "Perfect Situation", "local" : ""},
             {"year": "1994", "stars" : 1, "song": "Say It Ain't So"  , "local" : ""}
         ]
@@ -3692,10 +3692,10 @@
         "artist": "Zedd",
         "songs": [
 			{"year": "2015", "stars" : 1, "song": "Beautiful Now", "local" : ""},
-            {"year": "2013", "stars" : 1, "song": "Clarity"      },
-            {"year": "2014", "stars" : 2, "song": "Find You"     },
-			{"year": "2018", "stars" : 1, "song": "The Middle"   },
-            {"year": "2012", "stars" : 1, "song": "Spectrum"     }
+            {"year": "2013", "stars" : 1, "song": "Clarity"      , "local" : ""},
+            {"year": "2014", "stars" : 2, "song": "Find You"     , "local" : ""},
+			{"year": "2018", "stars" : 1, "song": "The Middle"   , "local" : ""},
+            {"year": "2012", "stars" : 1, "song": "Spectrum"     , "local" : ""}
         ]
     },
     {
@@ -3707,10 +3707,10 @@
     {
         "artist": "3oh 3!",
         "songs": [
-            {"year": "2009", "stars" : 5, "song": "Don't Trust Me", "album" : "Want", "local" : ""},
-            {"year": "2010", "stars" : 4, "song": "Double Vision" , "album" : "Streets of Gold", "local" : ""},
-            {"year": "2010", "stars" : 3, "song": "Follow Me Down", "local" : ""},
-            {"year": "2009", "stars" : 2, "song": "Starstrukk"    , "album" : "Want", "local" : ""}
+            {"year": "2009", "stars" : 5, "song": "Don't Trust Me", "album" : "Want"           , "local" : "00270"},
+            {"year": "2010", "stars" : 4, "song": "Double Vision" , "album" : "Streets of Gold", "local" : "00269"},
+            {"year": "2010", "stars" : 3, "song": "Follow Me Down"                             , "local" : ""},
+            {"year": "2009", "stars" : 2, "song": "Starstrukk"    , "album" : "Want"           , "local" : "00271"}
         ]
     },
     {

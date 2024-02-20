@@ -17,5 +17,6 @@ SONG.keyboard = new JL.keyboard(
 		{ name :           'L', down : function(){ SONG.player.toggle_loop();           } },
 		{ name :  'LEFT ARROW', down : function(){ SONG.player.next_playlist_song(-1 ); } },
 		{ name : 'RIGHT ARROW', down : function(){ SONG.player.next_playlist_song( 1 ); } },
+		{ name :           '/', down : function(){ focus_on_search_bar();               } },
 	]
 );

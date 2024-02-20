@@ -5,6 +5,8 @@ JL.keyboard = function( bindings, callbacks ){
 
 	this.callbacks = callbacks || {};
 
+	this.excluded_elements = [ 'input', 'select', 'textarea' ];
+
 	this.keycodes = {
 		"BACKSPACE"        :   8,
 		"TAB"              :   9,
@@ -118,39 +120,43 @@ JL.keyboard = function( bindings, callbacks ){
 	this.pressed = [];
 
 	document.addEventListener('keydown', function(event) {
-		if( !self.disabled || self.disabled_exceptions ){
-			if( self.pressed.indexOf(event.keyCode) == -1 ){
-				var key = self.get_from_keycode(event.keyCode);
-				if( key ){
-					if( self.disabled_exceptions ){
-						if( self.disabled_exceptions.indexOf( key.name ) == -1 ) return;
+		if( !self.focused_on_excluded_element() ){
+			if( !self.disabled || self.disabled_exceptions ){
+				if( self.pressed.indexOf(event.keyCode) == -1 ){
+					var key = self.get_from_keycode(event.keyCode);
+					if( key ){
+						if( self.disabled_exceptions ){
+							if( self.disabled_exceptions.indexOf( key.name ) == -1 ) return;
+						}
+						self.pressed.push( event.keyCode );
+						key.pressed = true;
+						if( key.down ) key.down();
 					}
-					self.pressed.push( event.keyCode );
-					key.pressed = true;
-					if( key.down ) key.down();
 				}
-			}
 
-			if( self.callbacks.on_key_down ) self.callbacks.on_key_down();
+				if( self.callbacks.on_key_down ) self.callbacks.on_key_down();
+			}
 		}
 	});
 
 	document.addEventListener('keyup', function(event) {
-		if( !self.disabled || self.disabled_exceptions ){
-			var key = self.get_from_keycode( event.keyCode );
-			if( key ){
-				if( self.disabled_exceptions ){
-					if( self.disabled_exceptions.indexOf( key.name ) == -1 ) return;
+		if( !self.focused_on_excluded_element() ){
+			if( !self.disabled || self.disabled_exceptions ){
+				var key = self.get_from_keycode( event.keyCode );
+				if( key ){
+					if( self.disabled_exceptions ){
+						if( self.disabled_exceptions.indexOf( key.name ) == -1 ) return;
+					}
+
+					var pressed_index = self.pressed.indexOf( event.keyCode );
+					if( pressed_index != -1 ) self.pressed.splice( pressed_index, 1 );
+					if( key.up ) key.up();
+
+					key.pressed = false;
 				}
 
-				var pressed_index = self.pressed.indexOf( event.keyCode );
-				if( pressed_index != -1 ) self.pressed.splice( pressed_index, 1 );
-				if( key.up ) key.up();
-
-				key.pressed = false;
+				if( self.callbacks.on_key_up ) self.callbacks.on_key_up();
 			}
-
-			if( self.callbacks.on_key_up ) self.callbacks.on_key_up();
 		}
 	});
 };
@@ -190,13 +196,25 @@ JL.keyboard.prototype.disable = function( disabled_exceptions ){
 	if( this.callbacks.on_disable ) this.callbacks.on_disable();
 };
 
+JL.keyboard.prototype.focused_on_excluded_element = function(){
+	var active_element = document.activeElement;
+	
+	if( active_element ){
+		if( this.excluded_elements.includes( active_element.tagName.toLowerCase() ) ) return true;
+	}
+
+	return false;
+};
+
 JL.keyboard.prototype.loop = function(){
 	var self = this;
-	if( !this.disabled || this.disabled_exceptions ){
-		var keys = this.holdable_keys;
-		if( this.disabled_exceptions ) keys = keys.filter( x => self.disabled_exceptions.indexOf( x.name ) != -1 );
-		keys.forEach(function(key){
-			if(key.pressed) key.hold();
-		});
+	if( !this.focused_on_excluded_element() ){
+		if( !this.disabled || this.disabled_exceptions ){
+			var keys = this.holdable_keys;
+			if( this.disabled_exceptions ) keys = keys.filter( x => self.disabled_exceptions.indexOf( x.name ) != -1 );
+			keys.forEach(function(key){
+				if(key.pressed) key.hold();
+			});
+		}
 	}
 };
