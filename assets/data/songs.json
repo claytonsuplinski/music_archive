@@ -396,10 +396,10 @@
     {
         "artist": "Bon Jovi",
         "songs": [
-            {"year": "1986", "stars" : 3, "song": "Livin' on a Prayer"        , "local" : ""},
+            {"year": "1986", "stars" : 3, "song": "Livin' on a Prayer"        , "local" : "00317"},
             {"year": "2007", "stars" : 2, "song": "Make a Memory"             , "local" : ""},
             {"year": "2005", "stars" : 1, "song": "Who Says You Can't Go Home", "local" : ""},
-            {"year": "1986", "stars" : 1, "song": "You Give Love a Bad Name"  , "local" : ""}
+            {"year": "1986", "stars" : 1, "song": "You Give Love a Bad Name"  , "local" : "00318"}
         ]
     },
 	{
@@ -773,6 +773,12 @@
             {"year": "2008", "stars" : 2, "song": "Time of My Life"  , "local" : ""}
         ]
     },
+	{
+        "artist": "David Glen Eisley",
+        "songs": [
+            {"year": "1997", "stars" : 1, "song": "Sweet Victory", "local" : "00319"}
+        ]
+    },
     {
         "artist": "Deadmau5",
         "songs": [
@@ -946,16 +952,16 @@
     {
         "artist": "Drake",
         "songs": [
-            {"year": "2009", "stars" : 3, "song": "Best I Ever Had"         , "album" : "So Far Gone"         , "local" : ""},
-            {"year": "2010", "stars" : 1, "song": "Find Your Love"          , "album" : "Thank Me Later"      , "local" : ""},
-            {"year": "2009", "stars" : 2, "song": "Forever"                 , "album" : "More Than a Game"    , "local" : ""},
-            {"year": "2011", "stars" : 4, "song": "Headlines"               , "album" : "Take Care"           , "local" : ""},
-            {"year": "2013", "stars" : 2, "song": "Hold On We're Going Home", "album" : "Nothing Was the Same", "local" : ""},
+            {"year": "2009", "stars" : 3, "song": "Best I Ever Had"         , "album" : "So Far Gone"         , "local" : "00301"},
+            {"year": "2010", "stars" : 1, "song": "Find Your Love"          , "album" : "Thank Me Later"      , "local" : "00302"},
+            {"year": "2009", "stars" : 2, "song": "Forever"                 , "album" : "More Than a Game"    , "local" : "00299"},
+            {"year": "2011", "stars" : 4, "song": "Headlines"               , "album" : "Take Care"           , "local" : "00300"},
+            {"year": "2013", "stars" : 2, "song": "Hold On We're Going Home", "album" : "Nothing Was the Same", "local" : "00304"},
             {"year": "2015", "stars" : 2, "song": "Hotline Bling"           , "album" : "Views"               , "local" : ""},
 			{"year": "2018", "stars" : 1, "song": "Nice For What"           , "album" : "Scorpion"            , "local" : ""},
             {"year": "2016", "stars" : 1, "song": "One Dance"               , "album" : "Views"               , "local" : ""},
-            {"year": "2010", "stars" : 4, "song": "Over"                    , "album" : "Thank Me Later"      , "local" : ""},
-            {"year": "2011", "stars" : 2, "song": "Take Care"               , "album" : "Take Care"           , "local" : ""},
+            {"year": "2010", "stars" : 4, "song": "Over"                    , "album" : "Thank Me Later"      , "local" : "00303"},
+            {"year": "2011", "stars" : 2, "song": "Take Care"               , "album" : "Take Care"           , "local" : "00305"},
             {"year": "2011", "stars" : 1, "song": "The Motto"               , "album" : "Take Care"           , "local" : ""}
         ]
     },
@@ -1165,9 +1171,9 @@
     {
         "artist": "Fifth Harmony",
         "songs": [
-            {"year": "2016", "stars" : 2, "song": "All In My Head", "album" : "7/27"      , "local" : ""},
-            {"year": "2015", "stars" : 3, "song": "Sledgehammer"  , "album" : "Reflection", "local" : ""},
-            {"year": "2016", "stars" : 5, "song": "Work from Home", "album" : "7/27"      , "local" : ""}
+            {"year": "2016", "stars" : 2, "song": "All In My Head", "album" : "7/27"      , "local" : "00308"},
+            {"year": "2015", "stars" : 3, "song": "Sledgehammer"  , "album" : "Reflection", "local" : "00309"},
+            {"year": "2016", "stars" : 5, "song": "Work from Home", "album" : "7/27"      , "local" : "00310"}
         ]
     },
     {
@@ -1397,7 +1403,7 @@
     {
         "artist": "Icona Pop",
         "songs": [
-            {"year": "2013", "stars" : 1, "song": "All Night", "local" : ""}
+            {"year": "2013", "stars" : 1, "song": "All Night", "local" : "00316"}
         ]
     },
 	{
@@ -1453,11 +1459,11 @@
     {
         "artist": "Jason Derulo",
         "songs": [
-            {"year": "2010", "stars" : 3, "song": "In My Head"     , "album" : "Jason Derulo"   , "local" : ""},
+            {"year": "2010", "stars" : 3, "song": "In My Head"     , "album" : "Jason Derulo"   , "local" : "00312"},
 			{"year": "2010", "stars" : 2, "song": "Love Hangover"  , "album" : "Jason Derulo"   , "local" : ""},
-            {"year": "2010", "stars" : 2, "song": "Ridin Solo"     , "album" : "Jason Derulo"   , "local" : ""},
-            {"year": "2015", "stars" : 1, "song": "Want to Want Me", "album" : "Everything Is 4", "local" : ""},
-            {"year": "2009", "stars" : 5, "song": "Whatcha Say"    , "album" : "Jason Derulo"   , "local" : ""}
+            {"year": "2010", "stars" : 2, "song": "Ridin Solo"     , "album" : "Jason Derulo"   , "local" : "00315"},
+            {"year": "2015", "stars" : 1, "song": "Want to Want Me", "album" : "Everything Is 4", "local" : "00314"},
+            {"year": "2009", "stars" : 5, "song": "Whatcha Say"    , "album" : "Jason Derulo"   , "local" : "00313"}
         ]
     },
     {
@@ -1495,7 +1501,7 @@
     {
         "artist": "J. Cole",
         "songs": [
-            {"year": "2011", "stars" : 3, "song": "Work Out", "local" : ""}
+            {"year": "2011", "stars" : 3, "song": "Work Out", "local" : "00306"}
         ]
     },
     {
@@ -1996,7 +2002,7 @@
 	{
 		"artist": "Little Mix",
 		"songs": [
-			{"year": "2015", "stars" : 2, "song": "Black Magic", "local" : ""}
+			{"year": "2015", "stars" : 2, "song": "Black Magic", "local" : "00311"}
 		]
 	},
     {
@@ -2886,12 +2892,12 @@
     {
         "artist": "Selena Gomez",
         "songs": [
-            {"year": "2015", "stars" : 3, "song": "I Want You To Know"       },
-            {"year": "2017", "stars" : 3, "song": "It Ain't Me"              , "album" : "Stargazing", "local" : ""},
-			{"year": "2011", "stars" : 2, "song": "Love You Like a Love Song", "album" : "When the Sun Goes Down", "local" : ""},
-            {"year": "2009", "stars" : 4, "song": "Naturally"                , "album" : "Kiss & Tell", "local" : ""},
-			{"year": "2015", "stars" : 1, "song": "Same Old Love"            , "album" : "Revival", "local" : ""},
-			{"year": "2017", "stars" : 2, "song": "Wolves"                   }
+            {"year": "2015", "stars" : 3, "song": "I Want You To Know"                                           , "local" : ""},
+            {"year": "2017", "stars" : 3, "song": "It Ain't Me"              , "album" : "Stargazing"            , "local" : ""},
+			{"year": "2011", "stars" : 2, "song": "Love You Like a Love Song", "album" : "When the Sun Goes Down", "local" : "00307"},
+            {"year": "2009", "stars" : 4, "song": "Naturally"                , "album" : "Kiss & Tell"           , "local" : ""},
+			{"year": "2015", "stars" : 1, "song": "Same Old Love"            , "album" : "Revival"               , "local" : ""},
+			{"year": "2017", "stars" : 2, "song": "Wolves"                                                       , "local" : ""}
         ]
     },
     {
@@ -2962,10 +2968,10 @@
     {
         "artist": "Sia",
         "songs": [
-            {"year": "2014", "stars" : 1, "song": "Chandelier", "local" : ""},
+            {"year": "2014", "stars" : 1, "song": "Chandelier"   , "local" : ""},
 			{"year": "2016", "stars" : 1, "song": "Cheap Thrills", "local" : ""},
-            {"year": "2011", "stars" : 3, "song": "Titanium", "local" : ""},
-			{"year": "2020", "stars" : 1, "song": "Together", "local" : ""}
+            {"year": "2011", "stars" : 3, "song": "Titanium"     , "local" : ""},
+			{"year": "2020", "stars" : 1, "song": "Together"     , "local" : ""}
         ]
     },
     {
@@ -3143,15 +3149,15 @@
     {
         "artist": "T-Pain",
         "songs": [
-            {"year": "2010", "stars" : 2, "song": "All I Do Is Win" },
-            {"year": "2007", "stars" : 1, "song": "Bartender"       , "album" : "Epiphany", "local" : ""},
-            {"year": "2011", "stars" : 1, "song": "Best Love Song"  , "album" : "Revolver", "local" : ""},
-            {"year": "2007", "stars" : 2, "song": "Buy You A Drank" , "album" : "Epiphany", "local" : ""},
-            {"year": "2008", "stars" : 2, "song": "Can't Believe It", "album" : "Three Ringz", "local" : ""},
-            {"year": "2007", "stars" : 1, "song": "Cyclone"         },
-            {"year": "2008", "stars" : 1, "song": "Freeze"          , "album" : "Three Ringz", "local" : ""},
-            {"year": "2010", "stars" : 1, "song": "Reverse Cowgirl" },
-            {"year": "2011", "stars" : 2, "song": "5 O'Clock"       , "album" : "Revolver", "local" : ""}
+            {"year": "2010", "stars" : 2, "song": "All I Do Is Win"                          , "local" : "00289"},
+            {"year": "2007", "stars" : 1, "song": "Bartender"       , "album" : "Epiphany"   , "local" : "00283"},
+            {"year": "2011", "stars" : 1, "song": "Best Love Song"  , "album" : "Revolver"   , "local" : "00288"},
+            {"year": "2007", "stars" : 2, "song": "Buy You A Drank" , "album" : "Epiphany"   , "local" : "00285"},
+            {"year": "2008", "stars" : 2, "song": "Can't Believe It", "album" : "Three Ringz", "local" : "00286"},
+            {"year": "2007", "stars" : 1, "song": "Cyclone"                                  , "local" : "00284"},
+            {"year": "2008", "stars" : 1, "song": "Freeze"          , "album" : "Three Ringz", "local" : "00287"},
+            {"year": "2010", "stars" : 1, "song": "Reverse Cowgirl"                          , "local" : "00290"},
+            {"year": "2011", "stars" : 2, "song": "5 O'Clock"       , "album" : "Revolver"   , "local" : "00291"}
         ]
     },
     {
@@ -3263,7 +3269,7 @@
     {
         "artist": "The Darkness",
         "songs": [
-            {"year": "2003", "stars" : 2, "song": "I Believe In A Thing Called Love", "local" : ""}
+            {"year": "2003", "stars" : 2, "song": "I Believe In A Thing Called Love", "local" : "00292"}
         ]
     },
     {
@@ -3298,7 +3304,7 @@
             {"year": "2004", "stars" : 5, "song": "Mr. Brightside"                  , "album" : "Hot Fuss"   , "local" : "00273"},
 			{"year": "2013", "stars" : 1, "song": "Shot at the Night"               , "album" : "Direct Hits", "local" : ""},
             {"year": "2004", "stars" : 2, "song": "Somebody Told Me"                , "album" : "Hot Fuss"   , "local" : "00274"},
-            {"year": "2006", "stars" : 4, "song": "When You Were Young"             , "album" : "Sam's Town" , "local" : ""}
+            {"year": "2006", "stars" : 4, "song": "When You Were Young"             , "album" : "Sam's Town" , "local" : "00298"}
         ]
     },
     {
@@ -3418,18 +3424,18 @@
     {
         "artist": "Tiesto",
         "songs": [
-            {"year": "2011", "stars" : 3, "song": "Don't Ditch"  },
+            {"year": "2011", "stars" : 3, "song": "Don't Ditch"  , "local" : ""},
 			{"year": "2010", "stars" : 2, "song": "Knock You Out", "local" : ""},
-            {"year": "2014", "stars" : 2, "song": "Red Lights"   }
+            {"year": "2014", "stars" : 2, "song": "Red Lights"   , "local" : ""}
         ]
     },
     {
         "artist": "Timbaland",
         "songs": [
-            {"year": "2007", "stars" : 3, "song": "Apologize"            },
-			{"year": "2007", "stars" : 1, "song": "Give It to Me"        },
-            {"year": "2010", "stars" : 2, "song": "If We Ever Meet Again", "local" : ""},
-            {"year": "2007", "stars" : 1, "song": "The Way I Are"        }
+            {"year": "2007", "stars" : 3, "song": "Apologize"            , "local" : "00296"},
+			{"year": "2007", "stars" : 1, "song": "Give It to Me"        , "local" : "00297"},
+            {"year": "2010", "stars" : 2, "song": "If We Ever Meet Again", "local" : "00295"},
+            {"year": "2007", "stars" : 1, "song": "The Way I Are"        , "local" : "00294"}
         ]
     },
     {
@@ -3460,8 +3466,8 @@
     {
         "artist": "Tove Lo",
         "songs": [
-            {"year": "2014", "stars" : 1, "song": "Habits"      },
-            {"year": "2014", "stars" : 2, "song": "Heroes"      },
+            {"year": "2014", "stars" : 1, "song": "Habits"      , "local" : ""},
+            {"year": "2014", "stars" : 2, "song": "Heroes"      , "local" : ""},
             {"year": "2015", "stars" : 1, "song": "Talking Body", "local" : ""}
         ]
     },
@@ -3469,13 +3475,13 @@
         "artist": "Train",
         "songs": [
             {"year": "2012", "stars" : 1, "song": "50 Ways to Say Goodbye", "local" : ""},
-            {"year": "2001", "stars" : 1, "song": "Drops of Jupiter"      }
+            {"year": "2001", "stars" : 1, "song": "Drops of Jupiter"      , "local" : ""}
         ]
     },
     {
         "artist": "Travie McCoy",
         "songs": [
-            {"year": "2013", "stars" : 4, "song": "Rough Water"     },
+            {"year": "2013", "stars" : 4, "song": "Rough Water"     , "local" : ""},
             {"year": "2010", "stars" : 2, "song": "We'll Be Alright", "local" : ""}
         ]
     },
@@ -3483,7 +3489,7 @@
         "artist": "Trey Songz",
         "songs": [
             {"year": "2010", "stars" : 2, "song": "Bottoms Up", "local" : ""},
-            {"year": "2010", "stars" : 2, "song": "Say Aah"   }
+            {"year": "2010", "stars" : 2, "song": "Say Aah"   , "local" : ""}
         ]
     },
     {
@@ -3600,7 +3606,7 @@
     {
         "artist": "We The Kings",
         "songs": [
-            {"year": "2008", "stars" : 2, "song": "Check Yes Juliet", "local" : ""},
+            {"year": "2008", "stars" : 2, "song": "Check Yes Juliet", "local" : "00293"},
             {"year": "2011", "stars" : 1, "song": "Say You Like Me" , "local" : ""},
             {"year": "2010", "stars" : 2, "song": "We'll Be A Dream", "local" : ""}
         ]
@@ -3717,7 +3723,7 @@
         "artist": "30 Seconds to Mars",
         "songs": [
             {"year": "2009", "stars" : 2, "song": "Closer to the Edge", "local" : ""},
-            {"year": "2009", "stars" : 1, "song": "Kings and Queens"  }
+            {"year": "2009", "stars" : 1, "song": "Kings and Queens"  , "local" : ""}
         ]
     },
     {
