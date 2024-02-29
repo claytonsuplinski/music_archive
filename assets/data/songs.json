@@ -55,7 +55,7 @@
             {"year": "2007", "stars" : 3, "song": "Hypnotized"                                   , "local" : ""},
             {"year": "2006", "stars" : 2, "song": "I Wanna Love You"      , "album" : "Konvicted", "local" : ""},
             {"year": "2008", "stars" : 1, "song": "Right Now (Na Na Na)"  , "album" : "Freedom"  , "local" : ""},
-            {"year": "2009", "stars" : 5, "song": "Sexy Bitch"                                   , "local" : ""},
+            {"year": "2009", "stars" : 5, "song": "Sexy Bitch"                                   , "local" : "00340"},
             {"year": "2006", "stars" : 2, "song": "Smack That"            , "album" : "Konvicted", "local" : ""},
 			{"year": "2017", "stars" : 1, "song": "Til The Sun Rise Up"                          , "local" : ""}
         ]
@@ -272,9 +272,9 @@
     {
         "artist": "Beastie Boys",
         "songs": [
-            {"year": "2004", "stars" : 3, "song": "Ch-Check It Out"       , "local" : ""},
-            {"year": "1986", "stars" : 4, "song": "Fight For Your Right"  , "local" : ""},
-            {"year": "1986", "stars" : 1, "song": "No Sleep Till Brooklyn", "local" : ""}
+            {"year": "2004", "stars" : 3, "song": "Ch-Check It Out"       , "local" : "00320"},
+            {"year": "1986", "stars" : 4, "song": "Fight For Your Right"  , "local" : "00321"},
+            {"year": "1986", "stars" : 1, "song": "No Sleep Till Brooklyn", "local" : "00322"}
         ]
     },
     {
@@ -910,7 +910,7 @@
     {
         "artist": "DJ Snake",
         "songs": [
-            {"year": "2014", "stars" : 2, "song": "You Know You Like It", "local" : ""}
+            {"year": "2014", "stars" : 2, "song": "You Know You Like It", "local" : "00323"}
         ]
     },
     {
@@ -1063,8 +1063,8 @@
 	{
 		"artist": "Empire Of The Sun",
 		"songs": [
-			{"year": "2016", "stars" : 1, "song": "High and Low"      },
-			{"year": "2009", "stars" : 1, "song": "Walking On A Dream", "local" : ""}
+			{"year": "2016", "stars" : 1, "song": "High and Low"      , "local" : "00325"},
+			{"year": "2009", "stars" : 1, "song": "Walking On A Dream", "local" : "00324"}
 		]
 	},
     {
@@ -1163,7 +1163,7 @@
         "songs": [
             {"year": "2007", "stars" : 2, "song": "Big Girls Don't Cry", "album" : "The Dutchess", "local" : ""},
             {"year": "2006", "stars" : 3, "song": "Fergilicious"       , "album" : "The Dutchess", "local" : "00077"},
-			{"year": "2010", "stars" : 2, "song": "Gettin' Over You"                             , "local" : ""},
+			{"year": "2010", "stars" : 2, "song": "Gettin' Over You"                             , "local" : "00339"},
             {"year": "2007", "stars" : 5, "song": "Glamorous"          , "album" : "The Dutchess", "local" : "00076"},
             {"year": "2006", "stars" : 1, "song": "London Bridge"      , "album" : "The Dutchess", "local" : "00234"}
         ]
@@ -1540,10 +1540,10 @@
     {
         "artist": "Jesse McCartney",
         "songs": [
-            {"year": "2004", "stars" : 2, "song": "Beautiful Soul", "local" : ""},
-            {"year": "2008", "stars" : 3, "song": "Body Language", "local" : ""},
+            {"year": "2004", "stars" : 2, "song": "Beautiful Soul"   , "local" : ""},
+            {"year": "2008", "stars" : 3, "song": "Body Language"    , "local" : "00334"},
             {"year": "2008", "stars" : 2, "song": "How Do You Sleep?", "local" : ""},
-            {"year": "2011", "stars" : 1, "song": "Shake", "local" : ""}
+            {"year": "2011", "stars" : 1, "song": "Shake"            , "local" : ""}
         ]
     },
     {
@@ -2094,8 +2094,8 @@
     {
         "artist": "Major Lazer",
         "songs": [
-            {"year": "2015", "stars" : 2, "song": "Lean On"    , "local" : ""},
-			{"year": "2015", "stars" : 1, "song": "Light It Up", "local" : ""}
+            {"year": "2015", "stars" : 2, "song": "Lean On"    , "local" : "00327"},
+			{"year": "2015", "stars" : 1, "song": "Light It Up", "local" : "00328"}
         ]
     },
     {
@@ -2598,7 +2598,7 @@
 			{"year": "2019", "stars" : 1, "song": "Hey Look Ma, I Made It"    , "local" : ""},
 			{"year": "2018", "stars" : 1, "song": "High Hopes"                , "local" : ""},
             {"year": "2005", "stars" : 2, "song": "I Write Sins Not Tragedies", "local" : ""},
-            {"year": "2009", "stars" : 4, "song": "New Perspective"           , "local" : ""},
+            {"year": "2009", "stars" : 4, "song": "New Perspective"           , "local" : "00333"},
             {"year": "2008", "stars" : 1, "song": "Nine in the Afternoon"     , "local" : ""}
         ]
     },
@@ -2896,7 +2896,7 @@
             {"year": "2017", "stars" : 3, "song": "It Ain't Me"              , "album" : "Stargazing"            , "local" : ""},
 			{"year": "2011", "stars" : 2, "song": "Love You Like a Love Song", "album" : "When the Sun Goes Down", "local" : "00307"},
             {"year": "2009", "stars" : 4, "song": "Naturally"                , "album" : "Kiss & Tell"           , "local" : ""},
-			{"year": "2015", "stars" : 1, "song": "Same Old Love"            , "album" : "Revival"               , "local" : ""},
+			{"year": "2015", "stars" : 1, "song": "Same Old Love"            , "album" : "Revival"               , "local" : "00337"},
 			{"year": "2017", "stars" : 2, "song": "Wolves"                                                       , "local" : ""}
         ]
     },
@@ -2910,7 +2910,7 @@
         "artist": "Shaggy",
         "songs": [
             {"year": "2000", "stars" : 2, "song": "Angel"        , "local" : ""},
-            {"year": "2002", "stars" : 1, "song": "Hey Sexy Lady", "local" : ""},
+            {"year": "2002", "stars" : 1, "song": "Hey Sexy Lady", "local" : "00338"},
             {"year": "2000", "stars" : 3, "song": "It Wasn't Me" , "local" : ""}
         ]
     },
@@ -2918,8 +2918,8 @@
         "artist": "Shakira",
         "songs": [
             {"year": "2005", "stars" : 4, "song": "Hips Don't Lie"    , "local" : ""},
-            {"year": "2010", "stars" : 3, "song": "Rabiosa"           , "local" : ""},
-            {"year": "2009", "stars" : 3, "song": "She Wolf"          , "local" : ""},
+            {"year": "2010", "stars" : 4, "song": "Rabiosa"           , "local" : "00335"},
+            {"year": "2009", "stars" : 3, "song": "She Wolf"          , "local" : "00336"},
 			{"year": "2016", "stars" : 1, "song": "Try Everything"    , "local" : ""},
 			{"year": "2010", "stars" : 2, "song": "Waka Waka"         , "local" : ""},
             {"year": "2001", "stars" : 3, "song": "Whenever, Wherever", "local" : ""}
@@ -2928,9 +2928,9 @@
     {
         "artist": "Shania Twain",
         "songs": [
-            {"year": "2002", "stars" : 2, "song": "I'm Gonna Getcha Good!", "local" : ""},
+            {"year": "2002", "stars" : 2, "song": "I'm Gonna Getcha Good!"  , "local" : ""},
             {"year": "1997", "stars" : 3, "song": "Man! I Feel Like a Woman", "local" : ""},
-            {"year": "1997", "stars" : 1, "song": "You're Still The One", "local" : ""}
+            {"year": "1997", "stars" : 1, "song": "You're Still The One"    , "local" : ""}
         ]
     },
     {
@@ -3213,7 +3213,7 @@
         "songs": [
             {"year": "2012", "stars" : 3, "song": "Body Work"          , "local" : "00019"},
             {"year": "2013", "stars" : 2, "song": "Closer"             , "local" : "00018"},
-			{"year": "2009", "stars" : 1, "song": "Feel It in My Bones", "local" : ""}
+			{"year": "2009", "stars" : 1, "song": "Feel It in My Bones", "local" : "00341"}
         ]
     },
     {
@@ -3519,7 +3519,7 @@
     {
         "artist": "Usher",
         "songs": [
-            {"year": "2004", "stars" : 2, "song": "Burn"                     , "album" : "Confessions"       , "local" : ""},
+            {"year": "2004", "stars" : 2, "song": "Burn"                     , "album" : "Confessions"       , "local" : "00332"},
             {"year": "2010", "stars" : 2, "song": "DJ Got Us Falling In Love", "album" : "Versus"            , "local" : "00245"},
 			{"year": "2015", "stars" : 1, "song": "Don't Look Down"                                          , "local" : ""},
             {"year": "2010", "stars" : 2, "song": "Hot Tottie"               , "album" : "Versus"            , "local" : ""},
@@ -3607,8 +3607,8 @@
         "artist": "We The Kings",
         "songs": [
             {"year": "2008", "stars" : 2, "song": "Check Yes Juliet", "local" : "00293"},
-            {"year": "2011", "stars" : 1, "song": "Say You Like Me" , "local" : ""},
-            {"year": "2010", "stars" : 2, "song": "We'll Be A Dream", "local" : ""}
+            {"year": "2011", "stars" : 1, "song": "Say You Like Me" , "local" : "00330"},
+            {"year": "2010", "stars" : 2, "song": "We'll Be A Dream", "local" : "00331"}
         ]
     },
     {
@@ -3624,19 +3624,20 @@
         "artist": "White Panda",
 		"background": "white_panda.png",
         "songs": [
-            {"year": "2012", "song": "Bambooyah"                         },
-            {"year": "2013", "song": "Bearly Legal"                      },
-            {"year": "2010", "song": "Drake and Diane"                   },
-            {"year": "2009", "song": "Hypnotic Echo"                     },
-            {"year": "2012", "song": "Mo Free Mo Fallin"                 },
+            {"year": "2012", "song": "Bambooyah"                         , "local" : ""},
+            {"year": "2013", "song": "Bearly Legal"                      , "local" : ""},
+            {"year": "2010", "song": "Drake and Diane"                   , "local" : ""},
+            {"year": "2009", "song": "Hypnotic Echo"                     , "local" : ""},
+            {"year": "2012", "song": "Mo Free Mo Fallin"                 , "local" : ""},
             {"year": "2009", "song": "My Life Would Suck Without a Milli", "local" : ""},
-            {"year": "2013", "song": "Push With Me"                      },
-            {"year": "2010", "song": "Rematch"                           },
-            {"year": "2012", "song": "Summit, Inc"                       },
-            {"year": "2015", "song": "The Pawprint"                      },
-            {"year": "2009", "song": "Versus"                            },
-            {"year": "2013", "song": "Viva Alive"                        },
-			{"year": "2012", "song": "We Found 2012"                     }
+            {"year": "2013", "song": "Push With Me"                      , "local" : ""},
+            {"year": "2010", "song": "Rematch"                           , "local" : ""},
+            {"year": "2012", "song": "Summit, Inc"                       , "local" : ""},
+            {"year": "2015", "song": "The Pawprint"                      , "local" : ""},
+            {"year": "2009", "song": "Versus"                            , "local" : ""},
+            {"year": "2013", "song": "Viva Alive"                        , "local" : ""},
+			{"year": "2012", "song": "We Found 2012"                     , "local" : ""},
+			{"year": "2009", "song": "What You Know About Little Secrets", "local" : "00326"}
         ]
     },
     {
@@ -3658,7 +3659,7 @@
             {"year": "2011", "song": "Black and Yellow (G-mix)"                                          , "local" : ""},
             {"year": "2011", "stars" : 2, "song": "No Sleep"                , "album" : "Rolling Papers" , "local" : ""},
             {"year": "2008", "stars" : 2, "song": "Say Yeah"                                             , "local" : ""},
-            {"year": "2009", "stars" : 1, "song": "The Thrill"                                           , "local" : ""},
+            {"year": "2009", "stars" : 1, "song": "The Thrill"                                           , "local" : "00329"},
             {"year": "2014", "stars" : 1, "song": "We Dem Boyz"             , "album" : "Blacc Hollywood", "local" : ""}
         ]
     },
