@@ -35,14 +35,14 @@
     {
         "artist": "Afrojack",
         "songs": [
-            {"year": "2011", "stars" : 3, "song": "Take Over Control", "local" : ""},
-            {"year": "2014", "stars" : 2, "song": "Ten Feet Tall", "local" : ""}
+            {"year": "2011", "stars" : 3, "song": "Take Over Control", "local" : "00342"},
+            {"year": "2014", "stars" : 2, "song": "Ten Feet Tall"    , "local" : "00343"}
         ]
     },
     {
         "artist": "Agnes",
         "songs": [
-            {"year": "2009", "stars" : 2, "song": "Release Me", "local" : ""}
+            {"year": "2009", "stars" : 2, "song": "Release Me", "local" : "00351"}
         ]
     },
     {
@@ -75,7 +75,7 @@
 	{
         "artist": "Alesso",
         "songs": [
-            {"year": "2015", "stars" : 1, "song": "Cool", "local" : ""}
+            {"year": "2015", "stars" : 1, "song": "Cool", "local" : "00344"}
         ]
     },
 	{
@@ -2892,7 +2892,7 @@
     {
         "artist": "Selena Gomez",
         "songs": [
-            {"year": "2015", "stars" : 3, "song": "I Want You To Know"                                           , "local" : ""},
+            {"year": "2015", "stars" : 3, "song": "I Want You To Know"                                           , "local" : "00349"},
             {"year": "2017", "stars" : 3, "song": "It Ain't Me"              , "album" : "Stargazing"            , "local" : ""},
 			{"year": "2011", "stars" : 2, "song": "Love You Like a Love Song", "album" : "When the Sun Goes Down", "local" : "00307"},
             {"year": "2009", "stars" : 4, "song": "Naturally"                , "album" : "Kiss & Tell"           , "local" : ""},
@@ -3136,7 +3136,7 @@
     {
         "artist": "Swedish House Mafia",
         "songs": [
-            {"year": "2010", "stars" : 2, "song": "Miami 2 Ibiza", "local" : ""},
+            {"year": "2010", "stars" : 2, "song": "Miami 2 Ibiza" , "local" : "00352"},
             {"year": "2011", "stars" : 2, "song": "Save The World", "local" : ""}
         ]
     },
@@ -3426,7 +3426,7 @@
         "songs": [
             {"year": "2011", "stars" : 3, "song": "Don't Ditch"  , "local" : ""},
 			{"year": "2010", "stars" : 2, "song": "Knock You Out", "local" : ""},
-            {"year": "2014", "stars" : 2, "song": "Red Lights"   , "local" : ""}
+            {"year": "2014", "stars" : 2, "song": "Red Lights"   , "local" : "00347"}
         ]
     },
     {
@@ -3466,8 +3466,8 @@
     {
         "artist": "Tove Lo",
         "songs": [
-            {"year": "2014", "stars" : 1, "song": "Habits"      , "local" : ""},
-            {"year": "2014", "stars" : 2, "song": "Heroes"      , "local" : ""},
+            {"year": "2014", "stars" : 1, "song": "Habits"      , "local" : "00350"},
+            {"year": "2014", "stars" : 2, "song": "Heroes"      , "local" : "00345"},
             {"year": "2015", "stars" : 1, "song": "Talking Body", "local" : ""}
         ]
     },
@@ -3698,8 +3698,8 @@
     {
         "artist": "Zedd",
         "songs": [
-			{"year": "2015", "stars" : 1, "song": "Beautiful Now", "local" : ""},
-            {"year": "2013", "stars" : 1, "song": "Clarity"      , "local" : ""},
+			{"year": "2015", "stars" : 1, "song": "Beautiful Now", "local" : "00348"},
+            {"year": "2013", "stars" : 1, "song": "Clarity"      , "local" : "00346"},
             {"year": "2014", "stars" : 2, "song": "Find You"     , "local" : ""},
 			{"year": "2018", "stars" : 1, "song": "The Middle"   , "local" : ""},
             {"year": "2012", "stars" : 1, "song": "Spectrum"     , "local" : ""}
