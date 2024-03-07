@@ -205,10 +205,10 @@
     {
         "artist": "Avicii",
         "songs": [
-            {"year": "2013", "stars" : 1, "song": "I Could Be The One", "local" : ""},
+            {"year": "2013", "stars" : 1, "song": "I Could Be The One", "local" : "00355"},
             {"year": "2011", "stars" : 4, "song": "Levels"            , "local" : ""},
-            {"year": "2011", "song": "Levels (Original Mix)"          , "local" : ""},
-			{"year": "2014", "stars" : 1, "song": "The Days"          , "local" : ""}
+            {"year": "2011", "song": "Levels (Original Mix)"          , "local" : "00353"},
+			{"year": "2014", "stars" : 1, "song": "The Days"          , "local" : "00354"}
         ]
     },
     {
@@ -375,10 +375,10 @@
     {
         "artist": "B.O.B.",
         "songs": [
-            {"year": "2010", "stars" : 6, "song": "Airplanes"    , "album" : "The Adventures of Bobby Ray", "local" : ""},
+            {"year": "2010", "stars" : 6, "song": "Airplanes"    , "album" : "The Adventures of Bobby Ray", "local" : "00372"},
             {"year": "2012", "stars" : 3, "song": "Both Of Us"   , "album" : "Strange Clouds"             , "local" : ""},
-            {"year": "2010", "stars" : 4, "song": "Magic"        , "album" : "The Adventures of Bobby Ray", "local" : ""},
-            {"year": "2010", "stars" : 3, "song": "Nothin On You", "album" : "The Adventures of Bobby Ray", "local" : ""}
+            {"year": "2010", "stars" : 4, "song": "Magic"        , "album" : "The Adventures of Bobby Ray", "local" : "00375"},
+            {"year": "2010", "stars" : 3, "song": "Nothin On You", "album" : "The Adventures of Bobby Ray", "local" : "00371"}
         ]
     },
     {
@@ -1491,10 +1491,10 @@
     {
         "artist": "Jay-Z",
         "songs": [
-            {"year": "2009", "stars" : 3, "song": "Empire State of Mind", "local" : ""},
+            {"year": "2009", "stars" : 3, "song": "Empire State of Mind", "local" : "00373"},
             {"year": "1998", "stars" : 1, "song": "Hard Knock Life"     , "local" : ""},
             {"year": "2011", "stars" : 5, "song": "N****s in Paris"     , "local" : ""},
-            {"year": "2010", "stars" : 1, "song": "Young Forever"       , "local" : ""},
+            {"year": "2010", "stars" : 1, "song": "Young Forever"       , "local" : "00374"},
             {"year": "2003", "stars" : 2, "song": "99 Problems"         , "local" : ""}
         ]
     },
@@ -1783,8 +1783,8 @@
         "artist": "Keri Hilson",
         "songs": [
             {"year": "2009", "stars" : 1, "song": "Energy"          , "album" : "In a Perfect World...", "local" : ""},
-            {"year": "2009", "stars" : 6, "song": "Knock You Down"  , "album" : "In a Perfect World...", "local" : ""},
-			{"year": "2010", "stars" : 1, "song": "Pretty Girl Rock", "album" : "No Boys Allowed"      , "local" : ""}
+            {"year": "2009", "stars" : 6, "song": "Knock You Down"  , "album" : "In a Perfect World...", "local" : "00370"},
+			{"year": "2010", "stars" : 1, "song": "Pretty Girl Rock", "album" : "No Boys Allowed"      , "local" : "00369"}
         ]
     },
     {
@@ -1908,16 +1908,16 @@
     {
         "artist": "Lady Gaga",
         "songs": [
-			{"year": "2010", "stars" : 2, "song": "Alejandro"                     , "album" : "The Fame Monster", "local" : ""},
-            {"year": "2013", "stars" : 1, "song": "Applause"                      , "album" : "Artpop"          , "local" : ""},
-            {"year": "2010", "stars" : 3, "song": "Bad Romance"                   , "album" : "The Fame Monster", "local" : ""},
-			{"year": "2009", "stars" : 1, "song": "Eh Eh (Nothing Else I Can Say)", "album" : "The Fame"        , "local" : ""},
-            {"year": "2009", "stars" : 6, "song": "Just Dance"                    , "album" : "The Fame"        , "local" : ""},
+			{"year": "2010", "stars" : 2, "song": "Alejandro"                     , "album" : "The Fame Monster", "local" : "00365"},
+            {"year": "2013", "stars" : 1, "song": "Applause"                      , "album" : "Artpop"          , "local" : "00366"},
+            {"year": "2010", "stars" : 3, "song": "Bad Romance"                   , "album" : "The Fame Monster", "local" : "00361"},
+			{"year": "2009", "stars" : 1, "song": "Eh Eh (Nothing Else I Can Say)", "album" : "The Fame"        , "local" : "00368"},
+            {"year": "2009", "stars" : 6, "song": "Just Dance"                    , "album" : "The Fame"        , "local" : "00364"},
             {"year": "2009", "stars" : 1, "song": "Love Game"                     , "album" : "The Fame"        , "local" : ""},
             {"year": "2016", "stars" : 1, "song": "Million Reasons"               , "album" : "Joanne"          , "local" : ""},
-            {"year": "2009", "stars" : 4, "song": "Paparazzi"                     , "album" : "The Fame"        , "local" : ""},
-            {"year": "2009", "stars" : 6, "song": "Poker Face"                    , "album" : "The Fame"        , "local" : ""},
-            {"year": "2010", "stars" : 2, "song": "Telephone"                     , "album" : "The Fame Monster", "local" : ""}
+            {"year": "2009", "stars" : 4, "song": "Paparazzi"                     , "album" : "The Fame"        , "local" : "00362"},
+            {"year": "2009", "stars" : 6, "song": "Poker Face"                    , "album" : "The Fame"        , "local" : "00363"},
+            {"year": "2010", "stars" : 2, "song": "Telephone"                     , "album" : "The Fame Monster", "local" : "00367"}
         ]
     },
     {
@@ -1965,12 +1965,12 @@
     {
         "artist": "Lil Wayne",
         "songs": [
-            {"year": "2008", "stars" : 1, "song": "A Milli"       , "album" : "Tha Carter III", "local" : ""},
-            {"year": "2008", "stars" : 2, "song": "Got Money"     , "album" : "Tha Carter III", "local" : ""},
-            {"year": "2011", "stars" : 1, "song": "How to Love"   , "album" : "Tha Carter IV", "local" : ""},
-            {"year": "2010", "stars" : 3, "song": "Knockout"      , "album" : "Rebirth", "local" : ""},
-            {"year": "2008", "stars" : 3, "song": "Lollipop"      , "album" : "Tha Carter III", "local" : ""},
-            {"year": "2011", "stars" : 2, "song": "6 foot 7 foot" , "album" : "Tha Carter IV", "local" : ""},
+            {"year": "2008", "stars" : 1, "song": "A Milli"       , "album" : "Tha Carter III"        , "local" : ""},
+            {"year": "2008", "stars" : 2, "song": "Got Money"     , "album" : "Tha Carter III"        , "local" : ""},
+            {"year": "2011", "stars" : 1, "song": "How to Love"   , "album" : "Tha Carter IV"         , "local" : ""},
+            {"year": "2010", "stars" : 3, "song": "Knockout"      , "album" : "Rebirth"               , "local" : ""},
+            {"year": "2008", "stars" : 3, "song": "Lollipop"      , "album" : "Tha Carter III"        , "local" : ""},
+            {"year": "2011", "stars" : 2, "song": "6 foot 7 foot" , "album" : "Tha Carter IV"         , "local" : ""},
             {"year": "2010", "stars" : 2, "song": "Right Above It", "album" : "I Am Not a Human Being", "local" : ""}
         ]
     },
@@ -2015,7 +2015,7 @@
         "artist": "LMFAO",
         "songs": [
             {"year": "2009", "stars" : 2, "song": "I'm in Miami Trick", "local" : ""},
-            {"year": "2011", "stars" : 1, "song": "Party Rock Anthem", "local" : ""}
+            {"year": "2011", "stars" : 1, "song": "Party Rock Anthem" , "local" : ""}
         ]
     },
 	{
@@ -2107,14 +2107,14 @@
     {
         "artist": "Mariah Carey",
         "songs": [
-            {"year": "1994", "stars" : 5, "song": "All I Want For Christmas"    , "album" : "Merry Christmas", "local" : ""},
-            {"year": "1996", "stars" : 5, "song": "Always Be My Baby"           , "album" : "Daydream", "local" : ""},
-			{"year": "1995", "stars" : 1, "song": "Fantasy"                     , "album" : "Daydream", "local" : ""},
-            {"year": "1993", "stars" : 2, "song": "Hero"                        , "album" : "Music Box", "local" : ""},
-            {"year": "2008", "stars" : 2, "song": "I'll Be Lovin' You Long Time", "album" : "E=MC²", "local" : ""},
+            {"year": "1994", "stars" : 5, "song": "All I Want For Christmas"    , "album" : "Merry Christmas"              , "local" : ""},
+            {"year": "1996", "stars" : 5, "song": "Always Be My Baby"           , "album" : "Daydream"                     , "local" : ""},
+			{"year": "1995", "stars" : 1, "song": "Fantasy"                     , "album" : "Daydream"                     , "local" : ""},
+            {"year": "1993", "stars" : 2, "song": "Hero"                        , "album" : "Music Box"                    , "local" : ""},
+            {"year": "2008", "stars" : 2, "song": "I'll Be Lovin' You Long Time", "album" : "E=MC²"                        , "local" : ""},
             {"year": "2009", "stars" : 1, "song": "Obsessed"                    , "album" : "Memoirs of an Imperfect Angel", "local" : ""},
-            {"year": "2008", "stars" : 3, "song": "Touch My Body"               , "album" : "E=MC²", "local" : ""},
-            {"year": "2005", "stars" : 3, "song": "We Belong Together"          , "album" : "The Emancipation of Mimi", "local" : ""}
+            {"year": "2008", "stars" : 3, "song": "Touch My Body"               , "album" : "E=MC²"                        , "local" : ""},
+            {"year": "2005", "stars" : 3, "song": "We Belong Together"          , "album" : "The Emancipation of Mimi"     , "local" : ""}
         ]
     },
 	{
@@ -2187,11 +2187,11 @@
     {
         "artist": "Matchbox Twenty",
         "songs": [
-            {"year": "1998", "stars" : 2, "song": "Back 2 Good", "local" : ""},
+            {"year": "1998", "stars" : 2, "song": "Back 2 Good"   , "local" : ""},
             {"year": "2000", "stars" : 2, "song": "If You're Gone", "local" : ""},
-            {"year": "2012", "stars" : 1, "song": "She's So Mean", "local" : ""},
-            {"year": "2002", "stars" : 2, "song": "Unwell", "local" : ""},
-            {"year": "1997", "stars" : 1, "song": "3AM", "local" : ""}
+            {"year": "2012", "stars" : 1, "song": "She's So Mean" , "local" : ""},
+            {"year": "2002", "stars" : 2, "song": "Unwell"        , "local" : ""},
+            {"year": "1997", "stars" : 1, "song": "3AM"           , "local" : ""}
         ]
     },
     {
@@ -2333,7 +2333,7 @@
     {
         "artist": "Mr. Probz",
         "songs": [
-            {"year": "2013", "stars" : 1, "song": "Waves", "local" : ""}
+            {"year": "2013", "stars" : 1, "song": "Waves", "local" : "00356"}
         ]
     },
     {
@@ -2426,11 +2426,11 @@
     {
         "artist": "Ne-Yo",
         "songs": [
-            {"year": "2008", "stars" : 2, "song": "Bust It Baby", "local" : ""},
-            {"year": "2008", "stars" : 1, "song": "Closer", "local" : ""},
-			{"year": "2009", "stars" : 3, "song": "Mad", "local" : ""},
+            {"year": "2008", "stars" : 2, "song": "Bust It Baby"    , "local" : ""},
+            {"year": "2008", "stars" : 1, "song": "Closer"          , "local" : ""},
+			{"year": "2009", "stars" : 3, "song": "Mad"             , "local" : ""},
             {"year": "2008", "stars" : 1, "song": "Miss Independent", "local" : ""},
-            {"year": "2011", "stars" : 1, "song": "Play Hard", "local" : ""}
+            {"year": "2011", "stars" : 1, "song": "Play Hard"       , "local" : ""}
         ]
     },
     {
@@ -2550,9 +2550,9 @@
         "artist": "OneRepublic",
         "songs": [
             {"year": "2009", "stars" : 3, "song": "All the Right Moves", "local" : ""},
-            {"year": "2013", "stars" : 1, "song": "If I Lose Myself", "local" : ""},
-			{"year": "2020", "stars" : 1, "song": "Lose Somebody", "local" : ""},
-            {"year": "2010", "stars" : 1, "song": "Marching On", "local" : ""}
+            {"year": "2013", "stars" : 1, "song": "If I Lose Myself"   , "local" : ""},
+			{"year": "2020", "stars" : 1, "song": "Lose Somebody"      , "local" : ""},
+            {"year": "2010", "stars" : 1, "song": "Marching On"        , "local" : ""}
         ]
     },
     {
@@ -2715,10 +2715,10 @@
     {
         "artist": "R Kelly",
         "songs": [
-            {"year": "1993", "stars" : 1, "song": "Bump and Grind"  , "album" : "12 Play"          , "local" : ""},
-            {"year": "2003", "stars" : 5, "song": "Ignition (Remix)", "album" : "Chocolate Factory", "local" : ""},
-            {"year": "2007", "stars" : 1, "song": "I'm A Flirt"     , "album" : "Double Up"        , "local" : ""},
-            {"year": "2003", "stars" : 3, "song": "World's Greatest"                               , "local" : ""}
+            {"year": "1993", "stars" : 1, "song": "Bump and Grind"  , "album" : "12 Play"          , "local" : "00357"},
+            {"year": "2003", "stars" : 5, "song": "Ignition (Remix)", "album" : "Chocolate Factory", "local" : "00358"},
+            {"year": "2007", "stars" : 1, "song": "I'm A Flirt"     , "album" : "Double Up"        , "local" : "00360"},
+            {"year": "2003", "stars" : 3, "song": "World's Greatest"                               , "local" : "00359"}
         ]
     },
     {
