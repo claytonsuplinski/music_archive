@@ -224,18 +224,18 @@
     {
         "artist": "Awolnation",
         "songs": [
-            {"year": "2015", "stars" : 1, "song": "I Am", "local" : ""}
+            {"year": "2015", "stars" : 1, "song": "I Am", "local" : "00377"}
         ]
     },
     {
         "artist": "Backstreet Boys",
         "songs": [
-            {"year": "1997", "stars" : 1, "song": "As Long As You Love Me"       , "album" : "Backstreet's Back", "local" : ""},
-            {"year": "2017", "song": "DJ Earworm Mashup"                         },
-			{"year": "2001", "stars" : 1, "song": "Drowning"                     , "album" : "The Hits – Chapter One", "local" : ""},
-            {"year": "1997", "stars" : 4, "song": "Everybody (Backstreet's Back)", "album" : "Backstreet's Back", "local" : ""},
-            {"year": "1999", "stars" : 5, "song": "I Want It That Way"           , "album" : "Millennium", "local" : ""},
-            {"year": "2000", "stars" : 2, "song": "Shape Of My Heart"            , "album" : "Black & Blue", "local" : ""}
+            {"year": "1997", "stars" : 1, "song": "As Long As You Love Me"       , "album" : "Backstreet's Back"     , "local" : ""},
+            {"year": "2017", "song": "DJ Earworm Mashup"                                                             , "local" : ""},
+			{"year": "2001", "stars" : 1, "song": "Drowning"                     , "album" : "The Hits – Chapter One", "local" : "00378"},
+            {"year": "1997", "stars" : 4, "song": "Everybody (Backstreet's Back)", "album" : "Backstreet's Back"     , "local" : "00380"},
+            {"year": "1999", "stars" : 5, "song": "I Want It That Way"           , "album" : "Millennium"            , "local" : "00376"},
+            {"year": "2000", "stars" : 2, "song": "Shape Of My Heart"            , "album" : "Black & Blue"          , "local" : "00379"}
         ]
     },
     {
@@ -1365,7 +1365,7 @@
     {
         "artist": "Havana Brown",
         "songs": [
-            {"year": "2012", "stars" : 1, "song": "We Run The Night", "local" : ""}
+            {"year": "2012", "stars" : 1, "song": "We Run The Night", "local" : "00395"}
         ]
     },
     {
@@ -1810,12 +1810,12 @@
     {
         "artist": "Kid Cudi",
         "songs": [
-            {"year": "2009", "stars" : 2, "song": "Day n Night"                      , "album" : "Man on the Moon"   , "local" : ""},
-            {"year": "2009", "song": "Day n Night (Crookers Remix)"                                                  , "local" : ""},
-            {"year": "2010", "stars" : 3, "song": "Erase Me"                         , "album" : "Man on the Moon II", "local" : ""},
+            {"year": "2009", "stars" : 2, "song": "Day n Night"                      , "album" : "Man on the Moon"   , "local" : "00386"},
+            {"year": "2009", "song": "Day n Night (Crookers Remix)"                                                  , "local" : "00385"},
+            {"year": "2010", "stars" : 3, "song": "Erase Me"                         , "album" : "Man on the Moon II", "local" : "00388"},
             {"year": "2012", "stars" : 1, "song": "Just What I Am"                   , "album" : "Indicud"           , "local" : ""},
             {"year": "2009", "stars" : 2, "song": "Make Her Say"                     , "album" : "Man on the Moon"   , "local" : ""},
-            {"year": "2010", "stars" : 4, "song": "Memories"                                                         , "local" : ""},
+            {"year": "2010", "stars" : 4, "song": "Memories"                                                         , "local" : "00387"},
             {"year": "2011", "stars" : 4, "song": "Pursuit of Happiness"             , "album" : "Man on the Moon"   , "local" : ""},
             {"year": "2011", "song": "Pursuit of Happiness (Aoki Remix)"                                             , "local" : ""}
         ]
@@ -2051,9 +2051,9 @@
     {
         "artist": "Lupe Fiasco",
         "songs": [
-            {"year": "2011", "stars" : 2, "song": "Out Of My Head", "local" : ""},
-            {"year": "2007", "stars" : 3, "song": "Superstar", "local" : ""},
-            {"year": "2011", "stars" : 2, "song": "The Show Goes On", "local" : ""}
+            {"year": "2011", "stars" : 2, "song": "Out Of My Head"  , "local" : "00391"},
+            {"year": "2007", "stars" : 3, "song": "Superstar"       , "local" : "00389"},
+            {"year": "2011", "stars" : 2, "song": "The Show Goes On", "local" : "00390"}
         ]
     },
     {
@@ -2500,12 +2500,12 @@
     {
         "artist": "NSYNC",
         "songs": [
-            {"year": "2000", "stars" : 5, "song": "Bye Bye Bye"        , "album" : "No Strings Attached", "local" : ""},
-            {"year": "2001", "stars" : 1, "song": "Girlfriend"         , "album" : "Celebrity", "local" : ""},
-            {"year": "2000", "stars" : 1, "song": "It's Gonna Be Me"   , "album" : "No Strings Attached", "local" : ""},
-            {"year": "2001", "stars" : 3, "song": "Pop"                , "album" : "Celebrity", "local" : ""},
-            {"year": "2000", "stars" : 2, "song": "Space Cowboy"       , "album" : "No Strings Attached", "local" : ""},
-			{"year": "1997", "stars" : 2, "song": "Tearin' up My Heart", "album" : "*NSYNC", "local" : ""}
+            {"year": "2000", "stars" : 5, "song": "Bye Bye Bye"        , "album" : "No Strings Attached", "local" : "00384"},
+            {"year": "2001", "stars" : 1, "song": "Girlfriend"         , "album" : "Celebrity"          , "local" : ""},
+            {"year": "2000", "stars" : 1, "song": "It's Gonna Be Me"   , "album" : "No Strings Attached", "local" : "00382"},
+            {"year": "2001", "stars" : 3, "song": "Pop"                , "album" : "Celebrity"          , "local" : ""},
+            {"year": "2000", "stars" : 2, "song": "Space Cowboy"       , "album" : "No Strings Attached", "local" : "00383"},
+			{"year": "1997", "stars" : 2, "song": "Tearin' up My Heart", "album" : "*NSYNC"             , "local" : "00381"}
         ]
     },
     {
@@ -2663,14 +2663,14 @@
     {
         "artist": "Pitbull",
         "songs": [
-            {"year": "2012", "stars" : 2, "song": "Back in Time"                   , "album" : "Global Warming", "local" : ""},
-            {"year": "2009", "stars" : 3, "song": "I Know You Want Me (Calle Ocho)", "album" : "Rebelution"    , "local" : ""},
+            {"year": "2012", "stars" : 2, "song": "Back in Time"                   , "album" : "Global Warming", "local" : "00396"},
             {"year": "2011", "stars" : 3, "song": "Give Me Everything"             , "album" : "Planet Pit"    , "local" : ""},
             {"year": "2011", "stars" : 1, "song": "Hey Baby"                       , "album" : "Planet Pit"    , "local" : ""},
             {"year": "2009", "stars" : 3, "song": "Hotel Room Service"             , "album" : "Rebelution"    , "local" : ""},
-            {"year": "2011", "stars" : 2, "song": "International Love"             , "album" : "Planet Pit"    , "local" : ""},
+            {"year": "2009", "stars" : 3, "song": "I Know You Want Me (Calle Ocho)", "album" : "Rebelution"    , "local" : "00392"},
+            {"year": "2011", "stars" : 2, "song": "International Love"             , "album" : "Planet Pit"    , "local" : "00393"},
             {"year": "2011", "stars" : 1, "song": "Rain Over Me"                   , "album" : "Planet Pit"    , "local" : ""},
-            {"year": "2009", "stars" : 1, "song": "Shut It Down"                   , "album" : "Rebelution"    , "local" : ""},
+            {"year": "2009", "stars" : 1, "song": "Shut It Down"                   , "album" : "Rebelution"    , "local" : "00394"},
             {"year": "2007", "stars" : 1, "song": "The Anthem"                     , "album" : "The Boatlift"  , "local" : ""}
         ]
     },
