@@ -100,18 +100,18 @@
     {
         "artist": "Alien Ant Farm",
         "songs": [
-            {"year": "2001", "stars" : 1, "song": "Smooth Criminal", "local" : ""}
+            {"year": "2001", "stars" : 1, "song": "Smooth Criminal", "local" : "00402"}
         ]
     },
     {
         "artist": "All American Rejects",
         "songs": [
             {"year": "2012", "stars" : 1, "song": "Beekeeper's Daughter", "album" : "Kids in the Street"       , "local" : ""},
-            {"year": "2005", "stars" : 5, "song": "Dirty Little Secret" , "album" : "Move Along"               , "local" : ""},
-            {"year": "2009", "stars" : 5, "song": "Gives You Hell"      , "album" : "When the World Comes Down", "local" : ""},
-            {"year": "2005", "stars" : 3, "song": "It Ends Tonight"     , "album" : "Move Along"               , "local" : ""},
-            {"year": "2005", "stars" : 3, "song": "Move Along"          , "album" : "Move Along"               , "local" : ""},
-            {"year": "2003", "stars" : 3, "song": "Swing, Swing"        , "album" : "The All-American Rejects" , "local" : ""}
+            {"year": "2005", "stars" : 5, "song": "Dirty Little Secret" , "album" : "Move Along"               , "local" : "00397"},
+            {"year": "2009", "stars" : 5, "song": "Gives You Hell"      , "album" : "When the World Comes Down", "local" : "00400"},
+            {"year": "2005", "stars" : 3, "song": "It Ends Tonight"     , "album" : "Move Along"               , "local" : "00401"},
+            {"year": "2005", "stars" : 3, "song": "Move Along"          , "album" : "Move Along"               , "local" : "00399"},
+            {"year": "2003", "stars" : 3, "song": "Swing, Swing"        , "album" : "The All-American Rejects" , "local" : "00398"}
         ]
     },
     {
@@ -286,8 +286,8 @@
     {
         "artist": "Benny Benassi",
         "songs": [
-            {"year": "2011", "stars" : 2, "song": "Cinema"     , "local" : ""},
-            {"year": "2011", "stars" : 3, "song": "House Music", "local" : ""}
+            {"year": "2011", "stars" : 2, "song": "Cinema"     , "local" : "00415"},
+            {"year": "2011", "stars" : 3, "song": "House Music", "local" : "00414"}
         ]
     },
     {
@@ -1053,8 +1053,8 @@
         "songs": [
             {"year": "2013", "stars" : 2, "song": "Berzerk"             , "album" : "The Marshall Mathers LP 2", "local" : ""},
             {"year": "2002", "stars" : 2, "song": "Lose Yourself"                                              , "local" : ""},
-            {"year": "2010", "stars" : 3, "song": "Love the Way You Lie", "album" : "Recovery"                 , "local" : ""},
-            {"year": "2013", "stars" : 1, "song": "Rap God"             , "album" : "The Marshall Mathers LP 2", "local" : ""},
+            {"year": "2010", "stars" : 3, "song": "Love the Way You Lie", "album" : "Recovery"                 , "local" : "00417"},
+            {"year": "2013", "stars" : 1, "song": "Rap God"             , "album" : "The Marshall Mathers LP 2", "local" : "00416"},
             {"year": "2002", "stars" : 1, "song": "Sing for the Moment" , "album" : "The Eminem Show"          , "local" : ""},
             {"year": "2000", "stars" : 1, "song": "The Real Slim Shady" , "album" : "The Marshall Mathers LP"  , "local" : ""},
             {"year": "2002", "stars" : 3, "song": "Without Me"          , "album" : "The Eminem Show"          , "local" : ""}
@@ -1140,7 +1140,7 @@
         "songs": [
             {"year": "2005", "stars" : 2, "song": "Dance, Dance"                                                            , "album" : "From Under the Cork Tree", "local" : ""},
             {"year": "2005", "stars" : 3, "song": "Our Lawyers Made Us Change The Name Of This Song So We Wouldn't Get Sued", "album" : "From Under the Cork Tree", "local" : ""},
-            {"year": "2005", "stars" : 4, "song": "Sugar, We're Goin Down"                                                  , "album" : "From Under the Cork Tree", "local" : ""},
+            {"year": "2005", "stars" : 4, "song": "Sugar, We're Goin Down"                                                  , "album" : "From Under the Cork Tree", "local" : "00413"},
             {"year": "2007", "stars" : 2, "song": "Thanks Fr Th Mmrs"                                                       , "album" : "Infinity on High"        , "local" : ""},
             {"year": "2007", "stars" : 2, "song": "This Ain't a Scene, It's an Arms Race"                                   , "album" : "Infinity on High"        , "local" : ""}
         ]
@@ -1206,8 +1206,9 @@
     {
         "artist": "Foo Fighters",
         "songs": [
-            {"year": "1997", "stars" : 2, "song": "Everlong"       , "local" : ""},
-            {"year": "1997", "stars" : 2, "song": "Monkey Wrench"  , "local" : ""},
+            {"year": "1997", "stars" : 2, "song": "Everlong"       , "local" : "00403"},
+            {"year": "1997", "stars" : 2, "song": "Monkey Wrench"  , "local" : "00405"},
+			{"year": "1998", "stars" : 2, "song": "My Hero"        , "local" : "00404"},
             {"year": "2005", "stars" : 1, "song": "The Best of You", "local" : ""}
         ]
     },
@@ -1272,7 +1273,7 @@
 	{
         "artist": "Ginuwine",
         "songs": [
-            {"year": "1996", "stars" : 2, "song": "Pony", "local" : ""}
+            {"year": "1996", "stars" : 2, "song": "Pony", "local" : "00406"}
         ]
     },
     {
@@ -1814,7 +1815,7 @@
             {"year": "2009", "song": "Day n Night (Crookers Remix)"                                                  , "local" : "00385"},
             {"year": "2010", "stars" : 3, "song": "Erase Me"                         , "album" : "Man on the Moon II", "local" : "00388"},
             {"year": "2012", "stars" : 1, "song": "Just What I Am"                   , "album" : "Indicud"           , "local" : ""},
-            {"year": "2009", "stars" : 2, "song": "Make Her Say"                     , "album" : "Man on the Moon"   , "local" : ""},
+            {"year": "2009", "stars" : 2, "song": "Make Her Say"                     , "album" : "Man on the Moon"   , "local" : "00418"},
             {"year": "2010", "stars" : 4, "song": "Memories"                                                         , "local" : "00387"},
             {"year": "2011", "stars" : 4, "song": "Pursuit of Happiness"             , "album" : "Man on the Moon"   , "local" : ""},
             {"year": "2011", "song": "Pursuit of Happiness (Aoki Remix)"                                             , "local" : ""}
@@ -1929,8 +1930,8 @@
     {
         "artist": "Leona Lewis",
         "songs": [
-            {"year": "2008", "stars" : 2, "song": "Better In Time", "local" : ""},
-            {"year": "2008", "stars" : 2, "song": "Bleeding Love" , "local" : ""}
+            {"year": "2008", "stars" : 2, "song": "Better In Time", "local" : "00411"},
+            {"year": "2008", "stars" : 2, "song": "Bleeding Love" , "local" : "00410"}
         ]
     },
     {
@@ -2108,13 +2109,13 @@
         "artist": "Mariah Carey",
         "songs": [
             {"year": "1994", "stars" : 5, "song": "All I Want For Christmas"    , "album" : "Merry Christmas"              , "local" : ""},
-            {"year": "1996", "stars" : 5, "song": "Always Be My Baby"           , "album" : "Daydream"                     , "local" : ""},
+            {"year": "1996", "stars" : 5, "song": "Always Be My Baby"           , "album" : "Daydream"                     , "local" : "00407"},
 			{"year": "1995", "stars" : 1, "song": "Fantasy"                     , "album" : "Daydream"                     , "local" : ""},
             {"year": "1993", "stars" : 2, "song": "Hero"                        , "album" : "Music Box"                    , "local" : ""},
-            {"year": "2008", "stars" : 2, "song": "I'll Be Lovin' You Long Time", "album" : "E=MC²"                        , "local" : ""},
+            {"year": "2008", "stars" : 2, "song": "I'll Be Lovin' You Long Time", "album" : "E=MC²"                        , "local" : "00412"},
             {"year": "2009", "stars" : 1, "song": "Obsessed"                    , "album" : "Memoirs of an Imperfect Angel", "local" : ""},
-            {"year": "2008", "stars" : 3, "song": "Touch My Body"               , "album" : "E=MC²"                        , "local" : ""},
-            {"year": "2005", "stars" : 3, "song": "We Belong Together"          , "album" : "The Emancipation of Mimi"     , "local" : ""}
+            {"year": "2008", "stars" : 3, "song": "Touch My Body"               , "album" : "E=MC²"                        , "local" : "00408"},
+            {"year": "2005", "stars" : 3, "song": "We Belong Together"          , "album" : "The Emancipation of Mimi"     , "local" : "00409"}
         ]
     },
 	{
@@ -2725,8 +2726,8 @@
         "artist": "Rascal Flatts",
         "songs": [
             {"year": "2004", "stars" : 3, "song": "Bless the Broken Road", "local" : ""},
-            {"year": "2006", "stars" : 2, "song": "Life is a Highway", "local" : ""},
-            {"year": "2006", "stars" : 1, "song": "Me and My Gang", "local" : ""}
+            {"year": "2006", "stars" : 2, "song": "Life is a Highway"    , "local" : ""},
+            {"year": "2006", "stars" : 1, "song": "Me and My Gang"       , "local" : ""}
         ]
     },
     {
@@ -2746,7 +2747,7 @@
         "songs": [
             {"year": "1999", "stars" : 1, "song": "Californication", "local" : ""},
             {"year": "2006", "stars" : 1, "song": "Dani California", "local" : ""},
-            {"year": "2006", "stars" : 2, "song": "Snow (Hey Oh)", "local" : ""}
+            {"year": "2006", "stars" : 2, "song": "Snow (Hey Oh)"  , "local" : ""}
         ]
     },
     {
