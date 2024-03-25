@@ -3,7 +3,7 @@ SONG.player = { playlist : [] };
 SONG.player.open = function( filename, p ){
 	var p = p || {};
 
-	var path = './assets/data/content/' + filename + '.mp3';
+	var path = './assets/data/content/' + filename + '.asd';
 
 	if( p.song ){
 		$( '#music-player .info' ).html(
@@ -27,6 +27,7 @@ SONG.player.open = function( filename, p ){
 		'<audio controls ' + 
 			( p.loop ? 'loop' : '' ) + ' ' + 
 			( p.onended ? 'onended="' + p.onended + '"' : '' ) + 
+			' type="audio/mpeg"' +
 			' autoplay src="' + path + '" />'
 	);
 	$( '#music-player' ).show();
