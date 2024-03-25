@@ -1699,7 +1699,7 @@
             {"year": "2005", "stars" : 5, "song": "Gold Digger"      , "album" : "Late Registration"                , "local" : "00282"},
             {"year": "2007", "stars" : 3, "song": "Good Life"        , "album" : "Graduation"                       , "local" : "00278"},
             {"year": "2009", "stars" : 5, "song": "Heartless"        , "album" : "808s & Heartbreak"                , "local" : "00281"},
-            {"year": "2008", "stars" : 2, "song": "Love Lockdown"    , "album" : "808s & Heartbreak"                , "local" : ""},
+            {"year": "2008", "stars" : 2, "song": "Love Lockdown"    , "album" : "808s & Heartbreak"                , "local" : "00419"},
             {"year": "2011", "stars" : 3, "song": "Power"            , "album" : "My Beautiful Dark Twisted Fantasy", "local" : "00277"},
             {"year": "2007", "stars" : 3, "song": "Stronger"         , "album" : "Graduation"                       , "local" : "00280"},
             {"year": "2009", "stars" : 2, "song": "Supernova"                                                       , "local" : "00275"}
@@ -1966,13 +1966,13 @@
     {
         "artist": "Lil Wayne",
         "songs": [
+            {"year": "2011", "stars" : 2, "song": "6 foot 7 foot" , "album" : "Tha Carter IV"         , "local" : ""},
             {"year": "2008", "stars" : 1, "song": "A Milli"       , "album" : "Tha Carter III"        , "local" : ""},
             {"year": "2008", "stars" : 2, "song": "Got Money"     , "album" : "Tha Carter III"        , "local" : ""},
             {"year": "2011", "stars" : 1, "song": "How to Love"   , "album" : "Tha Carter IV"         , "local" : ""},
             {"year": "2010", "stars" : 3, "song": "Knockout"      , "album" : "Rebirth"               , "local" : ""},
             {"year": "2008", "stars" : 3, "song": "Lollipop"      , "album" : "Tha Carter III"        , "local" : ""},
-            {"year": "2011", "stars" : 2, "song": "6 foot 7 foot" , "album" : "Tha Carter IV"         , "local" : ""},
-            {"year": "2010", "stars" : 2, "song": "Right Above It", "album" : "I Am Not a Human Being", "local" : ""}
+            {"year": "2010", "stars" : 2, "song": "Right Above It", "album" : "I Am Not a Human Being", "local" : "00420"}
         ]
     },
     {
@@ -2089,7 +2089,7 @@
     {
         "artist": "Maino",
         "songs": [
-            {"year": "2009", "stars" : 3, "song": "All The Above", "local" : ""}
+            {"year": "2009", "stars" : 3, "song": "All The Above", "local" : "00421"}
         ]
     },
     {
@@ -2270,8 +2270,8 @@
     {
         "artist": "Miley Cyrus",
         "songs": [
-			{"year": "2020", "stars" : 1, "song": "Edge of Midnight"                                       , "local" : ""},
-            {"year": "2009", "stars" : 6, "song": "Party in the USA", "album" : "The Time of Our Lives"    , "local" : ""},
+			{"year": "2020", "stars" : 1, "song": "Edge of Midnight"                                       , "local" : "00423"},
+            {"year": "2009", "stars" : 6, "song": "Party in the USA", "album" : "The Time of Our Lives"    , "local" : "00422"},
             {"year": "2009", "stars" : 4, "song": "The Climb"       , "album" : "Hannah Montana: The Movie", "local" : ""}
         ]
     },
@@ -2474,7 +2474,7 @@
     {
         "artist": "Nirvana",
         "songs": [
-            {"year": "1991", "stars" : 1, "song": "Smells Like Teen Spirit", "local" : ""}
+            {"year": "1991", "stars" : 1, "song": "Smells Like Teen Spirit", "local" : "00424"}
         ]
     },
 	{
